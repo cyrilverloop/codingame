@@ -1,0 +1,25 @@
+{
+    "name": "cyril-verloop/codingame",
+    "description": "A project to test your Codingame PHP code.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CyrilVerloop\\Codingame\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CyrilVerloop\\Codingame\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cyril VERLOOP",
+            "email": "cyril.verloop@webqard.fr"
+        }
+    ],
+    "require": {
+        "php": "7.3.*"
+    }
+}
