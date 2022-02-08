@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Tests for "Unary".
 - Tests for "Temperatures".
+- Tests for "MIME Type".
 
 ## [1.0.0] - 2022-02-07
 ### Added
