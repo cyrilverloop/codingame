@@ -6,6 +6,9 @@ namespace CyrilVerloop\Codingame\Training\Easy\MIMEType;
 
 use CyrilVerloop\Codingame\Puzzle;
 
+/**
+ * The "MIME Type" puzzle.
+ */
 class MIMEType extends Puzzle
 {
     // Methods :

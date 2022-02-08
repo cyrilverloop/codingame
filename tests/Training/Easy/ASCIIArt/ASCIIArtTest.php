@@ -8,7 +8,9 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt;
 
 /**
- * @coversDefaultClass \CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt
+ * Tests for the "ASCII Art" puzzle.
+ *
+ * @covers \CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt
  * @group ASCIIArt
  */
 final class ASCIIArtTest extends PuzzleTest
@@ -26,7 +28,6 @@ final class ASCIIArtTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Test only one letter: E".
      *
-     * @covers ::execute
      * @group ASCIIArt_onlyOneLetterE
      */
     public function testCanExecuteTestOnlyOneLetterE(): void
@@ -40,7 +41,6 @@ final class ASCIIArtTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Test MANHATTAN".
      *
-     * @covers ::execute
      * @group ASCIIArt_testMANHATTAN
      */
     public function testCanExecuteTestMANHATTAN(): void
@@ -54,7 +54,6 @@ final class ASCIIArtTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Test ManhAtTan".
      *
-     * @covers ::execute
      * @group ASCIIArt_testManhAtTan
      */
     public function testCanExecuteTestDifferentCaseManhAtTan(): void
@@ -68,7 +67,6 @@ final class ASCIIArtTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Test M@NH@TT@N".
      *
-     * @covers ::execute
      * @group ASCIIArt_testM@NH@TT@N
      */
     public function testCanExecuteTestMatNHatTTatN(): void
@@ -82,7 +80,6 @@ final class ASCIIArtTest extends PuzzleTest
     /**
      * Test that the code can be executed for "MANHATTAN with another ASCII representation".
      *
-     * @covers ::execute
      * @group ASCIIArt_MANHATTANWithAnotherASCIIRepresentation
      */
     public function testCanExecuteMANHATTANWithAnotherASCIIRepresentation(): void
@@ -96,7 +93,6 @@ final class ASCIIArtTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Test MAN HAT TAN".
      *
-     * @covers ::execute
      * @group ASCIIArt_TestMAN_HAT_TAN
      */
     public function testCanExecuteTestMAN_HAT_TAN(): void

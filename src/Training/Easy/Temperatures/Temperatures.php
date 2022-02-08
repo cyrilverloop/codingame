@@ -6,6 +6,9 @@ namespace CyrilVerloop\Codingame\Training\Easy\Temperatures;
 
 use CyrilVerloop\Codingame\Puzzle;
 
+/**
+ * The "Temperatures" puzzle.
+ */
 class Temperatures extends Puzzle
 {
     // Methods :

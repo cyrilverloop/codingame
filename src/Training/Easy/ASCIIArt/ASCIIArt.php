@@ -6,6 +6,9 @@ namespace CyrilVerloop\Codingame\Training\Easy\ASCIIArt;
 
 use CyrilVerloop\Codingame\Puzzle;
 
+/**
+ * The "ASCII Art" puzzle.
+ */
 class ASCIIArt extends Puzzle
 {
     // Methods :

@@ -6,6 +6,9 @@ namespace CyrilVerloop\Codingame\Training\Easy\Defibrillators;
 
 use CyrilVerloop\Codingame\Puzzle;
 
+/**
+ * The "Defibrillators" puzzle.
+ */
 class Defibrillators extends Puzzle
 {
     // Methods :

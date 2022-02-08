@@ -6,6 +6,9 @@ namespace CyrilVerloop\Codingame\Training\Easy\Unary;
 
 use CyrilVerloop\Codingame\Puzzle;
 
+/**
+ * The "Unary" puzzle.
+ */
 class Unary extends Puzzle
 {
     // Methods :

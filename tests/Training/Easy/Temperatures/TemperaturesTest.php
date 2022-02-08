@@ -8,7 +8,9 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Training\Easy\Temperatures\Temperatures;
 
 /**
- * @coversDefaultClass \CyrilVerloop\Codingame\Training\Easy\Temperatures\Temperatures
+ * Tests for the "Temperatures" puzzle.
+ *
+ * @covers \CyrilVerloop\Codingame\Training\Easy\Temperatures\Temperatures
  * @group temperatures
  */
 final class TemperaturesTest extends PuzzleTest
@@ -26,7 +28,6 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Simple test case".
      *
-     * @covers ::execute
      * @group unary_simpleTestCase
      */
     public function testCanExecuteSimpleTestCase(): void
@@ -40,7 +41,6 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Only negative numbers".
      *
-     * @covers ::execute
      * @group unary_onlyNegativeNumbers
      */
     public function testCanExecuteOnlyNegativeNumbers(): void
@@ -54,7 +54,6 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Choose the right temperature".
      *
-     * @covers ::execute
      * @group unary_chooseTheRightTemperature
      */
     public function testCanExecuteChooseTheRightTemperature(): void
@@ -68,7 +67,6 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Choose the right temperature 2".
      *
-     * @covers ::execute
      * @group unary_chooseTheRightTemperature2
      */
     public function testCanExecuteChooseTheRightTemperature2(): void
@@ -82,7 +80,6 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Complex test case".
      *
-     * @covers ::execute
      * @group unary_complexTestCase
      */
     public function testCanExecuteComplexTestCase(): void
@@ -96,7 +93,6 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "No temperature".
      *
-     * @covers ::execute
      * @group unary_noTemperature
      */
     public function testCanExecuteNoTemperature(): void

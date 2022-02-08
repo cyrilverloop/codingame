@@ -8,7 +8,9 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Training\Easy\Unary\Unary;
 
 /**
- * @coversDefaultClass \CyrilVerloop\Codingame\Training\Easy\Unary\Unary
+ * Tests for the "Unary" puzzle.
+ *
+ * @covers \CyrilVerloop\Codingame\Training\Easy\Unary\Unary
  * @group unary
  */
 final class UnaryTest extends PuzzleTest
@@ -26,7 +28,6 @@ final class UnaryTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Character C".
      *
-     * @covers ::execute
      * @group unary_characterC
      */
     public function testCanExecuteCharacterC(): void
@@ -40,7 +41,6 @@ final class UnaryTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Message CC".
      *
-     * @covers ::execute
      * @group unary_messageCC
      */
     public function testCanExecuteMessageCC(): void
@@ -54,7 +54,6 @@ final class UnaryTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Character %".
      *
-     * @covers ::execute
      * @group unary_characterPercentSign
      */
     public function testCanExecuteCharacterPercentSign(): void
@@ -68,7 +67,6 @@ final class UnaryTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Message from Chuck Norris".
      *
-     * @covers ::execute
      * @group unary_messageFromChuckNorris
      */
     public function testCanExecuteMessageFromChuckNorris(): void

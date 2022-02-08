@@ -8,7 +8,9 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals;
 
 /**
- * @coversDefaultClass \CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals
+ * Tests for the "Horse-racing Duals" puzzle.
+ *
+ * @covers \CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals
  * @group horseRacingDuals
  */
 final class HorseRacingDualsTest extends PuzzleTest
@@ -26,7 +28,6 @@ final class HorseRacingDualsTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Simple case".
      *
-     * @covers ::execute
      * @group horseRacingDuals_simpleCase
      */
     public function testCanExecuteSimpleCase(): void
@@ -40,7 +41,6 @@ final class HorseRacingDualsTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Horses in any order".
      *
-     * @covers ::execute
      * @group horseRacingDuals_horsesInAnyOrder
      */
     public function testCanExecuteHorsesInAnyOrder(): void
@@ -54,7 +54,6 @@ final class HorseRacingDualsTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Many horses".
      *
-     * @covers ::execute
      * @group horseRacingDuals_manyHorses
      */
     public function testCanExecuteManyHorses(): void

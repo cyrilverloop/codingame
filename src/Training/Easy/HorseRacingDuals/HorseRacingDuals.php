@@ -6,6 +6,9 @@ namespace CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals;
 
 use CyrilVerloop\Codingame\Puzzle;
 
+/**
+ * The "Horse-racing Duals" puzzle.
+ */
 class HorseRacingDuals extends Puzzle
 {
     // Methods :

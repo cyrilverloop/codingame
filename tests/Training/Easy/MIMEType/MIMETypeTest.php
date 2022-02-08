@@ -8,7 +8,9 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Training\Easy\MIMEType\MIMEType;
 
 /**
- * @coversDefaultClass \CyrilVerloop\Codingame\Training\Easy\MIMEType\MIMEType
+ * Tests for the "MIME Type" puzzle.
+ *
+ * @covers \CyrilVerloop\Codingame\Training\Easy\MIMEType\MIMEType
  * @group MIMEType
  */
 final class MIMETypeTest extends PuzzleTest
@@ -26,7 +28,6 @@ final class MIMETypeTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Simple example".
      *
-     * @covers ::execute
      * @group MIMEType_simpleExample
      */
     public function testCanExecuteSimpleExample(): void
@@ -40,7 +41,6 @@ final class MIMETypeTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Unknown MIME types".
      *
-     * @covers ::execute
      * @group MIMEType_unknownMIMETypes
      */
     public function testCanExecuteUnknownMIMETypes(): void
@@ -54,7 +54,6 @@ final class MIMETypeTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Correct division of the extension".
      *
-     * @covers ::execute
      * @group MIMEType_correctDivisionOfTheExtension
      */
     public function testCanExecuteCorrectDivisionOfTheExtension(): void
@@ -68,7 +67,6 @@ final class MIMETypeTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Consideration of the case (upper or lower)".
      *
-     * @covers ::execute
      * @group MIMEType_considerationOfTheCase
      */
     public function testCanExecuteConsiderationOfTheCase(): void
@@ -82,7 +80,6 @@ final class MIMETypeTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Large dataset".
      *
-     * @covers ::execute
      * @group MIMEType_largeDataset
      */
     public function testCanExecuteLargeDataset(): void

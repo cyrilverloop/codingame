@@ -7,22 +7,22 @@ namespace CyrilVerloop\Codingame\Tests;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals
+ * Base class for testing puzzles.
  */
 abstract class PuzzleTest extends TestCase
 {
     // Properties :
 
-    /**
-     * @var \CyrilVerloop\Codingame\Puzzle the puzzle.
-     */
+    /** @var \CyrilVerloop\Codingame\Puzzle the puzzle. */
     protected $puzzle;
 
 
     // Methods :
 
     /**
-     * Expects execute to output answer.
+     * Expects `execute()` to output answer.
+     * @param string $filename the file name.
+     * @param string $expectedAnswer the expected answer.
      */
     protected function expectExecuteOutputAnswer(string $filename, string $expectedAnswer): void
     {

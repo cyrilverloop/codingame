@@ -8,7 +8,9 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Training\Easy\Defibrillators\Defibrillators;
 
 /**
- * @coversDefaultClass \CyrilVerloop\Codingame\Training\Easy\Defibrillators\Defibrillators
+ * Tests for the "Defibrillators" puzzle.
+ *
+ * @covers \CyrilVerloop\Codingame\Training\Easy\Defibrillators\Defibrillators
  * @group defibrillators
  */
 final class DefibrillatorsTest extends PuzzleTest
@@ -26,7 +28,6 @@ final class DefibrillatorsTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Example".
      *
-     * @covers ::execute
      * @group defibrillators_example
      */
     public function testCanExecuteExample(): void
@@ -40,7 +41,6 @@ final class DefibrillatorsTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Exact position".
      *
-     * @covers ::execute
      * @group defibrillators_exactPosition
      */
     public function testCanExecuteExactPosition(): void
@@ -54,7 +54,6 @@ final class DefibrillatorsTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Complete file".
      *
-     * @covers ::execute
      * @group defibrillators_completeFile
      */
     public function testCanExecuteCompleteFile(): void
@@ -68,7 +67,6 @@ final class DefibrillatorsTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Complete file 2".
      *
-     * @covers ::execute
      * @group defibrillators_completeFile2
      */
     public function testCanExecuteCompleteFile2(): void
