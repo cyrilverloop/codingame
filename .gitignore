@@ -1,5 +1,6 @@
 /ci/cache/
 /ci/phpunit/
+/ci/phpunit.xml
 /src/**/*.php
 !/src/Training/Easy/ASCIIArt/ASCIIArt.php
 !/src/Training/Easy/HorseRacingDuals/HorseRacingDuals.php
