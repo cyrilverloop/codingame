@@ -30,17 +30,17 @@ You can add every PHP code you want in this directory to solve the puzzles.
 
 Executing all the tests :
 ```shellsession
-user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.xml
+user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml
 ```
 
 Executing tests for a particular puzzle :
 ```shellsession
-user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.xml --group [GROUP_NAME]
+user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --group [GROUP_NAME]
 ```
 
 To view the list of test groups :
 ```shellsession
-user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.xml --list-groups
+user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --list-groups
 ```
 
 
