@@ -3,6 +3,7 @@
 /ci/phpunit.xml
 /src/**/*.php
 !/src/Training/Easy/ASCIIArt/ASCIIArt.php
+!/src/Training/Easy/Defibrillators/Defibrillators.php
 !/src/Training/Easy/HorseRacingDuals/HorseRacingDuals.php
 !/src/Training/Easy/MIMEType/MIMEType.php
 !/src/Training/Easy/Temperatures/Temperatures.php
