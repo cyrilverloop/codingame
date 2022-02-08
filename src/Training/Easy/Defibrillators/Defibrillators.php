@@ -15,8 +15,7 @@ class Defibrillators extends Puzzle
         fscanf($stdin, "%s", $LON);
         fscanf($stdin, "%s", $LAT);
         fscanf($stdin, "%d", $N);
-        for ($i = 0; $i < $N; $i++)
-        {
+        for ($i = 0; $i < $N; $i++) {
             $DEFIB = stream_get_line($stdin, 256 + 1, "\n");
         }
 

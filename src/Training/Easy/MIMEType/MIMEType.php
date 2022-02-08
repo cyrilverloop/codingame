@@ -16,14 +16,12 @@ class MIMEType extends Puzzle
         fscanf($stdin, "%d", $N);
         // $Q: Number Q of file names to be analyzed.
         fscanf($stdin, "%d", $Q);
-        for ($i = 0; $i < $N; $i++)
-        {
+        for ($i = 0; $i < $N; $i++) {
             // $EXT: file extension
             // $MT: MIME type.
             fscanf($stdin, "%s %s", $EXT, $MT);
         }
-        for ($i = 0; $i < $Q; $i++)
-        {
+        for ($i = 0; $i < $Q; $i++) {
             $FNAME = stream_get_line($stdin, 256 + 1, "\n");// One file name per line.
         }
 
