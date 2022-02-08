@@ -3,6 +3,7 @@
 /src/**/*.php
 !/src/Training/Easy/ASCIIArt/ASCIIArt.php
 !/src/Training/Easy/HorseRacingDuals/HorseRacingDuals.php
+!/src/Training/Easy/Unary/Unary.php
 !/src/Puzzle.php
 /tools/
 /vendor/
