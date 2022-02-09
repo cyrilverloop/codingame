@@ -17,9 +17,6 @@ final class TemperaturesTest extends PuzzleTest
 {
     // Methods :
 
-    /**
-     * Initialises tests.
-     */
     public function setUp(): void
     {
         $this->puzzle = new Temperatures();

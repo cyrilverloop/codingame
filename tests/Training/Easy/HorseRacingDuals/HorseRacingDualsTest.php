@@ -17,9 +17,6 @@ final class HorseRacingDualsTest extends PuzzleTest
 {
     // Methods :
 
-    /**
-     * Initialises tests.
-     */
     public function setUp(): void
     {
         $this->puzzle = new HorseRacingDuals();

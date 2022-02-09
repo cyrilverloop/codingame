@@ -17,9 +17,6 @@ final class MIMETypeTest extends PuzzleTest
 {
     // Methods :
 
-    /**
-     * Initialises tests.
-     */
     public function setUp(): void
     {
         $this->puzzle = new MIMEType();
