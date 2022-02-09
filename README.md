@@ -23,17 +23,26 @@ user@host codingame$ docker compose run --rm app phive install --trust-gpg-keys 
 ```
 
 
-## Usage
+## Add your code
 
-Every classes in `./src/` contains an `execute()` method with the default Codingame code.
-You can add every PHP code you want in this directory to solve the puzzles.
+Every classes in `./src/**/*.dist` files have an `execute()` method with the default Codingame code.
+To try a puzzle, copy the corresponding file and change the extension to `php` :
+```shellsession
+user@host codingame$ cp ./src/Training/Easy/Unary/Unary.dist ./src/Training/Easy/Unary/Unary.php
+```
+Then, add your code to solve the puzzle.
+
+**If you change the class name or do not have an `execute()` method in it, the tests will not be able to run.**
+
+
+## Test your solution
 
 Executing all the tests :
 ```shellsession
 user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml
 ```
 
-Executing tests for a particular puzzle :
+Executing tests for a particular puzzle or a test case :
 ```shellsession
 user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --group [GROUP_NAME]
 ```
