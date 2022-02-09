@@ -9,7 +9,7 @@ use CyrilVerloop\Codingame\Puzzle;
 /**
  * The "MIME Type" puzzle.
  */
-class MIMEType extends Puzzle
+class MIMEType implements Puzzle
 {
     // Methods :
 

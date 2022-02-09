@@ -9,7 +9,7 @@ use CyrilVerloop\Codingame\Puzzle;
 /**
  * The "ASCII Art" puzzle.
  */
-class ASCIIArt extends Puzzle
+class ASCIIArt implements Puzzle
 {
     // Methods :
 

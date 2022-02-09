@@ -5,15 +5,13 @@ declare(strict_types=1);
 namespace CyrilVerloop\Codingame;
 
 /**
- * A base class for puzzle.
+ * A base interface for puzzle.
  */
-abstract class Puzzle
+interface Puzzle
 {
-    // Methods :
-
     /**
      * Execute the code of the puzzle.
      * @param resource $stdin the resource to get the datas from.
      */
-    abstract public function execute($stdin): void;
+    public function execute($stdin): void;
 }

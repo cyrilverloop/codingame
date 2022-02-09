@@ -9,7 +9,7 @@ use CyrilVerloop\Codingame\Puzzle;
 /**
  * The "Unary" puzzle.
  */
-class Unary extends Puzzle
+class Unary implements Puzzle
 {
     // Methods :
 

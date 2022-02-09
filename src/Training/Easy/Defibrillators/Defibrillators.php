@@ -9,7 +9,7 @@ use CyrilVerloop\Codingame\Puzzle;
 /**
  * The "Defibrillators" puzzle.
  */
-class Defibrillators extends Puzzle
+class Defibrillators implements Puzzle
 {
     // Methods :
 

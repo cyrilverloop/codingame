@@ -9,7 +9,7 @@ use CyrilVerloop\Codingame\Puzzle;
 /**
  * The "Temperatures" puzzle.
  */
-class Temperatures extends Puzzle
+class Temperatures implements Puzzle
 {
     // Methods :
 

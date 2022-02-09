@@ -9,7 +9,7 @@ use CyrilVerloop\Codingame\Puzzle;
 /**
  * The "Horse-racing Duals" puzzle.
  */
-class HorseRacingDuals extends Puzzle
+class HorseRacingDuals implements Puzzle
 {
     // Methods :
 
