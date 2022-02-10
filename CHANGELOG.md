@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Tests for "Conway sequence".
+- Tests for "The gift".
 
 ## [2.1.0] - 2022-02-10
 ### Added

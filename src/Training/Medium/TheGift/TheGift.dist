@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Training\Medium\TheGift;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "The gift" puzzle.
+ */
+class TheGift implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        fscanf($stdin, "%d", $C);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%d", $B);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("IMPOSSIBLE\n");
+    }
+}
