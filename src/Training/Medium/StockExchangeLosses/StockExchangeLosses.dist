@@ -13,8 +13,8 @@ class StockExchangeLosses implements Puzzle
 {
     public function execute($stdin): void
     {
-        fscanf(STDIN, "%d", $n);
-        $inputs = explode(" ", fgets(STDIN));
+        fscanf($stdin, "%d", $n);
+        $inputs = explode(" ", fgets($stdin));
         for ($i = 0; $i < $n; $i++)
         {
             $v = intval($inputs[$i]);
