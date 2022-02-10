@@ -23,7 +23,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Example 1".
      *
-     * @group conwaySequence_example1
+     * @group theGift_example1
      */
     public function testCanExecuteExample1(): void
     {
@@ -36,7 +36,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Example 2".
      *
-     * @group conwaySequence_example2
+     * @group theGift_example2
      */
     public function testCanExecuteExample2(): void
     {
@@ -49,7 +49,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Example 3".
      *
-     * @group conwaySequence_example3
+     * @group theGift_example3
      */
     public function testCanExecuteExample3(): void
     {
@@ -62,7 +62,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Impossible".
      *
-     * @group conwaySequence_impossible
+     * @group theGift_impossible
      */
     public function testCanExecuteImpossible(): void
     {
@@ -75,7 +75,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Sort".
      *
-     * @group conwaySequence_sort
+     * @group theGift_sort
      */
     public function testCanExecuteSort(): void
     {
@@ -88,7 +88,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Budget limit".
      *
-     * @group conwaySequence_budgetLimit
+     * @group theGift_budgetLimit
      */
     public function testCanExecuteBudgetLimit(): void
     {
@@ -101,7 +101,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Several solutions budget".
      *
-     * @group conwaySequence_severalSolutionsBudget
+     * @group theGift_severalSolutionsBudget
      */
     public function testCanExecuteSeveralSolutionsBudget(): void
     {
@@ -114,7 +114,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Several solution fast".
      *
-     * @group conwaySequence_severalSolutionFast
+     * @group theGift_severalSolutionFast
      */
     public function testCanExecuteSeveralSolutionFast(): void
     {
@@ -127,7 +127,7 @@ final class TheGiftTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Big random".
      *
-     * @group conwaySequence_bigRandom
+     * @group theGift_bigRandom
      */
     public function testCanExecuteBigRandom(): void
     {
