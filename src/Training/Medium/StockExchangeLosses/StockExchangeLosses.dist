@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Training\Medium\StockExchangeLosses;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Stock Exchange Losses" puzzle.
+ */
+class StockExchangeLosses implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf(STDIN, "%d", $n);
+        $inputs = explode(" ", fgets(STDIN));
+        for ($i = 0; $i < $n; $i++)
+        {
+            $v = intval($inputs[$i]);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
