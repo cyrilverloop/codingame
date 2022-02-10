@@ -11,8 +11,6 @@ use CyrilVerloop\Codingame\Puzzle;
  */
 class Unary implements Puzzle
 {
-    // Methods :
-
     public function execute($stdin): void
     {
         $MESSAGE = stream_get_line($stdin, 100 + 1, "\n");

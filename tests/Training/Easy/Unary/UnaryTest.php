@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Easy\Unary\Unary;
  */
 final class UnaryTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new Unary();

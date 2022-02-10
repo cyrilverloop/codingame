@@ -11,8 +11,6 @@ use CyrilVerloop\Codingame\Puzzle;
  */
 class MayanCalculation implements Puzzle
 {
-    // Methods :
-
     public function execute($stdin): void
     {
         fscanf($stdin, "%d %d", $L, $H);

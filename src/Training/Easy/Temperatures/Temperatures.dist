@@ -11,8 +11,6 @@ use CyrilVerloop\Codingame\Puzzle;
  */
 class Temperatures implements Puzzle
 {
-    // Methods :
-
     public function execute($stdin): void
     {
         // $n: the number of temperatures to analyse

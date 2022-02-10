@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Medium\MayanCalculation\MayanCalculation;
  */
 final class MayanCalculationTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new MayanCalculation();

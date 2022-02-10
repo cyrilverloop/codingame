@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals;
  */
 final class HorseRacingDualsTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new HorseRacingDuals();

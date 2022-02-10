@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Easy\MIMEType\MIMEType;
  */
 final class MIMETypeTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new MIMEType();

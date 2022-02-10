@@ -11,8 +11,6 @@ use CyrilVerloop\Codingame\Puzzle;
  */
 class MIMEType implements Puzzle
 {
-    // Methods :
-
     public function execute($stdin): void
     {
         // $N: Number of elements which make up the association table.

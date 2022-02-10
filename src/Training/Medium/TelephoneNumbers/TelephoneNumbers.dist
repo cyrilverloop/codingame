@@ -7,7 +7,7 @@ namespace CyrilVerloop\Codingame\Training\Medium\TelephoneNumbers;
 use CyrilVerloop\Codingame\Puzzle;
 
 /**
- * The "Stock Exchange Losses" puzzle.
+ * The "Telephone numbers" puzzle.
  */
 class TelephoneNumbers implements Puzzle
 {

@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Medium\StockExchangeLosses\StockExchangeLoss
  */
 final class StockExchangeLossesTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new StockExchangeLosses();

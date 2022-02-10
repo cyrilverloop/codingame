@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Easy\Temperatures\Temperatures;
  */
 final class TemperaturesTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new Temperatures();

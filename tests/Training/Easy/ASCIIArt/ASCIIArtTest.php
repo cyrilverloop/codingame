@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt;
  */
 final class ASCIIArtTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new ASCIIArt();

@@ -11,8 +11,6 @@ use CyrilVerloop\Codingame\Puzzle;
  */
 class Defibrillators implements Puzzle
 {
-    // Methods :
-
     public function execute($stdin): void
     {
         fscanf($stdin, "%s", $LON);

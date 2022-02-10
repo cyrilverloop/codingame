@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Medium\TelephoneNumbers\TelephoneNumbers;
  */
 final class TelephoneNumbersTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new TelephoneNumbers();

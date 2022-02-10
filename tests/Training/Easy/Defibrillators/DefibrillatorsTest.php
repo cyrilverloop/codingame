@@ -15,8 +15,6 @@ use CyrilVerloop\Codingame\Training\Easy\Defibrillators\Defibrillators;
  */
 final class DefibrillatorsTest extends PuzzleTest
 {
-    // Methods :
-
     public function setUp(): void
     {
         $this->puzzle = new Defibrillators();

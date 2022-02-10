@@ -11,8 +11,6 @@ use CyrilVerloop\Codingame\Puzzle;
  */
 class ASCIIArt implements Puzzle
 {
-    // Methods :
-
     public function execute($stdin): void
     {
         fscanf($stdin, "%d", $L);
