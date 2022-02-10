@@ -23,7 +23,7 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Simple test case".
      *
-     * @group unary_simpleTestCase
+     * @group temperatures_simpleTestCase
      */
     public function testCanExecuteSimpleTestCase(): void
     {
@@ -36,7 +36,7 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Only negative numbers".
      *
-     * @group unary_onlyNegativeNumbers
+     * @group temperatures_onlyNegativeNumbers
      */
     public function testCanExecuteOnlyNegativeNumbers(): void
     {
@@ -49,7 +49,7 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Choose the right temperature".
      *
-     * @group unary_chooseTheRightTemperature
+     * @group temperatures_chooseTheRightTemperature
      */
     public function testCanExecuteChooseTheRightTemperature(): void
     {
@@ -62,7 +62,7 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Choose the right temperature 2".
      *
-     * @group unary_chooseTheRightTemperature2
+     * @group temperatures_chooseTheRightTemperature2
      */
     public function testCanExecuteChooseTheRightTemperature2(): void
     {
@@ -75,7 +75,7 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Complex test case".
      *
-     * @group unary_complexTestCase
+     * @group temperatures_complexTestCase
      */
     public function testCanExecuteComplexTestCase(): void
     {
@@ -88,7 +88,7 @@ final class TemperaturesTest extends PuzzleTest
     /**
      * Test that the code can be executed for "No temperature".
      *
-     * @group unary_noTemperature
+     * @group temperatures_noTemperature
      */
     public function testCanExecuteNoTemperature(): void
     {
