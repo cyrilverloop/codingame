@@ -1,0 +1,30 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Training\Medium\DwarfsStandingOnTheShouldersOfGiants;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Dwarfs standing on the shoulders of giants" puzzle.
+ */
+class DwarfsStandingOnTheShouldersOfGiants implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        // $n: the number of relationships of influence
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            // $x: a relationship of influence between two people (x influences y)
+            fscanf($stdin, "%d %d", $x, $y);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+
+        // The number of people involved in the longest succession of influences
+        echo("2\n");
+    }
+}
