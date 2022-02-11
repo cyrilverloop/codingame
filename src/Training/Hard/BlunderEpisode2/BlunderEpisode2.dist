@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Training\Hard\BlunderEpisode2;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Blunder - episode 2" puzzle.
+ */
+class BlunderEpisode2 implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $room = stream_get_line($stdin, 256 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
