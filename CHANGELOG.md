@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Tests for "War".
 - Tests for "Dwarfs standing on the shoulders of giants".
+- Tests for "Network cabling".
 
 ## [2.2.0] - 2022-02-10
 ### Added
