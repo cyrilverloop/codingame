@@ -1,0 +1,35 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Training\Medium\War;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "War" puzzle.
+ */
+class War implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        // $n: the number of cards for player 1
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            // $cardp1: the n cards of player 1
+            fscanf($stdin, "%s", $cardp1);
+        }
+        // $m: the number of cards for player 2
+        fscanf($stdin, "%d", $m);
+        for ($i = 0; $i < $m; $i++)
+        {
+            // $cardp2: the m cards of player 2
+            fscanf($stdin, "%s", $cardp2);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("PAT\n");
+    }
+}
