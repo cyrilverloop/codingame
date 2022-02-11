@@ -3,7 +3,7 @@
 A project to test your [Codingame](https://www.codingame.com/) PHP code. It is not intended to have solutions.
 It only contains PHPUnit tests to let you code in your favorite IDE, outside of the Codingame web site.
 
-[![License](https://img.shields.io/github/license/cyrilverloop/codingame)](https://github.com/cyrilverloop/codingame/blob/trunk/LICENSE)
+[![License](https://img.shields.io/github/license/cyrilverloop/codingame-php-tests)](https://github.com/cyrilverloop/codingame-php-tests/blob/trunk/LICENSE)
 [![PHP version](https://img.shields.io/badge/php-%3D7.3-%23777BB4?logo=php&style=flat)](https://www.php.net/)
 
 
@@ -12,14 +12,14 @@ It only contains PHPUnit tests to let you code in your favorite IDE, outside of 
 Downloading the project :
 ```shellsession
 user@host ~$ cd [PATH_WHERE_TO_PUT_THE_PROJECT] # E.g. ~/projects/
-user@host projects$ git clone https://github.com/cyrilverloop/codingame.git
-user@host projects$ cd codingame
+user@host projects$ git clone https://github.com/cyrilverloop/codingame-php-tests.git
+user@host projects$ cd codingame-php-tests
 ```
 
 Installing the dependencies :
 ```shellsession
-user@host codingame$ docker compose run --rm app composer install -o
-user@host codingame$ docker compose run --rm app phive install --trust-gpg-keys 4AA394086372C20A,12CE0F1D262429A5,31C7E470E2138192
+user@host codingame-php-tests$ docker compose run --rm app composer install -o
+user@host codingame-php-tests$ docker compose run --rm app phive install --trust-gpg-keys 4AA394086372C20A,12CE0F1D262429A5,31C7E470E2138192
 ```
 
 
@@ -28,7 +28,7 @@ user@host codingame$ docker compose run --rm app phive install --trust-gpg-keys 
 Every classes in `./src/**/*.dist` files have an `execute()` method with the default Codingame code.
 To try a puzzle, copy the corresponding file and change the extension to `php` :
 ```shellsession
-user@host codingame$ cp ./src/Training/Easy/Unary/Unary.dist ./src/Training/Easy/Unary/Unary.php
+user@host codingame-php-tests$ cp ./src/Training/Easy/Unary/Unary.dist ./src/Training/Easy/Unary/Unary.php
 ```
 Then, add your code to solve the puzzle.
 
@@ -39,17 +39,17 @@ Then, add your code to solve the puzzle.
 
 Executing all the tests :
 ```shellsession
-user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml
+user@host codingame-php-tests$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml
 ```
 
 Executing tests for a particular puzzle or a test case :
 ```shellsession
-user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --group [GROUP_NAME]
+user@host codingame-php-tests$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --group [GROUP_NAME]
 ```
 
 To view the list of test groups :
 ```shellsession
-user@host codingame$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --list-groups
+user@host codingame-php-tests$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --list-groups
 ```
 
 
