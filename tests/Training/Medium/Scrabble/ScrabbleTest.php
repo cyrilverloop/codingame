@@ -8,7 +8,7 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Training\Medium\Scrabble\Scrabble;
 
 /**
- * Tests for the "The gift" puzzle.
+ * Tests for the "Scrabble" puzzle.
  *
  * @covers \CyrilVerloop\Codingame\Training\Medium\Scrabble\Scrabble
  * @group scrabble
