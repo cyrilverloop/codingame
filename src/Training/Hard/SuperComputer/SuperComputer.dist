@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Training\Hard\SuperComputer;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Super computer" puzzle.
+ */
+class SuperComputer implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%d %d", $J, $D);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
