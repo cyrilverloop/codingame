@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Training\Hard\RollerCoaster;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Roller coaster" puzzle.
+ */
+class RollerCoaster implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d %d", $L, $C, $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%d", $pi);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
