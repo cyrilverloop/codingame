@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Training\Hard\MusicScores;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Music scores" puzzle.
+ */
+class MusicScores implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $W, $H);
+        $IMAGE = stream_get_line($stdin, 256 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("AQ DH\n");
+    }
+}
