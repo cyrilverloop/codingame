@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Training\Hard\MusicScores;
+namespace CyrilVerloop\Codingame\Training\Expert\MusicScores;
 
 use CyrilVerloop\Codingame\Puzzle;
 
