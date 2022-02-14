@@ -23,7 +23,7 @@ final class GenomeSequencingTest extends PuzzleTest
     /**
      * Test that the code can be executed for "AACCTT".
      *
-     * @group surface_AACCTT
+     * @group genomeSequencing_AACCTT
      */
     public function testCanExecuteAACCTT(): void
     {
@@ -36,7 +36,7 @@ final class GenomeSequencingTest extends PuzzleTest
     /**
      * Test that the code can be executed for "AGATTACAGA".
      *
-     * @group surface_AGATTACAGA
+     * @group genomeSequencing_AGATTACAGA
      */
     public function testCanExecuteAGATTACAGA(): void
     {
@@ -49,7 +49,7 @@ final class GenomeSequencingTest extends PuzzleTest
     /**
      * Test that the code can be executed for "AACTT".
      *
-     * @group surface_AACTT
+     * @group genomeSequencing_AACTT
      */
     public function testCanExecuteAACTT(): void
     {
@@ -62,7 +62,7 @@ final class GenomeSequencingTest extends PuzzleTest
     /**
      * Test that the code can be executed for "AGATTA".
      *
-     * @group surface_AGATTA
+     * @group genomeSequencing_AGATTA
      */
     public function testCanExecuteAGATTA(): void
     {
@@ -75,7 +75,7 @@ final class GenomeSequencingTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Reversed AGATTA".
      *
-     * @group surface_reversedAGATTA
+     * @group genomeSequencing_reversedAGATTA
      */
     public function testCanExecuteReversedAGATTA(): void
     {
@@ -88,7 +88,7 @@ final class GenomeSequencingTest extends PuzzleTest
     /**
      * Test that the code can be executed for "ATCG".
      *
-     * @group surface_ATCG
+     * @group genomeSequencing_ATCG
      */
     public function testCanExecuteReversedATCG(): void
     {
@@ -101,7 +101,7 @@ final class GenomeSequencingTest extends PuzzleTest
     /**
      * Test that the code can be executed for "CCCTGACATGA".
      *
-     * @group surface_CCCTGACATGA
+     * @group genomeSequencing_CCCTGACATGA
      */
     public function testCanExecuteCCCTGACATGA(): void
     {
