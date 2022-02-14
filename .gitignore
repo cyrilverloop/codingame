@@ -3,5 +3,7 @@
 /ci/phpunit.xml
 /src/**/*.php
 !/src/Puzzle.php
+/tests/**/*.php
+!/tests/**/*.dist.php
 /tools/
 /vendor/

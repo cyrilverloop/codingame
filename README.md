@@ -35,6 +35,12 @@ Then, add your code to solve the puzzle.
 **If you change the class name or do not have an `execute()` method in it, the tests will not be able to run.**
 
 
+## Add your test (optional)
+
+Every tests in `./tests/**/*Test.dist.php` files include the tests from Codingame.
+You can add your own tests in `./tests/**/*Test.php` files.
+
+
 ## Test your solution
 
 Executing all the tests :
