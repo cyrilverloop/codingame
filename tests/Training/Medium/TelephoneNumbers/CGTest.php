@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Medium\TelephoneNumbers\TelephoneNumbers;
  * @covers \CyrilVerloop\Codingame\Training\Medium\TelephoneNumbers\TelephoneNumbers
  * @group telephoneNumbers
  */
-final class TelephoneNumbersTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

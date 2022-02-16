@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Medium\MayanCalculation\MayanCalculation;
  * @covers \CyrilVerloop\Codingame\Training\Medium\MayanCalculation\MayanCalculation
  * @group mayanCalculation
  */
-final class MayanCalculationTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

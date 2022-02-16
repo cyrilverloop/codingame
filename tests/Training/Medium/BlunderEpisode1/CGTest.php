@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Medium\BlunderEpisode1\BlunderEpisode1;
  * @covers \CyrilVerloop\Codingame\Training\Medium\BlunderEpisode1\BlunderEpisode1
  * @group blunderEpisode1
  */
-final class BlunderEpisode1Test extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals;
  * @covers \CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals
  * @group horseRacingDuals
  */
-final class HorseRacingDualsTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

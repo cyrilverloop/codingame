@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Easy\Unary\Unary;
  * @covers \CyrilVerloop\Codingame\Training\Easy\Unary\Unary
  * @group unary
  */
-final class UnaryTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Hard\Winamax\Winamax;
  * @covers \CyrilVerloop\Codingame\Training\Hard\Winamax\Winamax
  * @group winamax
  */
-final class WinamaxTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

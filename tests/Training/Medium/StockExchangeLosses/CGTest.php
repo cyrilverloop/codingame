@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Medium\StockExchangeLosses\StockExchangeLoss
  * @covers \CyrilVerloop\Codingame\Training\Medium\StockExchangeLosses\StockExchangeLosses
  * @group stockExchangeLosses
  */
-final class StockExchangeLossesTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

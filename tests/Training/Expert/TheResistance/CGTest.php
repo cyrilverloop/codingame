@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Expert\TheResistance\TheResistance;
  * @covers \CyrilVerloop\Codingame\Training\Expert\TheResistance\TheResistance
  * @group theResistance
  */
-final class TheResistanceTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

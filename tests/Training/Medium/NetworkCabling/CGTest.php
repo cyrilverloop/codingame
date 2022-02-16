@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Medium\NetworkCabling\NetworkCabling;
  * @covers \CyrilVerloop\Codingame\Training\Medium\NetworkCabling\NetworkCabling
  * @group networkCabling
  */
-final class NetworkCablingTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

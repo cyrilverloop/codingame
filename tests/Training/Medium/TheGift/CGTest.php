@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Medium\TheGift\TheGift;
  * @covers \CyrilVerloop\Codingame\Training\Medium\TheGift\TheGift
  * @group theGift
  */
-final class TheGiftTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

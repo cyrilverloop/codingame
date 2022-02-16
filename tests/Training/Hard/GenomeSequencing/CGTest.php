@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Hard\GenomeSequencing\GenomeSequencing;
  * @covers \CyrilVerloop\Codingame\Training\Hard\GenomeSequencing\GenomeSequencing
  * @group genomeSequencing
  */
-final class GenomeSequencingTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

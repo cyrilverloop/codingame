@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt;
  * @covers \CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt
  * @group ASCIIArt
  */
-final class ASCIIArtTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

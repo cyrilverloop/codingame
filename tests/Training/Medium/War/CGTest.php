@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Medium\War\War;
  * @covers \CyrilVerloop\Codingame\Training\Medium\War\War
  * @group war
  */
-final class WarTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

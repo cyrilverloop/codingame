@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Easy\Defibrillators\Defibrillators;
  * @covers \CyrilVerloop\Codingame\Training\Easy\Defibrillators\Defibrillators
  * @group defibrillators
  */
-final class DefibrillatorsTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

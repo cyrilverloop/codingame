@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Hard\Surface\Surface;
  * @covers \CyrilVerloop\Codingame\Training\Hard\Surface\Surface
  * @group surface
  */
-final class SurfaceTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

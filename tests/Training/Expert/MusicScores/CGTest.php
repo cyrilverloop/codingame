@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Expert\MusicScores\MusicScores;
  * @covers \CyrilVerloop\Codingame\Training\Expert\MusicScores\MusicScores
  * @group musicScores
  */
-final class MusicScoresTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

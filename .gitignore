@@ -4,6 +4,6 @@
 /src/**/*.php
 !/src/Puzzle.php
 /tests/**/*.php
-!/tests/**/*.dist.php
+!/tests/**/CGTest.php
 /tools/
 /vendor/

@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Medium\Scrabble\Scrabble;
  * @covers \CyrilVerloop\Codingame\Training\Medium\Scrabble\Scrabble
  * @group scrabble
  */
-final class ScrabbleTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

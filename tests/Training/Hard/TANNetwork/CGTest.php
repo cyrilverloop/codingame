@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Hard\TANNetwork\TANNetwork;
  * @covers \CyrilVerloop\Codingame\Training\Hard\TANNetwork\TANNetwork
  * @group TANNetwork
  */
-final class TANNetworkTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

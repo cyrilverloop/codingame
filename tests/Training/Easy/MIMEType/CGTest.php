@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Easy\MIMEType\MIMEType;
  * @covers \CyrilVerloop\Codingame\Training\Easy\MIMEType\MIMEType
  * @group MIMEType
  */
-final class MIMETypeTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

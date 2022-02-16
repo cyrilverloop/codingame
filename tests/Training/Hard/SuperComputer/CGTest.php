@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Hard\SuperComputer\SuperComputer;
  * @covers \CyrilVerloop\Codingame\Training\Hard\SuperComputer\SuperComputer
  * @group superComputer
  */
-final class SuperComputerTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

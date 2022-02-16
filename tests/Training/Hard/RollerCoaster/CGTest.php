@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Hard\RollerCoaster\RollerCoaster;
  * @covers \CyrilVerloop\Codingame\Training\Hard\RollerCoaster\RollerCoaster
  * @group rollerCoaster
  */
-final class RollerCoasterTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {

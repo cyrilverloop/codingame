@@ -13,7 +13,7 @@ use CyrilVerloop\Codingame\Training\Easy\Temperatures\Temperatures;
  * @covers \CyrilVerloop\Codingame\Training\Easy\Temperatures\Temperatures
  * @group temperatures
  */
-final class TemperaturesTest extends PuzzleTest
+final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {
