@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\RobotShow;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Robot show" puzzle.
+ */
+class RobotShow implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $L);
+        fscanf($stdin, "%d", $N);
+        $inputs = explode(" ", fgets($stdin));
+        for ($i = 0; $i < $N; $i++)
+        {
+            $b = intval($inputs[$i]);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+    }
+}
