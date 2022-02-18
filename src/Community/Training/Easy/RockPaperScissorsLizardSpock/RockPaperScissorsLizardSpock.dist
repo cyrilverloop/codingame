@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\RockPaperScissorsLizardSpock;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Rock paper scissors lizard spock" puzzle.
+ */
+class RockPaperScissorsLizardSpock implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf(STDIN, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf(STDIN, "%d %s", $NUMPLAYER, $SIGNPLAYER);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("WHO IS THE WINNER?\n");
+    }
+}
