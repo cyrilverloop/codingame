@@ -74,7 +74,6 @@ fscanf(STDIN, "%d", $N);
 ```
 
 
-## Timed out
+## Time limit
 
-Your code can work through this project and timed out on CodinGame.
-It means your solution is not optimum and you should find another algorithm.
+The maximum time allowed for a puzzle may differ from CodinGame.

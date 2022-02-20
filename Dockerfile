@@ -1,9 +1,9 @@
 FROM php:7.3-cli-alpine
 RUN apk update \
     && apk add gpg $PHPIZE_DEPS \
-    && docker-php-ext-install mbstring \
+    && docker-php-ext-install pcntl mbstring \
     && pecl install xdebug \
-    && docker-php-ext-enable mbstring xdebug \
+    && docker-php-ext-enable mbstring pcntl xdebug \
     && wget -O /usr/local/bin/phive https://phar.io/releases/phive.phar \
     && chmod +x /usr/local/bin/phive \
     && apk del --purge $PHPIZE_DEPS \
