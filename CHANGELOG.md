@@ -4,9 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [3.4.0] - 2022-02-21
 ### Added
 - Tests for "1D bush fire".
+- Tests for "Blowing fuse".
 
 ### Changed
 - "@medium" group to enforce time limit.
