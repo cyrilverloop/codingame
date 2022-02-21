@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\OneDBushFire;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "1D bush fire" puzzle.
+ */
+class OneDBushFire implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $line = stream_get_line($stdin, 255 + 1, "\n");
+        }
+        for ($i = 0; $i < $N; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("answer\n");
+        }
+    }
+}
