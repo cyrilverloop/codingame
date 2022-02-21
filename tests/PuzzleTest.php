@@ -29,7 +29,7 @@ abstract class PuzzleTest extends TestCase
         $stdin = fopen($filename, 'r');
 
         $this->expectOutputString($expectedAnswer);
-        
+
         $this->puzzle->execute($stdin);
     }
 }
