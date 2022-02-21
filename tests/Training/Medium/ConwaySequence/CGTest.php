@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Medium\ConwaySequence\ConwaySequence;
  *
  * @covers \CyrilVerloop\Codingame\Training\Medium\ConwaySequence\ConwaySequence
  * @group conwaySequence
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

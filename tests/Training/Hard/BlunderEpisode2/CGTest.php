@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Hard\BlunderEpisode2\BlunderEpisode2;
  *
  * @covers \CyrilVerloop\Codingame\Training\Hard\BlunderEpisode2\BlunderEpisode2
  * @group blunderEpisode2
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

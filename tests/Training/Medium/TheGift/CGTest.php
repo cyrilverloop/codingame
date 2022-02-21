@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Medium\TheGift\TheGift;
  *
  * @covers \CyrilVerloop\Codingame\Training\Medium\TheGift\TheGift
  * @group theGift
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

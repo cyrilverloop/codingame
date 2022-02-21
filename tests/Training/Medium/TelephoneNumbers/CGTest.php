@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Medium\TelephoneNumbers\TelephoneNumbers;
  *
  * @covers \CyrilVerloop\Codingame\Training\Medium\TelephoneNumbers\TelephoneNumbers
  * @group telephoneNumbers
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

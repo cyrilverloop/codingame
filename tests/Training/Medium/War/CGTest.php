@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Medium\War\War;
  *
  * @covers \CyrilVerloop\Codingame\Training\Medium\War\War
  * @group war
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

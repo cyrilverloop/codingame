@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt;
  *
  * @covers \CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt
  * @group ASCIIArt
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

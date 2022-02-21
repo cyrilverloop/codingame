@@ -7,6 +7,8 @@
         beStrictAboutTodoAnnotatedTests="true"
         verbose="true"
         colors="true"
+        enforceTimeLimit="true"
+        timeoutForMediumTests="6"
 >
     <coverage processUncoveredFiles="true">
         <include>

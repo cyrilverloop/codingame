@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Hard\SuperComputer\SuperComputer;
  *
  * @covers \CyrilVerloop\Codingame\Training\Hard\SuperComputer\SuperComputer
  * @group superComputer
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

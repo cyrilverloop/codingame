@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Hard\RollerCoaster\RollerCoaster;
  *
  * @covers \CyrilVerloop\Codingame\Training\Hard\RollerCoaster\RollerCoaster
  * @group rollerCoaster
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

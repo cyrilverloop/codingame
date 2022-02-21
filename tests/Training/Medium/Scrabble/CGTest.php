@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Medium\Scrabble\Scrabble;
  *
  * @covers \CyrilVerloop\Codingame\Training\Medium\Scrabble\Scrabble
  * @group scrabble
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

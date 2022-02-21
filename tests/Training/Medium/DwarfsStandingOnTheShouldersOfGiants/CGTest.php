@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Medium\DwarfsStandingOnTheShouldersOfGiants\
  *
  * @covers \CyrilVerloop\Codingame\Training\Medium\DwarfsStandingOnTheShouldersOfGiants\DwarfsStandingOnTheShouldersOfGiants
  * @group dwarfsStandingOnTheShouldersOfGiants
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

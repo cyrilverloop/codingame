@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Hard\CGXFormatter\CGXFormatter;
  *
  * @covers \CyrilVerloop\Codingame\Training\Hard\CGXFormatter\CGXFormatter
  * @group CGXFormatter
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

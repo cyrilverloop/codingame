@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Community\Training\Easy\ContainerTerminal\ContainerTe
  *
  * @covers \CyrilVerloop\Codingame\Community\Training\Easy\ContainerTerminal\ContainerTerminal
  * @group containerTerminal
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

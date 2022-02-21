@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Expert\MusicScores\MusicScores;
  *
  * @covers \CyrilVerloop\Codingame\Training\Expert\MusicScores\MusicScores
  * @group musicScores
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

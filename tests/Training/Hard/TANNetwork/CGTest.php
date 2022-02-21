@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Hard\TANNetwork\TANNetwork;
  *
  * @covers \CyrilVerloop\Codingame\Training\Hard\TANNetwork\TANNetwork
  * @group TANNetwork
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

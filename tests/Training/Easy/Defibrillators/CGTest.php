@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Easy\Defibrillators\Defibrillators;
  *
  * @covers \CyrilVerloop\Codingame\Training\Easy\Defibrillators\Defibrillators
  * @group defibrillators
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

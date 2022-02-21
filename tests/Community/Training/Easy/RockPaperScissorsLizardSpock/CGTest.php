@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Community\Training\Easy\RockPaperScissorsLizardSpock\
  *
  * @covers \CyrilVerloop\Codingame\Community\Training\Easy\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock
  * @group rockPaperScissorsLizardSpock
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

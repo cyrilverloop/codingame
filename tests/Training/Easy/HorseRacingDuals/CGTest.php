@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals;
  *
  * @covers \CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals
  * @group horseRacingDuals
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

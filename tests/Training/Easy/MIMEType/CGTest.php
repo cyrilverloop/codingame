@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Easy\MIMEType\MIMEType;
  *
  * @covers \CyrilVerloop\Codingame\Training\Easy\MIMEType\MIMEType
  * @group MIMEType
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

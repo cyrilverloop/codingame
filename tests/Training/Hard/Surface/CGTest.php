@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Hard\Surface\Surface;
  *
  * @covers \CyrilVerloop\Codingame\Training\Hard\Surface\Surface
  * @group surface
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

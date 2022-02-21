@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Easy\Temperatures\Temperatures;
  *
  * @covers \CyrilVerloop\Codingame\Training\Easy\Temperatures\Temperatures
  * @group temperatures
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

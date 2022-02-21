@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Hard\GenomeSequencing\GenomeSequencing;
  *
  * @covers \CyrilVerloop\Codingame\Training\Hard\GenomeSequencing\GenomeSequencing
  * @group genomeSequencing
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

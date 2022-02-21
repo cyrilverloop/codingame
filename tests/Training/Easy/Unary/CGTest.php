@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Easy\Unary\Unary;
  *
  * @covers \CyrilVerloop\Codingame\Training\Easy\Unary\Unary
  * @group unary
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

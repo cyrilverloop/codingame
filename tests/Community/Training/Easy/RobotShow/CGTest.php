@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Community\Training\Easy\RobotShow\RobotShow;
  *
  * @covers \CyrilVerloop\Codingame\Community\Training\Easy\RobotShow\RobotShow
  * @group robotShow
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

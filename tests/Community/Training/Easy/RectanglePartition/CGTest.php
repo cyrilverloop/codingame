@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Community\Training\Easy\RectanglePartition\RectangleP
  *
  * @covers \CyrilVerloop\Codingame\Community\Training\Easy\RectanglePartition\RectanglePartition
  * @group rectanglePartition
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

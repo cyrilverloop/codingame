@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Hard\Winamax\Winamax;
  *
  * @covers \CyrilVerloop\Codingame\Training\Hard\Winamax\Winamax
  * @group winamax
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Medium\NetworkCabling\NetworkCabling;
  *
  * @covers \CyrilVerloop\Codingame\Training\Medium\NetworkCabling\NetworkCabling
  * @group networkCabling
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {

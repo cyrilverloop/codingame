@@ -12,6 +12,7 @@ use CyrilVerloop\Codingame\Training\Expert\TheResistance\TheResistance;
  *
  * @covers \CyrilVerloop\Codingame\Training\Expert\TheResistance\TheResistance
  * @group theResistance
+ * @medium
  */
 final class CGTest extends PuzzleTest
 {
