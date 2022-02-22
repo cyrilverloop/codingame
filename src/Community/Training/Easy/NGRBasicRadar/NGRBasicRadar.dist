@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\NGRBasicRadar;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "NGR - basic radar" puzzle.
+ */
+class NGRBasicRadar implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%s %s %d", $plate, $radarname, $timestamp);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("ticket\n");
+    }
+}
