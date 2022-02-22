@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Tests for "1000000000D world".
+- Tests for "Rooks movements".
 
 ## [3.4.0] - 2022-02-21
 ### Added
