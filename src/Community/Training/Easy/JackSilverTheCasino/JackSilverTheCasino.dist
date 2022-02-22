@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\JackSilverTheCasino;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Jack Silver: the casino" puzzle.
+ */
+class JackSilverTheCasino implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $ROUNDS);
+        fscanf($stdin, "%d", $CASH);
+        for ($i = 0; $i < $ROUNDS; $i++)
+        {
+            $PLAY = stream_get_line($stdin, 1024 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("cash of the target after playing\n");
+    }
+}
