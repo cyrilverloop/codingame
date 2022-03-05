@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Tests for "Walk on a die".
+- Tests for "Dolbear's law".
 
 ## [3.5.0] - 2022-02-22
 ### Added
