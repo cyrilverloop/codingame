@@ -13,10 +13,10 @@ class RockPaperScissorsLizardSpock implements Puzzle
 {
     public function execute($stdin): void
     {
-        fscanf(STDIN, "%d", $N);
+        fscanf($stdin, "%d", $N);
         for ($i = 0; $i < $N; $i++)
         {
-            fscanf(STDIN, "%d %s", $NUMPLAYER, $SIGNPLAYER);
+            fscanf($stdin, "%d %s", $NUMPLAYER, $SIGNPLAYER);
         }
 
         // Write an answer using echo(). DON'T FORGET THE TRAILING \n

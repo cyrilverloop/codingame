@@ -13,12 +13,12 @@ class EquivalentResistanceCircuitBuilding implements Puzzle
 {
     public function execute($stdin): void
     {
-        fscanf(STDIN, "%d", $N);
+        fscanf($stdin, "%d", $N);
         for ($i = 0; $i < $N; $i++)
         {
-            fscanf(STDIN, "%s %d", $name, $R);
+            fscanf($stdin, "%s %d", $name, $R);
         }
-        $circuit = stream_get_line(STDIN, 120 + 1, "\n");
+        $circuit = stream_get_line($stdin, 120 + 1, "\n");
 
         // Write an answer using echo(). DON'T FORGET THE TRAILING \n
 

@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Equivalent resistance, circuit building".
 - Tests for "1D spreadsheet".
 
+### Changed
+- "STDIN" to "$stdin" in the "Rock paper scissors lizard spock" default code.
+
 ## [3.5.0] - 2022-02-22
 ### Added
 - Tests for "1000000000D world".
