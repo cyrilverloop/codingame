@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Walk on a die".
 - Tests for "Dolbear's law".
 - Tests for "ISBN check digit".
+- Tests for "Equivalent resistance, circuit building".
 
 ## [3.5.0] - 2022-02-22
 ### Added
