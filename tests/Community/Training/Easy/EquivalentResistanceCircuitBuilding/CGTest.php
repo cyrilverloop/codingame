@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - series.txt',
-            30.0 . PHP_EOL
+            '30.0' . PHP_EOL
         );
     }
 
@@ -82,7 +82,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/05 - more complex.txt',
-            45.0 . PHP_EOL
+            '45.0' . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - 5-pointed star.txt',
-            91.0 . PHP_EOL
+            '91.0' . PHP_EOL
         );
     }
 }
