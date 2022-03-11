@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\NextGrowingNumber;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Next growing number" puzzle.
+ */
+class NextGrowingNumber implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $n = stream_get_line($stdin, 32 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
