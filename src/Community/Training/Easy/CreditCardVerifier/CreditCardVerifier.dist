@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\CreditCardVerifier;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Credit card verifier (Luhn’s algorithm)" puzzle.
+ */
+class CreditCardVerifier implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            $card = stream_get_line($stdin, 20 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("YES or NO\n");
+    }
+}
