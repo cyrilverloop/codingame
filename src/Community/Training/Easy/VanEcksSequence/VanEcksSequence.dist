@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\VanEcksSequence;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Van Eck's sequence" puzzle.
+ */
+class VanEcksSequence implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $A1);
+        fscanf($stdin, "%d", $N);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
