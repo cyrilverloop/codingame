@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\AChildsPlay;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "A child's play" puzzle.
+ */
+class AChildsPlay implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $w, $h);
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $h; $i++)
+        {
+            $line = stream_get_line($stdin, 500 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
