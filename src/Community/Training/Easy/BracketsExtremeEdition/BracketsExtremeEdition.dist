@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\BracketsExtremeEdition;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Brackets, extreme edition" puzzle.
+ */
+class BracketsExtremeEdition implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%s", $expression);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("true/false\n");
+    }
+}
