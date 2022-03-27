@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\SudokuValidator;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Sudoku validator" puzzle.
+ */
+class SudokuValidator implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        for ($i = 0; $i < 9; $i++)
+        {
+            $inputs = explode(" ", fgets($stdin));
+            for ($j = 0; $j < 9; $j++)
+            {
+                $n = intval($inputs[$j]);
+            }
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("true or false\n");
+    }
+}
