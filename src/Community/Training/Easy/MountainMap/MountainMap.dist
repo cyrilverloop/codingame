@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\MountainMap;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Mountain map" puzzle.
+ */
+class MountainMap implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        // $n: the number of mountains
+        fscanf($stdin, "%d", $n);
+        $inputs = explode(" ", fgets($stdin));
+        for ($i = 0; $i < $n; $i++)
+        {
+            $height = intval($inputs[$i]); // height of the mountain
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
