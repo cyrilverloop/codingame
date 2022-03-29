@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\CreateTheLongestSequenceOf1s;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Create the longest sequence of 1s" puzzle.
+ */
+class CreateTheLongestSequenceOf1s implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $b = stream_get_line($stdin, 999 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
