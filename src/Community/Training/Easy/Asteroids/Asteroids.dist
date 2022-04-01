@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\Asteroids;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Asteroids" puzzle.
+ */
+class Asteroids implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d %d %d %d", $W, $H, $T1, $T2, $T3);
+        for ($i = 0; $i < $H; $i++)
+        {
+            fscanf($stdin, "%s %s", $firstPictureRow, $secondPictureRow);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
