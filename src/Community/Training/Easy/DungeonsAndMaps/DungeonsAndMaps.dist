@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\DungeonsAndMaps;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Dungeons and maps" puzzle.
+ */
+class DolbearsLaw implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $w, $h);
+        fscanf($stdin, "%d %d", $startRow, $startCol);
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            for ($j = 0; $j < $h; $j++)
+            {
+                $mapRow = stream_get_line($stdin, $w + 1, "\n");
+            }
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("mapIndex\n");
+    }
+}
