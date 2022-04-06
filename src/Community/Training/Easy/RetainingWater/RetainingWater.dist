@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\RetainingWater;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Retaining water" puzzle.
+ */
+class RetainingWater implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $line = stream_get_line($stdin, 256 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("volume\n");
+    }
+}
