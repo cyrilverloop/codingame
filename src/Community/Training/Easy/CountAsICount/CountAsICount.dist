@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\CountAsICount;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Count as i count" puzzle.
+ */
+class CountAsICount implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
