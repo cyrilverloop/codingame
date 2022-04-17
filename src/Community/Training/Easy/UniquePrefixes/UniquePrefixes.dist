@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\UniquePrefixes;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Unique prefixes" puzzle.
+ */
+class UniquePrefixes implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%s", $word);
+        }
+        for ($i = 0; $i < $N; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("<word_prefix>\n");
+        }
+    }
+}
