@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\TheMysticRectangle;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "The mystic rectangle" puzzle.
+ */
+class TheMysticRectangle implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $x, $y);
+        fscanf($stdin, "%d %d", $u, $v);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("0.0\n");
+    }
+}
