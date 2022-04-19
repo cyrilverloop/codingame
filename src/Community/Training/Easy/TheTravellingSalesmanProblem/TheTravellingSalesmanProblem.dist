@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\TheTravellingSalesmanProblem;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "The travelling salesman problem" puzzle.
+ */
+class TheTravellingSalesmanProblem implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%d %d", $X, $Y);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("distance\n");
+    }
+}
