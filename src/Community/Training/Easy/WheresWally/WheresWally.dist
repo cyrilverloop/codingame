@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\WheresWally;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Where's Wally" puzzle.
+ */
+class WheresWally implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $wallyWidth, $wallyHeight);
+        for ($i = 0; $i < $wallyHeight; $i++)
+        {
+            $wallyRow = stream_get_line($stdin, $wallyWidth + 1, "\n");
+        }
+        fscanf($stdin, "%d %d", $pictureWidth, $pictureHeight);
+        for ($i = 0; $i < $pictureHeight; $i++)
+        {
+            $pictureRow = stream_get_line($stdin, $pictureWidth + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("x y\n");
+    }
+}
