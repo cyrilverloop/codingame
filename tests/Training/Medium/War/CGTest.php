@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - 3 cards.txt',
-            '1 3' . PHP_EOL
+            "1 3" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - 26 cards.txt',
-            '2 26' . PHP_EOL
+            "2 26" . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - 26 cards medium length.txt',
-            '2 56' . PHP_EOL
+            "2 56" . PHP_EOL
         );
     }
 
@@ -69,7 +69,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/04 - battle.txt',
-            '2 1' . PHP_EOL
+            "2 1" . PHP_EOL
         );
     }
 
@@ -82,7 +82,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/05 - one game one battle.txt',
-            '1 52' . PHP_EOL
+            "1 52" . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - 2 chained battles.txt',
-            '2 1' . PHP_EOL
+            "2 1" . PHP_EOL
         );
     }
 
@@ -108,7 +108,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/07 - long game.txt',
-            '2 1262' . PHP_EOL
+            "2 1262" . PHP_EOL
         );
     }
 
@@ -121,7 +121,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/08 - PAT.txt',
-            'PAT' . PHP_EOL
+            "PAT" . PHP_EOL
         );
     }
 
@@ -134,7 +134,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/09 - another PAT.txt',
-            'PAT' . PHP_EOL
+            "PAT" . PHP_EOL
         );
     }
 }

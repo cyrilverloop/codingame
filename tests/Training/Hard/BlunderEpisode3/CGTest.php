@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - O(1).txt',
-            'O(1)' . PHP_EOL
+            "O(1)" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - O(log n).txt',
-            'O(log n)' . PHP_EOL
+            "O(log n)" . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - O(n).txt',
-            'O(n)' . PHP_EOL
+            "O(n)" . PHP_EOL
         );
     }
 
@@ -69,7 +69,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/04 - O(n log n).txt',
-            'O(n log n)' . PHP_EOL
+            "O(n log n)" . PHP_EOL
         );
     }
 
@@ -82,7 +82,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/05 - O(n^2).txt',
-            'O(n^2)' . PHP_EOL
+            "O(n^2)" . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - O(n^2 log n).txt',
-            'O(n^2 log n)' . PHP_EOL
+            "O(n^2 log n)" . PHP_EOL
         );
     }
 
@@ -108,7 +108,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/07 - O(n^3).txt',
-            'O(n^3)' . PHP_EOL
+            "O(n^3)" . PHP_EOL
         );
     }
 
@@ -121,7 +121,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/08 - O(2^n).txt',
-            'O(2^n)' . PHP_EOL
+            "O(2^n)" . PHP_EOL
         );
     }
 }

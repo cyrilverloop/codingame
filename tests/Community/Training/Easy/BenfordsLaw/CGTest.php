@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - regular account.txt',
-            'false' . PHP_EOL
+            "false" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - fake account.txt',
-            'true' . PHP_EOL
+            "true" . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - fake account (equidistributed).txt',
-            'true' . PHP_EOL
+            "true" . PHP_EOL
         );
     }
 
@@ -69,7 +69,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/04 - adjusted account.txt',
-            'true' . PHP_EOL
+            "true" . PHP_EOL
         );
     }
 
@@ -82,7 +82,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/05 - regular less transactions.txt',
-            'false' . PHP_EOL
+            "false" . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - fake account (equidistributed).txt',
-            'true' . PHP_EOL
+            "true" . PHP_EOL
         );
     }
 }

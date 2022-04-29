@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - boolean value with spaces and tabs.txt',
-            'true'
+            "true"
         );
     }
 

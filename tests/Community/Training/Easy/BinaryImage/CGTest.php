@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - invalid.txt',
-            'INVALID' . PHP_EOL
+            "INVALID" . PHP_EOL
         );
     }
 

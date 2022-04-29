@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - character C.txt',
-            '0 0 00 0000 0 00' . PHP_EOL
+            "0 0 00 0000 0 00" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - message CC.txt',
-            '0 0 00 0000 0 000 00 0000 0 00' . PHP_EOL
+            "0 0 00 0000 0 000 00 0000 0 00" . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - character %.txt',
-            '00 0 0 0 00 00 0 0 00 0 0 0' . PHP_EOL
+            "00 0 0 0 00 00 0 0 00 0 0 0" . PHP_EOL
         );
     }
 

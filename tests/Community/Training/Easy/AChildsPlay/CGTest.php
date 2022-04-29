@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - test example.txt',
-            '7 1' . PHP_EOL
+            "7 1" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - test real case.txt',
-            '4 2' . PHP_EOL
+            "4 2" . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - test 3.txt',
-            '2 1' . PHP_EOL
+            "2 1" . PHP_EOL
         );
     }
 
@@ -69,7 +69,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/04 - test 4.txt',
-            '6 6' . PHP_EOL
+            "6 6" . PHP_EOL
         );
     }
 
@@ -82,7 +82,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/05 - test 5.txt',
-            '4 1' . PHP_EOL
+            "4 1" . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - test 6.txt',
-            '2 3' . PHP_EOL
+            "2 3" . PHP_EOL
         );
     }
 
@@ -108,7 +108,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/07 - test 7.txt',
-            '2 1' . PHP_EOL
+            "2 1" . PHP_EOL
         );
     }
 
@@ -121,7 +121,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/08 - test 8.txt',
-            '3 1' . PHP_EOL
+            "3 1" . PHP_EOL
         );
     }
 
@@ -134,7 +134,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/09 - test 9.txt',
-            '1 3' . PHP_EOL
+            "1 3" . PHP_EOL
         );
     }
 
@@ -147,7 +147,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/10 - loop detection 1.txt',
-            '5 4' . PHP_EOL
+            "5 4" . PHP_EOL
         );
     }
 
@@ -160,7 +160,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/11 - loop detection 2.txt',
-            '2 2' . PHP_EOL
+            "2 2" . PHP_EOL
         );
     }
 }

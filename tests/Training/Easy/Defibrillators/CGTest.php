@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - example.txt',
-            'Maison de la Prevention Sante' . PHP_EOL
+            "Maison de la Prevention Sante" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - exact position.txt',
-            'Cimetiere Saint-Etienne' . PHP_EOL
+            "Cimetiere Saint-Etienne" . PHP_EOL
         );
     }
 

@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - same starting and end points.txt',
-            'Bonne Garde' . PHP_EOL
+            "Bonne Garde" . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - route impossible.txt',
-            'IMPOSSIBLE' . PHP_EOL
+            "IMPOSSIBLE" . PHP_EOL
         );
     }
 }

@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - low density 1 ticket.txt',
-            'FZ-792-EC 134' . PHP_EOL
+            "FZ-792-EC 134" . PHP_EOL
         );
     }
 

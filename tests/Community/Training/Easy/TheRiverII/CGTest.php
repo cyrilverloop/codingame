@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - test 20.txt',
-            'NO' . PHP_EOL
+            "NO" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - the lucky 13.txt',
-            'YES' . PHP_EOL
+            "YES" . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - yyy.txt',
-            'NO' . PHP_EOL
+            "NO" . PHP_EOL
         );
     }
 
@@ -69,7 +69,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/04 - zzzz.txt',
-            'NO' . PHP_EOL
+            "NO" . PHP_EOL
         );
     }
 
@@ -82,7 +82,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/05 - yes, please.txt',
-            'YES' . PHP_EOL
+            "YES" . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - 4aaaa.txt',
-            'NO' . PHP_EOL
+            "NO" . PHP_EOL
         );
     }
 
@@ -108,7 +108,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/07 - BIG.txt',
-            'NO' . PHP_EOL
+            "NO" . PHP_EOL
         );
     }
 
@@ -121,7 +121,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/08 - maybe yes this time.txt',
-            'YES' . PHP_EOL
+            "YES" . PHP_EOL
         );
     }
 
@@ -134,7 +134,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/09 - random #1.txt',
-            'YES' . PHP_EOL
+            "YES" . PHP_EOL
         );
     }
 
@@ -147,7 +147,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/10 - random #2.txt',
-            'NO' . PHP_EOL
+            "NO" . PHP_EOL
         );
     }
 
@@ -160,7 +160,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/11 - random large.txt',
-            'YES' . PHP_EOL
+            "YES" . PHP_EOL
         );
     }
 
@@ -173,7 +173,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/12 - random small.txt',
-            'YES' . PHP_EOL
+            "YES" . PHP_EOL
         );
     }
 }

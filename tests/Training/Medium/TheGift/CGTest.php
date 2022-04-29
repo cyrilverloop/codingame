@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - example 1.txt',
-            'IMPOSSIBLE' . PHP_EOL
+            "IMPOSSIBLE" . PHP_EOL
         );
     }
 
@@ -69,7 +69,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/04 - impossible.txt',
-            'IMPOSSIBLE' . PHP_EOL
+            "IMPOSSIBLE" . PHP_EOL
         );
     }
 

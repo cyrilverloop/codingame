@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - 30 minutes of heat wave.txt',
-            '42.0' . PHP_EOL
+            "42.0" . PHP_EOL
         );
     }
 }

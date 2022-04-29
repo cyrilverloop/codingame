@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - test 1.txt',
-            '>.' . PHP_EOL
+            ">." . PHP_EOL
         );
     }
 

@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - example.txt',
-            'true' . PHP_EOL
+            "true" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - {([{S}]]6K[()]}.txt',
-            'false' . PHP_EOL
+            "false" . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - {C{}[{[a]}RqhL]{y2}}.txt',
-            'true' . PHP_EOL
+            "true" . PHP_EOL
         );
     }
 
@@ -69,7 +69,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/04 - W12{}{}L{}.txt',
-            'true' . PHP_EOL
+            "true" . PHP_EOL
         );
     }
 
@@ -82,7 +82,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/05 - h{Pn{GT{h}(c))}.txt',
-            'false' . PHP_EOL
+            "false" . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - {[{iHTSc}]}p(R)m(){q({}).txt',
-            'false' . PHP_EOL
+            "false" . PHP_EOL
         );
     }
 
@@ -108,7 +108,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/07 - ][.txt',
-            'false' . PHP_EOL
+            "false" . PHP_EOL
         );
     }
 
@@ -121,7 +121,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/08 - {(}).txt',
-            'false' . PHP_EOL
+            "false" . PHP_EOL
         );
     }
 }

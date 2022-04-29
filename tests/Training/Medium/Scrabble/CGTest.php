@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - only one word.txt',
-            'which' . PHP_EOL
+            "which" . PHP_EOL
         );
     }
 
@@ -43,7 +43,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - 2 words with the same value.txt',
-            'potsie' . PHP_EOL
+            "potsie" . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - 2 words with different values.txt',
-            'powers' . PHP_EOL
+            "powers" . PHP_EOL
         );
     }
 
@@ -69,7 +69,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/04 - many possibilities.txt',
-            'waster' . PHP_EOL
+            "waster" . PHP_EOL
         );
     }
 
@@ -82,7 +82,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/05 - value better than size.txt',
-            'tween' . PHP_EOL
+            "tween" . PHP_EOL
         );
     }
 
@@ -95,7 +95,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/06 - valid word.txt',
-            'aeiou' . PHP_EOL
+            "aeiou" . PHP_EOL
         );
     }
 
@@ -108,7 +108,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/07 - large dictionary 1.txt',
-            'satire' . PHP_EOL
+            "satire" . PHP_EOL
         );
     }
 
@@ -121,7 +121,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/08 - large dictionary 2.txt',
-            'pastern' . PHP_EOL
+            "pastern" . PHP_EOL
         );
     }
 
@@ -134,7 +134,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/09 - cannot use letter twice.txt',
-            'powers' . PHP_EOL
+            "powers" . PHP_EOL
         );
     }
 }

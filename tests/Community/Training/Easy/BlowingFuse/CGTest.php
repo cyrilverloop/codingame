@@ -30,7 +30,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - blown.txt',
-            'Fuse was blown.' . PHP_EOL
+            "Fuse was blown." . PHP_EOL
         );
     }
 
@@ -56,7 +56,7 @@ final class CGTest extends PuzzleTest
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - single device.txt',
-            'Fuse was blown.' . PHP_EOL
+            "Fuse was blown." . PHP_EOL
         );
     }
 
