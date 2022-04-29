@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Is the king in check? (part 1)".
 - Tests for "A mountain of a mole hill".
 - Tests for "Where's Wally".
+- Tests for "Feature extraction".
 
 ## [3.7.0] - 2022-03-31
 ### Added
