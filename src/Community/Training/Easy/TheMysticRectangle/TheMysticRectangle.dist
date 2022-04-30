@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "The mystic rectangle" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/the-mystic-rectangle
  */
 class TheMysticRectangle implements Puzzle
 {

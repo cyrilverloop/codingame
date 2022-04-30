@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Super computer" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/super-computer
  */
 class SuperComputer implements Puzzle
 {

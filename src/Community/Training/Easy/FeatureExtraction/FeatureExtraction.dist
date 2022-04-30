@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Feature extraction" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/feature-extraction
  */
 class FeatureExtraction implements Puzzle
 {

@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Telephone numbers" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/telephone-numbers
  */
 class TelephoneNumbers implements Puzzle
 {

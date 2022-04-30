@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "The river II" puzzle.
+ * @link https://www.codingame.com/training/easy/the-river-ii-
  */
 class TheRiverII implements Puzzle
 {

@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Object insertion" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/object-insertion
  */
 class ObjectInsertion implements Puzzle
 {

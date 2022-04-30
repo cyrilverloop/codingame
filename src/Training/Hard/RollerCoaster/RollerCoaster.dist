@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Roller coaster" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/roller-coaster
  */
 class RollerCoaster implements Puzzle
 {

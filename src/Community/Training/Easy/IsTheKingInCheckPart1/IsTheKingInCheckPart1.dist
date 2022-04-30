@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Is the king in check? (part 1)" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/is-the-king-in-check-part-1
  */
 class IsTheKingInCheckPart1 implements Puzzle
 {

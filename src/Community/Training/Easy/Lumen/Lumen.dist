@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Lumen" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/lumen
  */
 class Lumen implements Puzzle
 {

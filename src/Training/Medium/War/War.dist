@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "War" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/winamax-battle
  */
 class War implements Puzzle
 {

@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "1D spreadsheet" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/1d-spreadsheet
  */
 class OneDSpreadsheet implements Puzzle
 {

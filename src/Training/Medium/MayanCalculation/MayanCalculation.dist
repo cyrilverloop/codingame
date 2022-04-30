@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Mayan calculation" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/mayan-calculation
  */
 class MayanCalculation implements Puzzle
 {

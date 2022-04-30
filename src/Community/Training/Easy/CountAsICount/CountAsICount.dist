@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Count as i count" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/count-as-i-count
  */
 class CountAsICount implements Puzzle
 {

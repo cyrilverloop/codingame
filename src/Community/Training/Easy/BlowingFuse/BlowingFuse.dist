@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Blowing fuse" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/blowing-fuse
  */
 class BlowingFuse implements Puzzle
 {

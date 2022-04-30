@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Reverse Minesweeper" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/reverse-minesweeper
  */
 class ReverseMinesweeper implements Puzzle
 {

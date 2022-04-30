@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "The electrician apprentice" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/the-electrician-apprentice
  */
 class TheElectricianApprentice implements Puzzle
 {

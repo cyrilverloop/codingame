@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "orDer oF succeSsion" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/order-of-succession
  */
 class OrderOfSuccession implements Puzzle
 {

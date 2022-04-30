@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Encryption/decryption of Enigma machine" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/encryptiondecryption-of-enigma-machine
  */
 class EncryptionDecryptionOfEnigmaMachine implements Puzzle
 {

@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Happy numbers" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/happy-numbers
  */
 class HappyNumbers implements Puzzle
 {

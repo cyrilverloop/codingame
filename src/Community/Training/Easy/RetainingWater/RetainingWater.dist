@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Retaining water" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/retaining-water
  */
 class RetainingWater implements Puzzle
 {

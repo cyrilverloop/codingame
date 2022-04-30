@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Robot show" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/robot-show
  */
 class RobotShow implements Puzzle
 {

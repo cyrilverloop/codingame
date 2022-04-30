@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Tree paths" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/tree-paths
  */
 class TreePaths implements Puzzle
 {

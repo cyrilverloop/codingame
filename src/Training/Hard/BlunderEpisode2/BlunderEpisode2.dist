@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Blunder - episode 2" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/blunder-episode-2
  */
 class BlunderEpisode2 implements Puzzle
 {

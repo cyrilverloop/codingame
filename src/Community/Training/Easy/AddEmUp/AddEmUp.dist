@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Add'em up" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/addem-up
  */
 class AddEmUp implements Puzzle
 {

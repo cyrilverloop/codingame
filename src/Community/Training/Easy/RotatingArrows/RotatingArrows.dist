@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Rotating arrows" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/rotating-arrows
  */
 class RotatingArrows implements Puzzle
 {

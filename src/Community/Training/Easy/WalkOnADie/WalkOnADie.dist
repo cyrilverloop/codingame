@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Walk on a die" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/walk-on-a-die
  */
 class WalkOnADie implements Puzzle
 {

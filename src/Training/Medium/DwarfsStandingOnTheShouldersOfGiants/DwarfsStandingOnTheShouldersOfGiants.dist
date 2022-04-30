@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Dwarfs standing on the shoulders of giants" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/dwarfs-standing-on-the-shoulders-of-giants
  */
 class DwarfsStandingOnTheShouldersOfGiants implements Puzzle
 {

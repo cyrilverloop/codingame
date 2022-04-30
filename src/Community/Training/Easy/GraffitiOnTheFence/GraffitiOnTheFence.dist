@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Graffiti on the fence" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/graffiti-on-the-fence
  */
 class GraffitiOnTheFence implements Puzzle
 {

@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Next growing number" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/next-growing-number
  */
 class NextGrowingNumber implements Puzzle
 {

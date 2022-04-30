@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Credit card verifier (Luhn’s algorithm)" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/credit-card-verifier-luhns-algorithm
  */
 class CreditCardVerifier implements Puzzle
 {

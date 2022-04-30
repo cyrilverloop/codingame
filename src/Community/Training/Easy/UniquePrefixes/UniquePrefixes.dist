@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Unique prefixes" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/unique-prefixes
  */
 class UniquePrefixes implements Puzzle
 {

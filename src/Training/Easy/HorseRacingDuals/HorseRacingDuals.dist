@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Horse-racing Duals" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/horse-racing-duals
  */
 class HorseRacingDuals implements Puzzle
 {

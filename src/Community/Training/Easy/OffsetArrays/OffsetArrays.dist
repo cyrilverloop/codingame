@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Offset Arrays" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/offset-arrays
  */
 class OffsetArrays implements Puzzle
 {

@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Conway sequence" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/conway-sequence
  */
 class ConwaySequence implements Puzzle
 {

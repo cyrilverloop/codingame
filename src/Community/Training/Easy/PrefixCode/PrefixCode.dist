@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Prefix code" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/prefix-code
  */
 class PrefixCode implements Puzzle
 {

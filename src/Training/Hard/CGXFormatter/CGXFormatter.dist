@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "CGX formatter" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/cgx-formatter
  */
 class CGXFormatter implements Puzzle
 {

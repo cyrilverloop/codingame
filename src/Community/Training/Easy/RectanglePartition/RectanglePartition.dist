@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Rectangle partition" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/rectangle-partition
  */
 class RectanglePartition implements Puzzle
 {

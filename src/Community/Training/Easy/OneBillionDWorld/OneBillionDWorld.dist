@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "1000000000D world" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/1000000000d-world
  */
 class OneBillionDWorld implements Puzzle
 {

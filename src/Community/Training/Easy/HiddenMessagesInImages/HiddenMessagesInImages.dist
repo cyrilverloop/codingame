@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Hidden messages in images" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/hidden-messages-in-images
  */
 class HiddenMessagesInImages implements Puzzle
 {

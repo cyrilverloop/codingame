@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Music scores" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/music-scores
  */
 class MusicScores implements Puzzle
 {

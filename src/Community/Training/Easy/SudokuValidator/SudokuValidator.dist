@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Sudoku validator" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/sudoku-validator
  */
 class SudokuValidator implements Puzzle
 {

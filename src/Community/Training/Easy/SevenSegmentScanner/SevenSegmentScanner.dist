@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "7-segment scanner" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/7-segment-scanner
  */
 class SevenSegmentScanner implements Puzzle
 {

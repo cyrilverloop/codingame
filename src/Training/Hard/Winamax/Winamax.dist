@@ -8,6 +8,7 @@ use CyrilVerloop\Codingame\Puzzle;
 
 /**
  * The "Winamax" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/winamax-sponsored-contest
  */
 class Winamax implements Puzzle
 {
