@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\XMLMDF2016;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "XML MDF-2016" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/xml-mdf-2016
+ */
+class XMLMDF2016 implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $sequence = stream_get_line($stdin, 1024 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
