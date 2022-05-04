@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\TreasureHunt;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Treasure hunt" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/treasure-hunt
+ */
+class TreasureHunt implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $H, $W);
+        for ($i = 0; $i < $H; $i++)
+        {
+            $row = stream_get_line($stdin, 1024 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
