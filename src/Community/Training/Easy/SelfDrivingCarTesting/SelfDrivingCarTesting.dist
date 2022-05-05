@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\SelfDrivingCarTesting;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Self-driving car testing" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/self-driving-car-testing
+ */
+class SelfDrivingCarTesting implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        $xthenCommands = stream_get_line($stdin, 256 + 1, "\n");
+        for ($i = 0; $i < $N; $i++)
+        {
+            $rthenRoadpattern = stream_get_line($stdin, 256 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
