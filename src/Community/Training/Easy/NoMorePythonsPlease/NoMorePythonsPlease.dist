@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\NoMorePythonsPlease;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "No more pythons, please!" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/no-more-pythons-please
+ */
+class NoMorePythonsPlease implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $N, $M);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $T = stream_get_line($stdin, $M + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("Answer\n");
+    }
+}
