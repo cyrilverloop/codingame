@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\TicTacToe;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "TicTacToe" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/tictactoe
+ */
+class TicTacToe implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        for ($i = 0; $i < 3; $i++)
+        {
+            $line = stream_get_line($stdin, 3 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
