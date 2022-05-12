@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Simple auto-scaling".
 - Tests for "Horse-racing hyperduals".
 - Tests for "Balanced ternary computer: encode".
+- Tests for "Extended hamming codes".
 
 ## [3.8.0] - 2022-04-30
 ### Added
