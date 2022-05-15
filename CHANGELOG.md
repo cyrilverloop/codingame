@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Extended hamming codes".
 - Tests for "Organic compounds".
 - Tests for "Nature of quadrilaterals".
+- Tests for "A bunny and carrots".
 
 ## [3.8.0] - 2022-04-30
 ### Added

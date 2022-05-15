@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\ABunnyAndCarrots;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "A bunny and carrots" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/a-bunny-and-carrots
+ */
+class ABunnyAndCarrots implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $M, $N);
+        fscanf($stdin, "%d", $t);
+        $inputs = explode(" ", fgets($stdin));
+        for ($i = 0; $i < $t; $i++)
+        {
+            $choices = intval($inputs[$i]);
+        }
+        for ($i = 0; $i < $t; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("perimeter\n");
+        }
+    }
+}
