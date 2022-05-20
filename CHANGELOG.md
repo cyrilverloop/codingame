@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Mountain map convergence".
 - Tests for "Reverse FizzBuzz".
 - Tests for "Logic gates".
+- Tests for "Master of mayhem".
 
 ## [3.8.0] - 2022-04-30
 ### Added
