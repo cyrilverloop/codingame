@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\PiratesTreasure;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Pirate's treasure" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/pirates-treasure
+ */
+class PiratesTreasure implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $W);
+        fscanf($stdin, "%d", $H);
+        for ($i = 0; $i < $H; $i++)
+        {
+            $inputs = explode(" ", fgets($stdin));
+            for ($j = 0; $j < $W; $j++)
+            {
+                $v = intval($inputs[$j]);
+            }
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("x y\n");
+    }
+}
