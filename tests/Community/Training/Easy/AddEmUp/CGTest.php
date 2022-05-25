@@ -8,7 +8,7 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Community\Training\Easy\AddEmUp\AddEmUp;
 
 /**
- * Tests for the "Add'em up"" puzzle.
+ * Tests for the "Add'em up" puzzle.
  *
  * @covers \CyrilVerloop\Codingame\Community\Training\Easy\AddEmUp\AddEmUp
  * @group addEmUp
