@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\LinearBezierCurves;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Linear Bézier curves" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/linear-bezier-curves
+ */
+class LinearBezierCurves implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $width, $height);
+        fscanf($stdin, "%d", $steps);
+        fscanf($stdin, "%d %d", $ax, $ay);
+        fscanf($stdin, "%d %d", $bx, $by);
+        fscanf($stdin, "%d %d", $cx, $cy);
+        fscanf($stdin, "%d %d", $dx, $dy);
+        for ($i = 0; $i < $height; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("curve\n");
+        }
+    }
+}
