@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Snail run".
 - Tests for "Sweet spot".
 - Tests for "Linear Bézier curves".
+- Tests for "Disordered first contact".
 
 ## [3.8.0] - 2022-04-30
 ### Added

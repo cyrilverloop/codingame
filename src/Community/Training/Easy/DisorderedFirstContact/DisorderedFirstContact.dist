@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\DisorderedFirstContact;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Disordered first contact" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/disordered-first-contact
+ */
+class DisorderedFirstContact implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        $MESSAGE = stream_get_line($stdin, 1024 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
