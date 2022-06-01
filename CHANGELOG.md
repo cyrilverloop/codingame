@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Linear Bézier curves".
 - Tests for "Disordered first contact".
 - Tests for "Cosmic love".
+- Tests for "1×1×1 rubik’s cube movements".
 
 ## [3.8.0] - 2022-04-30
 ### Added
