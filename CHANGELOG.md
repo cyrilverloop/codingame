@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Tests for "Markov text generation".
+- Tests for "Rectangular block spinner".
 
 ## [3.9.0] - 2022-06-01
 ### Added

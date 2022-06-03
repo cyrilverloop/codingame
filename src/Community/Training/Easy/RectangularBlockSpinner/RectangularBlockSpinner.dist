@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\RectangularBlockSpinner;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Rectangular block spinner" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/rectangular-block-spinner
+ */
+class RectangularBlockSpinner implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $size);
+        fscanf($stdin, "%d", $angle);
+        for ($i = 0; $i < $size; $i++)
+        {
+            $line = stream_get_line($stdin, 1024 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
