@@ -1,0 +1,30 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\MovesInMaze;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Moves in maze" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/moves-in-maze
+ */
+class MovesInMaze implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $w, $h);
+        for ($i = 0; $i < $h; $i++)
+        {
+            $ROW = stream_get_line($stdin, 255 + 1, "\n");
+        }
+        for ($i = 0; $i < $h; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("answer\n");
+        }
+    }
+}
