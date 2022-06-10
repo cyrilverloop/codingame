@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\TheMichelangeloCode;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "The michelangelo code" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/the-michelangelo-code
+ */
+class TheMichelangeloCode implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $TEXT = stream_get_line($stdin, 1000 + 1, "\n");
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $WORD = stream_get_line($stdin, 25 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
