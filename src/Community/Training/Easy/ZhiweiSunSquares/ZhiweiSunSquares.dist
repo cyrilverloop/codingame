@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\ZhiweiSunSquares;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Zhiwei Sun squares" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/zhiwei-sun-squares
+ */
+class ZhiweiSunSquares implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("count\n");
+    }
+}
