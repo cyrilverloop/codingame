@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\StallTilt;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Stall tilt" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/stall-tilt
+ */
+class StallTilt implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        fscanf($stdin, "%d", $v);
+        for ($i = 0; $i < $n; $i++)
+        {
+            fscanf($stdin, "%d", $speed);
+        }
+        for ($i = 0; $i < $v; $i++)
+        {
+            fscanf($stdin, "%d", $bends);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
