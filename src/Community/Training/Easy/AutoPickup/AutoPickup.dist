@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\AutoPickup;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Auto pickup" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/auto-pickup
+ */
+class AutoPickup implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        fscanf($stdin, "%s", $packet);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("001[length][item id]\n");
+    }
+}
