@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\MorelletsRandomLines;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Morellet’s random lines" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/morellets-random-lines
+ */
+class MorelletsRandomLines implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d %d %d", $xA, $yA, $xB, $yB);
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            fscanf($stdin, "%d %d %d", $a, $b, $c);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("YES|NO|ON A LINE\n");
+    }
+}
