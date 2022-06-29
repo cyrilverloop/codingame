@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\SecondDegreePolynomialSimpleAnalysis;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "2nd degree polynomial - simple analysis" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/2nd-degree-polynomial---simple-analysis
+ */
+class SecondDegreePolynomialSimpleAnalysis implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%f %f %f", $a, $b, $c);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("(X1,Y1),...,(Xn,Yn)\n");
+    }
+}
