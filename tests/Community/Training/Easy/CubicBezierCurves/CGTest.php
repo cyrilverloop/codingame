@@ -2,29 +2,29 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Tests\Community\Training\Easy\LinearBezierCurves;
+namespace CyrilVerloop\Codingame\Tests\Community\Training\Easy\CubicBezierCurves;
 
 use CyrilVerloop\Codingame\Tests\PuzzleTest;
-use CyrilVerloop\Codingame\Community\Training\Easy\LinearBezierCurves\LinearBezierCurves;
+use CyrilVerloop\Codingame\Community\Training\Easy\CubicBezierCurves\CubicBezierCurves;
 
 /**
- * Tests for the "Linear Bézier curves" puzzle.
+ * Tests for the "Cubic Bézier curves" puzzle.
  *
- * @covers \CyrilVerloop\Codingame\Community\Training\Easy\LinearBezierCurves\LinearBezierCurves
- * @group linearBezierCurves
+ * @covers \CyrilVerloop\Codingame\Community\Training\Easy\CubicBezierCurves\CubicBezierCurves
+ * @group cubicBezierCurves
  * @medium
  */
 final class CGTest extends PuzzleTest
 {
     public function setUp(): void
     {
-        $this->puzzle = new LinearBezierCurves();
+        $this->puzzle = new CubicBezierCurves();
     }
 
     /**
      * Test that the code can be executed for "Simple with low resolution".
      *
-     * @group linearBezierCurves_simpleWithLowResolution
+     * @group cubicBezierCurves_simpleWithLowResolution
      */
     public function testCanExecuteSimpleWithLowResolution(): void
     {
@@ -37,7 +37,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Inverted control points".
      *
-     * @group linearBezierCurves_invertedControlPoints
+     * @group cubicBezierCurves_invertedControlPoints
      */
     public function testCanExecuteInvertedControlPoints(): void
     {
@@ -50,7 +50,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Close loop".
      *
-     * @group linearBezierCurves_closeLoop
+     * @group cubicBezierCurves_closeLoop
      */
     public function testCanExecuteCloseLoop(): void
     {
@@ -63,7 +63,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Only extremes".
      *
-     * @group linearBezierCurves_onlyExtremes
+     * @group cubicBezierCurves_onlyExtremes
      */
     public function testCanExecuteOnlyExtremes(): void
     {
@@ -76,7 +76,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "High resolution".
      *
-     * @group linearBezierCurves_highResolution
+     * @group cubicBezierCurves_highResolution
      */
     public function testCanExecuteHighResolution(): void
     {
@@ -89,7 +89,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "High resolution 2".
      *
-     * @group linearBezierCurves_highResolution2
+     * @group cubicBezierCurves_highResolution2
      */
     public function testCanExecuteHighResolution2(): void
     {

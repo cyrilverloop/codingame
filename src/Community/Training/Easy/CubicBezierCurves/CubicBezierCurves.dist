@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Community\Training\Easy\LinearBezierCurves;
+namespace CyrilVerloop\Codingame\Community\Training\Easy\CubicBezierCurves;
 
 use CyrilVerloop\Codingame\Puzzle;
 
 /**
- * The "Linear Bézier curves" puzzle.
- * @link https://www.codingame.com/ide/puzzle/linear-bezier-curves
+ * The "Cubic Bézier curves" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/cubic-bezier-curves
  */
-class LinearBezierCurves implements Puzzle
+class CubicBezierCurves implements Puzzle
 {
     public function execute($stdin): void
     {
