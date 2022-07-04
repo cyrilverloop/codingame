@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\RandomWalk;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Random walk" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/random-walk
+ */
+class RandomWalk implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $a);
+        fscanf($stdin, "%d", $b);
+        fscanf($stdin, "%d", $m);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("result\n");
+    }
+}
