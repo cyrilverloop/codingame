@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\FireControl;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Fire control" puzzle.
+ * @link https://www.codingame.com/training/easy/firecontrol
+ */
+class FireControl implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        for ($i = 0; $i < 6; $i++)
+        {
+            $text = stream_get_line($stdin, 10 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("12\n");
+    }
+}
