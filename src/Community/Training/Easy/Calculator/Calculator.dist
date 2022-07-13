@@ -1,0 +1,30 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\Calculator;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Calculator" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/calculator
+ */
+class Calculator implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            $key = stream_get_line($stdin, 2 + 1, "\n");
+        }
+        for ($i = 0; $i < $n; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("answer\n");
+        }
+    }
+}
