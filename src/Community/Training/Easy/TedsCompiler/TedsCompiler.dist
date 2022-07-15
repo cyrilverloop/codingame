@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\TedsCompiler;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Ted's compiler" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/teds-compiler
+ */
+class TedsCompiler implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $line = stream_get_line($stdin, 1000 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
