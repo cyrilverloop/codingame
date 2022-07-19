@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\NicholasBreakspeareAndHughOfEvesham;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Nicholas Breakspeare and Hugh of Evesham" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/nicholas-breakspeare-and-hugh-of-evesham
+ */
+class NicholasBreakspeareAndHughOfEvesham implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            fscanf($stdin, "%s", $x);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("cardinal\n");
+    }
+}
