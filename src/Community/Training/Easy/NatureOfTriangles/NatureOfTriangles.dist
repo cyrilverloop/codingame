@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\NatureOfTriangles;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Nature of triangles" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/nature-of-triangles
+ */
+class NatureOfTriangles implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            fscanf($stdin, "%s %d %d %s %d %d %s %d %d", $A, $xA, $yA, $B, $xB, $yB, $C, $xC, $yC);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
