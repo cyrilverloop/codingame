@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Easy\HoochClash;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Hooch clash" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/hooch-clash
+ */
+class HoochClash implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $orbSizeMin, $orbSizeMax);
+        fscanf($stdin, "%d %d", $glowingSize1, $glowingSize2);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("VALID\n");
+    }
+}
