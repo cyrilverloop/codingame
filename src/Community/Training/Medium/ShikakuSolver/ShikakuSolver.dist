@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\ShikakuSolver;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Shikaku solver" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/shikaku-solver
+ */
+class ShikakuSolver implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $W, $H);
+        for ($i = 0; $i < $H; $i++)
+        {
+            $inputs = explode(" ", fgets($stdin));
+            for ($j = 0; $j < $W; $j++)
+            {
+                $v = intval($inputs[$j]);
+            }
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
