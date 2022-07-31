@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\MicroAssembly;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Micro assembly" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/micro-assembly
+ */
+class MicroAssembly implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d %d %d", $a, $b, $c, $d);
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            $instruction = stream_get_line($stdin, 16 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("a b c d\n");
+    }
+}
