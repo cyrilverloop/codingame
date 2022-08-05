@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\WhatTheBrainfuck;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "What the brainfuck !" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/what-the-brainfuck
+ */
+class WhatTheBrainfuck implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d %d", $L, $S, $N);
+        for ($i = 0; $i < $L; $i++)
+        {
+            $r = stream_get_line($stdin, 1024 + 1, "\n");
+        }
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%d", $c);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
