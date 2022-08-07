@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\DiceProbabilityCalculator;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Dice probability calculator" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/dice-probability-calculator
+ */
+class DiceProbabilityCalculator implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $expr = stream_get_line($stdin, 100 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
