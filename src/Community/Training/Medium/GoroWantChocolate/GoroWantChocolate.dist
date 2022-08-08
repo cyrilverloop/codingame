@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\GoroWantChocolate;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Goro want chocolate" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/goro-want-chocolate
+ */
+class GoroWantChocolate implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $h, $w);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("0\n");
+    }
+}
