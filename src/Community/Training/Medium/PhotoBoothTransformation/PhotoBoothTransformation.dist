@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\PhotoBoothTransformation;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Photo booth transformation" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/photo-booth-transformation
+ */
+class PhotoBoothTransformation implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $T);
+        for ($i = 0; $i < $T; $i++)
+        {
+            fscanf($stdin, "%d %d", $W, $H);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("0\n");
+    }
+}
