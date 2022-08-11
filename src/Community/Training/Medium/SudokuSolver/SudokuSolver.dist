@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\SudokuSolver;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Sudoku solver" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/sudoku-solver
+ */
+class SudokuSolver implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        for ($i = 0; $i < 9; $i++)
+        {
+            $line = stream_get_line($stdin, 9 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
