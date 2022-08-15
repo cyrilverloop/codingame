@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\PaperLabyrinth;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Paper labyrinth" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/paper-labyrinth
+ */
+class PaperLabyrinth implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $xs, $ys);
+        fscanf($stdin, "%d %d", $xr, $yr);
+        fscanf($stdin, "%d %d", $w, $h);
+        for ($i = 0; $i < $h; $i++)
+        {
+            fscanf($stdin, "%s", $l);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("go return\n");
+    }
+}
