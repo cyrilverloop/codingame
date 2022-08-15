@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\LTriominoes;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "L-triominoes" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/l-triominoes
+ */
+class LTriominoes implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        fscanf($stdin, "%d %d", $x, $y);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("+--+\n");
+        for ($i = 0; $i < $n; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("|  |\n+--+\n");
+        }
+    }
+}
