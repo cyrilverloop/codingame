@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\TheGrandFestivalI;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "The Grand Festival - I" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/the-grand-festival---i
+ */
+class TheGrandFestivalI implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        fscanf($stdin, "%d", $R);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%d", $PRIZE);
+        }
+    }
+}
