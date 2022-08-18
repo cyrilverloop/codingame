@@ -7,7 +7,7 @@ namespace CyrilVerloop\Codingame\Community\Training\Medium\TheGrandFestivalI;
 use CyrilVerloop\Codingame\Puzzle;
 
 /**
- * The "The Grand Festival - I" puzzle.
+ * The "The grand festival - I" puzzle.
  * @link https://www.codingame.com/ide/puzzle/the-grand-festival---i
  */
 class TheGrandFestivalI implements Puzzle

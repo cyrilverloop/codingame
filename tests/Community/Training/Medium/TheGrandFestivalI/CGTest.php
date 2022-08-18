@@ -8,7 +8,7 @@ use CyrilVerloop\Codingame\Tests\PuzzleTest;
 use CyrilVerloop\Codingame\Community\Training\Medium\TheGrandFestivalI\TheGrandFestivalI;
 
 /**
- * Tests for the "The Grand Festival - I" puzzle.
+ * Tests for the "The grand festival - I" puzzle.
  *
  * @covers \CyrilVerloop\Codingame\Community\Training\Medium\TheGrandFestivalI\TheGrandFestivalI
  * @group theGrandFestivalI
