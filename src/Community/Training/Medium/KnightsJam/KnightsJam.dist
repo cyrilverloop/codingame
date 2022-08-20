@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\KnightsJam;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Knights jam" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/knights-jam
+ */
+class KnightsJam implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        for ($i = 0; $i < 3; $i++)
+        {
+            $line = stream_get_line($stdin, 4 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("-1\n");
+    }
+}
