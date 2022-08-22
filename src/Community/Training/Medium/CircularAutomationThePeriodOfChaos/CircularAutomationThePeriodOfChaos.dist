@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\CircularAutomationThePeriodOfChaos;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Circular automation, the period of chaos" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/circular-automation-the-period-of-chaos
+ */
+class CircularAutomationThePeriodOfChaos implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $lineLength);
+        fscanf($stdin, "%d", $maxIter);
+        fscanf($stdin, "%d", $ruleNumber);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("0\n");
+    }
+}
