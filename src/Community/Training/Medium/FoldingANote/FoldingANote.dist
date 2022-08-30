@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\FoldingANote;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Folding a note" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/folding-a-note
+ */
+class FoldingANote implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $L = stream_get_line($stdin, $N + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("decoded note\n");
+    }
+}
