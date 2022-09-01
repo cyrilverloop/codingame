@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\MitosisMayhem;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Mitosis mayhem" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/mitosis-mayhem
+ */
+class MitosisMayhem implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $max, $cycles);
+        for ($i = 0; $i < $cycles; $i++)
+        {
+            fscanf($stdin, "%s %d %d", $name, $initialCount, $power);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("The Answer: 42\n");
+    }
+}
