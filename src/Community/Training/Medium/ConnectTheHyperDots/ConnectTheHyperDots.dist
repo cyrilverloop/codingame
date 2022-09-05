@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\ConnectTheHyperDots;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Connect the hyper-dots" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/connect-the-hyper-dots
+ */
+class ConnectTheHyperDots implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $count, $n);
+        for ($i = 0; $i < $count; $i++)
+        {
+            $labeledPoint = stream_get_line($stdin, 99 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("phrase\n");
+    }
+}
