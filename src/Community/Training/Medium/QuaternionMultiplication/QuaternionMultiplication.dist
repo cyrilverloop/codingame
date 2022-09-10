@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\QuaternionMultiplication;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Quaternion multiplication" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/quaternion-multiplication
+ */
+class QuaternionMultiplication implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $expr = stream_get_line($stdin, 255 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
