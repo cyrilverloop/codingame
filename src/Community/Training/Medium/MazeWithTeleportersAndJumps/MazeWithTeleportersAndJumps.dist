@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\MazeWithTeleportersAndJumps;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Maze /w teleporters and jumps" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/maze-w-teleporters-and-jumps
+ */
+class MazeWithTeleportersAndJumps implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $width);
+        fscanf($stdin, "%d", $height);
+        for ($i = 0; $i < $height; $i++)
+        {
+            $row = stream_get_line($stdin, 48 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
