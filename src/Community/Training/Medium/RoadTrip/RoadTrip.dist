@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\RoadTrip;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Road trip" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/road-trip
+ */
+class RoadTrip implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d %d", $N, $C, $P);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%d %d", $budget, $joy);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("max_happiness\n");
+    }
+}
