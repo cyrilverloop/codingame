@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\TwoPlayerGameOnACalculator;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "2-player game on a calculator" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/2-player-game-on-a-calculator
+ */
+class TwoPlayerGameOnACalculator implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
