@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\ElementaryCellularAutomaton;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Elementary cellular automaton" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/elementary-cellular-automaton
+ */
+class ElementaryCellularAutomaton implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $R);
+        fscanf($stdin, "%d", $N);
+        fscanf($stdin, "%s", $startPattern);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo(".....@.@.....\n");
+    }
+}
