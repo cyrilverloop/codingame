@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\BracketsExtendedEdition;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Brackets, extended edition" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/brackets-extended-edition
+ */
+class BracketsExtendedEdition implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $expression = stream_get_line($stdin, 10000 + 1, "\n");
+        }
+        for ($i = 0; $i < $N; $i++)
+        {
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("true\n");
+        }
+    }
+}
