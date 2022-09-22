@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\TargetFiring;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Target firing" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/target-firing
+ */
+class TargetFiring implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%s %d %d %d", $SHIP, $HP, $ARMOR, $DAMAGE);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("PEWPEW\n");
+    }
+}
