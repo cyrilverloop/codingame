@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\JumpingFrogs;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Jumping frogs" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/jumping-frogs
+ */
+class JumpingFrogs implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        for ($i = 0; $i < 3; $i++)
+        {
+            fscanf($stdin, "%d %d %d", $x, $y, $k);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("Possible\n");
+    }
+}
