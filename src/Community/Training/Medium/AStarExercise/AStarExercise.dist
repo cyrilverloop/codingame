@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\AStarExercise;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "A-star exercise" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/a-star-exercise
+ */
+class AStarExercise implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d %d %d", $N, $E, $S, $G);
+        $inputs = explode(" ", fgets($stdin));
+        for ($i = 0; $i < $N; $i++)
+        {
+            $node = intval($inputs[$i]);
+        }
+        for ($i = 0; $i < $E; $i++)
+        {
+            fscanf($stdin, "%d %d %d", $x, $y, $c);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("0 0\n");
+    }
+}
