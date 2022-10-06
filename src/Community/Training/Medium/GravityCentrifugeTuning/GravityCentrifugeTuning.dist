@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\GravityCentrifugeTuning;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Gravity centrifuge tuning" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/gravity-centrifuge-tuning
+ */
+class GravityCentrifugeTuning implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $N = stream_get_line($stdin, 10000 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo(""123"\n");
+    }
+}
