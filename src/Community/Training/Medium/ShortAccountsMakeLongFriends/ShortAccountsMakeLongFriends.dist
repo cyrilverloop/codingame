@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\ShortAccountsMakeLongFriends;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Short accounts make long friends" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/short-accounts-make-long-friends
+ */
+class ShortAccountsMakeLongFriends implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $result);
+        fscanf($stdin, "%d %d %d %d %d %d", $a, $b, $c, $d, $e, $f);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("POSSIBLE/IMPOSSIBLE\n");
+        echo("write value\n");
+    }
+}
