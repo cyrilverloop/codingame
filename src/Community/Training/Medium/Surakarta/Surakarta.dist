@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\Surakarta;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Surakarta" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/surakarta
+ */
+class Surakarta implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        for ($i = 0; $i < 6; $i++)
+        {
+            fscanf($stdin, "%s", $line);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
