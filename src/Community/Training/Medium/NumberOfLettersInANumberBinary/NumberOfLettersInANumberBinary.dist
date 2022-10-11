@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\NumberOfLettersInANumberBinary;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Number of letters in a number - Binary" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/number-of-letters-in-a-number---binary
+ */
+class NumberOfLettersInANumberBinary implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $start, $n);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("42\n");
+    }
+}
