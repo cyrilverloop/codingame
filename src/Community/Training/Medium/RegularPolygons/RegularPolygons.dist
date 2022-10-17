@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\RegularPolygons;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Regular polygons" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/regular-polygons
+ */
+class RegularPolygons implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $a, $b);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
