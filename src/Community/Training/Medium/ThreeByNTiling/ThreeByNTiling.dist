@@ -1,0 +1,30 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\ThreeByNTiling;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "3×N tiling" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/3n-tiling
+ */
+class ThreeByNTiling implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $T);
+        for ($i = 0; $i < $T; $i++)
+        {
+            fscanf($stdin, "%d %d", $K, $N);
+        }
+        for ($i = 0; $i < $T; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("W\n");
+        }
+    }
+}
