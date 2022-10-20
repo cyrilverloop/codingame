@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\HexagonalMazePart2;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Hexagonal maze - part2" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/hexagonal-maze---part2
+ */
+class HexagonalMazePart2 implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $w, $h);
+        for ($i = 0; $i < $h; $i++)
+        {
+            $row = stream_get_line($stdin, 41 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
