@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\MagicStones;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Magic stones" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/magic-stones
+ */
+class MagicStones implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        $inputs = explode(" ", fgets($stdin));
+        for ($i = 0; $i < $N; $i++)
+        {
+            $level = intval($inputs[$i]);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("1\n");
+    }
+}
