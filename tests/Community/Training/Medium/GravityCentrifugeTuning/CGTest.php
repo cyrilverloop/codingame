@@ -26,7 +26,7 @@ final class CGTest extends PuzzleTest
      *
      * @group gravityCentrifugeTuning_tumble
      */
-    public function testCanExecuteTest1(): void
+    public function testCanExecuteTumble(): void
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - tumble.txt',
