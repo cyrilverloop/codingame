@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\BinarySearchTreeTraversal;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Binary search tree traversal" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/binary-search-tree-traversal
+ */
+class BinarySearchTreeTraversal implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        $inputs = explode(" ", fgets($stdin));
+        for ($i = 0; $i < $n; $i++)
+        {
+            $vi = intval($inputs[$i]);
+        }
+        for ($i = 0; $i < 4; $i++)
+        {
+
+            // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+            echo("answer\n");
+        }
+    }
+}
