@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\GravityCentrifuge;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Gravity centrifuge" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/gravity-centrifuge
+ */
+class GravityCentrifuge implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d %d", $width, $height);
+        $bitstream = stream_get_line($stdin, 10000 + 1, "\n");
+        for ($i = 0; $i < $height; $i++)
+        {
+            $raster = stream_get_line($stdin, $width + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("...\n");
+        echo("write ###\n");
+    }
+}
