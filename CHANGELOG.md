@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Snake encoding".
 - Tests for "Binary search tree traversal".
 - Tests for "Gravity centrifuge".
+- Tests for "Identifying data structure".
 
 ## [3.13.0] - 2022-09-30
 ### Added
