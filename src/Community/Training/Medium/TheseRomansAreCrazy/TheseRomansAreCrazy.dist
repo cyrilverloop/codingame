@@ -1,0 +1,20 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\TheseRomansAreCrazy;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "These romans are crazy!" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/these-romans-are-crazy!
+ */
+class TheseRomansAreCrazy implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%s", $rom1);
+        fscanf($stdin, "%s", $rom2);
+    }
+}
