@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\VirusSpreadingAndClustering;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Virus spreading and clustering" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/virus-spreading-and-clustering
+ */
+class VirusSpreadingAndClustering implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $npeople);
+        fscanf($stdin, "%d", $nlinks);
+        for ($i = 0; $i < $nlinks; $i++)
+        {
+            $LINKS = stream_get_line($stdin, 1024 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
