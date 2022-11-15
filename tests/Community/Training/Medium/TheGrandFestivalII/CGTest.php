@@ -10,7 +10,7 @@ use CyrilVerloop\Codingame\Community\Training\Medium\TheGrandFestivalII\TheGrand
 /**
  * Tests for the "The grand festival - II" puzzle.
  *
- * @covers \CyrilVerloop\Codingame\Community\Training\Medium\TheGrandFestivalI\TheGrandFestivalII
+ * @covers \CyrilVerloop\Codingame\Community\Training\Medium\TheGrandFestivalII\TheGrandFestivalII
  * @group theGrandFestivalII
  * @medium
  */
