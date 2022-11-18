@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\FactorialVsExponential;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Factorial vs exponential" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/factorial-vs-exponential
+ */
+class FactorialVsExponential implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $K);
+        $inputs = explode(" ", fgets($stdin));
+        for ($i = 0; $i < $K; $i++)
+        {
+            $A = floatval($inputs[$i]);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
