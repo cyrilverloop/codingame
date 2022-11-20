@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Digit sum successor".
 - Tests for "Factorial vs exponential".
 - Tests for "Langton's ant".
+- Tests for "Anagrams".
 
 ### Fixed
 - Covers annotation for "The grand festival - II".
