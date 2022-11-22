@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Langton's ant".
 - Tests for "Anagrams".
 - Tests for "The stonemason".
+- Tests for "Continued fractions".
 
 ### Fixed
 - Covers annotation for "The grand festival - II".
