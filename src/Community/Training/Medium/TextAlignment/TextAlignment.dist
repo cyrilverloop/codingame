@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\TextAlignment;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Text alignment" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/text-alignment
+ */
+class TextAlignment implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $alignment = stream_get_line($stdin, 7 + 1, "\n");
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $text = stream_get_line($stdin, 256 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
