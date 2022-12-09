@@ -24,7 +24,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Just math".
      *
-     * @group goroWantChocolate_justMath
+     * @group CGFungeInterpreter_justMath
      */
     public function testCanExecuteJustMath(): void
     {
@@ -37,7 +37,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Simple text".
      *
-     * @group goroWantChocolate_simpleText
+     * @group CGFungeInterpreter_simpleText
      */
     public function testCanExecuteSimpleText(): void
     {
@@ -50,7 +50,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Go all ways".
      *
-     * @group goroWantChocolate_goAllWays
+     * @group CGFungeInterpreter_goAllWays
      */
     public function testCanExecuteGoAllWays(): void
     {
@@ -63,7 +63,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Very hello world".
      *
-     * @group goroWantChocolate_veryHelloWorld
+     * @group CGFungeInterpreter_veryHelloWorld
      */
     public function testCanExecuteVeryHelloWorld(): void
     {
@@ -76,7 +76,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Sing me a song".
      *
-     * @group diceProbabilityCalculator_singMeASong
+     * @group CGFungeInterpreter_singMeASong
      */
     public function testCanExecuteADieAndTwoAdditions(): void
     {
@@ -89,7 +89,7 @@ final class CGTest extends PuzzleTest
     /**
      * Test that the code can be executed for "Skip & short lines".
      *
-     * @group goroWantChocolate_skipAndShortLines
+     * @group CGFungeInterpreter_skipAndShortLines
      */
     public function testCanExecuteSkipAndShortLines(): void
     {

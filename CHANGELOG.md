@@ -16,6 +16,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Elliptic curve cryptography".
 - Tests for "Train passenger".
 
+### Fixed
+- Tests groups for "CGFunge interpreter".
+
 ## [3.15.0] - 2022-11-30
 ### Added
 - Tests for "Bulgarian solitaire".
