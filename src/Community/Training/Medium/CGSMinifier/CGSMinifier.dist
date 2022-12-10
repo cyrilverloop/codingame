@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\CGSMinifier;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "CGS minifier" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/cgs-minifier
+ */
+class CGSMinifier implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $cgsContent = stream_get_line($stdin, 256 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("minified all CGS content\n");
+    }
+}
