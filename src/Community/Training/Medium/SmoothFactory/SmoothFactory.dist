@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\SmoothFactory;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Smooth factory" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/smooth-factory
+ */
+class SmoothFactory implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $V);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("15\n");
+    }
+}

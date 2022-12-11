@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Elliptic curve cryptography".
 - Tests for "Train passenger".
 - Tests for "CGS minifier".
+- Tests for "Smooth factory".
 
 ### Fixed
 - Tests groups for "CGFunge interpreter".
