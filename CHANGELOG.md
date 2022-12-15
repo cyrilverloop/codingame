@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Sum of divisors".
 - Tests for "Numeral system".
 - Tests for "Flood fill example".
+- Tests for "5D chests".
 
 ### Fixed
 - Tests groups for "CGFunge interpreter".
