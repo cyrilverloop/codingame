@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "5D chests".
 - Tests for "Near-palindromes".
 - Tests for "Reversed look-and-say".
+- Tests for "Holey times".
 
 ### Fixed
 - Tests groups for "CGFunge interpreter".
