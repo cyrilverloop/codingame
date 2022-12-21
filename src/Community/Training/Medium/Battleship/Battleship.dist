@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\Battleship;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Battleship" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/battleship
+ */
+class Battleship implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%s", $SHOT);
+        for ($i = 0; $i < 10; $i++)
+        {
+            fscanf($stdin, "%s", $LINE);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
