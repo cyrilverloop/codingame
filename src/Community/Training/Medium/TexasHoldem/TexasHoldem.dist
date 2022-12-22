@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\TexasHoldem;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Texas holdem" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/texas-holdem
+ */
+class TexasHoldem implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $holeCardsPlayer1 = stream_get_line($stdin, 256 + 1, "\n");
+        $holeCardsPlayer2 = stream_get_line($stdin, 256 + 1, "\n");
+        $communityCards = stream_get_line($stdin, 256 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}

@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Consecutive balanced substrings".
 - Tests for "Palindromic decomposition".
 - Tests for "Battleship".
+- Tests for "Texas holdem".
 
 ### Fixed
 - Tests groups for "CGFunge interpreter".
