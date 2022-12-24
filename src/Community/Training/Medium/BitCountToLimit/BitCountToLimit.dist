@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\BitCountToLimit;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Bit count to limit" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/bit-count-to-limit
+ */
+class BitCountToLimit implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("Number of 1s\n");
+    }
+}
