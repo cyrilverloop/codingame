@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Solid integer".
 - Tests for "Bit count to limit".
 - Tests for "Porcupine fever".
+- Tests for "Bijective numeration".
 
 ### Fixed
 - Tests groups for "CGFunge interpreter".
