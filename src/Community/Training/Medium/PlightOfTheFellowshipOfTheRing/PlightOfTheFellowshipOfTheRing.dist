@@ -1,0 +1,39 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\PlightOfTheFellowshipOfTheRing;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Plight of the fellowship of the ring" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/plight-of-the-fellowship-of-the-ring
+ */
+class PlightOfTheFellowshipOfTheRing implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $N);
+        fscanf($stdin, "%d", $M);
+        fscanf($stdin, "%d", $L);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%d %d", $XS, $YS);
+        }
+        for ($i = 0; $i < $M; $i++)
+        {
+            fscanf($stdin, "%d %d", $XO, $YO);
+        }
+        for ($i = 0; $i < $L; $i++)
+        {
+            fscanf($stdin, "%d %d", $N1, $N2);
+        }
+        fscanf($stdin, "%d", $S);
+        fscanf($stdin, "%d", $E);
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("path\n");
+    }
+}
