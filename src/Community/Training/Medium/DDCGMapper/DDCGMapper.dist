@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\DDCGMapper;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "DDCG mapper" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/ddcg-mapper
+ */
+class DDCGMapper implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $L);
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            fscanf($stdin, "%s %d", $pattern, $tempo);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
