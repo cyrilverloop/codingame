@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tests for "Plight of the fellowship of the ring".
 - Tests for "DDCG mapper".
 - Tests for "Queneau numbers".
+- Tests for "Simple fraction to mixed number".
 
 ### Fixed
 - Tests groups for "CGFunge interpreter".
