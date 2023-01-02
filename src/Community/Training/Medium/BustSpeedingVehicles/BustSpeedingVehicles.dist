@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\BustSpeedingVehicles;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Bust speeding vehicles" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/bust-speeding-vehicles
+ */
+class BustSpeedingVehicles implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $L);
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $R = stream_get_line($stdin, 255 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("result\n");
+    }
+}
