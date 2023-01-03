@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\IsTheKingInCheckPart2;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Is the king in check? (part 2)" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/is-the-king-in-check-part-2
+ */
+class IsTheKingInCheckPart2 implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        for ($i = 0; $i < 8; $i++)
+        {
+            $chessRow = stream_get_line($stdin, 15 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("Check/No Check\n");
+    }
+}
