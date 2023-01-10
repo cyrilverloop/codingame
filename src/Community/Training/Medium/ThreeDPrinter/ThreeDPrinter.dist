@@ -1,0 +1,37 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\ThreeDPrinter;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "3D printer" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/3d-printer
+ */
+class ThreeDPrinter implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $width);
+        fscanf($stdin, "%d", $height);
+        fscanf($stdin, "%d", $length);
+        for ($i = 0; $i < $height; $i++)
+        {
+            $line = stream_get_line($stdin, 999 + 1, "\n");
+        }
+        for ($i = 0; $i < $height; $i++)
+        {
+            $line = stream_get_line($stdin, 999 + 1, "\n");
+        }
+        for ($i = 0; $i < $length; $i++)
+        {
+            $line = stream_get_line($stdin, 999 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
