@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\Cylinders;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Cylinders" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/cylinders
+ */
+class Cylinders implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            $line = stream_get_line($stdin, 100 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
