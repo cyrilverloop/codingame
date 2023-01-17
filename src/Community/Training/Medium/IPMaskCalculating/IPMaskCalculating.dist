@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\IPMaskCalculating;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "IP mask calculating" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/ip-mask-calculating
+ */
+class IPMaskCalculating implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $ip = stream_get_line($stdin, 18 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("network address\n");
+        echo("broadcast address\n");
+    }
+}
