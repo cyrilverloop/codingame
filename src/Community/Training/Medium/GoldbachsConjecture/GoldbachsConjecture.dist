@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\GoldbachsConjecture;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Goldbach’s conjecture" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/goldbachs-conjecture
+ */
+class GoldbachsConjecture implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $n);
+        for ($i = 0; $i < $n; $i++)
+        {
+            fscanf($stdin, "%d", $m);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("2\n");
+    }
+}
