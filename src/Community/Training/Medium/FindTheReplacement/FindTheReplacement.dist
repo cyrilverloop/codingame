@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\FindTheReplacement;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Find the replacement" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/find-the-replacement
+ */
+class FindTheReplacement implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $X = stream_get_line($stdin, 99 + 1, "\n");
+        $Y = stream_get_line($stdin, 99 + 1, "\n");
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("anwser\n");
+    }
+}
