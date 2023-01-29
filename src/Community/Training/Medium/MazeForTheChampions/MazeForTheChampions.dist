@@ -1,0 +1,28 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\MazeForTheChampions;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Maze for the champions" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/maze-for-the-champions
+ */
+class MazeForTheChampions implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        fscanf($stdin, "%d", $W);
+        fscanf($stdin, "%d", $H);
+        for ($i = 0; $i < $H; $i++)
+        {
+            fscanf($stdin, "%s", $EXT);
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("answer\n");
+    }
+}
