@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Community\Training\Medium\AdvancedTree;
+
+use CyrilVerloop\Codingame\Puzzle;
+
+/**
+ * The "Advanced tree" puzzle.
+ * @link https://www.codingame.com/ide/puzzle/advanced-tree
+ */
+class AdvancedTree implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        $S = stream_get_line($stdin, 512 + 1, "\n");
+        $F = stream_get_line($stdin, 512 + 1, "\n");
+        fscanf($stdin, "%d", $N);
+        for ($i = 0; $i < $N; $i++)
+        {
+            $line = stream_get_line($stdin, 512 + 1, "\n");
+        }
+
+        // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+        echo("Tree output\n");
+    }
+}
