@@ -1,4 +1,3 @@
-/ci/cache/
 /ci/phpunit/
 /ci/phpunit.xml
 /src/**/*.php
@@ -6,4 +5,5 @@
 /tests/**/*.php
 !/tests/**/CGTest.php
 /tools/
+/var/cache/
 /vendor/
