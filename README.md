@@ -6,17 +6,34 @@ It only contains PHPUnit tests to let you code in your favorite IDE, outside of 
 [![License](https://img.shields.io/github/license/cyrilverloop/codingame-php-tests)](https://github.com/cyrilverloop/codingame-php-tests/blob/trunk/LICENSE)
 [![PHP version](https://img.shields.io/badge/php-%3D7.3-%23777BB4?logo=php&style=flat)](https://www.php.net/)
 
+**This project now uses PHP 8.2+ and unfortunaly CodinGame is still on PHP 7.3
+which is not [supported](https://www.php.net/supported-versions.php) anymore.
+If you want to run your code on PHP 7.3,
+you can use a version up to 3.x of this software which do not receive further update.**
+
 
 ## Installation
 
-Downloading the project :
+This project uses Git to download/update the project and Docker to run the code.
+You can use this software without Git and Docker, but no support will be provided to that end.
+
+Download the project :
 ```shellsession
 user@host ~$ cd [PATH_WHERE_TO_PUT_THE_PROJECT] # E.g. ~/projects/
 user@host projects$ git clone https://github.com/cyrilverloop/codingame-php-tests.git
 user@host projects$ cd codingame-php-tests
 ```
 
-Installing the dependencies :
+Copy some configuration files for Docker and PHPUnit :
+```shellsession
+user@host projects$ cp ./ci/phpunit.dist.xml ./ci/phpunit.xml
+user@host projects$ cp ./.ashrc.dist ./.ashrc
+user@host projects$ cp ./docker-compose.override.yml.dist ./docker-compose.override.yml
+```
+The `./ci/phpunit.xml`, `./.ashrc` and `./docker-compose.override.yml` files are ignored by git, you can modify them to your needs.
+The `./.ashrc` and `./docker-compose.override.yml` add some aliases to your container.
+
+Install the dependencies :
 ```shellsession
 user@host codingame-php-tests$ docker compose run --rm app composer install -o
 user@host codingame-php-tests$ docker compose run --rm app phive install --trust-gpg-keys 4AA394086372C20A,12CE0F1D262429A5,31C7E470E2138192
@@ -37,20 +54,32 @@ Then, add your code to solve the puzzle.
 
 ## Test your solution
 
-Executing all the tests :
+Launch a container and connect to it :
 ```shellsession
-user@host codingame-php-tests$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml
+user@host codingame-php-tests$ docker compose run --rm app ash
 ```
 
-Executing tests for a particular puzzle or a test case :
+Execute all the tests :
 ```shellsession
-user@host codingame-php-tests$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --group [GROUP_NAME]
+phpunit
+```
+
+Execute tests for a particular puzzle or a test case :
+```shellsession
+phpunit --group [GROUP_NAME]
 ```
 
 To view the list of test groups :
 ```shellsession
-user@host codingame-php-tests$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.dist.xml --list-groups
+phpunit --list-groups
 ```
+
+You can also execute tests from outside of the container :
+```shellsession
+user@host codingame-php-tests$ docker compose run --rm app ./tools/phpunit -c ./ci/phpunit.xml
+```
+
+Tip : to activate HTML coverage report and testdox logging, you can uncomment their configuration in `phpunit.xml`.
 
 
 ## Add your test (optional)
