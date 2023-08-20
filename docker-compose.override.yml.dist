@@ -1,0 +1,6 @@
+services:
+    app:
+        environment:
+            - ENV=/root/.ashrc
+        volumes:
+            - ./.ashrc:/root/.ashrc

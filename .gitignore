@@ -7,3 +7,5 @@
 /tools/
 /var/cache/
 /vendor/
+/.ashrc
+/docker-compose.override.yml
