@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Community\Training\Medium\One0One0One;
 
-use CyrilVerloop\Codingame\Tests\PuzzleTest;
+use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
 use CyrilVerloop\Codingame\Community\Training\Medium\One0One0One\One0One0One;
 
 /**
@@ -14,7 +14,7 @@ use CyrilVerloop\Codingame\Community\Training\Medium\One0One0One\One0One0One;
  * @group one0One0One
  * @medium
  */
-final class CGTest extends PuzzleTest
+final class CGTest extends PuzzleTestCase
 {
     public function setUp(): void
     {

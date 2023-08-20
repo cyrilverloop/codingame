@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Community\Training\Easy\XMLMDF2016;
 
-use CyrilVerloop\Codingame\Tests\PuzzleTest;
+use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
 use CyrilVerloop\Codingame\Community\Training\Easy\XMLMDF2016\XMLMDF2016;
 
 /**
@@ -14,7 +14,7 @@ use CyrilVerloop\Codingame\Community\Training\Easy\XMLMDF2016\XMLMDF2016;
  * @group XMLMDF2016
  * @medium
  */
-final class CGTest extends PuzzleTest
+final class CGTest extends PuzzleTestCase
 {
     public function setUp(): void
     {

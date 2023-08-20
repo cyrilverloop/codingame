@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Community\Training\Easy\TenPinBowlingScores;
 
-use CyrilVerloop\Codingame\Tests\PuzzleTest;
+use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
 use CyrilVerloop\Codingame\Community\Training\Easy\TenPinBowlingScores\TenPinBowlingScores;
 
 /**
@@ -14,7 +14,7 @@ use CyrilVerloop\Codingame\Community\Training\Easy\TenPinBowlingScores\TenPinBow
  * @group 10PinBowlingScores
  * @medium
  */
-final class CGTest extends PuzzleTest
+final class CGTest extends PuzzleTestCase
 {
     public function setUp(): void
     {

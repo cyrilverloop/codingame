@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Community\Training\Easy\MayTheTriforceBeWithYou;
 
-use CyrilVerloop\Codingame\Tests\PuzzleTest;
+use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
 use CyrilVerloop\Codingame\Community\Training\Easy\MayTheTriforceBeWithYou\MayTheTriforceBeWithYou;
 
 /**
@@ -14,7 +14,7 @@ use CyrilVerloop\Codingame\Community\Training\Easy\MayTheTriforceBeWithYou\MayTh
  * @group mayTheTriforceBeWithYou
  * @medium
  */
-final class CGTest extends PuzzleTest
+final class CGTest extends PuzzleTestCase
 {
     public function setUp(): void
     {

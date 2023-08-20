@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Training\Expert\TheResistance;
 
-use CyrilVerloop\Codingame\Tests\PuzzleTest;
+use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
 use CyrilVerloop\Codingame\Training\Expert\TheResistance\TheResistance;
 
 /**
@@ -14,7 +14,7 @@ use CyrilVerloop\Codingame\Training\Expert\TheResistance\TheResistance;
  * @group theResistance
  * @medium
  */
-final class CGTest extends PuzzleTest
+final class CGTest extends PuzzleTestCase
 {
     public function setUp(): void
     {
