@@ -1,0 +1,39 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\Tests\{{ namespace }};
+
+use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
+use CyrilVerloop\Codingame\{{ namespace }}\{{ class }};
+use PHPUnit\Framework\Attributes as PA;
+
+/**
+ * Tests for the "{{ name }}" puzzle.
+ */
+#[
+    PA\CoversClass({{ class }}::class),
+    PA\Group('{{ group }}'),
+    PA\Medium
+]
+final class CGTest extends PuzzleTestCase
+{
+    public function setUp(): void
+    {
+        $this->puzzle = new {{ class }}();
+    }
+{% for test in tests %}
+
+    /**
+     * Test that the code can be executed for "{{ test.name }}".
+     */
+    #[PA\Group('{{ group }}_{{ test.group }}')]
+    public function testCanExecuteTest{{ test.group|u.camel.title }}(): void
+    {
+        $this->expectExecuteOutputAnswer(
+            __DIR__ . '/input/{{ test.file }}',
+            file_get_contents(__DIR__ . '/output/{{ test.file }}')
+        );
+    }
+{% endfor %}
+}

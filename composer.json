@@ -20,6 +20,8 @@
         }
     ],
     "require": {
-        "php": "8.2.*"
+        "php": "8.2.*",
+        "twig/twig": "^3.7",
+        "twig/string-extra": "^3.7"
     }
 }
