@@ -17,15 +17,15 @@
     failOnWarning="true"
     testdox="true"
     >
-    <coverage includeUncoveredFiles="true">
+<!--    <coverage includeUncoveredFiles="true">
         <report>
             <html outputDirectory="phpunit/html" />
         </report>
-    </coverage>
+    </coverage>-->
 
-    <logging>
+<!--    <logging>
         <testdoxHtml outputFile="phpunit/testdox.html" />
-    </logging>
+    </logging>-->
 
     <source>
         <include>
