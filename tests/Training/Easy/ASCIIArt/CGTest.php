@@ -6,14 +6,16 @@ namespace CyrilVerloop\Codingame\Tests\Training\Easy\ASCIIArt;
 
 use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
 use CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt;
+use PHPUnit\Framework\Attributes as PA;
 
 /**
  * Tests for the "ASCII Art" puzzle.
- *
- * @covers \CyrilVerloop\Codingame\Training\Easy\ASCIIArt\ASCIIArt
- * @group ASCIIArt
- * @medium
  */
+#[
+    PA\CoversClass(ASCIIArt::class),
+    PA\Group('ASCIIArt'),
+    PA\Medium
+]
 final class CGTest extends PuzzleTestCase
 {
     public function setUp(): void
@@ -23,9 +25,8 @@ final class CGTest extends PuzzleTestCase
 
     /**
      * Test that the code can be executed for "Test only one letter: E".
-     *
-     * @group ASCIIArt_onlyOneLetterE
      */
+    #[PA\Group('ASCIIArt_onlyOneLetterE')]
     public function testCanExecuteTestOnlyOneLetterE(): void
     {
         $this->expectExecuteOutputAnswer(
@@ -36,9 +37,8 @@ final class CGTest extends PuzzleTestCase
 
     /**
      * Test that the code can be executed for "Test MANHATTAN".
-     *
-     * @group ASCIIArt_testMANHATTAN
      */
+    #[PA\Group('ASCIIArt_testMANHATTAN')]
     public function testCanExecuteTestMANHATTAN(): void
     {
         $this->expectExecuteOutputAnswer(
@@ -49,9 +49,8 @@ final class CGTest extends PuzzleTestCase
 
     /**
      * Test that the code can be executed for "Test ManhAtTan".
-     *
-     * @group ASCIIArt_testManhAtTan
      */
+    #[PA\Group('ASCIIArt_testManhAtTan')]
     public function testCanExecuteTestDifferentCaseManhAtTan(): void
     {
         $this->expectExecuteOutputAnswer(
@@ -62,9 +61,8 @@ final class CGTest extends PuzzleTestCase
 
     /**
      * Test that the code can be executed for "Test M@NH@TT@N".
-     *
-     * @group ASCIIArt_testM@NH@TT@N
      */
+    #[PA\Group('ASCIIArt_testM@NH@TT@N')]
     public function testCanExecuteTestMatNHatTTatN(): void
     {
         $this->expectExecuteOutputAnswer(
@@ -75,9 +73,8 @@ final class CGTest extends PuzzleTestCase
 
     /**
      * Test that the code can be executed for "MANHATTAN with another ASCII representation".
-     *
-     * @group ASCIIArt_MANHATTANWithAnotherASCIIRepresentation
      */
+    #[PA\Group('ASCIIArt_MANHATTANWithAnotherASCIIRepresentation')]
     public function testCanExecuteMANHATTANWithAnotherASCIIRepresentation(): void
     {
         $this->expectExecuteOutputAnswer(
@@ -88,9 +85,8 @@ final class CGTest extends PuzzleTestCase
 
     /**
      * Test that the code can be executed for "Test MAN HAT TAN".
-     *
-     * @group ASCIIArt_TestMAN_HAT_TAN
      */
+    #[PA\Group('ASCIIArt_TestMAN_HAT_TAN')]
     public function testCanExecuteTestMAN_HAT_TAN(): void
     {
         $this->expectExecuteOutputAnswer(
