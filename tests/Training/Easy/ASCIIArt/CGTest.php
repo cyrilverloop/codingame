@@ -26,7 +26,7 @@ final class CGTest extends PuzzleTestCase
     /**
      * Test that the code can be executed for "Test only one letter: E".
      */
-    #[PA\Group('ASCIIArt_onlyOneLetterE')]
+    #[PA\Group('ASCIIArt_testOnlyOneLetterE')]
     public function testCanExecuteTestOnlyOneLetterE(): void
     {
         $this->expectExecuteOutputAnswer(
