@@ -1,6 +1,7 @@
 /ci/phpunit/
 /ci/phpunit.xml
 /src/**/*.php
+!/src/Generator/*.php
 !/src/Puzzle.php
 /tests/**/*.php
 !/tests/**/CGTest.php

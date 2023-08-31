@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d9bc794a0d85c16ff8dd96b6c3aa54a",
+    "content-hash": "014d4f76859ad8199a319ac2b58c2854",
     "packages": [
+        {
+            "name": "cyril-verloop/iterator",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cyrilverloop/iterator.git",
+                "reference": "64ead6f3d0c978678cba307a4685bb036a9f6a16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cyrilverloop/iterator/zipball/64ead6f3d0c978678cba307a4685bb036a9f6a16",
+                "reference": "64ead6f3d0c978678cba307a4685bb036a9f6a16",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CyrilVerloop\\Iterator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cyril VERLOOP",
+                    "email": "cyril.verloop@webqard.fr"
+                }
+            ],
+            "description": "An iterator utility.",
+            "support": {
+                "issues": "https://github.com/cyrilverloop/iterator/issues",
+                "source": "https://github.com/cyrilverloop/iterator/tree/3.1.1"
+            },
+            "time": "2022-04-06T09:51:45+00:00"
+        },
         {
             "name": "symfony/polyfill-ctype",
             "version": "v1.27.0",
