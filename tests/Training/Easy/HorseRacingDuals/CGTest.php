@@ -6,14 +6,16 @@ namespace CyrilVerloop\Codingame\Tests\Training\Easy\HorseRacingDuals;
 
 use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
 use CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals;
+use PHPUnit\Framework\Attributes as PA;
 
 /**
  * Tests for the "Horse-racing Duals" puzzle.
- *
- * @covers \CyrilVerloop\Codingame\Training\Easy\HorseRacingDuals\HorseRacingDuals
- * @group horseRacingDuals
- * @medium
  */
+#[
+    PA\CoversClass(HorseRacingDuals::class),
+    PA\Group('horseRacingDuals'),
+    PA\Medium
+]
 final class CGTest extends PuzzleTestCase
 {
     public function setUp(): void
@@ -23,40 +25,37 @@ final class CGTest extends PuzzleTestCase
 
     /**
      * Test that the code can be executed for "Simple case".
-     *
-     * @group horseRacingDuals_simpleCase
      */
+    #[PA\Group('horseRacingDuals_simpleCase')]
     public function testCanExecuteSimpleCase(): void
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - simple case.txt',
-            1 . PHP_EOL
+            file_get_contents(__DIR__ . '/output/01 - simple case.txt')
         );
     }
 
     /**
      * Test that the code can be executed for "Horses in any order".
-     *
-     * @group horseRacingDuals_horsesInAnyOrder
      */
+    #[PA\Group('horseRacingDuals_horsesInAnyOrder')]
     public function testCanExecuteHorsesInAnyOrder(): void
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - horses in any order.txt',
-            1 . PHP_EOL
+            file_get_contents(__DIR__ . '/output/02 - horses in any order.txt')
         );
     }
 
     /**
      * Test that the code can be executed for "Many horses".
-     *
-     * @group horseRacingDuals_manyHorses
      */
+    #[PA\Group('horseRacingDuals_manyHorses')]
     public function testCanExecuteManyHorses(): void
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/03 - many horses.txt',
-            47 . PHP_EOL
+            file_get_contents(__DIR__ . '/output/03 - many horses.txt')
         );
     }
 }
