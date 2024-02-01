@@ -19,7 +19,7 @@ $twig = new Environment($loader);
 $twig->addExtension(new StringExtension());
 $testGenerator = new TestGenerator($twig);
 
-$generator=new TestsGenerator($parser, $testGenerator);
+$generator = new TestsGenerator($parser, $testGenerator);
 $generator->generate(__DIR__ . '/../tests/');
 
 echo "Generation complete.\n\n";
