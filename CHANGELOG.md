@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Aliases in `.ashrc.dist`.
 
 ### Changed
-- PHP 7.3 => 8.2.
+- PHP 7.3 => 8.3.
 - PHPUnit 9 => 10.3.
 
 ## [3.17.0] - 2023-01-31

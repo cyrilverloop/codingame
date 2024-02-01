@@ -6,7 +6,7 @@ It only contains PHPUnit tests to let you code in your favorite IDE, outside of 
 [![License](https://img.shields.io/github/license/cyrilverloop/codingame-php-tests)](https://github.com/cyrilverloop/codingame-php-tests/blob/trunk/LICENSE)
 [![PHP version](https://img.shields.io/badge/php-%3D7.3-%23777BB4?logo=php&style=flat)](https://www.php.net/)
 
-**This project now uses PHP 8.2+ and unfortunaly CodinGame is still on PHP 7.3
+**This project now uses PHP 8.3+ and unfortunaly CodinGame is still on PHP 7.3
 which is not [supported](https://www.php.net/supported-versions.php) anymore.
 If you want to run your code on PHP 7.3,
 you can use a version up to 3.x of this software which do not receive further update.**

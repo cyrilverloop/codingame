@@ -1,8 +1,8 @@
-FROM php:8.2-cli-alpine
+FROM php:8.3-cli-alpine
 RUN apk update \
     && apk add gpg linux-headers oniguruma-dev $PHPIZE_DEPS \
     && docker-php-ext-install pcntl mbstring \
-    && pecl install xdebug-3.2.2 \
+    && pecl install xdebug-3.3.1 \
     && docker-php-ext-enable mbstring pcntl xdebug \
     && wget -O /usr/local/bin/phive https://phar.io/releases/phive.phar \
     && chmod +x /usr/local/bin/phive \
