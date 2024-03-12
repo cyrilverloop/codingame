@@ -2,9 +2,8 @@
 /ci/phpunit.xml
 /src/**/*.php
 !/src/Generator/*.php
-!/src/Puzzle.php
+!/src/CGCodeInterface.php
 /tests/**/*.php
-!/tests/**/CGTest.php
 /tools/
 /var/cache/
 /vendor/
