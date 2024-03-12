@@ -1,6 +1,5 @@
 {
     "namespace": "Training\\Easy\\HorseRacingDuals",
-    "class": "HorseRacingDuals",
     "name": "Horse-racing Duals",
     "group": "horseRacingDuals",
     "tests": [

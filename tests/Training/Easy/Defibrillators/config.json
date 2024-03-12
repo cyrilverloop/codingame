@@ -1,6 +1,5 @@
 {
     "namespace": "Training\\Easy\\Defibrillators",
-    "class": "Defibrillators",
     "name": "Defibrillators",
     "group": "defibrillators",
     "tests": [

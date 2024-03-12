@@ -1,6 +1,5 @@
 {
     "namespace": "Training\\Easy\\ASCIIArt",
-    "class": "ASCIIArt",
     "name": "ASCII Art",
     "group": "ASCIIArt",
     "tests": [

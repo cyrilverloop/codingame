@@ -5,22 +5,22 @@ declare(strict_types=1);
 namespace CyrilVerloop\Codingame\Tests\{{ configuration.namespace }};
 
 use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
-use CyrilVerloop\Codingame\{{ configuration.namespace }}\{{ configuration.class }};
+use CyrilVerloop\Codingame\{{ configuration.namespace }}\CGCode;
 use PHPUnit\Framework\Attributes as PA;
 
 /**
  * Tests for the "{{ configuration.name }}" puzzle.
  */
 #[
-    PA\CoversClass({{ configuration.class }}::class),
+    PA\CoversClass(CGCode::class),
     PA\Group('{{ configuration.group }}'),
     PA\Medium
 ]
-final class CGTest extends PuzzleTestCase
+final class CGTest extends CGTestCase
 {
     public function setUp(): void
     {
-        $this->puzzle = new {{ configuration.class }}();
+        $this->cgCode = new CGCode();
     }
 {% for test in configuration.testsConfigurations %}
 

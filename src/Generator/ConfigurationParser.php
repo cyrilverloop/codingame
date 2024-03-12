@@ -30,7 +30,6 @@ final class ConfigurationParser
 
         $puzzleConfiguration = new PuzzleConfiguration(
             $jsonConfiguration->namespace,
-            $jsonConfiguration->class,
             $jsonConfiguration->name,
             $jsonConfiguration->group,
             $puzzleTestsconfigurations

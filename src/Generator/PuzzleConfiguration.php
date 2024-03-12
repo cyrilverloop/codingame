@@ -17,11 +17,6 @@ final class PuzzleConfiguration
     private string $namespace;
 
     /**
-     * @var string the class.
-     */
-    private string $class;
-
-    /**
      * @var string the name.
      */
     private string $name;
@@ -42,20 +37,17 @@ final class PuzzleConfiguration
     /**
      * The constructor.
      * @param string $namespace the namespace.
-     * @param string $class the class.
      * @param string $name the name.
      * @param string $group the group.
      * @param \CyrilVerloop\Codingame\TestsGenerator\PuzzleTestConfigurations $testsConfigurations
      */
     public function __construct(
         string $namespace,
-        string $class,
         string $name,
         string $group,
         PuzzleTestConfigurations $testsConfigurations
     ) {
         $this->namespace = $namespace;
-        $this->class = $class;
         $this->name = $name;
         $this->group = $group;
         $this->testsConfigurations = $testsConfigurations;
@@ -71,15 +63,6 @@ final class PuzzleConfiguration
     public function getNamespace(): string
     {
         return $this->namespace;
-    }
-
-    /**
-     * Returns the class.
-     * @return string the class.
-     */
-    public function getClass(): string
-    {
-        return $this->class;
     }
 
     /**
