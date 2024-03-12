@@ -85,7 +85,7 @@ Tip : to activate HTML coverage report and testdox logging, you can uncomment th
 ## Add your test (optional)
 
 Every tests in `./tests/**/CGTest.php` files include the tests from CodinGame.
-You can add your own tests in other `./tests/**/*Test.php` files and add them to a group with the `@group` annotation.
+You can add your own tests in other `./tests/**/*Test.php` files and add them to a group with the `Group` attribute.
 
 
 ## Back to CodinGame
