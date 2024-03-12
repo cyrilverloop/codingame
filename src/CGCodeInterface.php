@@ -7,7 +7,7 @@ namespace CyrilVerloop\Codingame;
 /**
  * A base interface for puzzle.
  */
-interface Puzzle
+interface CGCodeInterface
 {
     /**
      * Execute the code of the puzzle.
