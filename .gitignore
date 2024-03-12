@@ -4,6 +4,7 @@
 !/src/Generator/*.php
 !/src/CGCodeInterface.php
 /tests/**/*.php
+!/tests/CGTestCase.php
 /tools/
 /var/cache/
 /vendor/
