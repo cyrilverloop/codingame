@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Community\Training\Medium\ContinuedFractions;
 
-use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
+use CyrilVerloop\Codingame\Tests\CGTestCase;
 use CyrilVerloop\Codingame\Community\Training\Medium\ContinuedFractions\ContinuedFractions;
 
 /**
@@ -14,7 +14,7 @@ use CyrilVerloop\Codingame\Community\Training\Medium\ContinuedFractions\Continue
  * @group continuedFractions
  * @medium
  */
-final class CGTest extends PuzzleTestCase
+final class CGTest extends CGTestCase
 {
     public function setUp(): void
     {

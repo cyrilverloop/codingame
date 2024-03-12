@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Training\Medium\StockExchangeLosses;
 
-use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
+use CyrilVerloop\Codingame\Tests\CGTestCase;
 use CyrilVerloop\Codingame\Training\Medium\StockExchangeLosses\StockExchangeLosses;
 
 /**
@@ -14,7 +14,7 @@ use CyrilVerloop\Codingame\Training\Medium\StockExchangeLosses\StockExchangeLoss
  * @group stockExchangeLosses
  * @medium
  */
-final class CGTest extends PuzzleTestCase
+final class CGTest extends CGTestCase
 {
     public function setUp(): void
     {

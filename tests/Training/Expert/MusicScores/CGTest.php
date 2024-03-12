@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Training\Expert\MusicScores;
 
-use CyrilVerloop\Codingame\Tests\PuzzleTestCase;
+use CyrilVerloop\Codingame\Tests\CGTestCase;
 use CyrilVerloop\Codingame\Training\Expert\MusicScores\MusicScores;
 
 /**
@@ -14,7 +14,7 @@ use CyrilVerloop\Codingame\Training\Expert\MusicScores\MusicScores;
  * @group musicScores
  * @medium
  */
-final class CGTest extends PuzzleTestCase
+final class CGTest extends CGTestCase
 {
     public function setUp(): void
     {
