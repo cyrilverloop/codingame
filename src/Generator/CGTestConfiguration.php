@@ -7,7 +7,7 @@ namespace CyrilVerloop\Codingame\Generator;
 /**
  * A puzzle's test configuration.
  */
-final class PuzzleTestConfiguration
+final class CGTestConfiguration
 {
     // Properties :
 

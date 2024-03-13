@@ -7,7 +7,7 @@ namespace CyrilVerloop\Codingame\Generator;
 /**
  * The puzzle's configuration.
  */
-final class PuzzleConfiguration
+final class CGConfiguration
 {
     // Properties :
 
@@ -27,9 +27,14 @@ final class PuzzleConfiguration
     private string $group;
 
     /**
-     * @var \CyrilVerloop\Codingame\TestsGenerator\PuzzleTestConfigurations the tests configurations.
+     * @var string the link.
      */
-    private PuzzleTestConfigurations $testsConfigurations;
+    private string $link;
+
+    /**
+     * @var \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations the tests configurations.
+     */
+    private CGTestConfigurations $testsConfigurations;
 
 
     // Magic methods :
@@ -39,17 +44,20 @@ final class PuzzleConfiguration
      * @param string $namespace the namespace.
      * @param string $name the name.
      * @param string $group the group.
-     * @param \CyrilVerloop\Codingame\TestsGenerator\PuzzleTestConfigurations $testsConfigurations
+     * @param string $link the link.
+     * @param \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations $testsConfigurations
      */
     public function __construct(
         string $namespace,
         string $name,
         string $group,
-        PuzzleTestConfigurations $testsConfigurations
+        string $link,
+        CGTestConfigurations $testsConfigurations
     ) {
         $this->namespace = $namespace;
         $this->name = $name;
         $this->group = $group;
+        $this->link = $link;
         $this->testsConfigurations = $testsConfigurations;
     }
 
@@ -84,10 +92,19 @@ final class PuzzleConfiguration
     }
 
     /**
-     * Returns the tests configurations.
-     * @return \CyrilVerloop\Codingame\TestsGenerator\PuzzleTestConfigurations the tests configurations.
+     * Returns the link.
+     * @return string the link.
      */
-    public function getTestsConfigurations(): PuzzleTestConfigurations
+    public function getLink(): string
+    {
+        return $this->link;
+    }
+
+    /**
+     * Returns the tests configurations.
+     * @return \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations the tests configurations.
+     */
+    public function getTestsConfigurations(): CGTestConfigurations
     {
         return $this->testsConfigurations;
     }
