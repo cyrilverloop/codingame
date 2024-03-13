@@ -1,3 +1,4 @@
+/ci/infection/
 /ci/phpunit/
 /ci/phpunit.xml
 /src/**/*.php
