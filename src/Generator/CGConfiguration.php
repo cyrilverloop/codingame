@@ -32,7 +32,7 @@ final class CGConfiguration
     private string $link;
 
     /**
-     * @var \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations the tests configurations.
+     * @var \CyrilVerloop\Codingame\Generator\CGTestConfigurations the tests configurations.
      */
     private CGTestConfigurations $testConfigurations;
 
@@ -45,7 +45,7 @@ final class CGConfiguration
      * @param string $name the name.
      * @param string $group the group.
      * @param string $link the link.
-     * @param \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations $testConfigurations
+     * @param \CyrilVerloop\Codingame\Generator\CGTestConfigurations $testConfigurations
      */
     public function __construct(
         string $namespace,
@@ -102,7 +102,7 @@ final class CGConfiguration
 
     /**
      * Returns the tests configurations.
-     * @return \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations the tests configurations.
+     * @return \CyrilVerloop\Codingame\Generator\CGTestConfigurations the tests configurations.
      */
     public function getTestConfigurations(): CGTestConfigurations
     {
