@@ -22,6 +22,9 @@ final class CGTestConfigurations extends IntPosition
         $this->list[count($this->list)] = $item;
     }
 
+    /**
+     * @return \CyrilVerloop\Codingame\Generator\CGTestConfiguration the test configuration.
+     */
     public function current(): CGTestConfiguration
     {
         return parent::current();
