@@ -130,7 +130,7 @@ final class CGConfigurationParserTest extends TestCase
 
         self::assertFalse($testConfigurations->currentIsLast());
 
-        foreach($testConfigurations as $testConfiguration) {
+        foreach ($testConfigurations as $testConfiguration) {
             self::assertSame('a-test-name', $testConfiguration->getName());
             self::assertSame('a-test-group', $testConfiguration->getGroup());
             self::assertSame('a-test-method', $testConfiguration->getMethod());
