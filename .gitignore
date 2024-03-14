@@ -1,5 +1,6 @@
 /ci/infection/
 /ci/phpunit/
+/ci/psalm/
 /ci/phpunit.xml
 /src/**/*.php
 !/src/Generator/*.php
