@@ -7,7 +7,7 @@ namespace CyrilVerloop\Codingame\Generator;
 /**
  * The configuration parser.
  */
-final class ConfigurationParser
+final class CGConfigurationParser
 {
     // Methods :
 
@@ -15,9 +15,9 @@ final class ConfigurationParser
      * Returns the puzzle configuration from the configuration file.
      * @param string $file the file.
      * @throws \RuntimeException if the configuration file is not readable.
-     * @return \CyrilVerloop\Codingame\Generator\PuzzleConfiguration the puzzle configuration from the configuration file.
+     * @return \CyrilVerloop\Codingame\Generator\CGConfiguration the puzzle configuration from the configuration file.
      */
-    public function getPuzzleConfigurationFromFile(string $file): PuzzleConfiguration
+    public function getCGConfigurationFromFile(string $file): CGConfiguration
     {
         if (is_readable($file) === false) {
             throw new \RuntimeException('fileNotExist');
@@ -26,12 +26,13 @@ final class ConfigurationParser
         $fileContent = file_get_contents($file);
         $jsonConfiguration = json_decode($fileContent, false);
 
-        $puzzleTestsconfigurations = $this->getPuzzleTestConfigurations($jsonConfiguration->tests);
+        $puzzleTestsconfigurations = $this->getCGTestConfigurations($jsonConfiguration->tests);
 
-        $puzzleConfiguration = new PuzzleConfiguration(
+        $puzzleConfiguration = new CGConfiguration(
             $jsonConfiguration->namespace,
             $jsonConfiguration->name,
             $jsonConfiguration->group,
+            $jsonConfiguration->link,
             $puzzleTestsconfigurations
         );
 
@@ -41,14 +42,14 @@ final class ConfigurationParser
     /**
      * Returns the puzzle tests configurations.
      * @param array $configurations the configurations.
-     * @return PuzzleTestConfigurations the puzzle tests configurations.
+     * @return CGTestConfigurations the puzzle tests configurations.
      */
-    private function getPuzzleTestConfigurations(array $configurations): PuzzleTestConfigurations
+    private function getCGTestConfigurations(array $configurations): CGTestConfigurations
     {
-        $puzzleTestsconfigurations = new PuzzleTestConfigurations();
+        $puzzleTestsconfigurations = new CGTestConfigurations();
 
         foreach ($configurations as $configuration) {
-            $puzzleTestconfiguration = new PuzzleTestConfiguration(
+            $puzzleTestconfiguration = new CGTestConfiguration(
                 $configuration->name,
                 $configuration->group,
                 $configuration->method,
