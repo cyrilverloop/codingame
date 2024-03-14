@@ -101,6 +101,6 @@ final class CGConfigurationTest extends TestCase
             $testconfigurations
         );
 
-        self::assertSame($testconfigurations, $configuration->getTestsConfigurations());
+        self::assertSame($testconfigurations, $configuration->getTestConfigurations());
     }
 }

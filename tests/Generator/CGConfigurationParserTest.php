@@ -92,7 +92,7 @@ final class CGConfigurationParserTest extends TestCase
         self::assertSame('a-group', $CGConfiguration->getGroup());
         self::assertSame('a-link', $CGConfiguration->getLink());
 
-        $testConfigurations = $CGConfiguration->getTestsConfigurations();
+        $testConfigurations = $CGConfiguration->getTestConfigurations();
 
         self::assertCount(1, $testConfigurations);
 
@@ -124,7 +124,7 @@ final class CGConfigurationParserTest extends TestCase
         self::assertSame('a-group', $CGConfiguration->getGroup());
         self::assertSame('a-link', $CGConfiguration->getLink());
 
-        $testConfigurations = $CGConfiguration->getTestsConfigurations();
+        $testConfigurations = $CGConfiguration->getTestConfigurations();
 
         self::assertCount(2, $testConfigurations);
 

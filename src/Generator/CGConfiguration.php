@@ -34,7 +34,7 @@ final class CGConfiguration
     /**
      * @var \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations the tests configurations.
      */
-    private CGTestConfigurations $testsConfigurations;
+    private CGTestConfigurations $testConfigurations;
 
 
     // Magic methods :
@@ -45,20 +45,20 @@ final class CGConfiguration
      * @param string $name the name.
      * @param string $group the group.
      * @param string $link the link.
-     * @param \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations $testsConfigurations
+     * @param \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations $testConfigurations
      */
     public function __construct(
         string $namespace,
         string $name,
         string $group,
         string $link,
-        CGTestConfigurations $testsConfigurations
+        CGTestConfigurations $testConfigurations
     ) {
         $this->namespace = $namespace;
         $this->name = $name;
         $this->group = $group;
         $this->link = $link;
-        $this->testsConfigurations = $testsConfigurations;
+        $this->testConfigurations = $testConfigurations;
     }
 
 
@@ -104,8 +104,8 @@ final class CGConfiguration
      * Returns the tests configurations.
      * @return \CyrilVerloop\Codingame\TestsGenerator\CGTestConfigurations the tests configurations.
      */
-    public function getTestsConfigurations(): CGTestConfigurations
+    public function getTestConfigurations(): CGTestConfigurations
     {
-        return $this->testsConfigurations;
+        return $this->testConfigurations;
     }
 }
