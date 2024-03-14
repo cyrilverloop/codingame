@@ -35,10 +35,10 @@ final class TestGenerator
 
     /**
      * Generates the test.
-     * @param \CyrilVerloop\Codingame\Generator\PuzzleConfiguration $configuration the configuration.
+     * @param \CyrilVerloop\Codingame\Generator\CGConfiguration $configuration the configuration.
      * @param string $path the path where to put the test.
      */
-    public function generate(PuzzleConfiguration $configuration, string $path): void
+    public function generate(CGConfiguration $configuration, string $path): void
     {
         $templateVars = [
             'configuration' => $configuration

@@ -20,9 +20,9 @@ final class TestsGenerator
     // Properties :
 
     /**
-     * @var \CyrilVerloop\Codingame\Generator\ConfigurationParser the configuration parser.
+     * @var \CyrilVerloop\Codingame\Generator\CGConfigurationParser the configuration parser.
      */
-    private ConfigurationParser $configurationParser;
+    private CGConfigurationParser $configurationParser;
 
     /**
      * @var \CyrilVerloop\Codingame\Generator\TestGenerator the test generator.
@@ -34,11 +34,11 @@ final class TestsGenerator
 
     /**
      * The constructor.
-     * @param \CyrilVerloop\Codingame\Generator\ConfigurationParser $configurationParser the configuration parser.
+     * @param \CyrilVerloop\Codingame\Generator\CGConfigurationParser $configurationParser the configuration parser.
      * @param \CyrilVerloop\Codingame\Generator\TestGenerator $testGenerator the test generator.
      */
     public function __construct(
-        ConfigurationParser $configurationParser,
+        CGConfigurationParser $configurationParser,
         TestGenerator $testGenerator
     ) {
         $this->configurationParser = $configurationParser;
@@ -62,7 +62,7 @@ final class TestsGenerator
             }
 
             if ($element === self::CONFIG_FILE) {
-                $puzzleConfiguration = $this->configurationParser->getPuzzleConfigurationFromFile($path . $element);
+                $puzzleConfiguration = $this->configurationParser->getCGConfigurationFromFile($path . $element);
                 $this->testGenerator->generate($puzzleConfiguration, $path);
             }
         }
