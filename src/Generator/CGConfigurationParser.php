@@ -12,10 +12,10 @@ final class CGConfigurationParser
     // Methods :
 
     /**
-     * Returns the puzzle configuration from the configuration file.
+     * Returns the CG configuration from the configuration file.
      * @param string $file the file.
      * @throws \RuntimeException if the configuration file is not readable.
-     * @return \CyrilVerloop\Codingame\Generator\CGConfiguration the puzzle configuration from the configuration file.
+     * @return \CyrilVerloop\Codingame\Generator\CGConfiguration the CG configuration from the configuration file.
      */
     public function getCGConfigurationFromFile(string $file): CGConfiguration
     {
@@ -26,38 +26,99 @@ final class CGConfigurationParser
         $fileContent = file_get_contents($file);
         $jsonConfiguration = json_decode($fileContent, false);
 
-        $puzzleTestsconfigurations = $this->getCGTestConfigurations($jsonConfiguration->tests);
+        $this->validateConfiguration($jsonConfiguration);
 
-        $puzzleConfiguration = new CGConfiguration(
+        $CGTestsconfigurations = $this->getCGTestConfigurations($jsonConfiguration->tests);
+
+        $CGConfiguration = new CGConfiguration(
             $jsonConfiguration->namespace,
             $jsonConfiguration->name,
             $jsonConfiguration->group,
             $jsonConfiguration->link,
-            $puzzleTestsconfigurations
+            $CGTestsconfigurations
         );
 
-        return $puzzleConfiguration;
+        return $CGConfiguration;
     }
 
     /**
-     * Returns the puzzle tests configurations.
-     * @param array $configurations the configurations.
-     * @return CGTestConfigurations the puzzle tests configurations.
+     * Checks if the configuration is valid.
+     * @param \stdClass $configuration the configuration.
+     * @throws \RuntimeException if a key is missing.
+     * @throws \UnexpectedValueException if a value is not a string or array.
      */
-    private function getCGTestConfigurations(array $configurations): CGTestConfigurations
+    private function validateConfiguration(\stdClass $configuration): void
     {
-        $puzzleTestsconfigurations = new CGTestConfigurations();
-
-        foreach ($configurations as $configuration) {
-            $puzzleTestconfiguration = new CGTestConfiguration(
-                $configuration->name,
-                $configuration->group,
-                $configuration->method,
-                $configuration->file
-            );
-            $puzzleTestsconfigurations->add($puzzleTestconfiguration);
+        if(is_string($configuration->namespace) === false) {
+            throw new \UnexpectedValueException('namespaceNotAString');
         }
 
-        return $puzzleTestsconfigurations;
+        if(is_string($configuration->name) === false) {
+            throw new \UnexpectedValueException('nameNotAString');
+        }
+
+        if(is_string($configuration->group) === false) {
+            throw new \UnexpectedValueException('groupNotAString');
+        }
+
+        if(is_string($configuration->link) === false) {
+            throw new \UnexpectedValueException('linkNotAString');
+        }
+
+        if(is_array($configuration->tests) === false) {
+            throw new \UnexpectedValueException('testsNotAnArray');
+        }
+
+        $this->validateTestConfigurations($configuration->tests);
+    }
+
+    /**
+     * Checks if the test configurations are valid.
+     * @param \stdClass[] $testConfigurations the test configurations.
+     * @throws \RuntimeException if a key is missing.
+     * @throws \UnexpectedValueException if a value is not a string or array.
+     */
+    private function validateTestConfigurations(array $testConfigurations): void
+    {
+        foreach($testConfigurations as $testConfiguration) {
+
+            if(is_string($testConfiguration->name) === false) {
+                throw new \UnexpectedValueException('testNameNotAString');
+            }
+
+            if(is_string($testConfiguration->group) === false) {
+                throw new \UnexpectedValueException('testGroupNotAString');
+            }
+
+            if(is_string($testConfiguration->method) === false) {
+                throw new \UnexpectedValueException('testMethodNotAString');
+            }
+
+            if(is_string($testConfiguration->file) === false) {
+                throw new \UnexpectedValueException('testFileNotAString');
+            }
+        }
+    }
+
+    /**
+     * Returns the CG tests configurations.
+     * @param \stdClass[] $testConfigurations the configurations.
+     * @return CGTestConfigurations the CG tests configurations.
+     */
+    private function getCGTestConfigurations(array $testConfigurations): CGTestConfigurations
+    {
+        $CGTestsconfigurations = new CGTestConfigurations();
+
+        foreach ($testConfigurations as $testConfiguration) {
+            $CGTestconfiguration = new CGTestConfiguration(
+                $testConfiguration->name,
+                $testConfiguration->group,
+                $testConfiguration->method,
+                $testConfiguration->file
+            );
+            $CGTestsconfigurations->add($CGTestconfiguration);
+        }
+
+        return $CGTestsconfigurations;
     }
 }

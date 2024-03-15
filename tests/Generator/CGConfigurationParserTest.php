@@ -75,6 +75,195 @@ final class CGConfigurationParserTest extends TestCase
     }
 
     /**
+     * Tests that a runtime exception is thrown
+     * if the namespace is not a string.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheNamespaceIsNotAString(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('namespaceNotAString');
+
+        $configuration = $this->getConfiguration();
+        $configuration['namespace'] = 123;
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a runtime exception is thrown
+     * if the name is not a string.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheNameIsNotAString(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('nameNotAString');
+
+        $configuration = $this->getConfiguration();
+        $configuration['name'] = 123;
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a runtime exception is thrown
+     * if the group is not a string.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheGroupIsNotAString(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('groupNotAString');
+
+        $configuration = $this->getConfiguration();
+        $configuration['group'] = 123;
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a runtime exception is thrown
+     * if the link is not a string.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheLinkIsNotAString(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('linkNotAString');
+
+        $configuration = $this->getConfiguration();
+        $configuration['link'] = 123;
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a runtime exception is thrown
+     * if the tests are not an array.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheTestsAreNotAnArray(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('testsNotAnArray');
+
+        $configuration = $this->getConfiguration();
+        $configuration['tests'] = 123;
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a runtime exception is thrown
+     * if the test name is not a string.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheTestNameIsNotAString(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('testNameNotAString');
+
+        $configuration = $this->getConfiguration();
+        $testConfiguration = $this->getTestStructure();
+        $testConfiguration['name'] = 123;
+        $configuration['tests'] = [$testConfiguration];
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a runtime exception is thrown
+     * if the test group is not a string.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheTestGroupIsNotAString(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('testGroupNotAString');
+
+        $configuration = $this->getConfiguration();
+        $testConfiguration = $this->getTestStructure();
+        $testConfiguration['group'] = 123;
+        $configuration['tests'] = [$testConfiguration];
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a runtime exception is thrown
+     * if the test method is not a string.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheTestMethodIsNotAString(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('testMethodNotAString');
+
+        $configuration = $this->getConfiguration();
+        $testConfiguration = $this->getTestStructure();
+        $testConfiguration['method'] = 123;
+        $configuration['tests'] = [$testConfiguration];
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a runtime exception is thrown
+     * if the test file is not a string.
+     */
+    public function testThrowsAnUnexpectedValueExceptionIfTheTestFileIsNotAString(): void
+    {
+        $this->expectException(\UnexpectedValueException::class);
+        $this->expectExceptionMessage('testFileNotAString');
+
+        $configuration = $this->getConfiguration();
+        $testConfiguration = $this->getTestStructure();
+        $testConfiguration['file'] = 123;
+        $configuration['tests'] = [$testConfiguration];
+        $fileStructure = [
+            'config.json' => json_encode($configuration)
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+
+    /**
      * Tests that a configuration file with one test can be parsed.
      */
     public function testCanParseAOneTestCGConfigurationFromFile(): void
