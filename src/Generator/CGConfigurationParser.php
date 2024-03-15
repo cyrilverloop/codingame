@@ -51,23 +51,23 @@ final class CGConfigurationParser
      */
     private function validateConfiguration(\stdClass $configuration): void
     {
-        if(is_string($configuration->namespace) === false) {
+        if (is_string($configuration->namespace) === false) {
             throw new \UnexpectedValueException('namespaceNotAString');
         }
 
-        if(is_string($configuration->name) === false) {
+        if (is_string($configuration->name) === false) {
             throw new \UnexpectedValueException('nameNotAString');
         }
 
-        if(is_string($configuration->group) === false) {
+        if (is_string($configuration->group) === false) {
             throw new \UnexpectedValueException('groupNotAString');
         }
 
-        if(is_string($configuration->link) === false) {
+        if (is_string($configuration->link) === false) {
             throw new \UnexpectedValueException('linkNotAString');
         }
 
-        if(is_array($configuration->tests) === false) {
+        if (is_array($configuration->tests) === false) {
             throw new \UnexpectedValueException('testsNotAnArray');
         }
 
@@ -81,21 +81,20 @@ final class CGConfigurationParser
      */
     private function validateTestConfigurations(array $testConfigurations): void
     {
-        foreach($testConfigurations as $testConfiguration) {
-
-            if(is_string($testConfiguration->name) === false) {
+        foreach ($testConfigurations as $testConfiguration) {
+            if (is_string($testConfiguration->name) === false) {
                 throw new \UnexpectedValueException('testNameNotAString');
             }
 
-            if(is_string($testConfiguration->group) === false) {
+            if (is_string($testConfiguration->group) === false) {
                 throw new \UnexpectedValueException('testGroupNotAString');
             }
 
-            if(is_string($testConfiguration->method) === false) {
+            if (is_string($testConfiguration->method) === false) {
                 throw new \UnexpectedValueException('testMethodNotAString');
             }
 
-            if(is_string($testConfiguration->file) === false) {
+            if (is_string($testConfiguration->file) === false) {
                 throw new \UnexpectedValueException('testFileNotAString');
             }
         }
