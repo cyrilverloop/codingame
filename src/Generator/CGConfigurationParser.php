@@ -20,11 +20,14 @@ final class CGConfigurationParser
     public function getCGConfigurationFromFile(string $file): CGConfiguration
     {
         if (is_readable($file) === false) {
-            throw new \RuntimeException('fileNotExist');
+            throw new \RuntimeException('fileNotReadable');
         }
 
         $fileContent = file_get_contents($file);
-        $jsonConfiguration = json_decode($fileContent, false);
+        /**
+         * @var \stdClass $jsonConfiguration
+         */
+        $jsonConfiguration = json_decode($fileContent, false, flags: JSON_THROW_ON_ERROR);
 
         $this->validateConfiguration($jsonConfiguration);
 

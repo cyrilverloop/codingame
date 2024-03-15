@@ -34,9 +34,26 @@ final class CGConfigurationParserTest extends TestCase
     public function testThrowsARuntimeExceptionWhenTheFileDoesNotExist(): void
     {
         $this->expectException(\RuntimeException::class);
-        $this->expectExceptionMessage('fileNotExist');
+        $this->expectExceptionMessage('fileNotReadable');
 
         $fileSystem = vfsStream::setup('', null, []);
+
+        $CGConfigurationParser = new CGConfigurationParser();
+        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+    }
+
+    /**
+     * Tests that a json exception is thrown
+     * when the json is invalid.
+     */
+    public function testThrowsAJsonExceptionWhenTheJsonIsInvalid(): void
+    {
+        $this->expectException(\JsonException::class);
+
+        $fileStructure = [
+            'config.json' => '{'
+        ];
+        $fileSystem = vfsStream::setup('', null, $fileStructure);
 
         $CGConfigurationParser = new CGConfigurationParser();
         $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
