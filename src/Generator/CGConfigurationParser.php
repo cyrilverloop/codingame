@@ -47,7 +47,6 @@ final class CGConfigurationParser
     /**
      * Checks if the configuration is valid.
      * @param \stdClass $configuration the configuration.
-     * @throws \RuntimeException if a key is missing.
      * @throws \UnexpectedValueException if a value is not a string or array.
      */
     private function validateConfiguration(\stdClass $configuration): void
@@ -78,8 +77,7 @@ final class CGConfigurationParser
     /**
      * Checks if the test configurations are valid.
      * @param \stdClass[] $testConfigurations the test configurations.
-     * @throws \RuntimeException if a key is missing.
-     * @throws \UnexpectedValueException if a value is not a string or array.
+     * @throws \UnexpectedValueException if a value is not a string.
      */
     private function validateTestConfigurations(array $testConfigurations): void
     {
