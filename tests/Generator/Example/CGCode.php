@@ -10,7 +10,7 @@ use CyrilVerloop\Codingame\CGCodeInterface;
  * The "A name" CGCodeInterface.
  * @link https://a-link
  */
-class CGCode implements Puzzle
+class CGCode implements CGCodeInterface
 {
     public function execute($stdin): void
     {
