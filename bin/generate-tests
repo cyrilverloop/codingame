@@ -3,23 +3,15 @@
 
 include_once(__DIR__ . '/../vendor/autoload.php');
 
-use CyrilVerloop\Codingame\Generator\ConfigurationParser;
-use CyrilVerloop\Codingame\Generator\TestGenerator;
-use CyrilVerloop\Codingame\Generator\TestsGenerator;
-use Twig\Environment;
-use Twig\Extra\String\StringExtension;
-use Twig\Loader\FilesystemLoader;
+use CyrilVerloop\Codingame\Generator\FilesGenerator;
 
-echo "\nStarting Tests generation.\n";
+echo "\nStarting generation.\n";
 
-$parser = new ConfigurationParser();
-
-$loader = new FilesystemLoader(__DIR__ . '/../templates/');
-$twig = new Environment($loader);
-$twig->addExtension(new StringExtension());
-$testGenerator = new TestGenerator($twig);
-
-$generator = new TestsGenerator($parser, $testGenerator);
-$generator->generate(__DIR__ . '/../tests/');
+$filesGenerator = new FilesGenerator(__DIR__ . '/../templates/');
+$filesGenerator->generate(
+    __DIR__ . '/../config/',
+    __DIR__ . '/../src/',
+    __DIR__ . '/../tests/'
+);
 
 echo "Generation complete.\n\n";

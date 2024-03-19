@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace CyrilVerloop\Codingame\Generator;
 
 /**
- * The puzzle's configuration.
+ * The code configuration.
  */
-final class CGConfiguration
+final class GeneratorCodeConfiguration
 {
     // Properties :
 
@@ -22,19 +22,14 @@ final class CGConfiguration
     private string $name;
 
     /**
-     * @var string the group.
-     */
-    private string $group;
-
-    /**
      * @var string the link.
      */
     private string $link;
 
     /**
-     * @var \CyrilVerloop\Codingame\Generator\CGTestConfigurations the tests configurations.
+     * @var string the default code.
      */
-    private CGTestConfigurations $testConfigurations;
+    private string $defaultCode;
 
 
     // Magic methods :
@@ -43,22 +38,19 @@ final class CGConfiguration
      * The constructor.
      * @param string $namespace the namespace.
      * @param string $name the name.
-     * @param string $group the group.
      * @param string $link the link.
-     * @param \CyrilVerloop\Codingame\Generator\CGTestConfigurations $testConfigurations
+     * @param string $defaultCode the default code.
      */
     public function __construct(
         string $namespace,
         string $name,
-        string $group,
         string $link,
-        CGTestConfigurations $testConfigurations
+        string $defaultCode
     ) {
         $this->namespace = $namespace;
         $this->name = $name;
-        $this->group = $group;
         $this->link = $link;
-        $this->testConfigurations = $testConfigurations;
+        $this->defaultCode = $defaultCode;
     }
 
 
@@ -83,15 +75,6 @@ final class CGConfiguration
     }
 
     /**
-     * Returns the group.
-     * @return string the group.
-     */
-    public function getGroup(): string
-    {
-        return $this->group;
-    }
-
-    /**
      * Returns the link.
      * @return string the link.
      */
@@ -101,11 +84,11 @@ final class CGConfiguration
     }
 
     /**
-     * Returns the tests configurations.
-     * @return \CyrilVerloop\Codingame\Generator\CGTestConfigurations the tests configurations.
+     * Returns the default code.
+     * @return string the default code.
      */
-    public function getTestConfigurations(): CGTestConfigurations
+    public function getDefaultCode(): string
     {
-        return $this->testConfigurations;
+        return $this->defaultCode;
     }
 }

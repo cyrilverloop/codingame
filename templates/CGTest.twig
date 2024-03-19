@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\{{ configuration.namespace }};
 
-use CyrilVerloop\Codingame\Tests\CGTestCase;
 use CyrilVerloop\Codingame\{{ configuration.namespace }}\CGCode;
+use CyrilVerloop\Codingame\Tests\CGTestCase;
 use PHPUnit\Framework\Attributes as PA;
 
 /**
@@ -22,7 +22,7 @@ final class CGTest extends CGTestCase
     {
         $this->cgCode = new CGCode();
     }
-{% for test in configuration.testsConfigurations %}
+{% for test in configuration.testConfigurations %}
 
     /**
      * Test that the code can be executed for "{{ test.name }}".

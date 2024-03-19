@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Tests\Generator;
+namespace CyrilVerloop\Codingame\Tests\Parser;
 
-use CyrilVerloop\Codingame\Generator\CGTestConfiguration;
+use CyrilVerloop\Codingame\Configuration\TestConfiguration;
 use PHPUnit\Framework\Attributes as PA;
 use PHPUnit\Framework\TestCase;
 
@@ -12,18 +12,20 @@ use PHPUnit\Framework\TestCase;
  * Tests for a test configuration.
  */
 #[
-    PA\CoversClass(CGTestConfiguration::class),
-    PA\Group('generator'),
-    PA\Group('generator_CGTestConfiguration')
+    PA\CoversClass(TestConfiguration::class),
+    PA\Group('configuration'),
+    PA\Group('configuration_testConfiguration')
 ]
-final class CGTestConfigurationTest extends TestCase
+final class TestConfigurationTest extends TestCase
 {
+    // Methods :
+
     /**
      * Tests it has a name.
      */
     public function testHasAName(): void
     {
-        $configuration = new CGTestConfiguration('name', 'group', 'method', 'file');
+        $configuration = new TestConfiguration('name', 'group', 'method', 'file');
 
         self::assertSame('name', $configuration->getName());
     }
@@ -33,7 +35,7 @@ final class CGTestConfigurationTest extends TestCase
      */
     public function testHasAGroup(): void
     {
-        $configuration = new CGTestConfiguration('name', 'group', 'method', 'file');
+        $configuration = new TestConfiguration('name', 'group', 'method', 'file');
 
         self::assertSame('group', $configuration->getGroup());
     }
@@ -43,7 +45,7 @@ final class CGTestConfigurationTest extends TestCase
      */
     public function testHasAMethod(): void
     {
-        $configuration = new CGTestConfiguration('name', 'group', 'method', 'file');
+        $configuration = new TestConfiguration('name', 'group', 'method', 'file');
 
         self::assertSame('method', $configuration->getMethod());
     }
@@ -53,7 +55,7 @@ final class CGTestConfigurationTest extends TestCase
      */
     public function testHasAFile(): void
     {
-        $configuration = new CGTestConfiguration('name', 'group', 'method', 'file');
+        $configuration = new TestConfiguration('name', 'group', 'method', 'file');
 
         self::assertSame('file', $configuration->getFile());
     }

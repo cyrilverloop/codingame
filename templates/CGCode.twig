@@ -1,0 +1,19 @@
+<?php
+
+declare(strict_types=1);
+
+namespace CyrilVerloop\Codingame\{{ configuration.namespace }};
+
+use CyrilVerloop\Codingame\CGCodeInterface;
+
+/**
+ * The "{{ configuration.name }}" CGCodeInterface.
+ * @link {{ configuration.link }}
+ */
+class CGCode implements Puzzle
+{
+    public function execute($stdin): void
+    {
+        {{ configuration.defaultCode|raw }}
+    }
+}

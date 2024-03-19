@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests;
 
-use CyrilVerloop\Codingame\CGCodeInterface;
+use CyrilVerloop\Codingame\CodeInterface;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -15,9 +15,9 @@ abstract class CGTestCase extends TestCase
     // Properties :
 
     /**
-     * @var \CyrilVerloop\Codingame\CGCodeInterface the code.
+     * @var \CyrilVerloop\Codingame\CodeInterface the code.
      */
-    protected CGCodeInterface $cgCode;
+    protected CodeInterface $cgCode;
 
 
     // Methods :

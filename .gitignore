@@ -2,11 +2,13 @@
 /ci/phpunit/
 /ci/psalm/
 /ci/phpunit.xml
-/src/**/*.php
-!/src/Generator/*.php
+/src/**/*.*
+!/src/Generator/**/*.php
 !/src/CGCodeInterface.php
-/tests/**/*.php
-!/tests/Generator/*.php
+/tests/**/*.*
+!/tests/Configuration/**/*.*
+!/tests/Generator/**/*.*
+!/tests/Parser/**/*.*
 !/tests/CGTestCase.php
 /tools/
 /var/cache/

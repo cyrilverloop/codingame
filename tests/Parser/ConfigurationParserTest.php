@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Tests\Generator;
+namespace CyrilVerloop\Codingame\Tests\Parser;
 
-use CyrilVerloop\Codingame\Generator\CGConfiguration;
-use CyrilVerloop\Codingame\Generator\CGConfigurationParser;
-use CyrilVerloop\Codingame\Generator\CGTestConfiguration;
-use CyrilVerloop\Codingame\Generator\CGTestConfigurations;
+use CyrilVerloop\Codingame\Parser\ConfigurationParser;
+use CyrilVerloop\Codingame\Parser\ParsedConfiguration;
+use CyrilVerloop\Codingame\Configuration\TestConfiguration;
+use CyrilVerloop\Codingame\Configuration\TestConfigurations;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\Attributes as PA;
 use PHPUnit\Framework\TestCase;
@@ -16,16 +16,16 @@ use PHPUnit\Framework\TestCase;
  * Tests for the configuration parser.
  */
 #[
-    PA\CoversClass(CGConfigurationParser::class),
-    PA\UsesClass(CGConfiguration::class),
-    PA\UsesClass(CGTestConfiguration::class),
-    PA\UsesClass(CGTestConfigurations::class),
-    PA\Group('generator'),
-    PA\Group('generator_CGConfigurationParser')
+    PA\CoversClass(ConfigurationParser::class),
+    PA\UsesClass(ParsedConfiguration::class),
+    PA\UsesClass(TestConfiguration::class),
+    PA\UsesClass(TestConfigurations::class),
+    PA\Group('parser'),
+    PA\Group('parser_configurationParser')
 ]
-final class CGConfigurationParserTest extends TestCase
+final class ConfigurationParserTest extends TestCase
 {
-    // Méthodes :
+    // Methods :
 
     /**
      * Tests that a runtime exception is thrown
@@ -38,8 +38,8 @@ final class CGConfigurationParserTest extends TestCase
 
         $fileSystem = vfsStream::setup('', null, []);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -55,8 +55,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
 
@@ -107,8 +107,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -127,8 +127,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -147,8 +147,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -167,8 +167,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -187,8 +187,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -209,8 +209,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -231,8 +231,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -253,8 +253,8 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
     /**
@@ -275,30 +275,30 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
     }
 
 
     /**
      * Tests that a configuration file with one test can be parsed.
      */
-    public function testCanParseAOneTestCGConfigurationFromFile(): void
+    public function testCanParseAOneTestConfigurationFromFile(): void
     {
         $fileStructure = [
             'config.json' => json_encode($this->getConfiguration())
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfiguration = $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $Configuration = $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
 
-        self::assertSame('A\Namespace', $CGConfiguration->getNamespace());
-        self::assertSame('a-name', $CGConfiguration->getName());
-        self::assertSame('a-group', $CGConfiguration->getGroup());
-        self::assertSame('a-link', $CGConfiguration->getLink());
+        self::assertSame('A\Namespace', $Configuration->getNamespace());
+        self::assertSame('a-name', $Configuration->getName());
+        self::assertSame('a-group', $Configuration->getGroup());
+        self::assertSame('a-link', $Configuration->getLink());
 
-        $testConfigurations = $CGConfiguration->getTestConfigurations();
+        $testConfigurations = $Configuration->getTestConfigurations();
 
         self::assertCount(1, $testConfigurations);
 
@@ -313,7 +313,7 @@ final class CGConfigurationParserTest extends TestCase
     /**
      * Tests that a configuration file with two tests can be parsed.
      */
-    public function testCanParseATwoTestsCGConfigurationFromFile(): void
+    public function testCanParseATwoTestsConfigurationFromFile(): void
     {
         $configuration = $this->getConfiguration();
         $configuration['tests'][] = $this->getTestStructure();
@@ -322,15 +322,15 @@ final class CGConfigurationParserTest extends TestCase
         ];
         $fileSystem = vfsStream::setup('', null, $fileStructure);
 
-        $CGConfigurationParser = new CGConfigurationParser();
-        $CGConfiguration = $CGConfigurationParser->getCGConfigurationFromFile($fileSystem->url('/') . 'config.json');
+        $ConfigurationParser = new ConfigurationParser();
+        $Configuration = $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
 
-        self::assertSame('A\Namespace', $CGConfiguration->getNamespace());
-        self::assertSame('a-name', $CGConfiguration->getName());
-        self::assertSame('a-group', $CGConfiguration->getGroup());
-        self::assertSame('a-link', $CGConfiguration->getLink());
+        self::assertSame('A\Namespace', $Configuration->getNamespace());
+        self::assertSame('a-name', $Configuration->getName());
+        self::assertSame('a-group', $Configuration->getGroup());
+        self::assertSame('a-link', $Configuration->getLink());
 
-        $testConfigurations = $CGConfiguration->getTestConfigurations();
+        $testConfigurations = $Configuration->getTestConfigurations();
 
         self::assertCount(2, $testConfigurations);
 

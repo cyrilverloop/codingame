@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Tests\Generator;
+namespace CyrilVerloop\Codingame\Tests\Parser;
 
-use CyrilVerloop\Codingame\Generator\CGConfiguration;
-use CyrilVerloop\Codingame\Generator\CGTestConfigurations;
+use CyrilVerloop\Codingame\Parser\ParsedConfiguration;
+use CyrilVerloop\Codingame\Configuration\TestConfigurations;
 use PHPUnit\Framework\Attributes as PA;
 use PHPUnit\Framework\TestCase;
 
@@ -13,19 +13,22 @@ use PHPUnit\Framework\TestCase;
  * Tests for a configuration.
  */
 #[
-    PA\CoversClass(CGConfiguration::class),
-    PA\Group('generator'),
-    PA\Group('generator_CGConfiguration')
+    PA\CoversClass(ParsedConfiguration::class),
+    PA\UsesClass(TestConfigurations::class),
+    PA\Group('parser'),
+    PA\Group('parser_parsedConfiguration')
 ]
-final class CGConfigurationTest extends TestCase
+final class ParsedConfigurationTest extends TestCase
 {
+    // Methods :
+
     /**
      * Tests it has a namespace.
      */
     public function testHasANamespace(): void
     {
-        $testconfigurations = new CGTestConfigurations();
-        $configuration = new CGConfiguration(
+        $testconfigurations = new TestConfigurations();
+        $configuration = new ParsedConfiguration(
             'namespace',
             'name',
             'group',
@@ -41,8 +44,8 @@ final class CGConfigurationTest extends TestCase
      */
     public function testHasAName(): void
     {
-        $testconfigurations = new CGTestConfigurations();
-        $configuration = new CGConfiguration(
+        $testconfigurations = new TestConfigurations();
+        $configuration = new ParsedConfiguration(
             'namespace',
             'name',
             'group',
@@ -58,8 +61,8 @@ final class CGConfigurationTest extends TestCase
      */
     public function testHasAGroup(): void
     {
-        $testconfigurations = new CGTestConfigurations();
-        $configuration = new CGConfiguration(
+        $testconfigurations = new TestConfigurations();
+        $configuration = new ParsedConfiguration(
             'namespace',
             'name',
             'group',
@@ -75,8 +78,8 @@ final class CGConfigurationTest extends TestCase
      */
     public function testHasALink(): void
     {
-        $testconfigurations = new CGTestConfigurations();
-        $configuration = new CGConfiguration(
+        $testconfigurations = new TestConfigurations();
+        $configuration = new ParsedConfiguration(
             'namespace',
             'name',
             'group',
@@ -88,12 +91,12 @@ final class CGConfigurationTest extends TestCase
     }
 
     /**
-     * Tests it has a CGTestConfigurations.
+     * Tests it has test configurations.
      */
-    public function testHasACGTestConfigurations(): void
+    public function testHasATestConfigurations(): void
     {
-        $testconfigurations = new CGTestConfigurations();
-        $configuration = new CGConfiguration(
+        $testconfigurations = new TestConfigurations();
+        $configuration = new ParsedConfiguration(
             'namespace',
             'name',
             'group',
