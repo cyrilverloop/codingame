@@ -3,7 +3,9 @@
 /ci/psalm/
 /ci/phpunit.xml
 /src/**/*.*
+!/src/Configuration/**/*.php
 !/src/Generator/**/*.php
+!/src/Parser/**/*.php
 !/src/CGCodeInterface.php
 /tests/**/*.*
 !/tests/Configuration/**/*.*
