@@ -1,0 +1,26 @@
+{
+    "namespace": "Training\\Easy\\HorseRacingDuals",
+    "name": "Horse-racing Duals",
+    "group": "horseRacingDuals",
+    "link": "https://www.codingame.com/ide/puzzle/horse-racing-duals",
+    "tests": [
+        {
+            "name": "Simple case",
+            "group": "simpleCase",
+            "method": "SimpleCase",
+            "file": "01 - simple case.txt"
+        },
+        {
+            "name": "Horses in any order",
+            "group": "horsesInAnyOrder",
+            "method": "HorsesInAnyOrder",
+            "file": "02 - horses in any order.txt"
+        },
+        {
+            "name": "Many horses",
+            "group": "manyHorses",
+            "method": "ManyHorses",
+            "file": "03 - many horses.txt"
+        }
+    ]
+}

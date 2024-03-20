@@ -1,0 +1,32 @@
+{
+    "namespace": "Training\\Easy\\Defibrillators",
+    "name": "Defibrillators",
+    "group": "defibrillators",
+    "link": "https://www.codingame.com/ide/puzzle/defibrillators",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "TestOnlyOneLetterE",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Exact position",
+            "group": "exactPosition",
+            "method": "ExactPosition",
+            "file": "02 - exact position.txt"
+        },
+        {
+            "name": "Complete file",
+            "group": "completeFile",
+            "method": "CompleteFile",
+            "file": "03 - complete file.txt"
+        },
+        {
+            "name": "Complete file 2",
+            "group": "completeFile2",
+            "method": "CompleteFile2",
+            "file": "04 - complete file 2.txt"
+        }
+    ]
+}

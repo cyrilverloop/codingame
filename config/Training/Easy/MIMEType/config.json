@@ -1,0 +1,38 @@
+{
+    "namespace": "Training\\Easy\\MIMEType",
+    "name": "MIME Type",
+    "group": "MIMEType",
+    "link": "https://www.codingame.com/ide/puzzle/mime-type",
+    "tests": [
+        {
+            "name": "Simple example",
+            "group": "simpleExample",
+            "method": "SimpleCase",
+            "file": "01 - simple example.txt"
+        },
+        {
+            "name": "Unknown MIME types",
+            "group": "unknownMIMETypes",
+            "method": "UnknownMIMETypes",
+            "file": "02 - unknown MIME types.txt"
+        },
+        {
+            "name": "Correct division of the extension",
+            "group": "correctDivisionOfTheExtension",
+            "method": "CorrectDivisionOfTheExtension",
+            "file": "03 - correct division of the extension.txt"
+        },
+        {
+            "name": "Consideration of the case (upper or lower)",
+            "group": "considerationOfTheCase",
+            "method": "ConsiderationOfTheCase",
+            "file": "04 - consideration of the case (upper or lower).txt"
+        },
+        {
+            "name": "Large dataset",
+            "group": "largeDataset",
+            "method": "LargeDataset",
+            "file": "05 - large dataset.txt"
+        }
+    ]
+}
