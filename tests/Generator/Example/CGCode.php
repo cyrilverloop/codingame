@@ -7,7 +7,7 @@ namespace CyrilVerloop\Codingame\A\Name\Space;
 use CyrilVerloop\Codingame\CGCodeInterface;
 
 /**
- * The "A name" CGCodeInterface.
+ * The "A name" CGCode.
  * @link https://a-link
  */
 class CGCode implements CGCodeInterface
