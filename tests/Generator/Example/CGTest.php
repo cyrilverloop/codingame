@@ -14,6 +14,7 @@ use PHPUnit\Framework\Attributes as PA;
 #[
     PA\CoversClass(CGCode::class),
     PA\Group('cgpt_AGroup'),
+    PA\TestDox('A name'),
     PA\Medium
 ]
 final class CGTest extends CGTestCase
@@ -26,8 +27,11 @@ final class CGTest extends CGTestCase
     /**
      * Test that the code can be executed for "test name".
      */
-    #[PA\Group('cgpt_AGroup_testGroup')]
-    public function testCanExecuteTestMethod(): void
+    #[
+        PA\Group('cgpt_AGroup_testGroup'),
+        PA\TestDox('test name')
+    ]
+    public function testTestMethod(): void
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/01 - test file.txt',
@@ -38,8 +42,11 @@ final class CGTest extends CGTestCase
     /**
      * Test that the code can be executed for "test name 2".
      */
-    #[PA\Group('cgpt_AGroup_testGroup2')]
-    public function testCanExecuteTestMethod2(): void
+    #[
+        PA\Group('cgpt_AGroup_testGroup2'),
+        PA\TestDox('test name 2')
+    ]
+    public function testTestMethod2(): void
     {
         $this->expectExecuteOutputAnswer(
             __DIR__ . '/input/02 - test file 2.txt',
