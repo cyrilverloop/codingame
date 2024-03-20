@@ -9,11 +9,11 @@ use CyrilVerloop\Codingame\Tests\CGTestCase;
 use PHPUnit\Framework\Attributes as PA;
 
 /**
- * Tests for the "A name" puzzle.
+ * Tests for "A name".
  */
 #[
     PA\CoversClass(CGCode::class),
-    PA\Group('cgpt_AGroup'),
+    PA\Group('AGroup'),
     PA\TestDox('A name'),
     PA\Medium
 ]
@@ -25,10 +25,10 @@ final class CGTest extends CGTestCase
     }
 
     /**
-     * Test that the code can be executed for "test name".
+     * Tests the code with "test name".
      */
     #[
-        PA\Group('cgpt_AGroup_testGroup'),
+        PA\Group('AGroup_testGroup'),
         PA\TestDox('test name')
     ]
     public function testTestMethod(): void
@@ -40,10 +40,10 @@ final class CGTest extends CGTestCase
     }
 
     /**
-     * Test that the code can be executed for "test name 2".
+     * Tests the code with "test name 2".
      */
     #[
-        PA\Group('cgpt_AGroup_testGroup2'),
+        PA\Group('AGroup_testGroup2'),
         PA\TestDox('test name 2')
     ]
     public function testTestMethod2(): void

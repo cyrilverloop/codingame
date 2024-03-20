@@ -9,11 +9,11 @@ use CyrilVerloop\Codingame\Tests\CGTestCase;
 use PHPUnit\Framework\Attributes as PA;
 
 /**
- * Tests for the "{{ configuration.name }}" puzzle.
+ * Tests for "{{ configuration.name }}".
  */
 #[
     PA\CoversClass(CGCode::class),
-    PA\Group('cgpt_{{ configuration.group }}'),
+    PA\Group('{{ configuration.group }}'),
     PA\TestDox('{{ configuration.name }}'),
     PA\Medium
 ]
@@ -26,10 +26,10 @@ final class CGTest extends CGTestCase
 {% for test in configuration.testConfigurations %}
 
     /**
-     * Test that the code can be executed for "{{ test.name }}".
+     * Tests the code with "{{ test.name }}".
      */
     #[
-        PA\Group('cgpt_{{ configuration.group }}_{{ test.group }}'),
+        PA\Group('{{ configuration.group }}_{{ test.group }}'),
         PA\TestDox('{{ test.name }}')
     ]
     public function test{{ test.method }}(): void
