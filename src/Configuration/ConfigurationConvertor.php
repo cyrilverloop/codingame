@@ -29,10 +29,15 @@ final class ConfigurationConvertor
         }
 
         $defaultCode = file_get_contents($defaultCodeFile);
-        $indentedDefaultCode = preg_replace(
-            '/\n\n/',
-            "\n\n        ",
+        $spaceAddedCode = preg_replace(
+            '/\n/',
+            "\n        ",
             $defaultCode
+        );
+        $indentedDefaultCode = preg_replace(
+            '/\n        \n/',
+            "\n\n",
+            $spaceAddedCode
         );
 
         return new GeneratorCodeConfiguration(

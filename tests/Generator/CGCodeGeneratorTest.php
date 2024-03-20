@@ -30,17 +30,11 @@ final class CGCodeGeneratorTest extends TestCase
      */
     public function testGenerateTheCodeFile(): void
     {
-        $defaultCode = file_get_contents(__DIR__ . '/Example/CGCode.dist');
-        $indentedDefaultCode = preg_replace(
-            '/\n\n/',
-            "\n\n        ",
-            $defaultCode
-        );
         $Configuration = new GeneratorCodeConfiguration(
             'A\\Name\\Space',
             'A name',
             'https://a-link',
-            $indentedDefaultCode
+            file_get_contents(__DIR__ . '/Example/CGCodeIndented.dist')
         );
 
         $fileSystem = vfsStream::setup();
