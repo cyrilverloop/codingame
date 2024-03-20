@@ -13,8 +13,8 @@ use PHPUnit\Framework\TestCase;
  */
 #[
     PA\CoversClass(GeneratorCodeConfiguration::class),
-    PA\Group('generator'),
-    PA\Group('generator_generatorCodeConfiguration')
+    PA\Group('cgpt_generator'),
+    PA\Group('cgpt_generator_generatorCodeConfiguration')
 ]
 final class GeneratorCodeConfigurationTest extends TestCase
 {

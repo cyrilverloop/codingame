@@ -13,8 +13,8 @@ use PHPUnit\Framework\TestCase;
  */
 #[
     PA\CoversClass(TestConfiguration::class),
-    PA\Group('configuration'),
-    PA\Group('configuration_testConfiguration')
+    PA\Group('cgpt_configuration'),
+    PA\Group('cgpt_configuration_testConfiguration')
 ]
 final class TestConfigurationTest extends TestCase
 {

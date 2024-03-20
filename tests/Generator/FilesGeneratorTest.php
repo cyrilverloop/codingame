@@ -34,8 +34,8 @@ use PHPUnit\Framework\TestCase;
     PA\UsesClass(ParsedConfiguration::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
-    PA\Group('generator'),
-    PA\Group('generator_codeAndTestGenerator')
+    PA\Group('cgpt_generator'),
+    PA\Group('cgpt_generator_codeAndTestGenerator')
 ]
 final class FilesGeneratorTest extends TestCase
 {

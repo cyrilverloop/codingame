@@ -17,8 +17,8 @@ use PHPUnit\Framework\TestCase;
     PA\CoversClass(GeneratorTestConfiguration::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
-    PA\Group('generator'),
-    PA\Group('generator_generatorTestConfiguration')
+    PA\Group('cgpt_generator'),
+    PA\Group('cgpt_generator_generatorTestConfiguration')
 ]
 final class GeneratorTestConfigurationTest extends TestCase
 {

@@ -20,8 +20,8 @@ use PHPUnit\Framework\TestCase;
     PA\UsesClass(ParsedConfiguration::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
-    PA\Group('parser'),
-    PA\Group('parser_configurationParser')
+    PA\Group('cgpt_parser'),
+    PA\Group('cgpt_parser_configurationParser')
 ]
 final class ConfigurationParserTest extends TestCase
 {

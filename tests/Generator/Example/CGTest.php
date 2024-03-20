@@ -13,7 +13,7 @@ use PHPUnit\Framework\Attributes as PA;
  */
 #[
     PA\CoversClass(CGCode::class),
-    PA\Group('AGroup'),
+    PA\Group('cgpt_AGroup'),
     PA\Medium
 ]
 final class CGTest extends CGTestCase
@@ -26,7 +26,7 @@ final class CGTest extends CGTestCase
     /**
      * Test that the code can be executed for "test name".
      */
-    #[PA\Group('AGroup_testGroup')]
+    #[PA\Group('cgpt_AGroup_testGroup')]
     public function testCanExecuteTestMethod(): void
     {
         $this->expectExecuteOutputAnswer(
@@ -38,7 +38,7 @@ final class CGTest extends CGTestCase
     /**
      * Test that the code can be executed for "test name 2".
      */
-    #[PA\Group('AGroup_testGroup2')]
+    #[PA\Group('cgpt_AGroup_testGroup2')]
     public function testCanExecuteTestMethod2(): void
     {
         $this->expectExecuteOutputAnswer(

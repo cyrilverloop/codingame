@@ -15,8 +15,8 @@ use PHPUnit\Framework\TestCase;
 #[
     PA\CoversClass(TestConfigurations::class),
     PA\UsesClass(TestConfiguration::class),
-    PA\Group('configuration'),
-    PA\Group('configuration_testConfigurations')
+    PA\Group('cgpt_configuration'),
+    PA\Group('cgpt_configuration_testConfigurations')
 ]
 final class TestConfigurationsTest extends TestCase
 {

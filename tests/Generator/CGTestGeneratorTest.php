@@ -22,8 +22,8 @@ use PHPUnit\Framework\TestCase;
     PA\UsesClass(GeneratorTestConfiguration::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
-    PA\Group('generator'),
-    PA\Group('generator_CGTestGenerator')
+    PA\Group('cgpt_generator'),
+    PA\Group('cgpt_generator_CGTestGenerator')
 ]
 final class CGTestGeneratorTest extends TestCase
 {

@@ -18,8 +18,8 @@ use PHPUnit\Framework\TestCase;
     PA\CoversClass(CGCodeGenerator::class),
     PA\CoversClass(FileGenerator::class),
     PA\UsesClass(GeneratorCodeConfiguration::class),
-    PA\Group('generator'),
-    PA\Group('generator_CGCodeGenerator')
+    PA\Group('cgpt_generator'),
+    PA\Group('cgpt_generator_CGCodeGenerator')
 ]
 final class CGCodeGeneratorTest extends TestCase
 {

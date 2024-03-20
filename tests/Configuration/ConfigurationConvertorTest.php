@@ -23,8 +23,8 @@ use PHPUnit\Framework\TestCase;
     PA\UsesClass(ParsedConfiguration::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
-    PA\Group('generator'),
-    PA\Group('generator_configurationConvertor')
+    PA\Group('cgpt_generator'),
+    PA\Group('cgpt_generator_configurationConvertor')
 ]
 final class ConfigurationConvertorTest extends TestCase
 {

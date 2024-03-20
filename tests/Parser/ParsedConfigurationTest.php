@@ -15,8 +15,8 @@ use PHPUnit\Framework\TestCase;
 #[
     PA\CoversClass(ParsedConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
-    PA\Group('parser'),
-    PA\Group('parser_parsedConfiguration')
+    PA\Group('cgpt_parser'),
+    PA\Group('cgpt_parser_parsedConfiguration')
 ]
 final class ParsedConfigurationTest extends TestCase
 {
