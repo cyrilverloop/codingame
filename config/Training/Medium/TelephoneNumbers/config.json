@@ -1,0 +1,38 @@
+{
+    "namespace": "Training\\Medium\\TelephoneNumbers",
+    "name": "Telephone numbers",
+    "group": "telephoneNumbers",
+    "link": "https://www.codingame.com/ide/puzzle/telephone-numbers",
+    "tests": [
+        {
+            "name": "A telephone number",
+            "group": "aTelephoneNumber",
+            "method": "ATelephoneNumber",
+            "file": "01 - a telephone number.txt"
+        },
+        {
+            "name": "Numbers with a different base",
+            "group": "numbersWithADifferentBase",
+            "method": "NumbersWithADifferentBase",
+            "file": "02 - numbers with a different base.txt"
+        },
+        {
+            "name": "Number included in another",
+            "group": "numberIncludedInAnother",
+            "method": "NumberIncludedInAnother",
+            "file": "03 - number included in another.txt"
+        },
+        {
+            "name": "Numbers with a common part",
+            "group": "numbersWithACommonPart",
+            "method": "NumbersWithACommonPart",
+            "file": "04 - numbers with a common part.txt"
+        },
+        {
+            "name": "Long list of numbers",
+            "group": "longListOfNumbers",
+            "method": "LongListOfNumbers",
+            "file": "05 - long list of numbers.txt"
+        }
+    ]
+}

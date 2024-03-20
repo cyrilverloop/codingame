@@ -1,0 +1,62 @@
+{
+    "namespace": "Training\\Medium\\TheGift",
+    "name": "The gift",
+    "group": "theGift",
+    "link": "https://www.codingame.com/ide/puzzle/the-gift",
+    "tests": [
+        {
+            "name": "Example 1",
+            "group": "example1",
+            "method": "Example1",
+            "file": "01 - example 1.txt"
+        },
+        {
+            "name": "Example 2",
+            "group": "example2",
+            "method": "Example2",
+            "file": "02 - example 2.txt"
+        },
+        {
+            "name": "Example 3",
+            "group": "example3",
+            "method": "Example3",
+            "file": "03 - example 3.txt"
+        },
+        {
+            "name": "Impossible",
+            "group": "impossible",
+            "method": "Impossible",
+            "file": "04 - impossible.txt"
+        },
+        {
+            "name": "Sort",
+            "group": "sort",
+            "method": "Sort",
+            "file": "05 - sort.txt"
+        },
+        {
+            "name": "Budget limit",
+            "group": "budgetLimit",
+            "method": "BudgetLimit",
+            "file": "06 - budget Limit.txt"
+        },
+        {
+            "name": "Several solutions budget",
+            "group": "severalSolutionsBudget",
+            "method": "SeveralSolutionsBudget",
+            "file": "07 - several solutions budget.txt"
+        },
+        {
+            "name": "Several solution fast",
+            "group": "severalSolutionFast",
+            "method": "SeveralSolutionFast",
+            "file": "08 - several solution fast.txt"
+        },
+        {
+            "name": "Big random",
+            "group": "bigRandom",
+            "method": "BigRandom",
+            "file": "09 - big random.txt"
+        }
+    ]
+}

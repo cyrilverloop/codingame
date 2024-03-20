@@ -1,0 +1,26 @@
+{
+    "namespace": "Training\\Medium\\DwarfsStandingOnTheShouldersOfGiants",
+    "name": "Dwarfs standing on the shoulders of giants",
+    "group": "dwarfsStandingOnTheShouldersOfGiants",
+    "link": "https://www.codingame.com/ide/puzzle/dwarfs-standing-on-the-shoulders-of-giants",
+    "tests": [
+        {
+            "name": "Simple example",
+            "group": "simpleExample",
+            "method": "SimpleExample",
+            "file": "01 - simple example.txt"
+        },
+        {
+            "name": "Complete example",
+            "group": "completeExample",
+            "method": "CompleteExample",
+            "file": "02 - complete example.txt"
+        },
+        {
+            "name": "Several mentors",
+            "group": "severalMentors",
+            "method": "SeveralMentors",
+            "file": "03 - several mentors.txt"
+        }
+    ]
+}

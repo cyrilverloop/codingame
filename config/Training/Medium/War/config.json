@@ -1,0 +1,62 @@
+{
+    "namespace": "Training\\Medium\\War",
+    "name": "War",
+    "group": "war",
+    "link": "https://www.codingame.com/ide/puzzle/winamax-battle",
+    "tests": [
+        {
+            "name": "3 cards",
+            "group": "3cards",
+            "method": "3Cards",
+            "file": "01 - 3 cards.txt"
+        },
+        {
+            "name": "26 cards",
+            "group": "26cards",
+            "method": "26Cards",
+            "file": "02 - 26 cards.txt"
+        },
+        {
+            "name": "26 cards, medium length",
+            "group": "26cardsMediumLength",
+            "method": "26CardsMediumLength",
+            "file": "03 - 26 cards medium length.txt"
+        },
+        {
+            "name": "Battle",
+            "group": "battle",
+            "method": "Battle",
+            "file": "04 - battle.txt"
+        },
+        {
+            "name": "One game, one battle",
+            "group": "oneGameOneBattle",
+            "method": "OneGameOneBattle",
+            "file": "05 - one game one battle.txt"
+        },
+        {
+            "name": "2 chained battles",
+            "group": "2ChainedBattles",
+            "method": "2ChainedBattles",
+            "file": "06 - 2 chained battles.txt"
+        },
+        {
+            "name": "Long game",
+            "group": "longGame",
+            "method": "LongGame",
+            "file": "07 - long game.txt"
+        },
+        {
+            "name": "PAT",
+            "group": "PAT",
+            "method": "PAT",
+            "file": "08 - PAT.txt"
+        },
+        {
+            "name": "Another PAT",
+            "group": "anotherPAT",
+            "method": "AnotherPAT",
+            "file": "09 - another PAT.txt"
+        }
+    ]
+}
