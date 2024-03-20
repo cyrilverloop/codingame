@@ -10,5 +10,8 @@ RUN apk update \
     && echo "xdebug.mode=coverage" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
-# https://getcomposer.org/doc/03-cli.md#composer-allow-superuser
-ENV COMPOSER_ALLOW_SUPERUSER=1
+
+# Ajout de l'utilisateur :
+ARG uid
+ARG user
+RUN adduser -g "" -D -h "/var/www/" -u "$uid" "$user"

@@ -1,3 +1,4 @@
+/.composer/
 /ci/infection/
 /ci/phpunit/
 /ci/psalm/
@@ -16,4 +17,6 @@
 /var/cache/
 /vendor/
 /.ashrc
+/.ash_history
+/.env
 /docker-compose.override.yml

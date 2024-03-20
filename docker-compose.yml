@@ -1,6 +1,12 @@
 services:
     app:
-        build: ./
+        env_file: ./.env
+        build:
+            args:
+                - uid=${uid}
+                - user=${user}
+            context: ./
         volumes:
             - ./:/var/www/
         working_dir: /var/www/
+        user: ${uid}:${gid}
