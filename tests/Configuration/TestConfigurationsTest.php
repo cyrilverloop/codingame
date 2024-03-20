@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Tests\Parser;
+namespace CyrilVerloop\Codingame\Tests\Configuration;
 
 use CyrilVerloop\Codingame\Configuration\TestConfiguration;
 use CyrilVerloop\Codingame\Configuration\TestConfigurations;
