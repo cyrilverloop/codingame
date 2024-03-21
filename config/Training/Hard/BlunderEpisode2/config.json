@@ -1,0 +1,62 @@
+{
+    "namespace": "Training\\Hard\\BlunderEpisode2",
+    "name": "Blunder - episode 2",
+    "group": "blunderEpisode2",
+    "link": "https://www.codingame.com/ide/puzzle/blunder-episode-2",
+    "tests": [
+        {
+            "name": "One room",
+            "group": "oneRoom",
+            "method": "OneRoom",
+            "file": "01 - one room.txt"
+        },
+        {
+            "name": "3 rooms",
+            "group": "3Rooms",
+            "method": "3Rooms",
+            "file": "02 - 3 rooms.txt"
+        },
+        {
+            "name": "15 rooms, small range",
+            "group": "15RoomsSmallRange",
+            "method": "15RoomsSmallRange",
+            "file": "03 - 15 rooms small range.txt"
+        },
+        {
+            "name": "55 rooms",
+            "group": "55Rooms",
+            "method": "55Rooms",
+            "file": "04 - 55 rooms.txt"
+        },
+        {
+            "name": "1275 rooms",
+            "group": "1275Rooms",
+            "method": "1275Rooms",
+            "file": "05 - 1275 rooms.txt"
+        },
+        {
+            "name": "5050 rooms",
+            "group": "5050Rooms",
+            "method": "5050Rooms",
+            "file": "06 - 5050 rooms.txt"
+        },
+        {
+            "name": "9870 rooms",
+            "group": "9870Rooms",
+            "method": "9870Rooms",
+            "file": "07 - 9870 rooms.txt"
+        },
+        {
+            "name": "Square building",
+            "group": "squareBuilding",
+            "method": "SquareBuilding",
+            "file": "08 - square building.txt"
+        },
+        {
+            "name": "Multiple entries",
+            "group": "multipleEntries",
+            "method": "MultipleEntries",
+            "file": "09 - multiple entries.txt"
+        }
+    ]
+}
