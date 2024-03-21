@@ -7,10 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Aliases in `.ashrc.dist`.
+- Infection.
 
 ### Changed
 - PHP 7.3 => 8.3.
 - PHPUnit 9 => 11.
+- Generating code and test from configuration files.
+- Customised user in the container instead of root.
+
+### Removed
+- Community code and test.
 
 ## [3.17.0] - 2023-01-31
 ### Added
