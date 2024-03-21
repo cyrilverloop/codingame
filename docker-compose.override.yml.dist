@@ -1,4 +1,6 @@
 services:
     app:
         environment:
-            - ENV=/var/www/.ashrc
+            - ENV=/home/${user}/.ashrc
+        volumes:
+            - ./.ashrc:/home/${user}/.ashrc

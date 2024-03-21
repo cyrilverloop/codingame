@@ -14,4 +14,4 @@ COPY --from=composer /usr/bin/composer /usr/bin/composer
 # Ajout de l'utilisateur :
 ARG uid
 ARG user
-RUN adduser -g "" -D -h "/var/www/" -u "$uid" "$user"
+RUN adduser -g "" -D -u "$uid" "$user"
