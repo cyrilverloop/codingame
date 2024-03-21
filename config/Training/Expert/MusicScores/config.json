@@ -1,0 +1,80 @@
+{
+    "namespace": "Training\\Expert\\MusicScores",
+    "name": "MusicScores",
+    "group": "musicScores",
+    "link": "https://www.codingame.com/ide/puzzle/music-scores",
+    "tests": [
+        {
+            "name": "One quarter note between lines",
+            "group": "oneQuarterNoteBetweenLines",
+            "method": "OneQuarterNoteBetweenLines",
+            "file": "01 - one quarter note between lines.txt"
+        },
+        {
+            "name": "One quarter note on a line",
+            "group": "oneQuarterNoteOnALine",
+            "method": "OneQuarterNoteOnALine",
+            "file": "02 - one quarter note on a line.txt"
+        },
+        {
+            "name": "One half note between lines",
+            "group": "oneHalfNoteBetweenLines",
+            "method": "OneHalfNoteBetweenLines",
+            "file": "03 - one half note between lines.txt"
+        },
+        {
+            "name": "One half note on a line",
+            "group": "oneHalfNoteOnALine",
+            "method": "OneHalfNoteOnALine",
+            "file": "04 - one half note on a line.txt"
+        },
+        {
+            "name": "Only quarter notes without lower C",
+            "group": "onlyQuarterNotesWithoutLowerC",
+            "method": "OnlyQuarterNotesWithoutLowerC",
+            "file": "05 - only quarter notes without lower C.txt"
+        },
+        {
+            "name": "Only half notes without lower C",
+            "group": "onlyHalfNotesWithoutLowerC",
+            "method": "OnlyHalfNotesWithoutLowerC",
+            "file": "06 - only half notes without lower C.txt"
+        },
+        {
+            "name": "Scale half and quarter notes",
+            "group": "scalehalfAndQuarterNotes",
+            "method": "ScalehalfAndQuarterNotes",
+            "file": "07 - scale half and quarter notes.txt"
+        },
+        {
+            "name": "Lower C",
+            "group": "lowerC",
+            "method": "LowerC",
+            "file": "08 - lower C.txt"
+        },
+        {
+            "name": "Very close",
+            "group": "veryClose",
+            "method": "VeryClose",
+            "file": "09 - very close.txt"
+        },
+        {
+            "name": "Only 1 pixel wide",
+            "group": "only1PixelWide",
+            "method": "Only1PixelWide",
+            "file": "10 - Only 1 pixel wide.txt"
+        },
+        {
+            "name": "Doctor Who theme",
+            "group": "doctorWhoTheme",
+            "method": "DoctorWhoTheme",
+            "file": "11 - doctor Who theme.txt"
+        },
+        {
+            "name": "Random",
+            "group": "random",
+            "method": "Random",
+            "file": "12 - random.txt"
+        }
+    ]
+}
