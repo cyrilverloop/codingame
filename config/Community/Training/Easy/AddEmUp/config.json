@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Easy\\AddEmUp",
+    "name": "Add’em up",
+    "group": "addEmUp",
+    "link": "https://www.codingame.com/ide/puzzle/addem-up",
+    "tests": [
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "01 - simple.txt"
+        },
+        {
+            "name": "Easy",
+            "group": "easy",
+            "method": "Easy",
+            "file": "02 - easy.txt"
+        },
+        {
+            "name": "In a row",
+            "group": "inARow",
+            "method": "InARow",
+            "file": "03 - in a row.txt"
+        },
+        {
+            "name": "XX",
+            "group": "XX",
+            "method": "XX",
+            "file": "04 - XX.txt"
+        },
+        {
+            "name": "CC",
+            "group": "CC",
+            "method": "CC",
+            "file": "05 - CC.txt"
+        },
+        {
+            "name": "D",
+            "group": "D",
+            "method": "D",
+            "file": "06 - D.txt"
+        },
+        {
+            "name": "M",
+            "group": "M",
+            "method": "M",
+            "file": "07 - M.txt"
+        }
+    ]
+}
