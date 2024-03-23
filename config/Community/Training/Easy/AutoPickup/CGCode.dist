@@ -1,0 +1,6 @@
+fscanf($stdin, "%d", $n);
+fscanf($stdin, "%s", $packet);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("001[length][item id]\n");
