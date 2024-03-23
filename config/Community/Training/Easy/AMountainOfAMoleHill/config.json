@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Easy\\AMountainOfAMoleHill",
+    "name": "A mountain of a mole hill",
+    "group": "aMountainOfAMoleHill",
+    "link": "https://www.codingame.com/ide/puzzle/a-mountain-of-a-mole-hill",
+    "tests": [
+        {
+            "name": "A simple garden",
+            "group": "aSimpleGarden",
+            "method": "ASimpleGarden",
+            "file": "01 - a simple garden.txt"
+        },
+        {
+            "name": "From another angle",
+            "group": "fromAnotherAngle",
+            "method": "FromAnotherAngle",
+            "file": "02 - from another angle.txt"
+        },
+        {
+            "name": "Getting crowded",
+            "group": "gettingCrowded",
+            "method": "GettingCrowded",
+            "file": "03 - getting crowded.txt"
+        },
+        {
+            "name": "Divide and conquer",
+            "group": "divideAndConquer",
+            "method": "DivideAndConquer",
+            "file": "04 - divide and conquer.txt"
+        },
+        {
+            "name": "Bag of snakes",
+            "group": "bagOfSnakes",
+            "method": "BagOfSnakes",
+            "file": "05 - bag of snakes.txt"
+        },
+        {
+            "name": "Zzzzz...",
+            "group": "zzzzz",
+            "method": "Zzzzz",
+            "file": "06 - zzzzz....txt"
+        },
+        {
+            "name": "Include and infiltrate",
+            "group": "includeAndInfiltrate",
+            "method": "IncludeAndInfiltrate",
+            "file": "07 - Include and infiltrate.txt"
+        },
+        {
+            "name": "How did THAT happen?",
+            "group": "howDidTHATHappen",
+            "method": "HowDidTHATHappen",
+            "file": "08 - how did THAT happen.txt"
+        }
+    ]
+}
