@@ -1,6 +1,6 @@
 {
     "namespace": "Community\\Training\\Easy\\AChildsPlay",
-    "name": "A child's play",
+    "name": "A child’s play",
     "group": "aChildsPlay",
     "link": "https://www.codingame.com/ide/puzzle/a-childs-play",
     "tests": [
