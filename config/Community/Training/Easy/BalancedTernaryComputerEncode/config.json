@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\BalancedTernaryComputerEncode",
+    "name": "Balanced ternary computer: encode",
+    "group": "balancedTernaryComputerEncode",
+    "link": "https://www.codingame.com/ide/puzzle/balanced-ternary-computer-encode",
+    "tests": [
+        {
+            "name": "Short",
+            "group": "short",
+            "method": "Short",
+            "file": "01 - short.txt"
+        },
+        {
+            "name": "Negative",
+            "group": "negative",
+            "method": "Negative",
+            "file": "02 - negative.txt"
+        },
+        {
+            "name": "Long",
+            "group": "long",
+            "method": "Long",
+            "file": "03 - long.txt"
+        },
+        {
+            "name": "Single digit",
+            "group": "singleDigit",
+            "method": "SingleDigit",
+            "file": "04 - single digit.txt"
+        }
+    ]
+}
