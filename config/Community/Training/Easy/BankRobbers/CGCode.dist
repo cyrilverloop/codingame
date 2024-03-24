@@ -1,0 +1,10 @@
+fscanf($stdin, "%d", $R);
+fscanf($stdin, "%d", $V);
+for ($i = 0; $i < $V; $i++)
+{
+    fscanf($stdin, "%d %d", $C, $N);
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("1\n");

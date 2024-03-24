@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\BankRobbers",
+    "name": "Bank robbers",
+    "group": "bankRobbers",
+    "link": "https://www.codingame.com/ide/puzzle/bank-robbers",
+    "tests": [
+        {
+            "name": "One robber, one easy vault",
+            "group": "oneRobberOneEasyVault",
+            "method": "OneRobberOneEasyVault",
+            "file": "01 - one robber, one easy vault.txt"
+        },
+        {
+            "name": "More robbers, more vaults",
+            "group": "moreRobbersMoreVaults",
+            "method": "MoreRobbersMoreVaults",
+            "file": "02 - more robbers, more vaults.txt"
+        },
+        {
+            "name": "Fewer robbers than vaults",
+            "group": "fewerRobbersThanVaults",
+            "method": "FewerRobbersThanVaults",
+            "file": "03 - fewer robbers than vaults.txt"
+        },
+        {
+            "name": "Big heist",
+            "group": "bigHeist",
+            "method": "BigHeist",
+            "file": "04 - big heist.txt"
+        }
+    ]
+}
