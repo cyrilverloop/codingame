@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Easy\\BracketsExtremeEdition",
+    "name": "Brackets, extreme edition",
+    "group": "bracketsExtremeEdition",
+    "link": "https://www.codingame.com/ide/puzzle/brackets-extreme-edition",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "{([{S}]]6K[()]}",
+            "group": "S6K",
+            "method": "S6K",
+            "file": "02 - {([{S}]]6K[()]}.txt"
+        },
+        {
+            "name": "{C{}[{[a]}RqhL]{y2}}",
+            "group": "CaRqhLy2",
+            "method": "CaRqhLy2",
+            "file": "03 - {C{}[{[a]}RqhL]{y2}}.txt"
+        },
+        {
+            "name": "W12{}{}L{}",
+            "group": "W12L",
+            "method": "W12L",
+            "file": "04 - W12{}{}L{}.txt"
+        },
+        {
+            "name": "h{Pn{GT{h}(c))}",
+            "group": "hPnGThc",
+            "method": "hPnGThc",
+            "file": "05 - h{Pn{GT{h}(c))}.txt"
+        },
+        {
+            "name": "{[{iHTSc}]}p(R)m(){q({})",
+            "group": "iHTScpRmq",
+            "method": "iHTScpRmq",
+            "file": "06 - {[{iHTSc}]}p(R)m(){q({}).txt"
+        },
+        {
+            "name": "][",
+            "group": "7",
+            "method": "7",
+            "file": "07 - ][.txt"
+        },
+        {
+            "name": "{(})",
+            "group": "8",
+            "method": "8",
+            "file": "08 - {(}).txt"
+        }
+    ]
+}

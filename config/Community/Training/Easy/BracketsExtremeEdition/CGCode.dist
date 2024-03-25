@@ -1,0 +1,5 @@
+fscanf($stdin, "%s", $expression);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("true/false\n");
