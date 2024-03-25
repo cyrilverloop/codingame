@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Easy\\ByTrainOrByCar",
+    "name": "By train or by car ?",
+    "group": "byTrainOrByCar",
+    "link": "https://www.codingame.com/ide/puzzle/by-train-or-by-car",
+    "tests": [
+        {
+            "name": "1) Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "2) No stop car first",
+            "group": "noStopCarFirst",
+            "method": "NoStopCarFirst",
+            "file": "02 - no stop car first.txt"
+        },
+        {
+            "name": "3) no stop train first",
+            "group": "noStopTrainFirst",
+            "method": "NoStopTrainFirst",
+            "file": "03 - no stop train first.txt"
+        },
+        {
+            "name": "4) Orléans Cholet",
+            "group": "OrleansCholet",
+            "method": "OrleansCholet",
+            "file": "04 - Orléans Cholet.txt"
+        },
+        {
+            "name": "5) Orléans Nantes",
+            "group": "OrleansNantes",
+            "method": "OrleansNantes",
+            "file": "05 - Orléans Nantes.txt"
+        },
+        {
+            "name": "6) Pithiviers Cholet",
+            "group": "PithiviersCholet",
+            "method": "PithiviersCholet",
+            "file": "06 - Pithiviers Cholet.txt"
+        },
+        {
+            "name": "7) Angouleme Royan",
+            "group": "AngoulemeRoyan",
+            "method": "AngoulemeRoyan",
+            "file": "07 - Angouleme Royan.txt"
+        },
+        {
+            "name": "8) Montpellier Perpignan",
+            "group": "MontpellierPerpignan",
+            "method": "MontpellierPerpignan",
+            "file": "08 - Montpellier Perpignan.txt"
+        }
+    ]
+}
