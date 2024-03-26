@@ -1,0 +1,5 @@
+$textToDecode = stream_get_line($stdin, 101 + 1, "\n");
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("DecodedText:string(101)\n");
