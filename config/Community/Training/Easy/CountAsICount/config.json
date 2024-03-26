@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Easy\\CountAsICount",
+    "name": "Count as i count",
+    "group": "countAsICount",
+    "link": "https://www.codingame.com/ide/puzzle/count-as-i-count",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "To continue",
+            "group": "toContinue",
+            "method": "ToContinue",
+            "file": "02 - to continue.txt"
+        },
+        {
+            "name": "Only one",
+            "group": "onlyOne",
+            "method": "OnlyOne",
+            "file": "03 - only one.txt"
+        },
+        {
+            "name": "Near victory",
+            "group": "nearVictory",
+            "method": "NearVictory",
+            "file": "04 - near victory.txt"
+        },
+        {
+            "name": "Impossible",
+            "group": "impossible",
+            "method": "Impossible",
+            "file": "05 - impossible.txt"
+        },
+        {
+            "name": "Strike !!!",
+            "group": "strike",
+            "method": "Strike",
+            "file": "06 - strike !!!.txt"
+        },
+        {
+            "name": "A lot",
+            "group": "aLot",
+            "method": "ALot",
+            "file": "07 - a lot.txt"
+        },
+        {
+            "name": "A lot bis",
+            "group": "aLotBis",
+            "method": "ALotBis",
+            "file": "08 - a lot bis.txt"
+        }
+    ]
+}
