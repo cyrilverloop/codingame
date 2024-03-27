@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\CreditCardVerifier",
+    "name": "Credit card verifier (Luhn’s algorithm)",
+    "group": "creditCardVerifier",
+    "link": "https://www.codingame.com/ide/puzzle/credit-card-verifier-luhns-algorithm",
+    "tests": [
+        {
+            "name": "Tests",
+            "group": "tests",
+            "method": "Tests",
+            "file": "01 - tests.txt"
+        },
+        {
+            "name": "MasterCard",
+            "group": "MasterCard",
+            "method": "MasterCard",
+            "file": "02 - MasterCard.txt"
+        },
+        {
+            "name": "Discover",
+            "group": "Discover",
+            "method": "Discover",
+            "file": "03 - Discover.txt"
+        },
+        {
+            "name": "VISA",
+            "group": "VISA",
+            "method": "VISA",
+            "file": "04 - VISA.txt"
+        }
+    ]
+}
