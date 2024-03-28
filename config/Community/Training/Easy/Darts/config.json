@@ -2,7 +2,7 @@
     "namespace": "Community\\Training\\Easy\\Darts",
     "name": "Darts",
     "group": "darts",
-    "link": "https://www.codingame.com/ide/puzzle/darts ",
+    "link": "https://www.codingame.com/ide/puzzle/darts",
     "tests": [
         {
             "name": "Hit and miss duos",
