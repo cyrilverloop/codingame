@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\DeadMensShot",
+    "name": "Dead men’s shot",
+    "group": "deadMensShot",
+    "link": "https://www.codingame.com/ide/puzzle/dead-mens-shot",
+    "tests": [
+        {
+            "name": "Square",
+            "group": "square",
+            "method": "Square",
+            "file": "01 - square.txt"
+        },
+        {
+            "name": "Triangle",
+            "group": "triangle",
+            "method": "Triangle",
+            "file": "02 - triangle.txt"
+        },
+        {
+            "name": "Five corners",
+            "group": "fiveCorners",
+            "method": "FiveCorners",
+            "file": "03 - five corners.txt"
+        },
+        {
+            "name": "Six sides",
+            "group": "sixSides",
+            "method": "SixSides",
+            "file": "04 - six sides.txt"
+        },
+        {
+            "name": "Ten sides",
+            "group": "tenSides",
+            "method": "TenSides",
+            "file": "05 - ten sides.txt"
+        }
+    ]
+}
