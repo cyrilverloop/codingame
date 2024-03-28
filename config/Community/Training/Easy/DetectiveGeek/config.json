@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Easy\\DetectiveGeek",
+    "name": "Detective geek",
+    "group": "detectiveGeek",
+    "link": "https://www.codingame.com/ide/puzzle/detective-geek",
+    "tests": [
+        {
+            "name": "Test 1",
+            "group": "test1",
+            "method": "Test1",
+            "file": "01 - test 1.txt"
+        },
+        {
+            "name": "Algeria",
+            "group": "algeria",
+            "method": "Algeria",
+            "file": "02 - algeria.txt"
+        },
+        {
+            "name": "Egypt",
+            "group": "egypt",
+            "method": "Egypt",
+            "file": "03 - egypt.txt"
+        },
+        {
+            "name": "India",
+            "group": "india",
+            "method": "India",
+            "file": "04 - india.txt"
+        },
+        {
+            "name": "Japan",
+            "group": "japan",
+            "method": "Japan",
+            "file": "05 - japan.txt"
+        },
+        {
+            "name": "Italy",
+            "group": "italy",
+            "method": "Italy",
+            "file": "06 - italy.txt"
+        },
+        {
+            "name": "South korea",
+            "group": "southKorea",
+            "method": "SouthKorea",
+            "file": "07 - south korea.txt"
+        }
+    ]
+}
