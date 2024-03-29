@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Easy\\DolbearsLaw",
+    "name": "Dolbear’s law",
+    "group": "dolbearsLaw",
+    "link": "https://www.codingame.com/ide/puzzle/dolbears-law",
+    "tests": [
+        {
+            "name": "The random is in the spring",
+            "group": "theRandomIsInTheSpring",
+            "method": "TheRandomIsInTheSpring",
+            "file": "01 - the random is in the spring.txt"
+        },
+        {
+            "name": "Winter is coming",
+            "group": "winterIsComing",
+            "method": "WinterIsComing",
+            "file": "02 - winter is coming.txt"
+        },
+        {
+            "name": "Jiminy beats the measure",
+            "group": "jiminyBeatsTheMeasure",
+            "method": "JiminyBeatsTheMeasure",
+            "file": "03 - jiminy beats the measure.txt"
+        },
+        {
+            "name": "Jiminy nearly died of cold...",
+            "group": "jiminyNearlyDiedOfCold",
+            "method": "JiminyNearlyDiedOfCold",
+            "file": "04 - jiminy nearly died of cold.txt"
+        },
+        {
+            "name": "An hour in summer",
+            "group": "anHourInSummer",
+            "method": "AnHourInSummer",
+            "file": "05 - an hour in summer.txt"
+        },
+        {
+            "name": "30 minutes of heat wave",
+            "group": "30MinutesOfHeatWave",
+            "method": "30MinutesOfHeatWave",
+            "file": "06 - 30 minutes of heat wave.txt"
+        }
+    ]
+}
