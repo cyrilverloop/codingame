@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Easy\\EquivalentResistanceCircuitBuilding",
+    "name": "Equivalent resistance, circuit building",
+    "group": "equivalentResistanceCircuitBuilding",
+    "link": "https://www.codingame.com/ide/puzzle/equivalent-resistance-circuit-building",
+    "tests": [
+        {
+            "name": "Series",
+            "group": "series",
+            "method": "Series",
+            "file": "01 - series.txt"
+        },
+        {
+            "name": "Parallel",
+            "group": "parallel",
+            "method": "Parallel",
+            "file": "02 - parallel.txt"
+        },
+        {
+            "name": "Combined (example diagram)",
+            "group": "combined",
+            "method": "Combined",
+            "file": "03 - combined.txt"
+        },
+        {
+            "name": "Complex",
+            "group": "complex",
+            "method": "Complex",
+            "file": "04 - complex.txt"
+        },
+        {
+            "name": "More complex",
+            "group": "moreComplex",
+            "method": "MoreComplex",
+            "file": "05 - more complex.txt"
+        },
+        {
+            "name": "5-pointed star",
+            "group": "5PointedStar",
+            "method": "5PointedStar",
+            "file": "06 - 5-pointed star.txt"
+        }
+    ]
+}
