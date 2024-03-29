@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Easy\\EncryptionDecryptionOfEnigmaMachine",
+    "name": "Encryption/decryption of Enigma machine",
+    "group": "encryptionDecryptionOfEnigmaMachine",
+    "link": "https://www.codingame.com/ide/puzzle/encryptiondecryption-of-enigma-machine",
+    "tests": [
+        {
+            "name": "Encode 3",
+            "group": "encode3",
+            "method": "Encode3",
+            "file": "01 - encode 3.txt"
+        },
+        {
+            "name": "Encode 23",
+            "group": "encode23",
+            "method": "Encode23",
+            "file": "02 - encode 23.txt"
+        },
+        {
+            "name": "Decode 21",
+            "group": "decode21",
+            "method": "Decode21",
+            "file": "03 - decode 21.txt"
+        },
+        {
+            "name": "Encode 21",
+            "group": "encode21",
+            "method": "Encode21",
+            "file": "04 - encode 21.txt"
+        },
+        {
+            "name": "Encode 42",
+            "group": "encode42",
+            "method": "Encode42",
+            "file": "05 - encode 42.txt"
+        },
+        {
+            "name": "Decode 49",
+            "group": "decode49",
+            "method": "Decode49",
+            "file": "06 - decode 49.txt"
+        }
+    ]
+}
