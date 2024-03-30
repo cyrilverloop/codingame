@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\ExtendedHammingCodes",
+    "name": "Extended hamming codes",
+    "group": "extendedHammingCodes",
+    "link": "https://www.codingame.com/ide/puzzle/extended-hamming-codes",
+    "tests": [
+        {
+            "name": "Single bit flipped",
+            "group": "singleBitFlipped",
+            "method": "SingleBitFlipped",
+            "file": "01 - single bit flipped.txt"
+        },
+        {
+            "name": "Parity bit flipped",
+            "group": "parityBitFlipped",
+            "method": "ParityBitFlipped",
+            "file": "02 - parity bit flipped.txt"
+        },
+        {
+            "name": "Two errors",
+            "group": "twoErrors",
+            "method": "TwoErrors",
+            "file": "03 - two errors.txt"
+        },
+        {
+            "name": "No error",
+            "group": "noError",
+            "method": "NoError",
+            "file": "04 - no error.txt"
+        }
+    ]
+}
