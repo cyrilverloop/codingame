@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Easy\\FireControl",
+    "name": "Fire control",
+    "group": "fireControl",
+    "link": "https://www.codingame.com/ide/puzzle/firecontrol",
+    "tests": [
+        {
+            "name": "Side-fire",
+            "group": "sideFire",
+            "method": "SideFire",
+            "file": "01 - side-fire.txt"
+        },
+        {
+            "name": "Who cut those?",
+            "group": "whoCutThose",
+            "method": "WhoCutThose",
+            "file": "02 - who cut those?.txt"
+        },
+        {
+            "name": "Should i plant some trees?",
+            "group": "shouldIPlantSomeTrees",
+            "method": "ShouldIPlantSomeTrees",
+            "file": "03 - should I plant some trees?.txt"
+        },
+        {
+            "name": "Random centre",
+            "group": "randomCentre",
+            "method": "RandomCentre",
+            "file": "04 - random centre.txt"
+        },
+        {
+            "name": "Trees???",
+            "group": "trees",
+            "method": "Trees",
+            "file": "05 - trees???.txt"
+        },
+        {
+            "name": "Just RUN",
+            "group": "JustRUN",
+            "method": "JustRUN",
+            "file": "06 - Just RUN.txt"
+        },
+        {
+            "name": "Who plant THIS???",
+            "group": "whoPlantTHIS",
+            "method": "WhoPlantTHIS",
+            "file": "07 - who plant THIS???.txt"
+        },
+        {
+            "name": "False alarm",
+            "group": "falseAlarm",
+            "method": "FalseAlarm",
+            "file": "08 - false alarm.txt"
+        }
+    ]
+}
