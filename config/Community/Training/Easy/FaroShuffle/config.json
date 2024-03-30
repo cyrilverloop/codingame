@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\FaroShuffle",
+    "name": "Faro shuffle",
+    "group": "faroShuffle",
+    "link": "https://www.codingame.com/ide/puzzle/faro-shuffle",
+    "tests": [
+        {
+            "name": "Aces",
+            "group": "aces",
+            "method": "Aces",
+            "file": "01 - aces.txt"
+        },
+        {
+            "name": "Odd number of cards",
+            "group": "oddNumberOfCards",
+            "method": "OddNumberOfCards",
+            "file": "02 - odd number of cards.txt"
+        },
+        {
+            "name": "Multiple shuffles",
+            "group": "multipleShuffles",
+            "method": "MultipleShuffles",
+            "file": "03 - multiple shuffles.txt"
+        },
+        {
+            "name": "Fresh deck",
+            "group": "freshDeck",
+            "method": "FreshDeck",
+            "file": "04 - fresh deck.txt"
+        }
+    ]
+}
