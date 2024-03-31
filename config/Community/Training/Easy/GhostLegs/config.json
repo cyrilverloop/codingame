@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Easy\\GhostLegs",
+    "name": "Ghost legs",
+    "group": "ghostLegs",
+    "link": "https://www.codingame.com/ide/puzzle/ghost-legs",
+    "tests": [
+        {
+            "name": "Simple sample",
+            "group": "simpleSample",
+            "method": "SimpleSample",
+            "file": "01 - simple sample.txt"
+        },
+        {
+            "name": "Small sample",
+            "group": "smallSample",
+            "method": "SmallSample",
+            "file": "02 - small sample.txt"
+        },
+        {
+            "name": "6 Lanes",
+            "group": "6Lanes",
+            "method": "6Lanes",
+            "file": "03 - 6 lanes.txt"
+        },
+        {
+            "name": "8 Lanes",
+            "group": "8Lanes",
+            "method": "8Lanes",
+            "file": "04 - 8 lanes.txt"
+        },
+        {
+            "name": "10 Lanes",
+            "group": "10Lanes",
+            "method": "10Lanes",
+            "file": "05 - 10 lanes.txt"
+        },
+        {
+            "name": "Wide and wild",
+            "group": "wideAndWild",
+            "method": "WideAndWild",
+            "file": "06 - wide and wild.txt"
+        }
+    ]
+}
