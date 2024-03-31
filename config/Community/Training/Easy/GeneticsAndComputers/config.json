@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\GeneticsAndComputers",
+    "name": "Genetics and computers",
+    "group": "geneticsAndComputers",
+    "link": "https://www.codingame.com/ide/puzzle/genetics-and-computers",
+    "tests": [
+        {
+            "name": "Round yellow ✖ round yellow",
+            "group": "roundYellowRoundYellow",
+            "method": "RoundYellowRoundYellow",
+            "file": "01 - round yellow round yellow.txt"
+        },
+        {
+            "name": "Round yellow ✖ round green",
+            "group": "roundYellowRoundGreen",
+            "method": "RoundYellowRoundGreen",
+            "file": "02 - round yellow round green.txt"
+        },
+        {
+            "name": "Wrinkled yellow ✖ round green",
+            "group": "wrinkledYellowRoundGreen",
+            "method": "WrinkledYellowRoundGreen",
+            "file": "03 - wrinkled yellow round green.txt"
+        },
+        {
+            "name": "Tall yellow ✖ tall green",
+            "group": "tallYellowTallGreen",
+            "method": "TallYellowTallGreen",
+            "file": "04 - tall yellow tall green.txt"
+        }
+    ]
+}
