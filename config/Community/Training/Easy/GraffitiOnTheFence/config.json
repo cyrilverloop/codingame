@@ -1,0 +1,86 @@
+{
+    "namespace": "Community\\Training\\Easy\\GraffitiOnTheFence",
+    "name": "Graffiti on the fence",
+    "group": "graffitiOnTheFence",
+    "link": "https://www.codingame.com/ide/puzzle/graffiti-on-the-fence",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Overlapping 1",
+            "group": "overlapping1",
+            "method": "Overlapping1",
+            "file": "02 - overlapping 1.txt"
+        },
+        {
+            "name": "Overlapping 2",
+            "group": "overlapping2",
+            "method": "Overlapping2",
+            "file": "03 - overlapping 2.txt"
+        },
+        {
+            "name": "All painted",
+            "group": "allPainted",
+            "method": "AllPainted",
+            "file": "04 - all painted.txt"
+        },
+        {
+            "name": "Continuous",
+            "group": "continuous",
+            "method": "Continuous",
+            "file": "05 - continuous.txt"
+        },
+        {
+            "name": "Long fence 1",
+            "group": "longFence1",
+            "method": "LongFence1",
+            "file": "06 - long fence 1.txt"
+        },
+        {
+            "name": "Long fence 2",
+            "group": "longFence2",
+            "method": "LongFence2",
+            "file": "07 - long fence 2.txt"
+        },
+        {
+            "name": "Long fence 3",
+            "group": "longFence3",
+            "method": "LongFence3",
+            "file": "08 - long fence 3.txt"
+        },
+        {
+            "name": "Long fence 4",
+            "group": "longFence4",
+            "method": "LongFence4",
+            "file": "09 - long fence 4.txt"
+        },
+        {
+            "name": "Long fence 5",
+            "group": "longFence5",
+            "method": "LongFence5",
+            "file": "10 - long fence 5.txt"
+        },
+        {
+            "name": "Long fence 6",
+            "group": "longFence6",
+            "method": "LongFence6",
+            "file": "11 - long fence 6.txt"
+        },
+        {
+            "name": "Minor test 1",
+            "group": "minorTest1",
+            "method": "MinorTest1",
+            "file": "12 - minor test 1.txt"
+        },
+        {
+            "name": "Minor test 2",
+            "group": "minorTest2",
+            "method": "MinorTest2",
+            "file": "13 - minor test 2.txt"
+        }
+    ]
+}
