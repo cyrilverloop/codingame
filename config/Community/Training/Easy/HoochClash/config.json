@@ -1,0 +1,74 @@
+{
+    "namespace": "Community\\Training\\Easy\\HoochClash",
+    "name": "Hooch clash",
+    "group": "hoochClash",
+    "link": "https://www.codingame.com/ide/puzzle/hooch-clash",
+    "tests": [
+        {
+            "name": "This is fun!",
+            "group": "thisIsFun",
+            "method": "ThisIsFun",
+            "file": "01 - this is fun!.txt"
+        },
+        {
+            "name": "This is valid!",
+            "group": "thisIsValid",
+            "method": "ThisIsValid",
+            "file": "02 - this is valid!.txt"
+        },
+        {
+            "name": "Fun enough",
+            "group": "funEnough",
+            "method": "FunEnough",
+            "file": "03 - fun enough.txt"
+        },
+        {
+            "name": "Whee",
+            "group": "whee",
+            "method": "Whee",
+            "file": "04 - whee.txt"
+        },
+        {
+            "name": "Higher",
+            "group": "higher",
+            "method": "Higher",
+            "file": "05 - higher.txt"
+        },
+        {
+            "name": "Much higher",
+            "group": "muchHigher",
+            "method": "MuchHigher",
+            "file": "06 - much higher.txt"
+        },
+        {
+            "name": "Crazy high",
+            "group": "crazyHigh",
+            "method": "CrazyHigh",
+            "file": "07 - crazy high.txt"
+        },
+        {
+            "name": "Stoned",
+            "group": "stoned",
+            "method": "Stoned",
+            "file": "08 - stoned.txt"
+        },
+        {
+            "name": "Overflow",
+            "group": "overflow",
+            "method": "Overflow",
+            "file": "09 - overflow.txt"
+        },
+        {
+            "name": "Underflow",
+            "group": "underflow",
+            "method": "Underflow",
+            "file": "10 - underflow.txt"
+        },
+        {
+            "name": "BAndB",
+            "group": "BB",
+            "method": "BB",
+            "file": "11 - BAndB.txt"
+        }
+    ]
+}
