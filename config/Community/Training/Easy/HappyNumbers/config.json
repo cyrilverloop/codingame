@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\HappyNumbers",
+    "name": "Happy numbers",
+    "group": "happyNumbers",
+    "link": "https://www.codingame.com/ide/puzzle/happy-numbers",
+    "tests": [
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "01 - simple.txt"
+        },
+        {
+            "name": "Moderate",
+            "group": "moderate",
+            "method": "Moderate",
+            "file": "02 - moderate.txt"
+        },
+        {
+            "name": "Serious",
+            "group": "serious",
+            "method": "Serious",
+            "file": "03 - serious.txt"
+        },
+        {
+            "name": "Watch out the limit",
+            "group": "watchOutTheLimit",
+            "method": "WatchOutTheLimit",
+            "file": "04 - watch out the limit.txt"
+        },
+        {
+            "name": "Cocktail",
+            "group": "cocktail",
+            "method": "Cocktail",
+            "file": "05 - cocktail.txt"
+        }
+    ]
+}
