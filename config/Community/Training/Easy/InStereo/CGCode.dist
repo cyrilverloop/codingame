@@ -1,0 +1,15 @@
+fscanf($stdin, "%d", $P);
+$pattern = stream_get_line($stdin, $P + 1, "\n");
+fscanf($stdin, "%d", $S);
+$stock = stream_get_line($stdin, $S + 1, "\n");
+fscanf($stdin, "%d %d", $H, $W);
+for ($i = 0; $i < $H; $i++)
+{
+    $depthmap = stream_get_line($stdin, $W + 1, "\n");
+}
+for ($i = 0; $i < $H; $i++)
+{
+    // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+    echo("answer\n");
+}
