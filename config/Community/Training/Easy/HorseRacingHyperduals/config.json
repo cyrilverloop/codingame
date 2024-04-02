@@ -1,0 +1,86 @@
+{
+    "namespace": "Community\\Training\\Easy\\HorseRacingHyperduals",
+    "name": "Horse-racing hyperduals",
+    "group": "horseRacingHyperduals",
+    "link": "https://www.codingame.com/ide/puzzle/horse-racing-hyperduals",
+    "tests": [
+        {
+            "name": "Velocity-centric race",
+            "group": "velocityCentricRace",
+            "method": "VelocityCentricRace",
+            "file": "01 - velocity-centric race.txt"
+        },
+        {
+            "name": "Elegance-centric race",
+            "group": "eleganceCentricRace",
+            "method": "EleganceCentricRace",
+            "file": "02 - elegance-centric race.txt"
+        },
+        {
+            "name": "Balanced horses",
+            "group": "balancedHorses",
+            "method": "BalancedHorses",
+            "file": "03 - balanced horses.txt"
+        },
+        {
+            "name": "Linear horses",
+            "group": "linearHorses",
+            "method": "LinearHorses",
+            "file": "04 - linear horses.txt"
+        },
+        {
+            "name": "Affine horses",
+            "group": "affineHorses",
+            "method": "AffineHorses",
+            "file": "05 - affine horses.txt"
+        },
+        {
+            "name": "Bimodal horses",
+            "group": "bimodalHorses",
+            "method": "BimodalHorses",
+            "file": "06 - bimodal horses.txt"
+        },
+        {
+            "name": "2D horses",
+            "group": "2DHorses",
+            "method": "2DHorses",
+            "file": "07 - 2D horses.txt"
+        },
+        {
+            "name": "A fistful of horses",
+            "group": "aFistfulOfHorses",
+            "method": "AFistfulOfHorses",
+            "file": "08 - a fistful of horses.txt"
+        },
+        {
+            "name": "For a few horse more",
+            "group": "forAFewHorseMore",
+            "method": "ForAFewHorseMore",
+            "file": "09 - for a few horse more.txt"
+        },
+        {
+            "name": "All your horse are belong to us",
+            "group": "allYourHorseAreBelongToUs",
+            "method": "AllYourHorseAreBelongToUs",
+            "file": "10 - all your horse are belong to us.txt"
+        },
+        {
+            "name": "Many horses",
+            "group": "manyHorses",
+            "method": "ManyHorses",
+            "file": "11 - many horses.txt"
+        },
+        {
+            "name": "Mmmaaannn, That Sucks!",
+            "group": "mmmaaannnThatSucks",
+            "method": "MmmaaannnThatSucks",
+            "file": "12 - mmmaaannn, that sucks!.txt"
+        },
+        {
+            "name": "Don’t overflow your stack",
+            "group": "dontOverflowYourStack",
+            "method": "DontOverflowYourStack",
+            "file": "13 - don’t overflow your stack.txt"
+        }
+    ]
+}
