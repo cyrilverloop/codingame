@@ -1,0 +1,6 @@
+fscanf($stdin, "%s", $BEGIN);
+fscanf($stdin, "%s", $END);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("YY year[s], MM month[s], total NN days\n");

@@ -1,0 +1,62 @@
+{
+    "namespace": "Community\\Training\\Easy\\HowTimeFlies",
+    "name": "How time flies",
+    "group": "howTimeFlies",
+    "link": "https://www.codingame.com/ide/puzzle/how-time-flies",
+    "tests": [
+        {
+            "name": "Full years",
+            "group": "fullYears",
+            "method": "FullYears",
+            "file": "01 - full years.txt"
+        },
+        {
+            "name": "Full months",
+            "group": "fullMonths",
+            "method": "FullMonths",
+            "file": "02 - full months.txt"
+        },
+        {
+            "name": "Years and months",
+            "group": "yearsAndMonths",
+            "method": "YearsAndMonths",
+            "file": "03 - years and months.txt"
+        },
+        {
+            "name": "Days only",
+            "group": "daysOnly",
+            "method": "DaysOnly",
+            "file": "04 - days only.txt"
+        },
+        {
+            "name": "Same date",
+            "group": "sameDate",
+            "method": "SameDate",
+            "file": "05 - same date.txt"
+        },
+        {
+            "name": "Complex",
+            "group": "complex",
+            "method": "Complex",
+            "file": "06 - complex.txt"
+        },
+        {
+            "name": "One month",
+            "group": "oneMonth",
+            "method": "OneMonth",
+            "file": "07 - one month.txt"
+        },
+        {
+            "name": "One year",
+            "group": "oneYear",
+            "method": "OneYear",
+            "file": "08 - one year.txt"
+        },
+        {
+            "name": "Leap year",
+            "group": "leapYear",
+            "method": "LeapYear",
+            "file": "09 - leap year.txt"
+        }
+    ]
+}
