@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\MarkovTextGeneration",
+    "name": "Markov text generation",
+    "group": "markovTextGeneration",
+    "link": "https://www.codingame.com/ide/puzzle/markov-text-generation",
+    "tests": [
+        {
+            "name": "Fish example depth 2",
+            "group": "fishExampleDepth2",
+            "method": "FishExampleDepth2",
+            "file": "01 - fish example depth 2.txt"
+        },
+        {
+            "name": "Fish example depth 1",
+            "group": "fishExampleDepth1",
+            "method": "FishExampleDepth1",
+            "file": "02 - fish example depth 1.txt"
+        },
+        {
+            "name": "Width 2",
+            "group": "width2",
+            "method": "Width2",
+            "file": "03 - width 2.txt"
+        },
+        {
+            "name": "Width 3",
+            "group": "width3",
+            "method": "Width3",
+            "file": "04 - width 3.txt"
+        }
+    ]
+}
