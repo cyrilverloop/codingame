@@ -1,0 +1,7 @@
+fscanf($stdin, "%d", $leapYear);
+fscanf($stdin, "%s %s %d", $sourceDayOfWeek, $sourceMonth, $sourceDayOfMonth);
+fscanf($stdin, "%s %d", $targetMonth, $targetDayOfMonth);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("day of week\n");
