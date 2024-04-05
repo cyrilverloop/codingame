@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\MayTheTriforceBeWithYou",
+    "name": "May the Triforce be with you!",
+    "group": "mayTheTriforceBeWithYou",
+    "link": "https://www.codingame.com/ide/puzzle/may-the-triforce-be-with-you",
+    "tests": [
+        {
+            "name": "N = 1",
+            "group": "n1",
+            "method": "N1",
+            "file": "01 - N=1.txt"
+        },
+        {
+            "name": "N = 3",
+            "group": "n3",
+            "method": "N3",
+            "file": "02 - N=3.txt"
+        },
+        {
+            "name": "N = 5",
+            "group": "n5",
+            "method": "N5",
+            "file": "03 - N=5.txt"
+        },
+        {
+            "name": "N = 10",
+            "group": "n10",
+            "method": "N10",
+            "file": "04 - N=10.txt"
+        }
+    ]
+}
