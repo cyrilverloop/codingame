@@ -1,0 +1,19 @@
+fscanf($stdin, "%d", $cyborgCount);
+for ($i = 0; $i < $cyborgCount; $i++)
+{
+    fscanf($stdin, "%s", $cyborgName);
+}
+fscanf($stdin, "%d", $mayhemReportCount);
+for ($i = 0; $i < $mayhemReportCount; $i++)
+{
+    $mayhemReport = stream_get_line($stdin, 100 + 1, "\n");
+}
+fscanf($stdin, "%d", $cyborgReportCount);
+for ($i = 0; $i < $cyborgReportCount; $i++)
+{
+    $cyborgReport = stream_get_line($stdin, 100 + 1, "\n");
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("CYBORG\n");
