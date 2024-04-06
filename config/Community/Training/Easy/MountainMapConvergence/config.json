@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Easy\\MountainMapConvergence",
+    "name": "Mountain map convergence",
+    "group": "mountainMapConvergence",
+    "link": "https://www.codingame.com/ide/puzzle/mountain-map-convergence",
+    "tests": [
+        {
+            "name": "Familiar",
+            "group": "familiar",
+            "method": "Familiar",
+            "file": "01 - familiar.txt"
+        },
+        {
+            "name": "Wait i was correct on the last one",
+            "group": "waitIWasCorrectOnTheLastOne",
+            "method": "WaitIWasCorrectOnTheLastOne",
+            "file": "02 - wait i was correct on the last one.txt"
+        },
+        {
+            "name": "Twin peaks",
+            "group": "twinPeaks",
+            "method": "TwinPeaks",
+            "file": "03 - twin peaks.txt"
+        },
+        {
+            "name": "Negatives",
+            "group": "negatives",
+            "method": "Negatives",
+            "file": "04 - negatives.txt"
+        },
+        {
+            "name": "Tricky negatives",
+            "group": "trickyNegatives",
+            "method": "TrickyNegatives",
+            "file": "05 - tricky negatives.txt"
+        },
+        {
+            "name": "More tricky negatives",
+            "group": "moreTrickyNegatives",
+            "method": "MoreTrickyNegatives",
+            "file": "06 - more tricky negatives.txt"
+        },
+        {
+            "name": "Crazy mountains",
+            "group": "crazyMountains",
+            "method": "CrazyMountains",
+            "file": "07 - crazy mountains.txt"
+        }
+    ]
+}
