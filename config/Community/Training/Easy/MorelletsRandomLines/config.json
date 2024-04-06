@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Easy\\MorelletsRandomLines",
+    "name": "Morellet’s random lines",
+    "group": "morelletsRandomLines",
+    "link": "https://www.codingame.com/ide/puzzle/morellets-random-lines",
+    "tests": [
+        {
+            "name": "One line",
+            "group": "oneLine",
+            "method": "OneLine",
+            "file": "01 - one line.txt"
+        },
+        {
+            "name": "Two lines",
+            "group": "twoLines",
+            "method": "TwoLines",
+            "file": "02 - two lines.txt"
+        },
+        {
+            "name": "On a line",
+            "group": "onALine",
+            "method": "OnALine",
+            "file": "03 - on a line.txt"
+        },
+        {
+            "name": "Many lines",
+            "group": "manyLines",
+            "method": "ManyLines",
+            "file": "04 - many lines.txt"
+        },
+        {
+            "name": "Same line",
+            "group": "sameLine",
+            "method": "SameLine",
+            "file": "05 - same line.txt"
+        },
+        {
+            "name": "Lots of lines",
+            "group": "lotsOfLines",
+            "method": "LotsOfLines",
+            "file": "06 - lots of lines.txt"
+        },
+        {
+            "name": "Lots of lines 2",
+            "group": "lotsOfLines2",
+            "method": "LotsOfLines2",
+            "file": "07 - lots of lines 2.txt"
+        },
+        {
+            "name": "Mind the sign",
+            "group": "mindTheSign",
+            "method": "MindTheSign",
+            "file": "08 - mind the sign.txt"
+        }
+    ]
+}
