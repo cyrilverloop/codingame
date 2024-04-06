@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Easy\\MovesInMaze",
+    "name": "Moves in maze",
+    "group": "movesInMaze",
+    "link": "https://www.codingame.com/ide/puzzle/moves-in-maze",
+    "tests": [
+        {
+            "name": "Easy",
+            "group": "easy",
+            "method": "Easy",
+            "file": "01 - easy.txt"
+        },
+        {
+            "name": "Loop",
+            "group": "loop",
+            "method": "Loop",
+            "file": "02 - loop.txt"
+        },
+        {
+            "name": "Through borders",
+            "group": "throughBorders",
+            "method": "ThroughBorders",
+            "file": "03 - through borders.txt"
+        },
+        {
+            "name": "Space",
+            "group": "space",
+            "method": "Space",
+            "file": "04 - space.txt"
+        },
+        {
+            "name": "Unreachable",
+            "group": "unreachable",
+            "method": "Unreachable",
+            "file": "05 - unreachable.txt"
+        },
+        {
+            "name": "Everything",
+            "group": "everything",
+            "method": "Everything",
+            "file": "06 - everything.txt"
+        },
+        {
+            "name": "Blocked",
+            "group": "blocked",
+            "method": "Blocked",
+            "file": "07 - blocked.txt"
+        }
+    ]
+}
