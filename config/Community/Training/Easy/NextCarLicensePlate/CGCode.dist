@@ -1,0 +1,6 @@
+$x = stream_get_line($stdin, 9 + 1, "\n");
+fscanf($stdin, "%d", $n);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("AA-000-AA\n");
