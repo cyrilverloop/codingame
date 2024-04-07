@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Easy\\NatureOfQuadrilaterals",
+    "name": "Nature of quadrilaterals",
+    "group": "natureOfQuadrilaterals",
+    "link": "https://www.codingame.com/ide/puzzle/nature-of-quadrilaterals",
+    "tests": [
+        {
+            "name": "Quadrilateral",
+            "group": "quadrilateral",
+            "method": "Quadrilateral",
+            "file": "01 - quadrilateral.txt"
+        },
+        {
+            "name": "Parallelogram",
+            "group": "parallelogram",
+            "method": "Parallelogram",
+            "file": "02 - parallelogram.txt"
+        },
+        {
+            "name": "Rhombus",
+            "group": "rhombus",
+            "method": "Rhombus",
+            "file": "03 - rhombus.txt"
+        },
+        {
+            "name": "Rectangle",
+            "group": "rectangle",
+            "method": "Rectangle",
+            "file": "04 - rectangle.txt"
+        },
+        {
+            "name": "Square",
+            "group": "square",
+            "method": "Square",
+            "file": "05 - square.txt"
+        },
+        {
+            "name": "Everything",
+            "group": "everything",
+            "method": "Everything",
+            "file": "06 - everything.txt"
+        }
+    ]
+}
