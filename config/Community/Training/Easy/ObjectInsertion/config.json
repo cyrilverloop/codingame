@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Easy\\ObjectInsertion",
+    "name": "Object insertion",
+    "group": "objectInsertion",
+    "link": "https://www.codingame.com/ide/puzzle/object-insertion",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "No solution",
+            "group": "noSolution",
+            "method": "NoSolution",
+            "file": "02 - no solution.txt"
+        },
+        {
+            "name": "Multiple solutions",
+            "group": "multipleSolutions",
+            "method": "MultipleSolutions",
+            "file": "03 - multiple solutions.txt"
+        },
+        {
+            "name": "No place for dot",
+            "group": "noPlaceForDot",
+            "method": "NoPlaceForDot",
+            "file": "04 - no place for dot.txt"
+        },
+        {
+            "name": "Empty smallest grid",
+            "group": "emptySmallestGrid",
+            "method": "EmptySmallestGrid",
+            "file": "05 - empty smallest grid.txt"
+        },
+        {
+            "name": "Fragmented object",
+            "group": "fragmentedObject",
+            "method": "FragmentedObject",
+            "file": "06 - fragmented object.txt"
+        },
+        {
+            "name": "Lot of solutions",
+            "group": "lotOfSolutions",
+            "method": "LotOfSolutions",
+            "file": "07 - lot of solutions.txt"
+        }
+    ]
+}
