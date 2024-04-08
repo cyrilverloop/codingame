@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\NumberDerivation",
+    "name": "Number derivation",
+    "group": "numberDerivation",
+    "link": "https://www.codingame.com/ide/puzzle/number-derivation",
+    "tests": [
+        {
+            "name": "Prime number",
+            "group": "primeNumber",
+            "method": "PrimeNumber",
+            "file": "01 - prime number.txt"
+        },
+        {
+            "name": "Power of prime",
+            "group": "powerOfPrime",
+            "method": "PowerOfPrime",
+            "file": "02 - power of prime.txt"
+        },
+        {
+            "name": "Product of primes",
+            "group": "productOfPrimes",
+            "method": "ProductOfPrimes",
+            "file": "03 - product of primes.txt"
+        },
+        {
+            "name": "Integer",
+            "group": "integer",
+            "method": "Integer",
+            "file": "04 - integer.txt"
+        },
+        {
+            "name": "n’=n",
+            "group": "nn",
+            "method": "NN",
+            "file": "05 - n’=n.txt"
+        }
+    ]
+}
