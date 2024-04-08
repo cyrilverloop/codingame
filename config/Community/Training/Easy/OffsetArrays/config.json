@@ -1,0 +1,68 @@
+{
+    "namespace": "Community\\Training\\Easy\\OffsetArrays",
+    "name": "Offset arrays",
+    "group": "offsetArrays",
+    "link": "https://www.codingame.com/ide/puzzle/offset-arrays",
+    "tests": [
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "01 - simple.txt"
+        },
+        {
+            "name": "Negative indexing",
+            "group": "negativeIndexing",
+            "method": "NegativeIndexing",
+            "file": "02 - negative indexing.txt"
+        },
+        {
+            "name": "Nested",
+            "group": "nested",
+            "method": "Nested",
+            "file": "03 - nested.txt"
+        },
+        {
+            "name": "One-based",
+            "group": "oneBased",
+            "method": "OneBased",
+            "file": "04 - one-based.txt"
+        },
+        {
+            "name": "Only one element",
+            "group": "onlyOneElement",
+            "method": "OnlyOneElement",
+            "file": "05 - only one element.txt"
+        },
+        {
+            "name": "Big Offsets #1",
+            "group": "bigOffsets1",
+            "method": "BigOffsets1",
+            "file": "06 - big offsets #1.txt"
+        },
+        {
+            "name": "Big Offsets #2",
+            "group": "bigOffsets2",
+            "method": "BigOffsets2",
+            "file": "07 - big offsets #2.txt"
+        },
+        {
+            "name": "Deep nesting",
+            "group": "deepNesting",
+            "method": "DeepNesting",
+            "file": "08 - deep nesting.txt"
+        },
+        {
+            "name": "Complicated #1",
+            "group": "complicated1",
+            "method": "Complicated1",
+            "file": "09 - complicated #1.txt"
+        },
+        {
+            "name": "Complicated #2",
+            "group": "complicated2",
+            "method": "Complicated2",
+            "file": "10 - complicated #2.txt"
+        }
+    ]
+}
