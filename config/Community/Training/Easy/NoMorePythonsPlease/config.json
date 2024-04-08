@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\NoMorePythonsPlease",
+    "name": "No more pythons, please!",
+    "group": "noMorePythonsPlease",
+    "link": "https://www.codingame.com/ide/puzzle/no-more-pythons-please",
+    "tests": [
+        {
+            "name": "Easy (one snake)",
+            "group": "easyOneSnake",
+            "method": "EasyOneSnake",
+            "file": "01 - easy (one snake).txt"
+        },
+        {
+            "name": "Medium 1 (3 snakes, one pattern)",
+            "group": "medium13SnakesOnePattern",
+            "method": "Medium13SnakesOnePattern",
+            "file": "02 - medium 1 (3 snakes, one pattern).txt"
+        },
+        {
+            "name": "Medium 2 (more than 1 large snake)",
+            "group": "medium2MoreThan1LargeSnake",
+            "method": "Medium2MoreThan1LargeSnake",
+            "file": "03 - medium 2 (more than 1 large snake).txt"
+        },
+        {
+            "name": "Hard (one VERY large snake)",
+            "group": "hardOneVERYLargeSnake",
+            "method": "HardOneVERYLargeSnake",
+            "file": "04 - hard (one VERY large snake).txt"
+        },
+        {
+            "name": "Snake madness (for geeks)",
+            "group": "snakeMadnessForGeeks",
+            "method": "SnakeMadnessForGeeks",
+            "file": "05 - snake madness (for geeks).txt"
+        }
+    ]
+}
