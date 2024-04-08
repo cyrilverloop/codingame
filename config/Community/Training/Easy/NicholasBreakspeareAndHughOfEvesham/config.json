@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Easy\\NicholasBreakspeareAndHughOfEvesham",
+    "name": "Nicholas Breakspeare and Hugh of Evesham",
+    "group": "nicholasBreakspeareAndHughOfEvesham",
+    "link": "https://www.codingame.com/ide/puzzle/nicholas-breakspeare-and-hugh-of-evesham",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "The basics",
+            "group": "theBasics",
+            "method": "TheBasics",
+            "file": "02 - the basics.txt"
+        },
+        {
+            "name": "The teens",
+            "group": "theTeens",
+            "method": "TheTeens",
+            "file": "03 - the teens.txt"
+        },
+        {
+            "name": "Some powers of 10",
+            "group": "somePowersOf10",
+            "method": "SomePowersOf10",
+            "file": "04 - some powers of 10.txt"
+        },
+        {
+            "name": "Some powers of 2",
+            "group": "somePowersOf2",
+            "method": "SomePowersOf2",
+            "file": "05 - some powers of 2.txt"
+        },
+        {
+            "name": "Extrema",
+            "group": "extrema",
+            "method": "Extrema",
+            "file": "06 - extrema.txt"
+        },
+        {
+            "name": "Utter randomness",
+            "group": "utterRandomness",
+            "method": "UtterRandomness",
+            "file": "07 - utter randomness.txt"
+        }
+    ]
+}
