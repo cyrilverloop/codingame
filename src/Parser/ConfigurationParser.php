@@ -15,7 +15,7 @@ final class ConfigurationParser
     // Methods :
 
     /**
-     * Returns the  configuration from the configuration file.
+     * Returns the configuration from the configuration file.
      * @param string $file the file.
      * @throws \RuntimeException if the configuration file is not readable.
      * @return \CyrilVerloop\Codingame\Parser\ParsedConfiguration the parsed configuration.
