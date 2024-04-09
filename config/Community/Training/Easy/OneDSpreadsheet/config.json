@@ -1,0 +1,86 @@
+{
+    "namespace": "Community\\Training\\Easy\\OneDSpreadsheet",
+    "name": "1D spreadsheet",
+    "group": "1DSpreadsheet",
+    "link": "https://www.codingame.com/ide/puzzle/1d-spreadsheet",
+    "tests": [
+        {
+            "name": "Simple dependency",
+            "group": "simpleDependency",
+            "method": "SimpleDependency",
+            "file": "01 - simple dependency.txt"
+        },
+        {
+            "name": "Double dependency",
+            "group": "doubleDependency",
+            "method": "DoubleDependency",
+            "file": "02 - double dependency.txt"
+        },
+        {
+            "name": "Subtraction",
+            "group": "subtraction",
+            "method": "Subtraction",
+            "file": "03 - subtraction.txt"
+        },
+        {
+            "name": "Multiplication",
+            "group": "multiplication",
+            "method": "Multiplication",
+            "file": "04 - multiplication.txt"
+        },
+        {
+            "name": "No dependencies",
+            "group": "noDependencies",
+            "method": "NoDependencies",
+            "file": "05 - no dependencies.txt"
+        },
+        {
+            "name": "Coefficients",
+            "group": "coefficients",
+            "method": "Coefficients",
+            "file": "06 - coefficients.txt"
+        },
+        {
+            "name": "Fibonacci",
+            "group": "fibonacci",
+            "method": "Fibonacci",
+            "file": "07 - fibonacci.txt"
+        },
+        {
+            "name": "Backward dependency",
+            "group": "backwardDependency",
+            "method": "BackwardDependency",
+            "file": "08 - backward dependency.txt"
+        },
+        {
+            "name": "Diamond dependency",
+            "group": "diamondDependency",
+            "method": "DiamondDependency",
+            "file": "09 - diamond dependency.txt"
+        },
+        {
+            "name": "Accounting is easy",
+            "group": "accountingIsEasy",
+            "method": "AccountingIsEasy",
+            "file": "10 - accounting is easy.txt"
+        },
+        {
+            "name": "Accounting is hard 1",
+            "group": "accountingIsHard1",
+            "method": "AccountingIsHard1",
+            "file": "11 - accounting is hard 1.txt"
+        },
+        {
+            "name": "Accounting is hard 2",
+            "group": "accountingIsHard2",
+            "method": "AccountingIsHard2",
+            "file": "12 - accounting is hard 2.txt"
+        },
+        {
+            "name": "Deep birecursion",
+            "group": "deepBirecursion",
+            "method": "DeepBirecursion",
+            "file": "13 - deep birecursion.txt"
+        }
+    ]
+}
