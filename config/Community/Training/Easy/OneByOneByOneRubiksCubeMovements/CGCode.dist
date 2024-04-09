@@ -1,0 +1,8 @@
+$rotations = stream_get_line($stdin, 100 + 1, "\n");
+$face1 = stream_get_line($stdin, 1 + 1, "\n");
+$face2 = stream_get_line($stdin, 1 + 1, "\n");
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("face1\n");
+echo("face2\n");

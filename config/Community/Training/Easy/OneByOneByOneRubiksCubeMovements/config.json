@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Easy\\OneByOneByOneRubiksCubeMovements",
+    "name": "1×1×1 rubik’s cube movements",
+    "group": "oneByOneByOneRubiksCubeMovements",
+    "link": "https://www.codingame.com/ide/puzzle/111-rubiks-cube-movements",
+    "tests": [
+        {
+            "name": "One rotation",
+            "group": "oneRotation",
+            "method": "OneRotation",
+            "file": "01 - one rotation.txt"
+        },
+        {
+            "name": "Two rotations",
+            "group": "twoRotations",
+            "method": "TwoRotations",
+            "file": "02 - two rotations.txt"
+        },
+        {
+            "name": "Give me five!",
+            "group": "giveMeFive",
+            "method": "GiveMeFive",
+            "file": "03 - give me five.txt"
+        },
+        {
+            "name": "Identity",
+            "group": "identity",
+            "method": "Identity",
+            "file": "04 - identity.txt"
+        },
+        {
+            "name": "A long route",
+            "group": "aLongRoute",
+            "method": "ALongRoute",
+            "file": "05 - a long route.txt"
+        },
+        {
+            "name": "Stuttering",
+            "group": "stuttering",
+            "method": "Stuttering",
+            "file": "06 - stuttering.txt"
+        }
+    ]
+}
