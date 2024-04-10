@@ -1,0 +1,74 @@
+{
+    "namespace": "Community\\Training\\Easy\\OrganicCompounds",
+    "name": "Organic compounds",
+    "group": "organicCompounds",
+    "link": "https://www.codingame.com/ide/puzzle/organic-compounds",
+    "tests": [
+        {
+            "name": "Saturated hydrocarbon (valid)",
+            "group": "saturatedHydrocarbonValid",
+            "method": "SaturatedHydrocarbonValid",
+            "file": "01 - saturated hydrocarbon (valid).txt"
+        },
+        {
+            "name": "Unsaturated hydrocarbon (valid)",
+            "group": "unsaturatedHydrocarbonValid",
+            "method": "UnsaturatedHydrocarbonValid",
+            "file": "02 - unsaturated hydrocarbon (valid).txt"
+        },
+        {
+            "name": "Hydrocarbon with 1 substituent",
+            "group": "hydrocarbonWith1Substituent",
+            "method": "HydrocarbonWith1Substituent",
+            "file": "03 - hydrocarbon with 1 substituent.txt"
+        },
+        {
+            "name": "Multiple substituents (invalid)",
+            "group": "multipleSubstituentsInvalid",
+            "method": "MultipleSubstituentsInvalid",
+            "file": "04 - multiple substituents (invalid).txt"
+        },
+        {
+            "name": "Unsaturated hydrocarbon with substituents",
+            "group": "unsaturatedHydrocarbonWithSubstituents",
+            "method": "UnsaturatedHydrocarbonWithSubstituents",
+            "file": "05 - unsaturated hydrocarbon with substituents.txt"
+        },
+        {
+            "name": "INVALID",
+            "group": "INVALID",
+            "method": "INVALID",
+            "file": "06 - INVALID.txt"
+        },
+        {
+            "name": "Cyclic hydrocarbon",
+            "group": "cyclicHydrocarbon",
+            "method": "CyclicHydrocarbon",
+            "file": "07 - cyclic hydrocarbon.txt"
+        },
+        {
+            "name": "Cyclic hydrocarbon with substituents",
+            "group": "cyclicHydrocarbonWithSubstituents",
+            "method": "CyclicHydrocarbonWithSubstituents",
+            "file": "08 - cyclic hydrocarbon with substituents.txt"
+        },
+        {
+            "name": "2 carbon cycles",
+            "group": "2CarbonCycles",
+            "method": "2CarbonCycles",
+            "file": "09 - 2 carbon cycles.txt"
+        },
+        {
+            "name": "Enormous compound",
+            "group": "enormousCompound",
+            "method": "EnormousCompound",
+            "file": "10 - enormous compound.txt"
+        },
+        {
+            "name": "Codingame",
+            "group": "codingame",
+            "method": "Codingame",
+            "file": "11 - codingame.txt"
+        }
+    ]
+}
