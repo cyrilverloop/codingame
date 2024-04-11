@@ -1,0 +1,7 @@
+fscanf($stdin, "%d", $a);
+fscanf($stdin, "%d", $b);
+fscanf($stdin, "%d", $m);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("result\n");
