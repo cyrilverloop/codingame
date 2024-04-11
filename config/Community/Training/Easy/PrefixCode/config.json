@@ -1,0 +1,80 @@
+{
+    "namespace": "Community\\Training\\Easy\\PrefixCode",
+    "name": "Prefix code",
+    "group": "prefixCode",
+    "link": "https://www.codingame.com/ide/puzzle/prefix-code",
+    "tests": [
+        {
+            "name": "abracadabra",
+            "group": "abracadabra",
+            "method": "Abracadabra",
+            "file": "01 - abracadabra.txt"
+        },
+        {
+            "name": "Hello World !",
+            "group": "helloWorld",
+            "method": "HelloWorld",
+            "file": "02 - hello world !.txt"
+        },
+        {
+            "name": "Extra bit at the end",
+            "group": "extraBitAtTheEnd",
+            "method": "ExtraBitAtTheEnd",
+            "file": "03 - extra bit at the end.txt"
+        },
+        {
+            "name": "Missing first character",
+            "group": "missingFirstCharacter",
+            "method": "MissingFirstCharacter",
+            "file": "04 - missing first character.txt"
+        },
+        {
+            "name": "Inception",
+            "group": "inception",
+            "method": "Inception",
+            "file": "05 - inception.txt"
+        },
+        {
+            "name": "Poor table",
+            "group": "poorTable",
+            "method": "PoorTable",
+            "file": "06 - poor table.txt"
+        },
+        {
+            "name": "No table !",
+            "group": "noTable",
+            "method": "NoTable",
+            "file": "07 - no table !.txt"
+        },
+        {
+            "name": "Lonely character",
+            "group": "lonelyCharacter",
+            "method": "LonelyCharacter",
+            "file": "08 - lonely character.txt"
+        },
+        {
+            "name": "ASCII art",
+            "group": "ASCIIArt",
+            "method": "ASCIIArt",
+            "file": "09 - ASCII art.txt"
+        },
+        {
+            "name": "Lorem ipsum",
+            "group": "loremIpsum",
+            "method": "LoremIpsum",
+            "file": "10 - lorem ipsum.txt"
+        },
+        {
+            "name": "Parallel or not ?",
+            "group": "parallelOrNot",
+            "method": "ParallelOrNot",
+            "file": "11 - parallel or not ?.txt"
+        },
+        {
+            "name": "Lonely character v2",
+            "group": "lonelyCharacterV2",
+            "method": "LonelyCharacterV2",
+            "file": "12 - lonely character v2.txt"
+        }
+    ]
+}
