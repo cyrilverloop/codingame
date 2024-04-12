@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\ReverseFizzBuzz",
+    "name": "Reverse FizzBuzz",
+    "group": "reverseFizzBuzz",
+    "link": "https://www.codingame.com/ide/puzzle/reverse-fizzbuzz",
+    "tests": [
+        {
+            "name": "Sample",
+            "group": "sample",
+            "method": "Sample",
+            "file": "01 - sample.txt"
+        },
+        {
+            "name": "Everything is a Fizz",
+            "group": "everythingIsAFizz",
+            "method": "EverythingIsAFizz",
+            "file": "02 - everything is a Fizz.txt"
+        },
+        {
+            "name": "Fizz is Buzz",
+            "group": "fizzIsBuzz",
+            "method": "FizzIsBuzz",
+            "file": "03 - Fizz is Buzz.txt"
+        },
+        {
+            "name": "One Fizz to rule them all",
+            "group": "oneFizzToRuleThemAll",
+            "method": "OneFizzToRuleThemAll",
+            "file": "04 - one Fizz to rule them all.txt"
+        },
+        {
+            "name": "Tricky",
+            "group": "tricky",
+            "method": "Tricky",
+            "file": "05 - tricky.txt"
+        }
+    ]
+}
