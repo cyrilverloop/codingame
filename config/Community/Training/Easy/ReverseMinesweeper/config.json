@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\ReverseMinesweeper",
+    "name": "Reverse Minesweeper",
+    "group": "reverseMinesweeper",
+    "link": "https://www.codingame.com/ide/puzzle/reverse-minesweeper",
+    "tests": [
+        {
+            "name": "One mine",
+            "group": "oneMine",
+            "method": "OneMine",
+            "file": "01 - one mine.txt"
+        },
+        {
+            "name": "Many mines",
+            "group": "manyMines",
+            "method": "ManyMines",
+            "file": "02 - many mines.txt"
+        },
+        {
+            "name": "Lot of mines",
+            "group": "lotOfMines",
+            "method": "LotOfMines",
+            "file": "03 - lot of mines.txt"
+        },
+        {
+            "name": "No mine",
+            "group": "noMine",
+            "method": "NoMine",
+            "file": "04 - no mine.txt"
+        }
+    ]
+}
