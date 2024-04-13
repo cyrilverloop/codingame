@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\RotatingArrows",
+    "name": "Rotating arrows",
+    "group": "rotatingArrows",
+    "link": "https://www.codingame.com/ide/puzzle/rotating-arrows",
+    "tests": [
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "01 - simple.txt"
+        },
+        {
+            "name": "More rotate",
+            "group": "moreRotate",
+            "method": "MoreRotate",
+            "file": "02 - more rotate.txt"
+        },
+        {
+            "name": "Overflow",
+            "group": "overflow",
+            "method": "Overflow",
+            "file": "03 - overflow.txt"
+        },
+        {
+            "name": "Repeat",
+            "group": "repeat",
+            "method": "Repeat",
+            "file": "04 - repeat.txt"
+        }
+    ]
+}
