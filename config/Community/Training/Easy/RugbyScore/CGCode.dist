@@ -1,0 +1,5 @@
+fscanf($stdin, "%d", $N);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("tries transformations penalties\n");
