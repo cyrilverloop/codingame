@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\ShadowCasting",
+    "name": "Shadow casting",
+    "group": "shadowCasting",
+    "link": "https://www.codingame.com/ide/puzzle/shadow-casting",
+    "tests": [
+        {
+            "name": "X",
+            "group": "X",
+            "method": "X",
+            "file": "01 - X.txt"
+        },
+        {
+            "name": "Square",
+            "group": "square",
+            "method": "Square",
+            "file": "02 - square.txt"
+        },
+        {
+            "name": "Coding games",
+            "group": "codingGames",
+            "method": "CodingGames",
+            "file": "03 - coding games.txt"
+        },
+        {
+            "name": "ASCII",
+            "group": "ASCII",
+            "method": "ASCII",
+            "file": "04 - ASCII.txt"
+        }
+    ]
+}
