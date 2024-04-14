@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\SelfDrivingCarTesting",
+    "name": "Self-driving car testing",
+    "group": "selfDrivingCarTesting",
+    "link": "https://www.codingame.com/ide/puzzle/self-driving-car-testing",
+    "tests": [
+        {
+            "name": "A simple straight line",
+            "group": "aSimpleStraightLine",
+            "method": "ASimpleStraightLine",
+            "file": "01 - a simple straight line.txt"
+        },
+        {
+            "name": "Gentleman, start your engines",
+            "group": "gentlemanStartYourEngines",
+            "method": "GentlemanStartYourEngines",
+            "file": "02 - gentleman, start your engines.txt"
+        },
+        {
+            "name": "The Senna ‘S’",
+            "group": "theSennaS",
+            "method": "TheSennaS",
+            "file": "03 - the Senna S.txt"
+        },
+        {
+            "name": "Drunk car",
+            "group": "drunkCar",
+            "method": "DrunkCar",
+            "file": "04 - drunk car.txt"
+        }
+    ]
+}
