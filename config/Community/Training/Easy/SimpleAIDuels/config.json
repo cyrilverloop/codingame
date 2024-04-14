@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Easy\\SimpleAIDuels",
+    "name": "Simple AI duels",
+    "group": "simpleAIDuels",
+    "link": "https://www.codingame.com/ide/puzzle/simple-ai-duels",
+    "tests": [
+        {
+            "name": "Nice guys",
+            "group": "niceGuys",
+            "method": "NiceGuys",
+            "file": "01 - nice guys.txt"
+        },
+        {
+            "name": "No more Mr nice guy",
+            "group": "noMoreMrNiceGuy",
+            "method": "NoMoreMrNiceGuy",
+            "file": "02 - no more mr nice guy.txt"
+        },
+        {
+            "name": "Two jokers",
+            "group": "twoJokers",
+            "method": "TwoJokers",
+            "file": "03 - two jokers.txt"
+        },
+        {
+            "name": "Tit for tat",
+            "group": "titForTat",
+            "method": "TitForTat",
+            "file": "04 - tit for tat.txt"
+        },
+        {
+            "name": "Nice guy but don’t fool me",
+            "group": "niceGuyButDontFoolMe",
+            "method": "NiceGuyButDontFoolMe",
+            "file": "05 - nice guy but don’t fool me.txt"
+        },
+        {
+            "name": "Short memory nice guy",
+            "group": "shortMemoryNiceGuy",
+            "method": "ShortMemoryNiceGuy",
+            "file": "06 - short memory nice guy.txt"
+        },
+        {
+            "name": "Machiavel",
+            "group": "machiavel",
+            "method": "Machiavel",
+            "file": "07 - machiavel.txt"
+        }
+    ]
+}
