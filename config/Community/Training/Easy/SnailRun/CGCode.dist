@@ -1,0 +1,15 @@
+fscanf($stdin, "%d", $numberSnails);
+for ($i = 0; $i < $numberSnails; $i++)
+{
+    fscanf($stdin, "%d", $speedSnail);
+}
+fscanf($stdin, "%d", $mapHeight);
+fscanf($stdin, "%d", $mapWidth);
+for ($i = 0; $i < $mapHeight; $i++)
+{
+    $ROW = stream_get_line($stdin, 1024 + 1, "\n");
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("winner is number\n");
