@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\SimpleLoadBalancing",
+    "name": "Simple load balancing",
+    "group": "simpleLoadBalancing",
+    "link": "https://www.codingame.com/ide/puzzle/simple-load-balancing",
+    "tests": [
+        {
+            "name": "Test 1",
+            "group": "test1",
+            "method": "Test1",
+            "file": "01 - test 1.txt"
+        },
+        {
+            "name": "Test 2",
+            "group": "test2",
+            "method": "Test2",
+            "file": "02 - test 2.txt"
+        },
+        {
+            "name": "Test 3",
+            "group": "test3",
+            "method": "Test3",
+            "file": "03 - test 3.txt"
+        },
+        {
+            "name": "Test 4",
+            "group": "test4",
+            "method": "Test4",
+            "file": "04 - test 4.txt"
+        }
+    ]
+}
