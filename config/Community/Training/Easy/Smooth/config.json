@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\Smooth",
+    "name": "Smooth!",
+    "group": "smooth",
+    "link": "https://www.codingame.com/ide/puzzle/smooth",
+    "tests": [
+        {
+            "name": "Small bulk",
+            "group": "smallBulk",
+            "method": "SmallBulk",
+            "file": "01 - small bulk.txt"
+        },
+        {
+            "name": "Easy victories",
+            "group": "easyVictories",
+            "method": "EasyVictories",
+            "file": "02 - easy victories.txt"
+        },
+        {
+            "name": "Easy defeats",
+            "group": "easyDefeats",
+            "method": "EasyDefeats",
+            "file": "03 - easy defeats.txt"
+        },
+        {
+            "name": "Bigger",
+            "group": "bigger",
+            "method": "Bigger",
+            "file": "04 - bigger.txt"
+        }
+    ]
+}
