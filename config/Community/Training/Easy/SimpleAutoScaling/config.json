@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\SimpleAutoScaling",
+    "name": "Simple auto-scaling",
+    "group": "simpleAutoScaling",
+    "link": "https://www.codingame.com/ide/puzzle/simple-auto-scaling",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Slow start",
+            "group": "slowStart",
+            "method": "SlowStart",
+            "file": "02 - slow start.txt"
+        },
+        {
+            "name": "Medium",
+            "group": "medium",
+            "method": "Medium",
+            "file": "03 - medium.txt"
+        },
+        {
+            "name": "Lot of services",
+            "group": "lotOfServices",
+            "method": "LotOfServices",
+            "file": "04 - lot of services.txt"
+        },
+        {
+            "name": "One service",
+            "group": "oneService",
+            "method": "OneService",
+            "file": "05 - one service.txt"
+        }
+    ]
+}
