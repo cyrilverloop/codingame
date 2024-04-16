@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\SomeonesActingSus",
+    "name": "Someone’s acting sus....",
+    "group": "someonesActingSus",
+    "link": "https://www.codingame.com/ide/puzzle/someones-acting-sus----",
+    "tests": [
+        {
+            "name": "Basic sus inspection",
+            "group": "basicSusInspection",
+            "method": "BasicSusInspection",
+            "file": "01 - basic sus inspection.txt"
+        },
+        {
+            "name": "Can you handle number signs?",
+            "group": "canYouHandleNumberSigns",
+            "method": "CanYouHandleNumberSigns",
+            "file": "02 - can you handle number signs?.txt"
+        },
+        {
+            "name": "Your hacks kinda broke :)",
+            "group": "yourHacksKindaBroke",
+            "method": "YourHacksKindaBroke",
+            "file": "03 - your hacks kinda broke :).txt"
+        },
+        {
+            "name": "The big data test",
+            "group": "theBigDataTest",
+            "method": "TheBigDataTest",
+            "file": "04 - the big data test.txt"
+        }
+    ]
+}

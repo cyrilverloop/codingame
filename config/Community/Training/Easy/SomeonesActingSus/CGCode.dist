@@ -1,0 +1,14 @@
+fscanf($stdin, "%d", $L);
+$F = stream_get_line($stdin, $L + 1, "\n");
+fscanf($stdin, "%d %d", $N, $K);
+for ($i = 0; $i < $N; $i++)
+{
+    $crewmate = stream_get_line($stdin, $K + 1, "\n");
+}
+for ($i = 0; $i < $N; $i++)
+{
+
+    // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+    echo("answer\n");
+}
