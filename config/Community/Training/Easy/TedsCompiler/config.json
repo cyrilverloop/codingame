@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\TedsCompiler",
+    "name": "Ted’s compiler",
+    "group": "tedsCompiler",
+    "link": "https://www.codingame.com/ide/puzzle/teds-compiler",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Short string",
+            "group": "shortString",
+            "method": "ShortString",
+            "file": "02 - short string.txt"
+        },
+        {
+            "name": "Not good",
+            "group": "notGood",
+            "method": "NotGood",
+            "file": "03 - not good.txt"
+        },
+        {
+            "name": "Well formatted",
+            "group": "wellFormatted",
+            "method": "WellFormatted",
+            "file": "04 - well formatted.txt"
+        },
+        {
+            "name": "Long string",
+            "group": "longString",
+            "method": "LongString",
+            "file": "05 - long string.txt"
+        }
+    ]
+}
