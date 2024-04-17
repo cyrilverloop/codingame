@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\SurveyPrediction",
+    "name": "Survey prediction",
+    "group": "surveyPrediction",
+    "link": "https://www.codingame.com/ide/puzzle/survey-prediction",
+    "tests": [
+        {
+            "name": "2 answers and 1 missing",
+            "group": "2AnswersAnd1Missing",
+            "method": "2AnswersAnd1Missing",
+            "file": "01 - 2 answers and 1 missing.txt"
+        },
+        {
+            "name": "5 answers and 3 missing",
+            "group": "5AnswersAnd3Missing",
+            "method": "5AnswersAnd3Missing",
+            "file": "02 - 5 answers and 3 missing.txt"
+        },
+        {
+            "name": "Even answers and missing",
+            "group": "evenAnswersAndMissing",
+            "method": "EvenAnswersAndMissing",
+            "file": "03 - even answers and missing.txt"
+        },
+        {
+            "name": "6 answers, 6 missing",
+            "group": "6Answers6Missing",
+            "method": "6Answers6Missing",
+            "file": "04 - 6 answers, 6 missing.txt"
+        },
+        {
+            "name": "Everything none",
+            "group": "everythingNone",
+            "method": "EverythingNone",
+            "file": "05 - everything none.txt"
+        }
+    ]
+}
