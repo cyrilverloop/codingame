@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace CyrilVerloop\Codingame\Generator;
 
 /**
- * The code configuration.
+ * The generator code configuration.
  */
 final class GeneratorCodeConfiguration
 {
