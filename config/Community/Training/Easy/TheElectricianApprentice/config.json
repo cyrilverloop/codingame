@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Easy\\TheElectricianApprentice",
+    "name": "The electrician apprentice",
+    "group": "theElectricianApprentice",
+    "link": "https://www.codingame.com/ide/puzzle/the-electrician-apprentice",
+    "tests": [
+        {
+            "name": "1 switch 1 light",
+            "group": "1Switch1Light",
+            "method": "1Switch1Light",
+            "file": "01 - 1 switch 1 light.txt"
+        },
+        {
+            "name": "2 parallel switches 1 light",
+            "group": "2ParallelSwitches1Light",
+            "method": "2ParallelSwitches1Light",
+            "file": "02 - 2 parallel switches 1 light.txt"
+        },
+        {
+            "name": "2 series switches 1 light",
+            "group": "2SeriesSwitches1Light",
+            "method": "2SeriesSwitches1Light",
+            "file": "03 - 2 series switches 1 light.txt"
+        },
+        {
+            "name": "Two lights",
+            "group": "twoLights",
+            "method": "TwoLights",
+            "file": "04 - two lights.txt"
+        },
+        {
+            "name": "Series and parallel",
+            "group": "seriesAndParallel",
+            "method": "SeriesAndParallel",
+            "file": "05 - series and parallel.txt"
+        },
+        {
+            "name": "Mixed",
+            "group": "mixed",
+            "method": "Mixed",
+            "file": "06 - mixed.txt"
+        },
+        {
+            "name": "Weird Home",
+            "group": "weirdHome",
+            "method": "WeirdHome",
+            "file": "07 - weird home.txt"
+        },
+        {
+            "name": "Regular Home",
+            "group": "regularHome",
+            "method": "RegularHome",
+            "file": "08 - regular home.txt"
+        }
+    ]
+}
