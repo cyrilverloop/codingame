@@ -1,0 +1,68 @@
+{
+    "namespace": "Community\\Training\\Easy\\TheDart101",
+    "name": "The dart 101",
+    "group": "theDart101",
+    "link": "https://www.codingame.com/ide/puzzle/the-dart-101",
+    "tests": [
+        {
+            "name": "2 players",
+            "group": "2Players",
+            "method": "2Players",
+            "file": "01 - 2 players.txt"
+        },
+        {
+            "name": "1 winner and 1 loser",
+            "group": "1WinnerAnd1Loser",
+            "method": "1WinnerAnd1Loser",
+            "file": "02 - 1 winner and 1 loser.txt"
+        },
+        {
+            "name": "One missed",
+            "group": "oneMissed",
+            "method": "OneMissed",
+            "file": "03 - one missed.txt"
+        },
+        {
+            "name": "Two missed",
+            "group": "twoMissed",
+            "method": "TwoMissed",
+            "file": "04 - two missed.txt"
+        },
+        {
+            "name": "Two missed consecutively",
+            "group": "twoMissedConsecutively",
+            "method": "TwoMissedConsecutively",
+            "file": "05 - two missed consecutively.txt"
+        },
+        {
+            "name": "Three missed consecutively",
+            "group": "threeMissedConsecutively",
+            "method": "ThreeMissedConsecutively",
+            "file": "06 - three missed consecutively.txt"
+        },
+        {
+            "name": "Over the score",
+            "group": "overTheScore",
+            "method": "OverTheScore",
+            "file": "07 - over the score.txt"
+        },
+        {
+            "name": "2 players and lot of shoots",
+            "group": "2PlayersAndLotOfShoots",
+            "method": "2PlayersAndLotOfShoots",
+            "file": "08 - 2 players and lot of shoots.txt"
+        },
+        {
+            "name": "4 players",
+            "group": "4Players",
+            "method": "4Players",
+            "file": "09 - 4 players.txt"
+        },
+        {
+            "name": "8 players",
+            "group": "8Players",
+            "method": "8Players",
+            "file": "10 - 8 players.txt"
+        }
+    ]
+}
