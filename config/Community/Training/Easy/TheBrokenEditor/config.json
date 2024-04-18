@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Easy\\TheBrokenEditor",
+    "name": "The broken editor",
+    "group": "theBrokenEditor",
+    "link": "https://www.codingame.com/ide/puzzle/the-broken-editor",
+    "tests": [
+        {
+            "name": "No mistakes",
+            "group": "noMistakes",
+            "method": "NoMistakes",
+            "file": "01 - no mistakes.txt"
+        },
+        {
+            "name": "Single mistake",
+            "group": "singleMistake",
+            "method": "SingleMistake",
+            "file": "02 - single mistake.txt"
+        },
+        {
+            "name": "Out of bounds",
+            "group": "outOfBounds",
+            "method": "OutOfBounds",
+            "file": "03 - out of bounds.txt"
+        },
+        {
+            "name": "Backspace 1",
+            "group": "backspace1",
+            "method": "Backspace1",
+            "file": "04 - backspace 1.txt"
+        },
+        {
+            "name": "Backspace 2",
+            "group": "backspace2",
+            "method": "Backspace2",
+            "file": "05 - backspace 2.txt"
+        },
+        {
+            "name": "007",
+            "group": "007",
+            "method": "007",
+            "file": "06 - 007.txt"
+        }
+    ]
+}
