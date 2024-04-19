@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Easy\\TreasureHunt",
+    "name": "Treasure hunt",
+    "group": "treasureHunt",
+    "link": "https://www.codingame.com/ide/puzzle/treasure-hunt",
+    "tests": [
+        {
+            "name": "Small map",
+            "group": "smallMap",
+            "method": "SmallMap",
+            "file": "01 - small map.txt"
+        },
+        {
+            "name": "Bigger map",
+            "group": "biggerMap",
+            "method": "BiggerMap",
+            "file": "02 - bigger map.txt"
+        },
+        {
+            "name": "I want to cry",
+            "group": "iWantToCry",
+            "method": "IWantToCry",
+            "file": "03 - i want to cry.txt"
+        },
+        {
+            "name": "Easy life",
+            "group": "easyLife",
+            "method": "EasyLife",
+            "file": "04 - easy life.txt"
+        },
+        {
+            "name": "Am I going in circles ?",
+            "group": "amIGoingInCircles",
+            "method": "AmIGoingInCircles",
+            "file": "05 - am I going in circles ?.txt"
+        },
+        {
+            "name": "That’s a maze !",
+            "group": "thatsAMaze",
+            "method": "ThatsAMaze",
+            "file": "06 - thats a maze !.txt"
+        }
+    ]
+}
