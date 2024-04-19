@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\TheTravellingSalesmanProblem",
+    "name": "The travelling salesman problem",
+    "group": "theTravellingSalesmanProblem",
+    "link": "https://www.codingame.com/ide/puzzle/the-travelling-salesman-problem",
+    "tests": [
+        {
+            "name": "5 Cities",
+            "group": "5Cities",
+            "method": "5Cities",
+            "file": "01 - 5 cities.txt"
+        },
+        {
+            "name": "12 Cities",
+            "group": "12Cities",
+            "method": "12Cities",
+            "file": "02 - 12 cities.txt"
+        },
+        {
+            "name": "14 Cities",
+            "group": "14Cities",
+            "method": "14Cities",
+            "file": "03 - 14 cities.txt"
+        },
+        {
+            "name": "10 Cities",
+            "group": "10Cities",
+            "method": "10Cities",
+            "file": "04 - 10 cities.txt"
+        }
+    ]
+}
