@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Easy\\TicTacToe",
+    "name": "TicTacToe",
+    "group": "ticTacToe",
+    "link": "https://www.codingame.com/ide/puzzle/tictactoe",
+    "tests": [
+        {
+            "name": "No opponent - line",
+            "group": "noOpponentLine",
+            "method": "NoOpponentLine",
+            "file": "01 - no opponent - line.txt"
+        },
+        {
+            "name": "No opponent - column",
+            "group": "noOpponentColumn",
+            "method": "NoOpponentColumn",
+            "file": "02 - no opponent - column.txt"
+        },
+        {
+            "name": "No opponent - diagonal",
+            "group": "noOpponentDiagonal",
+            "method": "NoOpponentDiagonal",
+            "file": "03 - no opponent - diagonal.txt"
+        },
+        {
+            "name": "Real condition",
+            "group": "realCondition",
+            "method": "RealCondition",
+            "file": "04 - real condition.txt"
+        },
+        {
+            "name": "No win condition",
+            "group": "noWinCondition",
+            "method": "NoWinCondition",
+            "file": "05 - no win condition.txt"
+        }
+    ]
+}
