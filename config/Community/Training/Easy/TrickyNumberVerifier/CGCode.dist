@@ -1,0 +1,12 @@
+fscanf($stdin, "%d", $N);
+for ($i = 0; $i < $N; $i++)
+{
+    $NUMBER = stream_get_line($stdin, 1024 + 1, "\n");
+}
+for ($i = 0; $i < $N; $i++)
+{
+
+    // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+    echo("answer\n");
+}
