@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Easy\\UnitFractions",
+    "name": "Unit fractions",
+    "group": "unitFractions",
+    "link": "https://www.codingame.com/ide/puzzle/unit-fractions",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "12",
+            "group": "12",
+            "method": "12",
+            "file": "02 - 12.txt"
+        },
+        {
+            "name": "17",
+            "group": "17",
+            "method": "17",
+            "file": "03 - 17.txt"
+        },
+        {
+            "name": "100",
+            "group": "100",
+            "method": "100",
+            "file": "04 - 100.txt"
+        },
+        {
+            "name": "9999",
+            "group": "9999",
+            "method": "9999",
+            "file": "05 - 9999.txt"
+        },
+        {
+            "name": "71339",
+            "group": "71339",
+            "method": "71339",
+            "file": "06 - 71339.txt"
+        },
+        {
+            "name": "104027",
+            "group": "104027",
+            "method": "104027",
+            "file": "07 - 104027.txt"
+        }
+    ]
+}
