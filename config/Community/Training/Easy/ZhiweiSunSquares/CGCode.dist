@@ -1,0 +1,5 @@
+fscanf($stdin, "%d", $n);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("count\n");
