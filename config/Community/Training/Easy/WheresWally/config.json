@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Easy\\WheresWally",
+    "name": "Where’s Wally",
+    "group": "wheresWally",
+    "link": "https://www.codingame.com/ide/puzzle/wheres-wally",
+    "tests": [
+        {
+            "name": "Alone (Exemple)",
+            "group": "aloneExemple",
+            "method": "AloneExemple",
+            "file": "01 - alone (exemple).txt"
+        },
+        {
+            "name": "Hidden in the crowd",
+            "group": "hiddenInTheCrowd",
+            "method": "HiddenInTheCrowd",
+            "file": "02 - hidden in the crowd.txt"
+        },
+        {
+            "name": "Hard",
+            "group": "hard",
+            "method": "Hard",
+            "file": "03 - hard.txt"
+        },
+        {
+            "name": "Very hard",
+            "group": "veryHard",
+            "method": "VeryHard",
+            "file": "04 - very hard.txt"
+        }
+    ]
+}
