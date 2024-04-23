@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\Battleship",
+    "name": "Battleship",
+    "group": "battleship",
+    "link": "https://www.codingame.com/ide/puzzle/battleship",
+    "tests": [
+        {
+            "name": "Ships too close",
+            "group": "shipsTooClose",
+            "method": "ShipsTooClose",
+            "file": "01 - ships too close.txt"
+        },
+        {
+            "name": "Wrong number of ships",
+            "group": "wrongNumberOfShips",
+            "method": "WrongNumberOfShips",
+            "file": "02 - wrong number of ships.txt"
+        },
+        {
+            "name": "Wrong size of ships",
+            "group": "wrongSizeOfShips",
+            "method": "WrongSizeOfShips",
+            "file": "03 - wrong size of ships.txt"
+        },
+        {
+            "name": "Missed!",
+            "group": "missed",
+            "method": "Missed",
+            "file": "04 - missed!.txt"
+        },
+        {
+            "name": "Touché!",
+            "group": "touche",
+            "method": "Touche",
+            "file": "05 - touché!.txt"
+        },
+        {
+            "name": "Touché coulé!",
+            "group": "toucheCoule",
+            "method": "ToucheCoule",
+            "file": "06 - touché coulé!.txt"
+        },
+        {
+            "name": "Game lost",
+            "group": "gameLost",
+            "method": "GameLost",
+            "file": "07 - game lost.txt"
+        }
+    ]
+}
