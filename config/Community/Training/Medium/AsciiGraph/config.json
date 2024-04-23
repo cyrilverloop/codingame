@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Medium\\AsciiGraph",
+    "name": "Ascii graph",
+    "group": "asciiGraph",
+    "link": "https://www.codingame.com/ide/puzzle/ascii-graph",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "No points",
+            "group": "noPoints",
+            "method": "NoPoints",
+            "file": "02 - no points.txt"
+        },
+        {
+            "name": "Negative values",
+            "group": "negativeValues",
+            "method": "NegativeValues",
+            "file": "03 - negative values.txt"
+        },
+        {
+            "name": "Two points",
+            "group": "twoPoints",
+            "method": "TwoPoints",
+            "file": "04 - two points.txt"
+        },
+        {
+            "name": "Many points",
+            "group": "manyPoints",
+            "method": "ManyPoints",
+            "file": "05 - many points.txt"
+        },
+        {
+            "name": "Point at origin",
+            "group": "pointAtOrigin",
+            "method": "PointAtOrigin",
+            "file": "06 - point at origin.txt"
+        }
+    ]
+}
