@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\ASCIIArtGlassStacking",
+    "name": "ASCII ART : glass stacking",
+    "group": "ASCIIArtGlassStacking",
+    "link": "https://www.codingame.com/ide/puzzle/ascii-art-glass-stacking",
+    "tests": [
+        {
+            "name": "4 glasses",
+            "group": "4Glasses",
+            "method": "4Glasses",
+            "file": "01 - 4 glasses.txt"
+        },
+        {
+            "name": "10 glasses",
+            "group": "10Glasses",
+            "method": "10Glasses",
+            "file": "02 - 10 glasses.txt"
+        },
+        {
+            "name": "25 glasses",
+            "group": "25Glasses",
+            "method": "25Glasses",
+            "file": "03 - 25 glasses.txt"
+        },
+        {
+            "name": "A single glass",
+            "group": "aSingleGlass",
+            "method": "ASingleGlass",
+            "file": "04 - a single glass.txt"
+        }
+    ]
+}
