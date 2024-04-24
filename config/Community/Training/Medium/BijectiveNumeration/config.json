@@ -1,0 +1,62 @@
+{
+    "namespace": "Community\\Training\\Medium\\BijectiveNumeration",
+    "name": "Bijective numeration",
+    "group": "bijectiveNumeration",
+    "link": "https://www.codingame.com/ide/puzzle/bijective-numeration",
+    "tests": [
+        {
+            "name": "Simple parsing",
+            "group": "simpleParsing",
+            "method": "SimpleParsing",
+            "file": "01 - simple parsing.txt"
+        },
+        {
+            "name": "Parsing",
+            "group": "parsing",
+            "method": "Parsing",
+            "file": "02 - parsing.txt"
+        },
+        {
+            "name": "More parsing",
+            "group": "moreParsing",
+            "method": "MoreParsing",
+            "file": "03 - more parsing.txt"
+        },
+        {
+            "name": "Simple generation",
+            "group": "simpleGeneration",
+            "method": "SimpleGeneration",
+            "file": "04 - simple generation.txt"
+        },
+        {
+            "name": "Generation",
+            "group": "generation",
+            "method": "Generation",
+            "file": "05 - generation.txt"
+        },
+        {
+            "name": "More generation",
+            "group": "moreGeneration",
+            "method": "MoreGeneration",
+            "file": "06 - more generation.txt"
+        },
+        {
+            "name": "Mixed test",
+            "group": "mixedTest",
+            "method": "MixedTest",
+            "file": "07 - mixed test.txt"
+        },
+        {
+            "name": "Bigger test",
+            "group": "biggerTest",
+            "method": "BiggerTest",
+            "file": "08 - bigger test.txt"
+        },
+        {
+            "name": "Huge test",
+            "group": "hugeTest",
+            "method": "HugeTest",
+            "file": "09 - huge test.txt"
+        }
+    ]
+}
