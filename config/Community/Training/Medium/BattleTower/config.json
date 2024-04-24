@@ -1,0 +1,68 @@
+{
+    "namespace": "Community\\Training\\Medium\\BattleTower",
+    "name": "Battle tower",
+    "group": "battleTower",
+    "link": "https://www.codingame.com/ide/puzzle/battle-tower",
+    "tests": [
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "01 - simple.txt"
+        },
+        {
+            "name": "Mini",
+            "group": "mini",
+            "method": "Mini",
+            "file": "02 - mini.txt"
+        },
+        {
+            "name": "Line",
+            "group": "line",
+            "method": "Line",
+            "file": "03 - line.txt"
+        },
+        {
+            "name": "Star",
+            "group": "star",
+            "method": "Star",
+            "file": "04 - star.txt"
+        },
+        {
+            "name": "Medium 1",
+            "group": "medium1",
+            "method": "Medium1",
+            "file": "05 - medium 1.txt"
+        },
+        {
+            "name": "Medium 2",
+            "group": "medium2",
+            "method": "Medium2",
+            "file": "06 - medium 2.txt"
+        },
+        {
+            "name": "Medium 3",
+            "group": "medium3",
+            "method": "Medium3",
+            "file": "07 - medium 3.txt"
+        },
+        {
+            "name": "Dense 1",
+            "group": "dense1",
+            "method": "Dense1",
+            "file": "08 - dense 1.txt"
+        },
+        {
+            "name": "Dense 2",
+            "group": "dense2",
+            "method": "Dense2",
+            "file": "09 - dense 2.txt"
+        },
+        {
+            "name": "Dense 3",
+            "group": "dense3",
+            "method": "Dense3",
+            "file": "10 - dense 3.txt"
+        }
+    ]
+}
