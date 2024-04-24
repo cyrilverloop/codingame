@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Medium\\BinarySearchTreeTraversal",
+    "name": "Binary search tree traversal",
+    "group": "binarySearchTreeTraversal",
+    "link": "https://www.codingame.com/ide/puzzle/binary-search-tree-traversal",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Positive values only",
+            "group": "positiveValuesOnly",
+            "method": "PositiveValuesOnly",
+            "file": "02 - positive values only.txt"
+        },
+        {
+            "name": "Small random values",
+            "group": "smallRandomValues",
+            "method": "SmallRandomValues",
+            "file": "03 - small random values.txt"
+        },
+        {
+            "name": "Large random values",
+            "group": "largeRandomValues",
+            "method": "LargeRandomValues",
+            "file": "04 - large random values.txt"
+        },
+        {
+            "name": "More random values",
+            "group": "moreRandomValues",
+            "method": "MoreRandomValues",
+            "file": "05 - more random values.txt"
+        },
+        {
+            "name": "Ordered values",
+            "group": "orderedValues",
+            "method": "OrderedValues",
+            "file": "06 - ordered values.txt"
+        }
+    ]
+}
