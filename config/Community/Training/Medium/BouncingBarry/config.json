@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Medium\\BouncingBarry",
+    "name": "Bouncing barry",
+    "group": "bouncingBarry",
+    "link": "https://www.codingame.com/ide/puzzle/bouncing-barry",
+    "tests": [
+        {
+            "name": "Meandering",
+            "group": "meandering",
+            "method": "Meandering",
+            "file": "01 - meandering.txt"
+        },
+        {
+            "name": "Exploring",
+            "group": "exploring",
+            "method": "Exploring",
+            "file": "02 - exploring.txt"
+        },
+        {
+            "name": "Spiraling",
+            "group": "spiraling",
+            "method": "Spiraling",
+            "file": "03 - spiraling.txt"
+        },
+        {
+            "name": "Crossing",
+            "group": "crossing",
+            "method": "Crossing",
+            "file": "04 - crossing.txt"
+        },
+        {
+            "name": "Bobbing and weaving",
+            "group": "bobbingAndWeaving",
+            "method": "BobbingAndWeaving",
+            "file": "05 - bobbing and weaving.txt"
+        },
+        {
+            "name": "Tail-chasing",
+            "group": "tailChasing",
+            "method": "TailChasing",
+            "file": "06 - tail-chasing.txt"
+        },
+        {
+            "name": "Sprinting",
+            "group": "sprinting",
+            "method": "Sprinting",
+            "file": "07 - sprinting.txt"
+        },
+        {
+            "name": "Just Drunk...     -ing",
+            "group": "justDrunking",
+            "method": "JustDrunking",
+            "file": "08 - just drunk-ing.txt"
+        }
+    ]
+}
