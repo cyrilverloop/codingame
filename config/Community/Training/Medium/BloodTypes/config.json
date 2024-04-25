@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\BloodTypes",
+    "name": "Blood types",
+    "group": "bloodTypes",
+    "link": "https://www.codingame.com/ide/puzzle/blood-types",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Child blood types",
+            "group": "childBloodTypes",
+            "method": "ChildBloodTypes",
+            "file": "02 - child blood types.txt"
+        },
+        {
+            "name": "Parents blood types",
+            "group": "parentsBloodTypes",
+            "method": "ParentsBloodTypes",
+            "file": "03 - parents blood types.txt"
+        },
+        {
+            "name": "All combins",
+            "group": "allCombins",
+            "method": "AllCombins",
+            "file": "04 - all combins.txt"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+fscanf($stdin, "%d", $N);
+for ($i = 0; $i < $N; $i++)
+{
+    fscanf($stdin, "%s %s %s", $parent1, $parent2, $child);
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("answer\n");
