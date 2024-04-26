@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\BracketsUltimateEdition",
+    "name": "Brackets, ultimate edition",
+    "group": "bracketsUltimateEdition",
+    "link": "https://www.codingame.com/ide/puzzle/brackets-ultimate-edition",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Extreme",
+            "group": "extreme",
+            "method": "Extreme",
+            "file": "02 - extreme.txt"
+        },
+        {
+            "name": "Unextreme at little cost",
+            "group": "unextremeAtLittleCost",
+            "method": "UnextremeAtLittleCost",
+            "file": "03 - unextreme at little cost.txt"
+        },
+        {
+            "name": "Complex expressions",
+            "group": "complexExpressions",
+            "method": "ComplexExpressions",
+            "file": "04 - complex expressions.txt"
+        },
+        {
+            "name": "What’s your bias?",
+            "group": "whatsYourBias",
+            "method": "WhatsYourBias",
+            "file": "05 - what’s your bias?.txt"
+        }
+    ]
+}
