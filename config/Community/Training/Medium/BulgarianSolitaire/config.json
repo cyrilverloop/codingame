@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\BulgarianSolitaire",
+    "name": "Bulgarian solitaire",
+    "group": "bulgarianSolitaire",
+    "link": "https://www.codingame.com/ide/puzzle/bulgarian-solitaire",
+    "tests": [
+        {
+            "name": "1 pile",
+            "group": "1Pile",
+            "method": "1Pile",
+            "file": "01 - 1 pile.txt"
+        },
+        {
+            "name": "3 piles",
+            "group": "3Piles",
+            "method": "3Piles",
+            "file": "02 - 3 piles.txt"
+        },
+        {
+            "name": "Large piles",
+            "group": "largePiles",
+            "method": "LargePiles",
+            "file": "03 - large piles.txt"
+        },
+        {
+            "name": "Empty piles",
+            "group": "emptyPiles",
+            "method": "EmptyPiles",
+            "file": "04 - empty piles.txt"
+        },
+        {
+            "name": "Many piles",
+            "group": "manyPiles",
+            "method": "ManyPiles",
+            "file": "05 - many piles.txt"
+        }
+    ]
+}
