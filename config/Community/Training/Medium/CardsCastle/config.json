@@ -1,0 +1,134 @@
+{
+    "namespace": "Community\\Training\\Medium\\CardsCastle",
+    "name": "Cards castle",
+    "group": "cardsCastle",
+    "link": "https://www.codingame.com/ide/puzzle/cards-castle",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Little castle",
+            "group": "littleCastle",
+            "method": "LittleCastle",
+            "file": "02 - little castle.txt"
+        },
+        {
+            "name": "Little fallen castle",
+            "group": "littleFallenCastle",
+            "method": "LittleFallenCastle",
+            "file": "03 - little fallen castle.txt"
+        },
+        {
+            "name": "Fortress",
+            "group": "fortress",
+            "method": "Fortress",
+            "file": "04 - fortress.txt"
+        },
+        {
+            "name": "Fallen fortress",
+            "group": "fallenFortress",
+            "method": "FallenFortress",
+            "file": "05 - fallen fortress.txt"
+        },
+        {
+            "name": "Cards are missing ?",
+            "group": "cardsAreMissing",
+            "method": "CardsAreMissing",
+            "file": "06 - cards are missing ?.txt"
+        },
+        {
+            "name": "A lot of cards are missing ?!",
+            "group": "aLotOfCardsAreMissing",
+            "method": "ALotOfCardsAreMissing",
+            "file": "07 - a lot of cards are missing ?!.txt"
+        },
+        {
+            "name": "Unstable single card",
+            "group": "unstableSingleCard",
+            "method": "UnstableSingleCard",
+            "file": "08 - unstable single card.txt"
+        },
+        {
+            "name": "Flying cards",
+            "group": "flyingCards",
+            "method": "FlyingCards",
+            "file": "09 - flying cards.txt"
+        },
+        {
+            "name": "Reversed cards",
+            "group": "reversedCards",
+            "method": "ReversedCards",
+            "file": "10 - reversed cards.txt"
+        },
+        {
+            "name": "Few floors",
+            "group": "fewFloors",
+            "method": "FewFloors",
+            "file": "11 - few floors.txt"
+        },
+        {
+            "name": "On the gap",
+            "group": "onTheGap",
+            "method": "OnTheGap",
+            "file": "12 - on the gap.txt"
+        },
+        {
+            "name": "Starting on",
+            "group": "startingOn",
+            "method": "StartingOn",
+            "file": "13 - starting on.txt"
+        },
+        {
+            "name": "Shifted",
+            "group": "shifted",
+            "method": "Shifted",
+            "file": "14 - shifted.txt"
+        },
+        {
+            "name": "Flying castle cards",
+            "group": "flyingCastleCards",
+            "method": "FlyingCastleCards",
+            "file": "15 - flying castle cards.txt"
+        },
+        {
+            "name": "Same card side by side",
+            "group": "sameCardSideBySide",
+            "method": "SameCardSideBySide",
+            "file": "16 - same card side by side.txt"
+        },
+        {
+            "name": "Same flying card side by side",
+            "group": "sameFlyingCardSideBySide",
+            "method": "SameFlyingCardSideBySide",
+            "file": "17 - same flying card side by side.txt"
+        },
+        {
+            "name": "Flying reversed card side by side",
+            "group": "flyingReversedCardSideBySide",
+            "method": "FlyingReversedCardSideBySide",
+            "file": "18 - flying reversed card side by side.txt"
+        },
+        {
+            "name": "The shifted unique one",
+            "group": "theShiftedUniqueOne",
+            "method": "TheShiftedUniqueOne",
+            "file": "19 - the shifted unique one.txt"
+        },
+        {
+            "name": "Lost cards",
+            "group": "lostCards",
+            "method": "LostCards",
+            "file": "20 - lost cards.txt"
+        },
+        {
+            "name": "Complex",
+            "group": "complex",
+            "method": "Complex",
+            "file": "21 - complex.txt"
+        }
+    ]
+}
