@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\CGSMinifier",
+    "name": "CGS minifier",
+    "group": "CGSMinifier",
+    "link": "https://www.codingame.com/ide/puzzle/cgs-minifier",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "1",
+            "group": "1",
+            "method": "1",
+            "file": "02 - 1.txt"
+        },
+        {
+            "name": "2",
+            "group": "2",
+            "method": "2",
+            "file": "03 - 2.txt"
+        },
+        {
+            "name": "3",
+            "group": "3",
+            "method": "3",
+            "file": "04 - 3.txt"
+        },
+        {
+            "name": "4",
+            "group": "4",
+            "method": "4",
+            "file": "05 - 4.txt"
+        }
+    ]
+}
