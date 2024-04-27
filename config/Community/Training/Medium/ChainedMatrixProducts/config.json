@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\ChainedMatrixProducts",
+    "name": "Chained matrix products",
+    "group": "chainedMatrixProducts",
+    "link": "https://www.codingame.com/ide/puzzle/chained-matrix-products",
+    "tests": [
+        {
+            "name": "N = 3",
+            "group": "N3",
+            "method": "N3",
+            "file": "01 - N = 3.txt"
+        },
+        {
+            "name": "N = 6",
+            "group": "N6",
+            "method": "N6",
+            "file": "02 - N = 6.txt"
+        },
+        {
+            "name": "N = 20",
+            "group": "N20",
+            "method": "N20",
+            "file": "03 - N = 20.txt"
+        },
+        {
+            "name": "N = 100",
+            "group": "N100",
+            "method": "N100",
+            "file": "04 - N = 100.txt"
+        }
+    ]
+}
