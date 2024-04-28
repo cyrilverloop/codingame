@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\CircularAutomationThePeriodOfChaos",
+    "name": "Circular automation, the period of chaos",
+    "group": "circularAutomationThePeriodOfChaos",
+    "link": "https://www.codingame.com/ide/puzzle/circular-automation-the-period-of-chaos",
+    "tests": [
+        {
+            "name": "Simple example",
+            "group": "simpleExample",
+            "method": "SimpleExample",
+            "file": "01 - simple example.txt"
+        },
+        {
+            "name": "Blinker",
+            "group": "blinker",
+            "method": "Blinker",
+            "file": "02 - blinker.txt"
+        },
+        {
+            "name": "Rule 250 mix",
+            "group": "rule250Mix",
+            "method": "Rule250Mix",
+            "file": "03 - rule 250 mix.txt"
+        },
+        {
+            "name": "126 = fractal",
+            "group": "126Fractal",
+            "method": "126Fractal",
+            "file": "04 - 126 = fractal.txt"
+        },
+        {
+            "name": "So Long",
+            "group": "soLong",
+            "method": "SoLong",
+            "file": "05 - so long.txt"
+        },
+        {
+            "name": "Rule 110",
+            "group": "rule110",
+            "method": "Rule110",
+            "file": "06 - rule 110.txt"
+        },
+        {
+            "name": "Where is the motif",
+            "group": "whereIsTheMotif",
+            "method": "WhereIsTheMotif",
+            "file": "07 - where is the motif.txt"
+        }
+    ]
+}
