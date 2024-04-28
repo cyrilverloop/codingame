@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Medium\\ConstrainedLatinSquares",
+    "name": "Constrained latin squares",
+    "group": "constrainedLatinSquares",
+    "link": "https://www.codingame.com/ide/puzzle/constrained-latin-squares",
+    "tests": [
+        {
+            "name": "3x3 easy",
+            "group": "3x3Easy",
+            "method": "3x3Easy",
+            "file": "01 - 3x3 easy.txt"
+        },
+        {
+            "name": "4x4 unconstrained",
+            "group": "4x4Unconstrained",
+            "method": "4x4Unconstrained",
+            "file": "02 - 4x4 unconstrained.txt"
+        },
+        {
+            "name": "5x5 wrong grid",
+            "group": "5x5WrongGrid",
+            "method": "5x5WrongGrid",
+            "file": "03 - 5x5 wrong grid.txt"
+        },
+        {
+            "name": "5x5 fundamental",
+            "group": "5x5Fundamental",
+            "method": "5x5Fundamental",
+            "file": "04 - 5x5 fundamental.txt"
+        },
+        {
+            "name": "6x6",
+            "group": "6x6",
+            "method": "6x6",
+            "file": "05 - 6x6.txt"
+        },
+        {
+            "name": "7x7",
+            "group": "7x7",
+            "method": "7x7",
+            "file": "06 - 7x7.txt"
+        },
+        {
+            "name": "8x8",
+            "group": "8x8",
+            "method": "8x8",
+            "file": "07 - 8x8.txt"
+        },
+        {
+            "name": "9x9",
+            "group": "9x9",
+            "method": "9x9",
+            "file": "08 - 9x9.txt"
+        }
+    ]
+}
