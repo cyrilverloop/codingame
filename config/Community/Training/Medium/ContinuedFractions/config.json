@@ -1,0 +1,86 @@
+{
+    "namespace": "Community\\Training\\Medium\\ContinuedFractions",
+    "name": "Continued fractions",
+    "group": "continuedFractions",
+    "link": "https://www.codingame.com/ide/puzzle/continued-fractions",
+    "tests": [
+        {
+            "name": "F to CF",
+            "group": "FCF",
+            "method": "FCF",
+            "file": "01 - F to CF.txt"
+        },
+        {
+            "name": "CF to F",
+            "group": "CFF",
+            "method": "CFF",
+            "file": "02 - CF to F.txt"
+        },
+        {
+            "name": "Small fraction",
+            "group": "smallFraction",
+            "method": "SmallFraction",
+            "file": "03 - small fraction.txt"
+        },
+        {
+            "name": "Small CF",
+            "group": "smallCF",
+            "method": "SmallCF",
+            "file": "04 - small CF.txt"
+        },
+        {
+            "name": "Medium fraction",
+            "group": "mediumFraction",
+            "method": "MediumFraction",
+            "file": "05 - medium fraction.txt"
+        },
+        {
+            "name": "Medium CF",
+            "group": "mediumCF",
+            "method": "MediumCF",
+            "file": "06 - medium CF.txt"
+        },
+        {
+            "name": "Large fraction",
+            "group": "largeFraction",
+            "method": "LargeFraction",
+            "file": "07 - large fraction.txt"
+        },
+        {
+            "name": "Large CF",
+            "group": "largeCF",
+            "method": "LargeCF",
+            "file": "08 - large CF.txt"
+        },
+        {
+            "name": "F to Long CF",
+            "group": "FLongCF",
+            "method": "FLongCF",
+            "file": "09 - F to long CF.txt"
+        },
+        {
+            "name": "Long CF to F",
+            "group": "longCFF",
+            "method": "LongCFF",
+            "file": "10 - Long CF to F.txt"
+        },
+        {
+            "name": "Negative fraction",
+            "group": "negativeFraction",
+            "method": "NegativeFraction",
+            "file": "11 - negative fraction.txt"
+        },
+        {
+            "name": "Negative CF",
+            "group": "negativeCF",
+            "method": "NegativeCF",
+            "file": "12 - negative CF.txt"
+        },
+        {
+            "name": "All together now",
+            "group": "allTogetherNow",
+            "method": "AllTogetherNow",
+            "file": "13 - all together now.txt"
+        }
+    ]
+}
