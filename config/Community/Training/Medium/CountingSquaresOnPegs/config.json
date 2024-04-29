@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\CountingSquaresOnPegs",
+    "name": "Counting squares on pegs",
+    "group": "countingSquaresOnPegs",
+    "link": "https://www.codingame.com/ide/puzzle/counting-squares-on-pegs",
+    "tests": [
+        {
+            "name": "5 points",
+            "group": "5Points",
+            "method": "5Points",
+            "file": "01 - 5 points.txt"
+        },
+        {
+            "name": "50 points",
+            "group": "50Points",
+            "method": "50Points",
+            "file": "02 - 50 points.txt"
+        },
+        {
+            "name": "100 points",
+            "group": "100Points",
+            "method": "100Points",
+            "file": "03 - 100 points.txt"
+        },
+        {
+            "name": "500 points",
+            "group": "500Points",
+            "method": "500Points",
+            "file": "04 - 500 points.txt"
+        },
+        {
+            "name": "1000 points",
+            "group": "1000Points",
+            "method": "1000Points",
+            "file": "05 - 1000 points.txt"
+        },
+        {
+            "name": "1500 points",
+            "group": "1500Points",
+            "method": "1500Points",
+            "file": "06 - 1500 points.txt"
+        },
+        {
+            "name": "1750 points",
+            "group": "1750Points",
+            "method": "1750Points",
+            "file": "07 - 1750 points.txt"
+        }
+    ]
+}
