@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\Cylinders",
+    "name": "Cylinders",
+    "group": "cylinders",
+    "link": "https://www.codingame.com/ide/puzzle/cylinders",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Caves to fill in",
+            "group": "cavesToFillIn",
+            "method": "CavesToFillIn",
+            "file": "02 - caves to fill in.txt"
+        },
+        {
+            "name": "Harsh",
+            "group": "harsh",
+            "method": "Harsh",
+            "file": "03 - harsh.txt"
+        },
+        {
+            "name": "Optimize your code",
+            "group": "optimizeYourCode",
+            "method": "OptimizeYourCode",
+            "file": "04 - optimize your code.txt"
+        }
+    ]
+}
