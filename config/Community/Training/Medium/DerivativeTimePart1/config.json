@@ -1,0 +1,98 @@
+{
+    "namespace": "Community\\Training\\Medium\\DerivativeTimePart1",
+    "name": "Derivative time !!! - part1",
+    "group": "derivativeTimePart1",
+    "link": "https://www.codingame.com/ide/puzzle/derivative-time---part1",
+    "tests": [
+        {
+            "name": "Easy multiply",
+            "group": "easyMultiply",
+            "method": "EasyMultiply",
+            "file": "01 - easy multiply.txt"
+        },
+        {
+            "name": "Second derivative",
+            "group": "secondDerivative",
+            "method": "SecondDerivative",
+            "file": "02 - second derivative.txt"
+        },
+        {
+            "name": "Second derivative mix",
+            "group": "secondDerivativeMix",
+            "method": "SecondDerivativeMix",
+            "file": "03 - second derivative mix.txt"
+        },
+        {
+            "name": "Power with number",
+            "group": "powerWithNumber",
+            "method": "PowerWithNumber",
+            "file": "04 - power with number.txt"
+        },
+        {
+            "name": "Power with variable",
+            "group": "powerWithVariable",
+            "method": "PowerWithVariable",
+            "file": "05 - power with variable.txt"
+        },
+        {
+            "name": "3 variables",
+            "group": "3Variables",
+            "method": "3Variables",
+            "file": "06 - 3 variables.txt"
+        },
+        {
+            "name": "Fraction",
+            "group": "fraction",
+            "method": "Fraction",
+            "file": "07 - fraction.txt"
+        },
+        {
+            "name": "Longer multiply",
+            "group": "longerMultiply",
+            "method": "LongerMultiply",
+            "file": "08 - longer multiply.txt"
+        },
+        {
+            "name": "3rd derivative",
+            "group": "3rdDerivative",
+            "method": "3rdDerivative",
+            "file": "09 - 3rd derivative.txt"
+        },
+        {
+            "name": "Some Greek ;)",
+            "group": "someGreek",
+            "method": "SomeGreek",
+            "file": "10 - some Greek ;).txt"
+        },
+        {
+            "name": "Maybe not xyz ;)",
+            "group": "maybeNotXYZ",
+            "method": "MaybeNotXYZ",
+            "file": "11 - maybe not xyz ;).txt"
+        },
+        {
+            "name": "Some Vars ;)))",
+            "group": "someVars",
+            "method": "SomeVars",
+            "file": "12 - some vars ;))).txt"
+        },
+        {
+            "name": "Bigger constants",
+            "group": "biggerConstants",
+            "method": "BiggerConstants",
+            "file": "13 - bigger constants.txt"
+        },
+        {
+            "name": "Bigger power",
+            "group": "biggerPower",
+            "method": "BiggerPower",
+            "file": "14 - bigger power.txt"
+        },
+        {
+            "name": "Cannot find",
+            "group": "cannotFind",
+            "method": "CannotFind",
+            "file": "15 - cannot find.txt"
+        }
+    ]
+}
