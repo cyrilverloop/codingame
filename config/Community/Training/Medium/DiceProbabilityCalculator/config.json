@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\DiceProbabilityCalculator",
+    "name": "Dice probability calculator",
+    "group": "diceProbabilityCalculator",
+    "link": "https://www.codingame.com/ide/puzzle/dice-probability-calculator",
+    "tests": [
+        {
+            "name": "A die and two additions",
+            "group": "aDieAndTwoAdditions",
+            "method": "ADieAndTwoAdditions",
+            "file": "01 - a die and two additions.txt"
+        },
+        {
+            "name": "Simple comparison",
+            "group": "simplecomparison",
+            "method": "Simplecomparison",
+            "file": "02 - simple comparison.txt"
+        },
+        {
+            "name": "Addition of two dice",
+            "group": "additionOfTwoDice",
+            "method": "AdditionOfTwoDice",
+            "file": "03 - addition of two dice.txt"
+        },
+        {
+            "name": "Comparaison with sum of dice",
+            "group": "comparaisonWithSumOfDice",
+            "method": "ComparaisonWithSumOfDice",
+            "file": "04 - comparaison with sum of dice.txt"
+        },
+        {
+            "name": "Subtraction of dice",
+            "group": "subtractionOfDice",
+            "method": "SubtractionOfDice",
+            "file": "05 - subtraction of dice.txt"
+        },
+        {
+            "name": "Multiplication of dice",
+            "group": "multiplicationOfDice",
+            "method": "MultiplicationOfDice",
+            "file": "06 - multiplication of dice.txt"
+        },
+        {
+            "name": "FIX IT !",
+            "group": "FIXIT",
+            "method": "FIXIT",
+            "file": "07 - FIX IT !.txt"
+        }
+    ]
+}
