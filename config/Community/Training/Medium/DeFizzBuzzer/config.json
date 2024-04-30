@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\DeFizzBuzzer",
+    "name": "De-FizzBuzzer",
+    "group": "deFizzBuzzer",
+    "link": "https://www.codingame.com/ide/puzzle/de-fizzbuzzer",
+    "tests": [
+        {
+            "name": "Plain number",
+            "group": "plainNumber",
+            "method": "PlainNumber",
+            "file": "01 - plain number.txt"
+        },
+        {
+            "name": "Two simple ones",
+            "group": "twoSimpleOnes",
+            "method": "TwoSimpleOnes",
+            "file": "02 - two simple ones.txt"
+        },
+        {
+            "name": "More words",
+            "group": "moreWords",
+            "method": "MoreWords",
+            "file": "03 - more words.txt"
+        },
+        {
+            "name": "Error cases",
+            "group": "errorCases",
+            "method": "ErrorCases",
+            "file": "04 - error cases.txt"
+        },
+        {
+            "name": "Lots of cases",
+            "group": "lotsOfCases",
+            "method": "LotsOfCases",
+            "file": "05 - lots of cases.txt"
+        }
+    ]
+}
