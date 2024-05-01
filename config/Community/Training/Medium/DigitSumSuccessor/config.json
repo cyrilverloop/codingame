@@ -1,0 +1,74 @@
+{
+    "namespace": "Community\\Training\\Medium\\DigitSumSuccessor",
+    "name": "Digit sum successor",
+    "group": "digitSumSuccessor",
+    "link": "https://www.codingame.com/ide/puzzle/digit-sum-successor",
+    "tests": [
+        {
+            "name": "Two",
+            "group": "two",
+            "method": "Two",
+            "file": "01 - two.txt"
+        },
+        {
+            "name": "Simple test",
+            "group": "simpleTest",
+            "method": "SimpleTest",
+            "file": "02 - simple test.txt"
+        },
+        {
+            "name": "Trailing zeros",
+            "group": "trailingZeros",
+            "method": "TrailingZeros",
+            "file": "03 - trailing zeros.txt"
+        },
+        {
+            "name": "Trailing zeros and nines",
+            "group": "trailingZerosAndNines",
+            "method": "TrailingZerosAndNines",
+            "file": "04 - trailing zeros and nines.txt"
+        },
+        {
+            "name": "Need more length",
+            "group": "needMoreLength",
+            "method": "NeedMoreLength",
+            "file": "05 - need more length.txt"
+        },
+        {
+            "name": "Random test",
+            "group": "randomTest",
+            "method": "RandomTest",
+            "file": "06 - random test.txt"
+        },
+        {
+            "name": "Only nines",
+            "group": "onlyNines",
+            "method": "OnlyNines",
+            "file": "07 - only nines.txt"
+        },
+        {
+            "name": "Zeros and nines",
+            "group": "zerosAndNines",
+            "method": "ZerosAndNines",
+            "file": "08 - zeros and nines.txt"
+        },
+        {
+            "name": "Zeros and nines 2",
+            "group": "zerosAndNines2",
+            "method": "ZerosAndNines2",
+            "file": "09 - zeros and nines 2.txt"
+        },
+        {
+            "name": "Zeros and nines 3",
+            "group": "zerosAndNines3",
+            "method": "ZerosAndNines3",
+            "file": "10 - zeros and nines 3.txt"
+        },
+        {
+            "name": "Zeros and nines 4",
+            "group": "zerosAndNines4",
+            "method": "ZerosAndNines4",
+            "file": "11 - zeros and nines 4.txt"
+        }
+    ]
+}
