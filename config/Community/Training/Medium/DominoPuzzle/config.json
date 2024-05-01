@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Medium\\DominoPuzzle",
+    "name": "Domino puzzle",
+    "group": "dominoPuzzle",
+    "link": "https://www.codingame.com/ide/puzzle/domino-puzzle",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "02 - simple.txt"
+        },
+        {
+            "name": "ClearOut",
+            "group": "clearOut",
+            "method": "ClearOut",
+            "file": "03 - clearOut.txt"
+        },
+        {
+            "name": "Big field",
+            "group": "bigField",
+            "method": "BigField",
+            "file": "04 - big field.txt"
+        },
+        {
+            "name": "Huge field",
+            "group": "hugeField",
+            "method": "HugeField",
+            "file": "05 - huge field.txt"
+        },
+        {
+            "name": "Circle",
+            "group": "circle",
+            "method": "Circle",
+            "file": "06 - circle.txt"
+        }
+    ]
+}
