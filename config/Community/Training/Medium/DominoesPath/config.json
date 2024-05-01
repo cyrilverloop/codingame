@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Medium\\DominoesPath",
+    "name": "Dominoes path",
+    "group": "dominoesPath",
+    "link": "https://www.codingame.com/ide/puzzle/dominoes-path",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "No path (easy)",
+            "group": "noPathEasy",
+            "method": "NoPathEasy",
+            "file": "02 - no path (easy).txt"
+        },
+        {
+            "name": "Longer path in order",
+            "group": "longerPathInOrder",
+            "method": "LongerPathInOrder",
+            "file": "03 - longer path in order.txt"
+        },
+        {
+            "name": "Broken path",
+            "group": "brokenPath",
+            "method": "BrokenPath",
+            "file": "04 - broken path.txt"
+        },
+        {
+            "name": "Long path scrambled",
+            "group": "longPathScrambled",
+            "method": "LongPathScrambled",
+            "file": "05 - long path scrambled.txt"
+        },
+        {
+            "name": "Long invalid sequence",
+            "group": "longInvalidSequence",
+            "method": "LongInvalidSequence",
+            "file": "06 - long invalid sequence.txt"
+        }
+    ]
+}
