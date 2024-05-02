@@ -1,0 +1,68 @@
+{
+    "namespace": "Community\\Training\\Medium\\Dungeon3D",
+    "name": "Dungeon 3D",
+    "group": "dungeon3D",
+    "link": "https://www.codingame.com/ide/puzzle/dungeon-3d",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Small",
+            "group": "small",
+            "method": "Small",
+            "file": "02 - small.txt"
+        },
+        {
+            "name": "Direct access",
+            "group": "directAccess",
+            "method": "DirectAccess",
+            "file": "03 - direct access.txt"
+        },
+        {
+            "name": "NO PATH",
+            "group": "noPath",
+            "method": "NoPath",
+            "file": "04 - NO PATH.txt"
+        },
+        {
+            "name": "10’s cube",
+            "group": "10sCube",
+            "method": "10sCube",
+            "file": "05 - 10’s cube.txt"
+        },
+        {
+            "name": "13’s cube",
+            "group": "13sCube",
+            "method": "13sCube",
+            "file": "06 - 13’s cube.txt"
+        },
+        {
+            "name": "Multi-path 1",
+            "group": "multiPath1",
+            "method": "MultiPath1",
+            "file": "07 - multi-path 1.txt"
+        },
+        {
+            "name": "Multi-path 2",
+            "group": "multiPath2",
+            "method": "MultiPath2",
+            "file": "08 - multi-path 2.txt"
+        },
+        {
+            "name": "Space",
+            "group": "space",
+            "method": "Space",
+            "file": "09 - space.txt"
+        },
+        {
+            "name": "Codingame",
+            "group": "codingame",
+            "method": "Codingame",
+            "file": "10 - codingame.txt"
+        }
+    ]
+}

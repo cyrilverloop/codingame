@@ -1,0 +1,10 @@
+fscanf($stdin, "%d %d %d", $L, $R, $C);
+fscanf($stdin, "%d", $ln);
+for ($i = 0; $i < $ln; $i++)
+{
+    $line = stream_get_line($stdin, $C + 1, "\n");
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("answer\n");
