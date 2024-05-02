@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\DuckHunt",
+    "name": "Duck hunt",
+    "group": "duckHunt",
+    "link": "https://www.codingame.com/ide/puzzle/duck-hunt",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Foursome",
+            "group": "foursome",
+            "method": "Foursome",
+            "file": "02 - foursome.txt"
+        },
+        {
+            "name": "The race",
+            "group": "theRace",
+            "method": "TheRace",
+            "file": "03 - the race.txt"
+        },
+        {
+            "name": "Can’t shoot all",
+            "group": "cantShootAll",
+            "method": "CantShootAll",
+            "file": "04 - can’t shoot all.txt"
+        }
+    ]
+}
