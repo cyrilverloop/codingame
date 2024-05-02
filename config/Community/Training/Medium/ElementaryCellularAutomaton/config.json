@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\ElementaryCellularAutomaton",
+    "name": "Elementary cellular automaton",
+    "group": "elementaryCellularAutomaton",
+    "link": "https://www.codingame.com/ide/puzzle/elementary-cellular-automaton",
+    "tests": [
+        {
+            "name": "Pyramid",
+            "group": "pyramid",
+            "method": "Pyramid",
+            "file": "01 - pyramid.txt"
+        },
+        {
+            "name": "Sierpiński triangle",
+            "group": "sierpinskiTriangle",
+            "method": "SierpinskiTriangle",
+            "file": "02 - sierpiński triangle.txt"
+        },
+        {
+            "name": "Rule 30: conus textile",
+            "group": "rule30ConusTextile",
+            "method": "Rule30ConusTextile",
+            "file": "03 - rule 30: conus textile.txt"
+        },
+        {
+            "name": "Sierpiński triangle, continued",
+            "group": "sierpinskiTriangleContinued",
+            "method": "SierpinskiTriangleContinued",
+            "file": "04 - sierpiński triangle, continued.txt"
+        },
+        {
+            "name": "Rule 110, different start",
+            "group": "rule110DifferentStart",
+            "method": "Rule110DifferentStart",
+            "file": "05 - rule 110, different start.txt"
+        }
+    ]
+}
