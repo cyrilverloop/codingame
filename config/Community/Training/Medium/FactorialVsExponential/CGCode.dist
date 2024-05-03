@@ -1,0 +1,10 @@
+fscanf($stdin, "%d", $K);
+$inputs = explode(" ", fgets($stdin));
+for ($i = 0; $i < $K; $i++)
+{
+    $A = floatval($inputs[$i]);
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("answer\n");

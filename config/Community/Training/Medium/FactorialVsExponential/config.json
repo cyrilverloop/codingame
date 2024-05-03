@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\FactorialVsExponential",
+    "name": "Factorial vs exponential",
+    "group": "factorialVsExponential",
+    "link": "https://www.codingame.com/ide/puzzle/factorial-vs-exponential",
+    "tests": [
+        {
+            "name": "Few small integer values",
+            "group": "fewSmallIntegerValues",
+            "method": "FewSmallIntegerValues",
+            "file": "01 - few small integer values.txt"
+        },
+        {
+            "name": "Few small float values",
+            "group": "fewSmallFloatValues",
+            "method": "FewSmallFloatValues",
+            "file": "02 - few small float values.txt"
+        },
+        {
+            "name": "More float values",
+            "group": "moreFloatValues",
+            "method": "MoreFloatValues",
+            "file": "03 - more float values.txt"
+        },
+        {
+            "name": "Bigger float values",
+            "group": "biggerFloatValues",
+            "method": "BiggerFloatValues",
+            "file": "04 - bigger float values.txt"
+        },
+        {
+            "name": "Huge float values",
+            "group": "hugeFloatValues",
+            "method": "HugeFloatValues",
+            "file": "05 - huge float values.txt"
+        }
+    ]
+}
