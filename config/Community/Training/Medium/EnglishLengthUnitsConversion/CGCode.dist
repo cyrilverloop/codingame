@@ -1,0 +1,10 @@
+$toconvert = stream_get_line($stdin, 40 + 1, "\n");
+fscanf($stdin, "%d", $n);
+for ($i = 0; $i < $n; $i++)
+{
+    $relation = stream_get_line($stdin, 40 + 1, "\n");
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("result\n");

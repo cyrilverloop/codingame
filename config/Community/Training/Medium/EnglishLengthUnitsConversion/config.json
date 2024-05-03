@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\EnglishLengthUnitsConversion",
+    "name": "English length units conversion",
+    "group": "englishLengthUnitsConversion",
+    "link": "https://www.codingame.com/ide/puzzle/english-length-units-conversion",
+    "tests": [
+        {
+            "name": "Direct relations",
+            "group": "directRelations",
+            "method": "DirectRelations",
+            "file": "01 - direct relations.txt"
+        },
+        {
+            "name": "Direct relations with dead end",
+            "group": "directRelationsWithDeadEnd",
+            "method": "DirectRelationsWithDeadEnd",
+            "file": "02 - direct relations with dead end.txt"
+        },
+        {
+            "name": "With loops",
+            "group": "withLoops",
+            "method": "WithLoops",
+            "file": "03 - with loops.txt"
+        },
+        {
+            "name": "Full tree",
+            "group": "fullTree",
+            "method": "FullTree",
+            "file": "04 - full tree.txt"
+        }
+    ]
+}
