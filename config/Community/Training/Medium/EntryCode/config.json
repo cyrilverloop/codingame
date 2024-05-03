@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\EntryCode",
+    "name": "Entry code",
+    "group": "entryCode",
+    "link": "https://www.codingame.com/ide/puzzle/entry-code",
+    "tests": [
+        {
+            "name": "Small 1",
+            "group": "small1",
+            "method": "Small1",
+            "file": "01 - small 1.txt"
+        },
+        {
+            "name": "Small 2",
+            "group": "small2",
+            "method": "Small2",
+            "file": "02 - small 2.txt"
+        },
+        {
+            "name": "High number of digits",
+            "group": "highNumberOfDigits",
+            "method": "HighNumberOfDigits",
+            "file": "03 - high number of digits.txt"
+        },
+        {
+            "name": "High number of characters",
+            "group": "highNumberOfCharacters",
+            "method": "HighNumberOfCharacters",
+            "file": "04 - high number of characters.txt"
+        },
+        {
+            "name": "Last test",
+            "group": "lastTest",
+            "method": "LastTest",
+            "file": "05 - last test.txt"
+        }
+    ]
+}
