@@ -1,0 +1,74 @@
+{
+    "namespace": "Community\\Training\\Medium\\EqualizingArrays",
+    "name": "Equalizing arrays",
+    "group": "equalizingArrays",
+    "link": "https://www.codingame.com/ide/puzzle/equalizing-arrays",
+    "tests": [
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "01 - simple.txt"
+        },
+        {
+            "name": "Binary",
+            "group": "binary",
+            "method": "Binary",
+            "file": "02 - binary.txt"
+        },
+        {
+            "name": "One hill",
+            "group": "oneHill",
+            "method": "OneHill",
+            "file": "03 - one hill.txt"
+        },
+        {
+            "name": "Two hill",
+            "group": "twoHill",
+            "method": "TwoHill",
+            "file": "04 - two hill.txt"
+        },
+        {
+            "name": "Random",
+            "group": "random",
+            "method": "Random",
+            "file": "05 - random.txt"
+        },
+        {
+            "name": "Opposite 1",
+            "group": "opposite1",
+            "method": "Opposite1",
+            "file": "06 - opposite 1.txt"
+        },
+        {
+            "name": "Opposite 2",
+            "group": "opposite2",
+            "method": "Opposite2",
+            "file": "07 - opposite 2.txt"
+        },
+        {
+            "name": "One hill large",
+            "group": "oneHillLarge",
+            "method": "OneHillLarge",
+            "file": "08 - one hill large.txt"
+        },
+        {
+            "name": "Two hill large",
+            "group": "twoHillLarge",
+            "method": "TwoHillLarge",
+            "file": "09 - two hill large.txt"
+        },
+        {
+            "name": "Blocks",
+            "group": "blocks",
+            "method": "Blocks",
+            "file": "10 - blocks.txt"
+        },
+        {
+            "name": "Zero",
+            "group": "zero",
+            "method": "Zero",
+            "file": "11 - zero.txt"
+        }
+    ]
+}
