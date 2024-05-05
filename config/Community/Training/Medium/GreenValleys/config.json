@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\GreenValleys",
+    "name": "Green valleys",
+    "group": "greenValleys",
+    "link": "https://www.codingame.com/ide/puzzle/green-valleys",
+    "tests": [
+        {
+            "name": "One valley",
+            "group": "oneValley",
+            "method": "OneValley",
+            "file": "01 - one valley.txt"
+        },
+        {
+            "name": "Two valleys",
+            "group": "twoValleys",
+            "method": "TwoValleys",
+            "file": "02 - two valleys.txt"
+        },
+        {
+            "name": "Three valleys",
+            "group": "threeValleys",
+            "method": "ThreeValleys",
+            "file": "03 - three valleys.txt"
+        },
+        {
+            "name": "No valley",
+            "group": "noValley",
+            "method": "NoValley",
+            "file": "04 - no valley.txt"
+        },
+        {
+            "name": "Alps and valleys",
+            "group": "alpsAndValleys",
+            "method": "AlpsAndValleys",
+            "file": "05 - alps and valleys.txt"
+        }
+    ]
+}
