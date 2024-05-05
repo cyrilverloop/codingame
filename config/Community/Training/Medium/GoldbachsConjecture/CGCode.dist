@@ -1,0 +1,9 @@
+fscanf($stdin, "%d", $n);
+for ($i = 0; $i < $n; $i++)
+{
+    fscanf($stdin, "%d", $m);
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("2\n");
