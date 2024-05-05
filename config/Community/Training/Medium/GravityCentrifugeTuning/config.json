@@ -1,0 +1,74 @@
+{
+    "namespace": "Community\\Training\\Medium\\GravityCentrifugeTuning",
+    "name": "Gravity centrifuge tuning",
+    "group": "gravityCentrifugeTuning",
+    "link": "https://www.codingame.com/ide/puzzle/gravity-centrifuge-tuning",
+    "tests": [
+        {
+            "name": "Tumble",
+            "group": "tumble",
+            "method": "Tumble",
+            "file": "01 - tumble.txt"
+        },
+        {
+            "name": "Double tumble",
+            "group": "doubleTumble",
+            "method": "DoubleTumble",
+            "file": "02 - double tumble.txt"
+        },
+        {
+            "name": "Triple tumble",
+            "group": "tripleTumble",
+            "method": "TripleTumble",
+            "file": "03 - triple tumble.txt"
+        },
+        {
+            "name": "Octal, remember?",
+            "group": "octalRemember",
+            "method": "OctalRemember",
+            "file": "04 - octal, remember?.txt"
+        },
+        {
+            "name": "Dead beef!",
+            "group": "deadBeef",
+            "method": "DeadBeef",
+            "file": "05 - dead beef!.txt"
+        },
+        {
+            "name": "Wait, what?",
+            "group": "waitWhat",
+            "method": "WaitWhat",
+            "file": "06 - wait, what?.txt"
+        },
+        {
+            "name": "Ramp it up! 1",
+            "group": "rampItUp1",
+            "method": "RampItUp1",
+            "file": "07 - ramp it up! 1.txt"
+        },
+        {
+            "name": "Ramp it up! 2",
+            "group": "rampItUp2",
+            "method": "RampItUp2",
+            "file": "08 - ramp it up! 2.txt"
+        },
+        {
+            "name": "Ramp it up! 3",
+            "group": "rampItUp3",
+            "method": "RampItUp3",
+            "file": "09 - ramp it up! 3.txt"
+        },
+        {
+            "name": "Binary overflow",
+            "group": "binaryOverflow",
+            "method": "BinaryOverflow",
+            "file": "10 - binary overflow.txt"
+        },
+        {
+            "name": "Zeckendorf would be proud of you!",
+            "group": "ZeckendorfWouldBeProudOfYou",
+            "method": "ZeckendorfWouldBeProudOfYou",
+            "file": "11 - Zeckendorf would be proud of you!.txt"
+        }
+    ]
+}
