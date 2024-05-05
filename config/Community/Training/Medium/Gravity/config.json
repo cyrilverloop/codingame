@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\Gravity",
+    "name": "Gravity",
+    "group": "gravity",
+    "link": "https://www.codingame.com/ide/puzzle/gravity",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "One fall",
+            "group": "oneFall",
+            "method": "OneFall",
+            "file": "02 - one fall.txt"
+        },
+        {
+            "name": "Single",
+            "group": "single",
+            "method": "Single",
+            "file": "03 - single.txt"
+        },
+        {
+            "name": "CodinGame",
+            "group": "CodinGame",
+            "method": "CodinGame",
+            "file": "04 - CodinGame.txt"
+        },
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "05 - simple.txt"
+        }
+    ]
+}
