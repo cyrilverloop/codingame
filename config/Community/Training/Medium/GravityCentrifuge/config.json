@@ -1,0 +1,74 @@
+{
+    "namespace": "Community\\Training\\Medium\\GravityCentrifuge",
+    "name": "Gravity centrifuge",
+    "group": "gravityCentrifuge",
+    "link": "https://www.codingame.com/ide/puzzle/gravity-centrifuge",
+    "tests": [
+        {
+            "name": "Tumble",
+            "group": "tumble",
+            "method": "Tumble",
+            "file": "01 - tumble.txt"
+        },
+        {
+            "name": "Double tumble",
+            "group": "doubleTumble",
+            "method": "DoubleTumble",
+            "file": "02 - double tumble.txt"
+        },
+        {
+            "name": "Triple tumble",
+            "group": "tripleTumble",
+            "method": "TripleTumble",
+            "file": "03 - triple tumble.txt"
+        },
+        {
+            "name": "Octal, remember?",
+            "group": "octalRemember",
+            "method": "OctalRemember",
+            "file": "04 - octal, remember?.txt"
+        },
+        {
+            "name": "Dead beef!",
+            "group": "deadBeef",
+            "method": "DeadBeef",
+            "file": "05 - dead beef!.txt"
+        },
+        {
+            "name": "Wait, what?",
+            "group": "waitWhat",
+            "method": "WaitWhat",
+            "file": "06 - wait, what?.txt"
+        },
+        {
+            "name": "Leonardo would be proud of you!",
+            "group": "leonardoWouldBeProudOfYou",
+            "method": "LeonardoWouldBeProudOfYou",
+            "file": "07 - leonardo would be proud of you!.txt"
+        },
+        {
+            "name": "Randomize this! 1",
+            "group": "randomizeThis1",
+            "method": "RandomizeThis1",
+            "file": "08 - randomize this! 1.txt"
+        },
+        {
+            "name": "Randomize this! 2",
+            "group": "randomizeThis2",
+            "method": "RandomizeThis2",
+            "file": "09 - randomize this! 2.txt"
+        },
+        {
+            "name": "Randomize this! 3",
+            "group": "randomizeThis3",
+            "method": "RandomizeThis3",
+            "file": "10 - randomize this! 3.txt"
+        },
+        {
+            "name": "Binary overflow",
+            "group": "binaryOverflow",
+            "method": "BinaryOverflow",
+            "file": "11 - binary overflow.txt"
+        }
+    ]
+}
