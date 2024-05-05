@@ -1,0 +1,74 @@
+{
+    "namespace": "Community\\Training\\Medium\\FutoshikiSolver",
+    "name": "Futoshiki solver",
+    "group": "futoshikiSolver",
+    "link": "https://www.codingame.com/ide/puzzle/futoshiki-solver",
+    "tests": [
+        {
+            "name": "No comparisons",
+            "group": "noComparisons",
+            "method": "NoComparisons",
+            "file": "01 - no comparisons.txt"
+        },
+        {
+            "name": "Comparisons only horizontal",
+            "group": "comparisonsOnlyHorizontal",
+            "method": "ComparisonsOnlyHorizontal",
+            "file": "02 - comparisons only horizontal.txt"
+        },
+        {
+            "name": "Comparisons only vertical",
+            "group": "comparisonsOnlyVertical",
+            "method": "ComparisonsOnlyVertical",
+            "file": "03 - comparisons only vertical.txt"
+        },
+        {
+            "name": "5x5",
+            "group": "5x5",
+            "method": "5x5",
+            "file": "04 - 5x5.txt"
+        },
+        {
+            "name": "7x7",
+            "group": "7x7",
+            "method": "7x7",
+            "file": "05 - 7x7.txt"
+        },
+        {
+            "name": "More 5x5",
+            "group": "more5x5",
+            "method": "More5x5",
+            "file": "06 - more 5x5.txt"
+        },
+        {
+            "name": "4x4",
+            "group": "4x4",
+            "method": "4x4",
+            "file": "07 - 4x4.txt"
+        },
+        {
+            "name": "6x6",
+            "group": "6x6",
+            "method": "6x6",
+            "file": "08 - 6x6.txt"
+        },
+        {
+            "name": "More 6x6",
+            "group": "more6x6",
+            "method": "More6x6",
+            "file": "09 - more 6x6.txt"
+        },
+        {
+            "name": "3x3",
+            "group": "3x3",
+            "method": "3x3",
+            "file": "10 - 3x3.txt"
+        },
+        {
+            "name": "1x1",
+            "group": "1x1",
+            "method": "1x1",
+            "file": "11 - 1x1.txt"
+        }
+    ]
+}
