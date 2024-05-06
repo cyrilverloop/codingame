@@ -1,0 +1,6 @@
+$ip = stream_get_line($stdin, 18 + 1, "\n");
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("network address\n");
+echo("broadcast address\n");
