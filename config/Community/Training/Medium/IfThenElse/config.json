@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\IfThenElse",
+    "name": "If then else",
+    "group": "ifThenElse",
+    "link": "https://www.codingame.com/ide/puzzle/if-then-else",
+    "tests": [
+        {
+            "name": "Multiple conditions",
+            "group": "multipleConditions",
+            "method": "MultipleConditions",
+            "file": "01 - multiple conditions.txt"
+        },
+        {
+            "name": "Nested conditions",
+            "group": "nestedConditions",
+            "method": "NestedConditions",
+            "file": "02 - nested conditions.txt"
+        },
+        {
+            "name": "Smallest program",
+            "group": "smallestProgram",
+            "method": "SmallestProgram",
+            "file": "03 - smallest program.txt"
+        },
+        {
+            "name": "Optional statements",
+            "group": "optionalStatements",
+            "method": "OptionalStatements",
+            "file": "04 - optional statements.txt"
+        },
+        {
+            "name": "More conditions",
+            "group": "moreConditions",
+            "method": "MoreConditions",
+            "file": "05 - more conditions.txt"
+        },
+        {
+            "name": "Deeper nests",
+            "group": "deeperNests",
+            "method": "DeeperNests",
+            "file": "06 - deeper nests.txt"
+        },
+        {
+            "name": "Conditions overflow",
+            "group": "conditionsOverflow",
+            "method": "ConditionsOverflow",
+            "file": "07 - conditions overflow.txt"
+        }
+    ]
+}
