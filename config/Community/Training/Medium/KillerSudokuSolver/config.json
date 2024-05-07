@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\KillerSudokuSolver",
+    "name": "Killer sudoku solver",
+    "group": "killerSudokuSolver",
+    "link": "https://www.codingame.com/ide/puzzle/killer-sudoku-solver",
+    "tests": [
+        {
+            "name": "Easy",
+            "group": "easy",
+            "method": "Easy",
+            "file": "01 - easy.txt"
+        },
+        {
+            "name": "Medium",
+            "group": "medium",
+            "method": "Medium",
+            "file": "02 - medium.txt"
+        },
+        {
+            "name": "Hard",
+            "group": "hard",
+            "method": "Hard",
+            "file": "03 - hard.txt"
+        },
+        {
+            "name": "Expert",
+            "group": "expert",
+            "method": "Expert",
+            "file": "04 - expert.txt"
+        }
+    ]
+}
