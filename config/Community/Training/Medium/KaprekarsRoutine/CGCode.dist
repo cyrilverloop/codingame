@@ -1,0 +1,5 @@
+$n1 = stream_get_line($stdin, 10 + 1, "\n");
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("1 2 3 4\n");

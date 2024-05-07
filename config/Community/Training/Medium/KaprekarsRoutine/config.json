@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\KaprekarsRoutine",
+    "name": "Kaprekar’s routine",
+    "group": "kaprekarsRoutine",
+    "link": "https://www.codingame.com/ide/puzzle/kaprekars-routine",
+    "tests": [
+        {
+            "name": "Length 1 cycle",
+            "group": "length1Cycle",
+            "method": "Length1Cycle",
+            "file": "01 - length 1 cycle.txt"
+        },
+        {
+            "name": "Dont forget padding",
+            "group": "dontForgetPadding",
+            "method": "DontForgetPadding",
+            "file": "02 - dont forget padding.txt"
+        },
+        {
+            "name": "Number of the beast",
+            "group": "numberOfTheBeast",
+            "method": "NumberOfTheBeast",
+            "file": "03 - number of the beast.txt"
+        },
+        {
+            "name": "Big",
+            "group": "big",
+            "method": "Big",
+            "file": "04 - big.txt"
+        }
+    ]
+}
