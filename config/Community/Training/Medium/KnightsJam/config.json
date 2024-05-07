@@ -1,0 +1,86 @@
+{
+    "namespace": "Community\\Training\\Medium\\KnightsJam",
+    "name": "Knights jam",
+    "group": "knightsJam",
+    "link": "https://www.codingame.com/ide/puzzle/knights-jam",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Central problem #1",
+            "group": "centralProblem1",
+            "method": "CentralProblem1",
+            "file": "02 - central problem #1.txt"
+        },
+        {
+            "name": "Central problem #2",
+            "group": "centralProblem2",
+            "method": "CentralProblem2",
+            "file": "03 - central problem #2.txt"
+        },
+        {
+            "name": "Reachable #1",
+            "group": "reachable1",
+            "method": "Reachable1",
+            "file": "04 - reachable #1.txt"
+        },
+        {
+            "name": "Unreachable #1",
+            "group": "unreachable1",
+            "method": "Unreachable1",
+            "file": "05 - unreachable #1.txt"
+        },
+        {
+            "name": "Reachable #2",
+            "group": "reachable2",
+            "method": "Reachable2",
+            "file": "06 - reachable #2.txt"
+        },
+        {
+            "name": "Unreachable #2",
+            "group": "unreachable2",
+            "method": "Unreachable2",
+            "file": "07 - unreachable #2.txt"
+        },
+        {
+            "name": "Reachable #3",
+            "group": "reachable3",
+            "method": "Reachable3",
+            "file": "08 - reachable #3.txt"
+        },
+        {
+            "name": "Unreachable #3",
+            "group": "unreachable3",
+            "method": "Unreachable3",
+            "file": "09 - unreachable #3.txt"
+        },
+        {
+            "name": "Reachable #4",
+            "group": "reachable4",
+            "method": "Reachable4",
+            "file": "10 - reachable #4.txt"
+        },
+        {
+            "name": "Unreachable #4",
+            "group": "unreachable4",
+            "method": "Unreachable4",
+            "file": "11 - unreachable #4.txt"
+        },
+        {
+            "name": "Unreachable #5",
+            "group": "unreachable5",
+            "method": "Unreachable5",
+            "file": "12 - unreachable #5.txt"
+        },
+        {
+            "name": "Reachable #5",
+            "group": "reachable5",
+            "method": "Reachable5",
+            "file": "13 - reachable #5.txt"
+        }
+    ]
+}
