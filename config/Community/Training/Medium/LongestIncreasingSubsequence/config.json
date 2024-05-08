@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\LongestIncreasingSubsequence",
+    "name": "Longest increasing subsequence",
+    "group": "longestIncreasingSubsequence",
+    "link": "https://www.codingame.com/ide/puzzle/longest-increasing-subsequence",
+    "tests": [
+        {
+            "name": "Simple",
+            "group": "simple",
+            "method": "Simple",
+            "file": "01 - simple.txt"
+        },
+        {
+            "name": "Still simple",
+            "group": "stillSimple",
+            "method": "StillSimple",
+            "file": "02 - still simple.txt"
+        },
+        {
+            "name": "Medium",
+            "group": "medium",
+            "method": "Medium",
+            "file": "03 - medium.txt"
+        },
+        {
+            "name": "Getting harder",
+            "group": "gettingHarder",
+            "method": "GettingHarder",
+            "file": "04 - getting harder.txt"
+        },
+        {
+            "name": "Lots of numbers!",
+            "group": "lotsOfNumbers",
+            "method": "LotsOfNumbers",
+            "file": "05 - lots of numbers!.txt"
+        }
+    ]
+}
