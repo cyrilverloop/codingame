@@ -1,0 +1,62 @@
+{
+    "namespace": "Community\\Training\\Medium\\LightBulbs",
+    "name": "Light bulbs",
+    "group": "lightBulbs",
+    "link": "https://www.codingame.com/ide/puzzle/light-bulbs",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "N=5",
+            "group": "N5",
+            "method": "N5",
+            "file": "02 - N=5.txt"
+        },
+        {
+            "name": "N=6",
+            "group": "N6",
+            "method": "N6",
+            "file": "03 - N=6.txt"
+        },
+        {
+            "name": "N=8",
+            "group": "N8",
+            "method": "N8",
+            "file": "04 - N=8.txt"
+        },
+        {
+            "name": "N=11",
+            "group": "N11",
+            "method": "N11",
+            "file": "05 - N=11.txt"
+        },
+        {
+            "name": "N=16",
+            "group": "N16",
+            "method": "N16",
+            "file": "06 - N=16.txt"
+        },
+        {
+            "name": "N=19",
+            "group": "N19",
+            "method": "N19",
+            "file": "07 - N=19.txt"
+        },
+        {
+            "name": "N=22",
+            "group": "N22",
+            "method": "N22",
+            "file": "08 - N=22.txt"
+        },
+        {
+            "name": "N=25",
+            "group": "N25",
+            "method": "N25",
+            "file": "09 - N=25.txt"
+        }
+    ]
+}
