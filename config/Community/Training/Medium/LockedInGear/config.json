@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\LockedInGear",
+    "name": "Locked in gear",
+    "group": "lockedInGear",
+    "link": "https://www.codingame.com/ide/puzzle/locked-in-gear",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "The missing link",
+            "group": "theMissingLink",
+            "method": "TheMissingLink",
+            "file": "02 - the missing link.txt"
+        },
+        {
+            "name": "A dead end",
+            "group": "aDeadEnd",
+            "method": "ADeadEnd",
+            "file": "03 - a dead end.txt"
+        },
+        {
+            "name": "Jammed",
+            "group": "jammed",
+            "method": "Jammed",
+            "file": "04 - jammed.txt"
+        },
+        {
+            "name": "This problem is beyond me",
+            "group": "thisProblemIsBeyondMe",
+            "method": "ThisProblemIsBeyondMe",
+            "file": "05 - this problem is beyond me.txt"
+        },
+        {
+            "name": "Lots of gears",
+            "group": "lotsOfGears",
+            "method": "LotsOfGears",
+            "file": "06 - lots of gears.txt"
+        },
+        {
+            "name": "An entire different problem altogether",
+            "group": "anEntireDifferentProblemAltogether",
+            "method": "AnEntireDifferentProblemAltogether",
+            "file": "07 - an entire different problem altogether.txt"
+        }
+    ]
+}
