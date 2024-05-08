@@ -1,0 +1,68 @@
+{
+    "namespace": "Community\\Training\\Medium\\LetsGoToTheCinema",
+    "name": "Let’s go to the cinema!",
+    "group": "letsGoToTheCinema",
+    "link": "https://www.codingame.com/ide/puzzle/lets-go-to-the-cinema",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Family comes to living room to watch TV",
+            "group": "familyComesToLivingRoomToWatchTV",
+            "method": "FamilyComesToLivingRoomToWatchTV",
+            "file": "02 - family comes to living room to watch tv.txt"
+        },
+        {
+            "name": "Family TV, but cat is sitting on edge of sofa",
+            "group": "familyTVButCatIsSittingOnEdgeOfSofa",
+            "method": "FamilyTVButCatIsSittingOnEdgeOfSofa",
+            "file": "03 - family TV, but cat is sitting on edge of sofa.txt"
+        },
+        {
+            "name": "Family TV, but 2 cats are sitting on middle of sofa",
+            "group": "familyTVBut2CatsAreSittingOnMiddleOfSofa",
+            "method": "FamilyTVBut2CatsAreSittingOnMiddleOfSofa",
+            "file": "04 - family TV, but 2 cats are sitting on middle of sofa.txt"
+        },
+        {
+            "name": "There ain’t no problem!",
+            "group": "thereAintNoProblem",
+            "method": "ThereAintNoProblem",
+            "file": "05 - there ain’t no problem!.txt"
+        },
+        {
+            "name": "We ain’t need no seat numbering!",
+            "group": "weAintNeedNoSeatNumbering",
+            "method": "WeAintNeedNoSeatNumbering",
+            "file": "06 - we ain’t need no seat numbering!.txt"
+        },
+        {
+            "name": "Small cinema",
+            "group": "smallCinema",
+            "method": "SmallCinema",
+            "file": "07 - small cinema.txt"
+        },
+        {
+            "name": "Bigger cinema",
+            "group": "biggerCinema",
+            "method": "BiggerCinema",
+            "file": "08 - bigger cinema.txt"
+        },
+        {
+            "name": "Chain reaction",
+            "group": "chainReaction",
+            "method": "ChainReaction",
+            "file": "09 - chain reaction.txt"
+        },
+        {
+            "name": "Blind date",
+            "group": "blindDate",
+            "method": "BlindDate",
+            "file": "10 - blind date.txt"
+        }
+    ]
+}
