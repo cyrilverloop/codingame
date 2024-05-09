@@ -1,0 +1,86 @@
+{
+    "namespace": "Community\\Training\\Medium\\MitosisMayhem",
+    "name": "Mitosis mayhem",
+    "group": "mitosisMayhem",
+    "link": "https://www.codingame.com/ide/puzzle/mitosis-mayhem",
+    "tests": [
+        {
+            "name": "All full",
+            "group": "allFull",
+            "method": "AllFull",
+            "file": "01 - all full.txt"
+        },
+        {
+            "name": "Missing a few",
+            "group": "missingAFew",
+            "method": "MissingAFew",
+            "file": "02 - missing a few.txt"
+        },
+        {
+            "name": "Multiple",
+            "group": "multiple",
+            "method": "Multiple",
+            "file": "03 - multiple.txt"
+        },
+        {
+            "name": "Overflow!",
+            "group": "overflow",
+            "method": "Overflow",
+            "file": "04 - overflow!.txt"
+        },
+        {
+            "name": "Overflow! 2",
+            "group": "overflow2",
+            "method": "Overflow2",
+            "file": "05 - overflow! 2.txt"
+        },
+        {
+            "name": "Stop!",
+            "group": "stop",
+            "method": "Stop",
+            "file": "06 - stop!.txt"
+        },
+        {
+            "name": "Conflict!",
+            "group": "conflict",
+            "method": "Conflict",
+            "file": "07 - conflict!.txt"
+        },
+        {
+            "name": "Overpowered",
+            "group": "overpowered",
+            "method": "Overpowered",
+            "file": "08 - overpowered.txt"
+        },
+        {
+            "name": "Uneven conflict",
+            "group": "unevenConflict",
+            "method": "UnevenConflict",
+            "file": "09 - uneven conflict.txt"
+        },
+        {
+            "name": "Consumption",
+            "group": "consumption",
+            "method": "Consumption",
+            "file": "10 - consumption.txt"
+        },
+        {
+            "name": "Bigger fish",
+            "group": "biggerFish",
+            "method": "BiggerFish",
+            "file": "11 - bigger fish.txt"
+        },
+        {
+            "name": "Skip the little ones",
+            "group": "skipTheLittleOnes",
+            "method": "SkipTheLittleOnes",
+            "file": "12 - skip the little ones.txt"
+        },
+        {
+            "name": "Imperfect conflict",
+            "group": "imperfectConflict",
+            "method": "ImperfectConflict",
+            "file": "13 - imperfect conflict.txt"
+        }
+    ]
+}
