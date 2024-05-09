@@ -1,0 +1,13 @@
+fscanf($stdin, "%d %d", $h, $w);
+fscanf($stdin, "%d", $nb);
+for ($i = 0; $i < $h; $i++)
+{
+    $line = stream_get_line($stdin, 100 + 1, "\n");
+}
+for ($i = 0; $i < $nb; $i++)
+{
+
+    // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+    echo("0 0\n");
+}

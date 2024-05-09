@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\Minesweeper",
+    "name": "Minesweeper",
+    "group": "minesweeper",
+    "link": "https://www.codingame.com/ide/puzzle/minesweeper",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Hidden mines",
+            "group": "hiddenMines",
+            "method": "HiddenMines",
+            "file": "02 - hidden mines.txt"
+        },
+        {
+            "name": "One line",
+            "group": "oneLine",
+            "method": "OneLine",
+            "file": "03 - one line.txt"
+        },
+        {
+            "name": "Two blocks",
+            "group": "twoBlocks",
+            "method": "TwoBlocks",
+            "file": "04 - two blocks.txt"
+        },
+        {
+            "name": "Final test",
+            "group": "finalTest",
+            "method": "FinalTest",
+            "file": "05 - final test.txt"
+        }
+    ]
+}
