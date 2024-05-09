@@ -1,0 +1,110 @@
+{
+    "namespace": "Community\\Training\\Medium\\MCxxxxMicrocontrollerSimulation",
+    "name": "MCxxxx microcontroller simulation",
+    "group": "MCxxxxMicrocontrollerSimulation",
+    "link": "https://www.codingame.com/ide/puzzle/mcxxxx-microcontroller-simulation",
+    "tests": [
+        {
+            "name": "Simple I/O",
+            "group": "simpleIO",
+            "method": "SimpleIO",
+            "file": "01 - simple IO.txt"
+        },
+        {
+            "name": "Double I/O",
+            "group": "doubleIO",
+            "method": "DoubleIO",
+            "file": "02 - double IO.txt"
+        },
+        {
+            "name": "Buffering with dat and acc",
+            "group": "bufferingWithDatAndAcc",
+            "method": "bufferingWithDatAndAcc",
+            "file": "03 - buffering with dat and acc.txt"
+        },
+        {
+            "name": "First grade arithmetics",
+            "group": "firstGradeArithmetics",
+            "method": "FirstGradeArithmetics",
+            "file": "04 - first grade arithmetics.txt"
+        },
+        {
+            "name": "Third grade arithmetics",
+            "group": "thirdGradeArithmetics",
+            "method": "ThirdGradeArithmetics",
+            "file": "05 - third grade arithmetics.txt"
+        },
+        {
+            "name": "NOT what you think",
+            "group": "NOTWhatYouThink",
+            "method": "NOTWhatYouThink",
+            "file": "06 - NOT what you think.txt"
+        },
+        {
+            "name": "Labels, jumps and unnecessary text",
+            "group": "labelsJumpsAndUnnecessaryText",
+            "method": "LabelsJumpsAndUnnecessaryText",
+            "file": "07 - labels, jumps and unnecessary text.txt"
+        },
+        {
+            "name": "One last time",
+            "group": "oneLastTime",
+            "method": "OneLastTime",
+            "file": "08 - one last time.txt"
+        },
+        {
+            "name": "What the heck ?",
+            "group": "whatTheHeck",
+            "method": "WhatTheHeck",
+            "file": "09 - what the heck ?.txt"
+        },
+        {
+            "name": "Overflow !!!",
+            "group": "overflow",
+            "method": "Overflow",
+            "file": "10 - overflow !!!.txt"
+        },
+        {
+            "name": "Conditional execution I",
+            "group": "conditionalExecutionI",
+            "method": "ConditionalExecutionI",
+            "file": "11 - conditional execution I.txt"
+        },
+        {
+            "name": "Conditional execution II",
+            "group": "conditionalExecutionII",
+            "method": "ConditionalExecutionII",
+            "file": "12 - conditional execution II.txt"
+        },
+        {
+            "name": "Conditional execution III",
+            "group": "conditionalExecutionIII",
+            "method": "ConditionalExecutionIII",
+            "file": "13 - conditional execution III.txt"
+        },
+        {
+            "name": "Digit manipulation I",
+            "group": "digitManipulationI",
+            "method": "DigitManipulationI",
+            "file": "14 - digit manipulation I.txt"
+        },
+        {
+            "name": "Digit manipulation II",
+            "group": "digitManipulationII",
+            "method": "DigitManipulationII",
+            "file": "15 - digit manipulation II.txt"
+        },
+        {
+            "name": "Concrete example",
+            "group": "concreteExample",
+            "method": "ConcreteExample",
+            "file": "16 - concrete example.txt"
+        },
+        {
+            "name": "JUMP JUMP JUMP !!!",
+            "group": "JUMPJUMPJUMP",
+            "method": "JUMPJUMPJUMP",
+            "file": "17 - JUMP JUMP JUMP !!!.txt"
+        }
+    ]
+}
