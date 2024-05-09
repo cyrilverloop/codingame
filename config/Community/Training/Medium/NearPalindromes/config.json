@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\NearPalindromes",
+    "name": "Near-palindromes",
+    "group": "nearPalindromes",
+    "link": "https://www.codingame.com/ide/puzzle/near-palindromes",
+    "tests": [
+        {
+            "name": "Near-palindrome",
+            "group": "nearPalindrome",
+            "method": "NearPalindrome",
+            "file": "01 - near-palindrome.txt"
+        },
+        {
+            "name": "Non-near-palindrome",
+            "group": "nonNearPalindrome",
+            "method": "NonNearPalindrome",
+            "file": "02 - non-near-palindrome.txt"
+        },
+        {
+            "name": "Multiple words",
+            "group": "multipleWords",
+            "method": "MultipleWords",
+            "file": "03 - multiple words.txt"
+        },
+        {
+            "name": "Big word",
+            "group": "bigWord",
+            "method": "BigWord",
+            "file": "04 - big word.txt"
+        },
+        {
+            "name": "River?",
+            "group": "river?",
+            "method": "River",
+            "file": "05 - river?.txt"
+        }
+    ]
+}
