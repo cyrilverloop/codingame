@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\MinimaxExercise",
+    "name": "Minimax exercise",
+    "group": "minimaxExercise",
+    "link": "https://www.codingame.com/ide/puzzle/minimax-exercise",
+    "tests": [
+        {
+            "name": "Depth 1 game",
+            "group": "depth1Game",
+            "method": "Depth1Game",
+            "file": "01 - depth 1 game.txt"
+        },
+        {
+            "name": "Depth 2, no cutoffs",
+            "group": "depth2NoCutoffs",
+            "method": "Depth2NoCutoffs",
+            "file": "02 - depth 2, no cutoffs.txt"
+        },
+        {
+            "name": "Depth 2, cutoffs",
+            "group": "depth2Cutoffs",
+            "method": "Depth2Cutoffs",
+            "file": "03 - depth 2, cutoffs.txt"
+        },
+        {
+            "name": "Small game",
+            "group": "smallGame",
+            "method": "SmallGame",
+            "file": "04 - small game.txt"
+        },
+        {
+            "name": "Slightly deeper game",
+            "group": "slightlyDeeperGame",
+            "method": "SlightlyDeeperGame",
+            "file": "05 - slightly deeper game.txt"
+        },
+        {
+            "name": "Random game, deep but narrow",
+            "group": "randomGameDeepButNarrow",
+            "method": "RandomGameDeepButNarrow",
+            "file": "06 - random game, deep but narrow.txt"
+        },
+        {
+            "name": "Another large random game",
+            "group": "anotherLargeRandomGame",
+            "method": "AnotherLargeRandomGame",
+            "file": "07 - another large random game.txt"
+        }
+    ]
+}
