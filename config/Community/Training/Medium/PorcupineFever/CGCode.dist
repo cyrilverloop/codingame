@@ -1,0 +1,13 @@
+fscanf($stdin, "%d", $N);
+fscanf($stdin, "%d", $Y);
+for ($i = 0; $i < $N; $i++)
+{
+    fscanf($stdin, "%d %d %d", $S, $H, $A);
+}
+for ($i = 0; $i < $Y; $i++)
+{
+
+    // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+    echo("answer\n");
+}

@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\PorcupineFever",
+    "name": "Porcupine fever",
+    "group": "porcupineFever",
+    "link": "https://www.codingame.com/ide/puzzle/porcupine-fever",
+    "tests": [
+        {
+            "name": "One sick cage",
+            "group": "oneSickCage",
+            "method": "OneSickCage",
+            "file": "01 - one sick cage.txt"
+        },
+        {
+            "name": "No porcupines",
+            "group": "noPorcupines",
+            "method": "NoPorcupines",
+            "file": "02 - no porcupines.txt"
+        },
+        {
+            "name": "One cage goes extinct",
+            "group": "oneCageGoesExtinct",
+            "method": "OneCageGoesExtinct",
+            "file": "03 - one cage goes extinct.txt"
+        },
+        {
+            "name": "Dead farm",
+            "group": "deadFarm",
+            "method": "DeadFarm",
+            "file": "04 - dead farm.txt"
+        },
+        {
+            "name": "Bigger farm",
+            "group": "biggerFarm",
+            "method": "BiggerFarm",
+            "file": "05 - bigger farm.txt"
+        }
+    ]
+}
