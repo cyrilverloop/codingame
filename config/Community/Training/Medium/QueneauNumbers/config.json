@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\QueneauNumbers",
+    "name": "Queneau numbers",
+    "group": "queneauNumbers",
+    "link": "https://www.codingame.com/ide/puzzle/queneau-numbers",
+    "tests": [
+        {
+            "name": "Terine",
+            "group": "terine",
+            "method": "Terine",
+            "file": "01 - terine.txt"
+        },
+        {
+            "name": "Impossible",
+            "group": "impossible",
+            "method": "Impossible",
+            "file": "02 - impossible.txt"
+        },
+        {
+            "name": "Sextine",
+            "group": "sextine",
+            "method": "Sextine",
+            "file": "03 - sextine.txt"
+        },
+        {
+            "name": "So big yet so perfect",
+            "group": "soBigYetSoPerfect",
+            "method": "SoBigYetSoPerfect",
+            "file": "04 - so big yet so perfect.txt"
+        },
+        {
+            "name": "So big yet so ugly",
+            "group": "soBigYetSoUgly",
+            "method": "SoBigYetSoUgly",
+            "file": "05 - so big yet so ugly.txt"
+        }
+    ]
+}
