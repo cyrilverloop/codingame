@@ -1,0 +1,11 @@
+fscanf($stdin, "%d %d", $xs, $ys);
+fscanf($stdin, "%d %d", $xr, $yr);
+fscanf($stdin, "%d %d", $w, $h);
+for ($i = 0; $i < $h; $i++)
+{
+    fscanf($stdin, "%s", $l);
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("go return\n");
