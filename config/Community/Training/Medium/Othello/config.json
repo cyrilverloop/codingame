@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\Othello",
+    "name": "Othello",
+    "group": "othello",
+    "link": "https://www.codingame.com/ide/puzzle/othello",
+    "tests": [
+        {
+            "name": "Start",
+            "group": "start",
+            "method": "Start",
+            "file": "01 - start.txt"
+        },
+        {
+            "name": "Nope",
+            "group": "nope",
+            "method": "Nope",
+            "file": "02 - nope.txt"
+        },
+        {
+            "name": "Null",
+            "group": "null",
+            "method": "Null",
+            "file": "03 - null.txt"
+        },
+        {
+            "name": "Real game",
+            "group": "realGame",
+            "method": "RealGame",
+            "file": "04 - real game.txt"
+        }
+    ]
+}

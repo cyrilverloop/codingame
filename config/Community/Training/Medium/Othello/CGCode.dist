@@ -1,0 +1,9 @@
+for ($i = 0; $i < 8; $i++)
+{
+    $row = stream_get_line($stdin, 8 + 1, "\n");
+}
+fscanf($stdin, "%s %s", $colour, $move);
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("answer\n");
