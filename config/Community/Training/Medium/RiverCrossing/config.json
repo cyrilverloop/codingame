@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Medium\\RiverCrossing",
+    "name": "River crossing",
+    "group": "riverCrossing",
+    "link": "https://www.codingame.com/ide/puzzle/river-crossing",
+    "tests": [
+        {
+            "name": "The question is the solution",
+            "group": "theQuestionIsTheSolution",
+            "method": "TheQuestionIsTheSolution",
+            "file": "01 - the question is the solution.txt"
+        },
+        {
+            "name": "The start is the solution",
+            "group": "theStartIsTheSolution",
+            "method": "TheStartIsTheSolution",
+            "file": "02 - the start is the solution.txt"
+        },
+        {
+            "name": "From one side to the other",
+            "group": "fromOneSideToTheOther",
+            "method": "FromOneSideToTheOther",
+            "file": "03 - from one side to the other.txt"
+        },
+        {
+            "name": "Mix it up",
+            "group": "mixItUp",
+            "method": "MixItUp",
+            "file": "04 - mix it up.txt"
+        },
+        {
+            "name": "Rescue one",
+            "group": "rescueOne",
+            "method": "RescueOne",
+            "file": "05 - rescue one.txt"
+        },
+        {
+            "name": "Sorted",
+            "group": "sorted",
+            "method": "Sorted",
+            "file": "06 - sorted.txt"
+        }
+    ]
+}
