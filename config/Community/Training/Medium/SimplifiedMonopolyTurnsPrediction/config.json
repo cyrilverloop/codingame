@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Medium\\SimplifiedMonopolyTurnsPrediction",
+    "name": "Simplified Monopoly™ turns prediction",
+    "group": "simplifiedMonopolyTurnsPrediction",
+    "link": "https://www.codingame.com/ide/puzzle/simplified-monopoly-turns-prediction",
+    "tests": [
+        {
+            "name": "Start from Go",
+            "group": "startFromGo",
+            "method": "StartFromGo",
+            "file": "01 - start from Go.txt"
+        },
+        {
+            "name": "Not start from Go",
+            "group": "notStartFromGo",
+            "method": "NotStartFromGo",
+            "file": "02 - not start from Go.txt"
+        },
+        {
+            "name": "Around the board",
+            "group": "aroundTheBoard",
+            "method": "AroundTheBoard",
+            "file": "03 - around the board.txt"
+        },
+        {
+            "name": "Lucky doubles",
+            "group": "luckyDoubles",
+            "method": "LuckyDoubles",
+            "file": "04 - lucky doubles.txt"
+        },
+        {
+            "name": "Go to jail",
+            "group": "goToJail",
+            "method": "GoToJail",
+            "file": "05 - go to jail.txt"
+        },
+        {
+            "name": "Early release",
+            "group": "earlyRelease",
+            "method": "EarlyRelease",
+            "file": "06 - early release.txt"
+        },
+        {
+            "name": "Friends forever",
+            "group": "friendsForever",
+            "method": "FriendsForever",
+            "file": "07 - friends forever.txt"
+        },
+        {
+            "name": "Big run",
+            "group": "bigRun",
+            "method": "BigRun",
+            "file": "08 - big run.txt"
+        }
+    ]
+}
