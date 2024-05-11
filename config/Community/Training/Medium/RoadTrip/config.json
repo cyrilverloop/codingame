@@ -1,0 +1,68 @@
+{
+    "namespace": "Community\\Training\\Medium\\RoadTrip",
+    "name": "Road trip",
+    "group": "roadTrip",
+    "link": "https://www.codingame.com/ide/puzzle/road-trip",
+    "tests": [
+        {
+            "name": "Few real friends",
+            "group": "fewRealFriends",
+            "method": "FewRealFriends",
+            "file": "01 - few real friends.txt"
+        },
+        {
+            "name": "Only fake friends",
+            "group": "onlyFakeFriends",
+            "method": "OnlyFakeFriends",
+            "file": "02 - only fake friends.txt"
+        },
+        {
+            "name": "Useless fake friends",
+            "group": "uselessFakeFriends",
+            "method": "UselessFakeFriends",
+            "file": "03 - useless fake friends.txt"
+        },
+        {
+            "name": "Necessary fake friends",
+            "group": "necessaryFakeFriends",
+            "method": "NecessaryFakeFriends",
+            "file": "04 - necessary fake friends.txt"
+        },
+        {
+            "name": "Forever alone",
+            "group": "foreverAlone",
+            "method": "ForeverAlone",
+            "file": "05 - forever alone.txt"
+        },
+        {
+            "name": "No base cost",
+            "group": "noBaseCost",
+            "method": "NoBaseCost",
+            "file": "06 - no base cost.txt"
+        },
+        {
+            "name": "Only base cost",
+            "group": "onlyBaseCost",
+            "method": "OnlyBaseCost",
+            "file": "07 - only base cost.txt"
+        },
+        {
+            "name": "Free trip!",
+            "group": "freeTrip",
+            "method": "FreeTrip",
+            "file": "08 - free trip!.txt"
+        },
+        {
+            "name": "Many real friends",
+            "group": "manyRealFriends",
+            "method": "ManyRealFriends",
+            "file": "09 - many real friends.txt"
+        },
+        {
+            "name": "Many friends",
+            "group": "manyFriends",
+            "method": "ManyFriends",
+            "file": "10 - many friends.txt"
+        }
+    ]
+}
