@@ -1,0 +1,16 @@
+$magic = stream_get_line($stdin, 3 + 1, "\n");
+fscanf($stdin, "%d %d", $W, $H);
+fscanf($stdin, "%s %d", $comment, $V);
+fscanf($stdin, "%d", $maxintensity);
+for ($i = 0; $i < $H; $i++)
+{
+    $inputs = explode(" ", fgets($stdin));
+    for ($j = 0; $j < $W; $j++)
+    {
+        $intensity = intval($inputs[$j]);
+    }
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("answer\n");

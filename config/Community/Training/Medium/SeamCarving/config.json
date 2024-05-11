@@ -1,0 +1,68 @@
+{
+    "namespace": "Community\\Training\\Medium\\SeamCarving",
+    "name": "Seam carving",
+    "group": "seamCarving",
+    "link": "https://www.codingame.com/ide/puzzle/seam-carving",
+    "tests": [
+        {
+            "name": "Height 8 and width -1",
+            "group": "height8AndWidthMinus1",
+            "method": "Height8AndWidthMinus1",
+            "file": "01 - height 8 and width -1.txt"
+        },
+        {
+            "name": "Height 11 and width -1",
+            "group": "height11AndWidthMinus1",
+            "method": "Height11AndWidthMinus1",
+            "file": "02 - height 11 and width -1.txt"
+        },
+        {
+            "name": "Height 16 and width -2",
+            "group": "height16AndWidthMinus2",
+            "method": "Height16AndWidthMinus2",
+            "file": "03 - height 16 and width -2.txt"
+        },
+        {
+            "name": "Height 19 and width -3",
+            "group": "height19AndWidthMinus3",
+            "method": "Height19AndWidthMinus3",
+            "file": "04 - height 19 and width -3.txt"
+        },
+        {
+            "name": "Height 35 and width -10",
+            "group": "height35AndWidthMinus10",
+            "method": "Height35AndWidthMinus10",
+            "file": "05 - height 35 and width -10.txt"
+        },
+        {
+            "name": "Height 37 and width -15",
+            "group": "height37AndWidthMinus15",
+            "method": "Height37AndWidthMinus15",
+            "file": "06 - height 37 and width -15.txt"
+        },
+        {
+            "name": "Height 60 and width -20",
+            "group": "height60AndWidthMinus20",
+            "method": "Height60AndWidthMinus20",
+            "file": "07 - height 60 and width -20.txt"
+        },
+        {
+            "name": "Height 27 and width -25",
+            "group": "height27AndWidthMinus25",
+            "method": "Height27AndWidthMinus25",
+            "file": "08 - height 27 and width -25.txt"
+        },
+        {
+            "name": "Height 38 and width -25",
+            "group": "height38AndWidthMinus25",
+            "method": "Height38AndWidthMinus25",
+            "file": "09 - height 38 and width -25.txt"
+        },
+        {
+            "name": "Height 35 and width -30",
+            "group": "height35AndWidthMinus30",
+            "method": "Height35AndWidthMinus30",
+            "file": "10 - height 35 and width -30.txt"
+        }
+    ]
+}
