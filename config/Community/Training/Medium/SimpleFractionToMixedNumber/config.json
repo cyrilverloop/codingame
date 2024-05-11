@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Medium\\SimpleFractionToMixedNumber",
+    "name": "Simple fraction to mixed number",
+    "group": "simpleFractionToMixedNumber",
+    "link": "https://www.codingame.com/ide/puzzle/simple-fraction-to-mixed-number",
+    "tests": [
+        {
+            "name": "Both integer and fractional parts",
+            "group": "bothIntegerAndFractionalParts",
+            "method": "BothIntegerAndFractionalParts",
+            "file": "01 - both integer and fractional parts.txt"
+        },
+        {
+            "name": "Integer part only",
+            "group": "integerPartOnly",
+            "method": "IntegerPartOnly",
+            "file": "02 - integer part only.txt"
+        },
+        {
+            "name": "Fractional part only",
+            "group": "fractionalPartOnly",
+            "method": "FractionalPartOnly",
+            "file": "03 - fractional part only.txt"
+        },
+        {
+            "name": "Zero",
+            "group": "zero",
+            "method": "Zero",
+            "file": "04 - zero.txt"
+        },
+        {
+            "name": "Division by zero",
+            "group": "divisionByZero",
+            "method": "DivisionByZero",
+            "file": "05 - division by zero.txt"
+        },
+        {
+            "name": "Sign handling",
+            "group": "signHandling",
+            "method": "SignHandling",
+            "file": "06 - sign handling.txt"
+        },
+        {
+            "name": "Some more sign handling",
+            "group": "someMoreSignHandling",
+            "method": "SomeMoreSignHandling",
+            "file": "07 - some more sign handling.txt"
+        },
+        {
+            "name": "Several random cases",
+            "group": "severalRandomCases",
+            "method": "SeveralRandomCases",
+            "file": "08 - several random cases.txt"
+        }
+    ]
+}
