@@ -1,0 +1,68 @@
+{
+    "namespace": "Community\\Training\\Medium\\RemainingCard",
+    "name": "Remaining card",
+    "group": "remainingCard",
+    "link": "https://www.codingame.com/ide/puzzle/remaining-card",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Easy",
+            "group": "easy",
+            "method": "Easy",
+            "file": "02 - easy.txt"
+        },
+        {
+            "name": "A little more",
+            "group": "aLittleMore",
+            "method": "ALittleMore",
+            "file": "03 - a little more.txt"
+        },
+        {
+            "name": "A thick deck",
+            "group": "aThickDeck",
+            "method": "AThickDeck",
+            "file": "04 - a thick deck.txt"
+        },
+        {
+            "name": "Heavy deck",
+            "group": "heavyDeck",
+            "method": "HeavyDeck",
+            "file": "05 - heavy deck.txt"
+        },
+        {
+            "name": "Getting serious",
+            "group": "gettingSerious",
+            "method": "GettingSerious",
+            "file": "06 - getting serious.txt"
+        },
+        {
+            "name": "Millions 1",
+            "group": "millions1",
+            "method": "Millions1",
+            "file": "07 - millions 1.txt"
+        },
+        {
+            "name": "Millions 2",
+            "group": "millions2",
+            "method": "Millions2",
+            "file": "08 - millions 2.txt"
+        },
+        {
+            "name": "Ultimate test",
+            "group": "ultimateTest",
+            "method": "UltimateTest",
+            "file": "09 - ultimate test.txt"
+        },
+        {
+            "name": "Boundary case",
+            "group": "boundaryCase",
+            "method": "BoundaryCase",
+            "file": "10 - boundary case.txt"
+        }
+    ]
+}
