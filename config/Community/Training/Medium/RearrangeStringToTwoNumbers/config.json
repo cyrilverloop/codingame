@@ -1,0 +1,116 @@
+{
+    "namespace": "Community\\Training\\Medium\\RearrangeStringToTwoNumbers",
+    "name": "Rearrange string to two numbers",
+    "group": "rearrangeStringToTwoNumbers",
+    "link": "https://www.codingame.com/ide/puzzle/rearrange-string-to-two-numbers",
+    "tests": [
+        {
+            "name": "Two digits",
+            "group": "twoDigits",
+            "method": "TwoDigits",
+            "file": "01 - two digits.txt"
+        },
+        {
+            "name": "Too many digits",
+            "group": "tooManyDigits",
+            "method": "TooManyDigits",
+            "file": "02 - too many digits.txt"
+        },
+        {
+            "name": "Maximum B",
+            "group": "maximumB",
+            "method": "MaximumB",
+            "file": "03 - maximum B.txt"
+        },
+        {
+            "name": "Too many 0’s",
+            "group": "tooMany0s",
+            "method": "TooMany0s",
+            "file": "04 - too many 0s.txt"
+        },
+        {
+            "name": "Maximum B with 0",
+            "group": "maximumBWith0",
+            "method": "MaximumBWith0",
+            "file": "05 - maximum B with 0.txt"
+        },
+        {
+            "name": "Small A maximum B",
+            "group": "smallAMaximumB",
+            "method": "SmallAMaximumB",
+            "file": "06 - small A maximum B.txt"
+        },
+        {
+            "name": "Small A big B",
+            "group": "smallABigB",
+            "method": "SmallABigB",
+            "file": "07 - small A big B.txt"
+        },
+        {
+            "name": "Too many 0’s 2",
+            "group": "tooMany0s2",
+            "method": "TooMany0s2",
+            "file": "08 - too many 0s - 2.txt"
+        },
+        {
+            "name": "Too few digits",
+            "group": "tooFewDigits",
+            "method": "TooFewDigits",
+            "file": "09 - too few digits.txt"
+        },
+        {
+            "name": "Too many digits",
+            "group": "tooManyDigits2",
+            "method": "TooManyDigits2",
+            "file": "10 - too many digits.txt"
+        },
+        {
+            "name": "Zero",
+            "group": "zero",
+            "method": "Zero",
+            "file": "11 - zero.txt"
+        },
+        {
+            "name": "Maximum",
+            "group": "maximum",
+            "method": "Maximum",
+            "file": "12 - maximum.txt"
+        },
+        {
+            "name": "Big with 0’s",
+            "group": "bigWith0s",
+            "method": "BigWith0s",
+            "file": "13 - big with 0s.txt"
+        },
+        {
+            "name": "Big",
+            "group": "big",
+            "method": "Big",
+            "file": "14 - big.txt"
+        },
+        {
+            "name": "Internal zeros",
+            "group": "internalZeros",
+            "method": "InternalZeros",
+            "file": "15 - internal zeros.txt"
+        },
+        {
+            "name": "Small A big B 2",
+            "group": "smallABigB2",
+            "method": "SmallABigB2",
+            "file": "16 - small A big B - 2.txt"
+        },
+        {
+            "name": "Small A big B 3",
+            "group": "smallABigB3",
+            "method": "SmallABigB3",
+            "file": "17 - small A big B - 3.txt"
+        },
+        {
+            "name": "Two digits 2",
+            "group": "twoDigits2",
+            "method": "TwoDigits2",
+            "file": "18 - two digits - 2.txt"
+        }
+    ]
+}
