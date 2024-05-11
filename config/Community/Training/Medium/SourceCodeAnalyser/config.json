@@ -1,0 +1,104 @@
+{
+    "namespace": "Community\\Training\\Medium\\SourceCodeAnalyser",
+    "name": "Source code analyser",
+    "group": "sourceCodeAnalyser",
+    "link": "https://www.codingame.com/ide/puzzle/source-code-analyser",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Test 2: one liner",
+            "group": "test2OneLiner",
+            "method": "Test2OneLiner",
+            "file": "02 - test 2: one liner.txt"
+        },
+        {
+            "name": "Test 3: simple test with multiple lines, also with _ and numbers in identifiers view",
+            "group": "test3SimpleTestWithMultipleLinesAlsoWith_AndNumbersInIdentifiersView",
+            "method": "Test3SimpleTestWithMultipleLinesAlsoWith_AndNumbersInIdentifiersView",
+            "file": "03 - test 3: simple test with multiple lines, also with _ and numbers in identifiers view.txt"
+        },
+        {
+            "name": "Test 4: reserved keyword is not a function call",
+            "group": "test4ReservedKeywordIsNotAFunctionCall",
+            "method": "Test4ReservedKeywordIsNotAFunctionCall",
+            "file": "04 - test 4: reserved keyword is not a function call.txt"
+        },
+        {
+            "name": "Test 5: single line comment",
+            "group": "test5SingleLineComment",
+            "method": "Test5SingleLineComment",
+            "file": "05 - test 5: single line comment.txt"
+        },
+        {
+            "name": "Test 6: multi-line comment",
+            "group": "test6MultiLineComment",
+            "method": "Test6MultiLineComment",
+            "file": "06 - test 6: multi-line comment.txt"
+        },
+        {
+            "name": "Test 7: within a comment",
+            "group": "test7WithinAComment",
+            "method": "Test7WithinAComment",
+            "file": "07 - test 7: within a comment.txt"
+        },
+        {
+            "name": "Test 8: string literals",
+            "group": "test8StringLiterals",
+            "method": "Test8StringLiterals",
+            "file": "08 - test 8: string literals.txt"
+        },
+        {
+            "name": "Test 9: mixing quotes",
+            "group": "test9MixingQuotes",
+            "method": "Test9MixingQuotes",
+            "file": "09 - test 9: mixing quotes.txt"
+        },
+        {
+            "name": "Test 10: reserved keywords",
+            "group": "test10ReservedKeywords",
+            "method": "Test10ReservedKeywords",
+            "file": "10 - test 10: reserved keywords.txt"
+        },
+        {
+            "name": "Test 11: user defined function",
+            "group": "test11UserDefinedFunction",
+            "method": "Test11UserDefinedFunction",
+            "file": "11 - test 11: user defined function.txt"
+        },
+        {
+            "name": "Test 12: no function call",
+            "group": "test12NoFunctionCall",
+            "method": "Test12NoFunctionCall",
+            "file": "12 - test 12: no function call.txt"
+        },
+        {
+            "name": "Test 13: case sensitive names",
+            "group": "test13CaseSensitiveNames",
+            "method": "Test13CaseSensitiveNames",
+            "file": "13 - test 13: case sensitive names.txt"
+        },
+        {
+            "name": "Test 14: function name from variable",
+            "group": "test14FunctionNameFromVariable",
+            "method": "Test14FunctionNameFromVariable",
+            "file": "14 - test 14: function name from variable.txt"
+        },
+        {
+            "name": "Test 15: multiple whitespaces",
+            "group": "test15MultipleWhitespaces",
+            "method": "Test15MultipleWhitespaces",
+            "file": "15 - test 15: multiple whitespaces.txt"
+        },
+        {
+            "name": "Test 16: real life example",
+            "group": "test16RealLifeExample",
+            "method": "Test16RealLifeExample",
+            "file": "16 - test 16: real life example.txt"
+        }
+    ]
+}
