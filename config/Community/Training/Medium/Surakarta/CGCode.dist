@@ -1,0 +1,8 @@
+for ($i = 0; $i < 6; $i++)
+{
+    fscanf($stdin, "%s", $line);
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("answer\n");
