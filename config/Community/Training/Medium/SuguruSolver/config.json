@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\SuguruSolver",
+    "name": "Suguru solver",
+    "group": "suguruSolver",
+    "link": "https://www.codingame.com/ide/puzzle/suguru-solver",
+    "tests": [
+        {
+            "name": "4x5",
+            "group": "4x5",
+            "method": "4x5",
+            "file": "01 - 4x5.txt"
+        },
+        {
+            "name": "8x8",
+            "group": "8x8",
+            "method": "8x8",
+            "file": "02 - 8x8.txt"
+        },
+        {
+            "name": "15x10",
+            "group": "15x10",
+            "method": "15x10",
+            "file": "03 - 15x10.txt"
+        },
+        {
+            "name": "20x20",
+            "group": "20x20",
+            "method": "20x20",
+            "file": "04 - 20x20.txt"
+        }
+    ]
+}
