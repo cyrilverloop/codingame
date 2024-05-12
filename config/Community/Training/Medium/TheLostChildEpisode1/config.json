@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\TheLostChildEpisode1",
+    "name": "The lost child.Episode-1",
+    "group": "theLostChildEpisode1",
+    "link": "https://www.codingame.com/ide/puzzle/the-lost-child-episode-1",
+    "tests": [
+        {
+            "name": "Lost in playground",
+            "group": "lostInPlayground",
+            "method": "LostInPlayground",
+            "file": "01 - lost in playground.txt"
+        },
+        {
+            "name": "Lost in paris",
+            "group": "lostInParis",
+            "method": "LostInParis",
+            "file": "02 - lost in paris.txt"
+        },
+        {
+            "name": "Lost in jungle",
+            "group": "lostInJungle",
+            "method": "LostInJungle",
+            "file": "03 - lost in jungle.txt"
+        },
+        {
+            "name": "Lost in maze runner",
+            "group": "lostInMazeRunner",
+            "method": "LostInMazeRunner",
+            "file": "04 - lost in maze runner.txt"
+        },
+        {
+            "name": "Lost in space",
+            "group": "lostInSpace",
+            "method": "LostInSpace",
+            "file": "05 - lost in space.txt"
+        }
+    ]
+}
