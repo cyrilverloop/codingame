@@ -1,0 +1,6 @@
+fscanf($stdin, "%d", $N);
+fscanf($stdin, "%d", $R);
+for ($i = 0; $i < $N; $i++)
+{
+    fscanf($stdin, "%d", $PRIZE);
+}

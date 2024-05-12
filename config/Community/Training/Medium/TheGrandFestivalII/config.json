@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\TheGrandFestivalII",
+    "name": "The grand festival - II",
+    "group": "theGrandFestivalII",
+    "link": "https://www.codingame.com/ide/puzzle/the-grand-festival---ii",
+    "tests": [
+        {
+            "name": "Easy",
+            "group": "easy",
+            "method": "Easy",
+            "file": "01 - easy.txt"
+        },
+        {
+            "name": "2 weeks",
+            "group": "2Weeks",
+            "method": "2Weeks",
+            "file": "02 - 2 weeks.txt"
+        },
+        {
+            "name": "No rest",
+            "group": "noRest",
+            "method": "NoRest",
+            "file": "03 - no rest.txt"
+        },
+        {
+            "name": "Fatigued",
+            "group": "fatigued",
+            "method": "Fatigued",
+            "file": "04 - fatigued.txt"
+        },
+        {
+            "name": "1 year",
+            "group": "1Year",
+            "method": "1Year",
+            "file": "05 - 1 year.txt"
+        }
+    ]
+}
