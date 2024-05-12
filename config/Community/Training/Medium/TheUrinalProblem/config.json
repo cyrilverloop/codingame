@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\TheUrinalProblem",
+    "name": "The urinal problem",
+    "group": "theUrinalProblem",
+    "link": "https://www.codingame.com/ide/puzzle/the-urinal-problem",
+    "tests": [
+        {
+            "name": "Small bathroom",
+            "group": "smallBathroom",
+            "method": "SmallBathroom",
+            "file": "01 - small bathroom.txt"
+        },
+        {
+            "name": "School bathroom",
+            "group": "schoolBathroom",
+            "method": "SchoolBathroom",
+            "file": "02 - school bathroom.txt"
+        },
+        {
+            "name": "Sporting event",
+            "group": "sportingEvent",
+            "method": "SportingEvent",
+            "file": "03 - sporting event.txt"
+        },
+        {
+            "name": "Mostly empty",
+            "group": "mostlyEmpty",
+            "method": "MostlyEmpty",
+            "file": "04 - mostly empty.txt"
+        }
+    ]
+}
