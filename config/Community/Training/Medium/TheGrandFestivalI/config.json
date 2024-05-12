@@ -1,0 +1,62 @@
+{
+    "namespace": "Community\\Training\\Medium\\TheGrandFestivalI",
+    "name": "The grand festival - I",
+    "group": "theGrandFestivalI",
+    "link": "https://www.codingame.com/ide/puzzle/the-grand-festival---i",
+    "tests": [
+        {
+            "name": "1 week",
+            "group": "1Week",
+            "method": "1Week",
+            "file": "01 - 1 week.txt"
+        },
+        {
+            "name": "2 weeks",
+            "group": "2Weeks",
+            "method": "2Weeks",
+            "file": "02 - 2 weeks.txt"
+        },
+        {
+            "name": "No rest",
+            "group": "noRest",
+            "method": "NoRest",
+            "file": "03 - no rest.txt"
+        },
+        {
+            "name": "Fatigued",
+            "group": "fatigued",
+            "method": "Fatigued",
+            "file": "04 - fatigued.txt"
+        },
+        {
+            "name": "Long tour",
+            "group": "longTour",
+            "method": "LongTour",
+            "file": "05 - long tour.txt"
+        },
+        {
+            "name": "Longer tour",
+            "group": "longerTour",
+            "method": "LongerTour",
+            "file": "06 - longer tour.txt"
+        },
+        {
+            "name": "70 days!",
+            "group": "70Days",
+            "method": "70Days",
+            "file": "07 - 70 days!.txt"
+        },
+        {
+            "name": "Centurion",
+            "group": "centurion",
+            "method": "Centurion",
+            "file": "08 - centurion.txt"
+        },
+        {
+            "name": "Year Long",
+            "group": "yearLong",
+            "method": "YearLong",
+            "file": "09 - year long.txt"
+        }
+    ]
+}
