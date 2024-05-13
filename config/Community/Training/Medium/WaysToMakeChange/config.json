@@ -1,0 +1,44 @@
+{
+    "namespace": "Community\\Training\\Medium\\WaysToMakeChange",
+    "name": "Ways to make change",
+    "group": "waysToMakeChange",
+    "link": "https://www.codingame.com/ide/puzzle/ways-to-make-change",
+    "tests": [
+        {
+            "name": "Small change",
+            "group": "smallChange",
+            "method": "SmallChange",
+            "file": "01 - small change.txt"
+        },
+        {
+            "name": "Bigger change",
+            "group": "biggerChange",
+            "method": "BiggerChange",
+            "file": "02 - bigger change.txt"
+        },
+        {
+            "name": "That won’t be easy !",
+            "group": "thatWontBeEasy",
+            "method": "ThatWontBeEasy",
+            "file": "03 - that won’t be easy !.txt"
+        },
+        {
+            "name": "Bank notes only please",
+            "group": "bankNotesOnlyPlease",
+            "method": "BankNotesOnlyPlease",
+            "file": "04 - bank notes only please.txt"
+        },
+        {
+            "name": "How am i supposed to do ?!",
+            "group": "howAmISupposedToDo",
+            "method": "HowAmISupposedToDo",
+            "file": "05 - how am i supposed to do ?!.txt"
+        },
+        {
+            "name": "Pushing a bit...",
+            "group": "pushingABit",
+            "method": "PushingABit",
+            "file": "06 - pushing a bit....txt"
+        }
+    ]
+}

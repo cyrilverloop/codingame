@@ -1,0 +1,11 @@
+fscanf($stdin, "%d", $N);
+fscanf($stdin, "%d", $S);
+$inputs = explode(" ", fgets($stdin));
+for ($i = 0; $i < $S; $i++)
+{
+    $vi = intval($inputs[$i]);
+}
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("answer\n");
