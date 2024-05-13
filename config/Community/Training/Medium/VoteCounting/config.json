@@ -1,0 +1,38 @@
+{
+    "namespace": "Community\\Training\\Medium\\VoteCounting",
+    "name": "Vote counting",
+    "group": "voteCounting",
+    "link": "https://www.codingame.com/ide/puzzle/vote-counting",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Invalid voter",
+            "group": "invalidVoter",
+            "method": "InvalidVoter",
+            "file": "02 - invalid voter.txt"
+        },
+        {
+            "name": "Too many votes",
+            "group": "tooManyVotes",
+            "method": "TooManyVotes",
+            "file": "03 - too many votes.txt"
+        },
+        {
+            "name": "Maybe vote",
+            "group": "maybeVote",
+            "method": "MaybeVote",
+            "file": "04 - maybe vote.txt"
+        },
+        {
+            "name": "Complex",
+            "group": "complex",
+            "method": "Complex",
+            "file": "05 - complex.txt"
+        }
+    ]
+}
