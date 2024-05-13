@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\WindmillProblem",
+    "name": "Windmill problem",
+    "group": "windmillProblem",
+    "link": "https://www.codingame.com/ide/puzzle/windmill-problem",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Parallelogram",
+            "group": "parallelogram",
+            "method": "Parallelogram",
+            "file": "02 - parallelogram.txt"
+        },
+        {
+            "name": "10 random points",
+            "group": "10RandomPoints",
+            "method": "10RandomPoints",
+            "file": "03 - 10 random points.txt"
+        },
+        {
+            "name": "Large",
+            "group": "large",
+            "method": "Large",
+            "file": "04 - large.txt"
+        },
+        {
+            "name": "Infinite loop",
+            "group": "infiniteLoop",
+            "method": "InfiniteLoop",
+            "file": "05 - infinite loop.txt"
+        },
+        {
+            "name": "Smarter approach required",
+            "group": "smarterApproachRequired",
+            "method": "SmarterApproachRequired",
+            "file": "06 - smarter approach required.txt"
+        },
+        {
+            "name": "Convex hull",
+            "group": "convexHull",
+            "method": "ConvexHull",
+            "file": "07 - convex hull.txt"
+        }
+    ]
+}
