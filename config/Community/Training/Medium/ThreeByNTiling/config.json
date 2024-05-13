@@ -1,0 +1,74 @@
+{
+    "namespace": "Community\\Training\\Medium\\ThreeByNTiling",
+    "name": "3×N tiling",
+    "group": "threeByNTiling",
+    "link": "https://www.codingame.com/ide/puzzle/3n-tiling",
+    "tests": [
+        {
+            "name": "1×N possible",
+            "group": "1ByNPossible",
+            "method": "1ByNPossible",
+            "file": "01 - 1×N possible.txt"
+        },
+        {
+            "name": "1×N impossible",
+            "group": "1ByNImpossible",
+            "method": "1ByNImpossible",
+            "file": "02 - 1×N impossible.txt"
+        },
+        {
+            "name": "1×N mixed",
+            "group": "1ByNMixed",
+            "method": "1ByNMixed",
+            "file": "03 - 1×N mixed.txt"
+        },
+        {
+            "name": "2×N simple",
+            "group": "2ByNSimple",
+            "method": "2ByNSimple",
+            "file": "04 - 2×N simple.txt"
+        },
+        {
+            "name": "2×N intermediate",
+            "group": "2ByNIntermediate",
+            "method": "2ByNIntermediate",
+            "file": "05 - 2×N intermediate.txt"
+        },
+        {
+            "name": "2×N advanced",
+            "group": "2ByNAdvanced",
+            "method": "2ByNAdvanced",
+            "file": "06 - 2×N advanced.txt"
+        },
+        {
+            "name": "3×N simple",
+            "group": "3ByNSimple",
+            "method": "3ByNSimple",
+            "file": "07 - 3×N simple.txt"
+        },
+        {
+            "name": "3×N intermediate",
+            "group": "3ByNIntermediate",
+            "method": "3ByNIntermediate",
+            "file": "08 - 3×N intermediate.txt"
+        },
+        {
+            "name": "3×N advanced",
+            "group": "3ByNAdvanced",
+            "method": "3ByNAdvanced",
+            "file": "09 - 3×N advanced.txt"
+        },
+        {
+            "name": "Mixed",
+            "group": "mixed",
+            "method": "Mixed",
+            "file": "10 - mixed.txt"
+        },
+        {
+            "name": "You might want to check these",
+            "group": "youMightWantToCheckThese",
+            "method": "YouMightWantToCheckThese",
+            "file": "11 - you might want to check these.txt"
+        }
+    ]
+}
