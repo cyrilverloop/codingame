@@ -1,0 +1,50 @@
+{
+    "namespace": "Community\\Training\\Medium\\TwoThousandFortyEightScores",
+    "name": "2048 scores",
+    "group": "twoThousandFortyEightScores",
+    "link": "https://www.codingame.com/ide/puzzle/2048-scores",
+    "tests": [
+        {
+            "name": "Example",
+            "group": "example",
+            "method": "Example",
+            "file": "01 - example.txt"
+        },
+        {
+            "name": "Small game",
+            "group": "smallGame",
+            "method": "SmallGame",
+            "file": "02 - small game.txt"
+        },
+        {
+            "name": "Long game",
+            "group": "longGame",
+            "method": "LongGame",
+            "file": "03 - long game.txt"
+        },
+        {
+            "name": "Big numbers",
+            "group": "bigNumbers",
+            "method": "BigNumbers",
+            "file": "04 - big numbers.txt"
+        },
+        {
+            "name": "Game over",
+            "group": "gameOver",
+            "method": "GameOver",
+            "file": "05 - game over.txt"
+        },
+        {
+            "name": "Beyond 2048",
+            "group": "beyond2048",
+            "method": "Beyond2048",
+            "file": "06 - beyond 2048.txt"
+        },
+        {
+            "name": "No Hard Coding!",
+            "group": "noHardCoding",
+            "method": "NoHardCoding",
+            "file": "07 - no hard coding!.txt"
+        }
+    ]
+}
