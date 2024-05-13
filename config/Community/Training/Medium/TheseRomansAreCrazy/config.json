@@ -1,0 +1,32 @@
+{
+    "namespace": "Community\\Training\\Medium\\TheseRomansAreCrazy",
+    "name": "These romans are crazy!",
+    "group": "theseRomansAreCrazy",
+    "link": "https://www.codingame.com/ide/puzzle/these-romans-are-crazy!",
+    "tests": [
+        {
+            "name": "6 + 7 = 13",
+            "group": "6Plus7Equals13",
+            "method": "6Plus7Equals13",
+            "file": "01 - 6 + 7 = 13.txt"
+        },
+        {
+            "name": "12 + 27 = 39",
+            "group": "12Plus27Equals39",
+            "method": "12Plus27Equals39",
+            "file": "02 - 12 + 27 = 39.txt"
+        },
+        {
+            "name": "123 + 321 = 444",
+            "group": "123Plus321Equals444",
+            "method": "123Plus321Equals444",
+            "file": "03 - 123 + 321 = 444.txt"
+        },
+        {
+            "name": "2016 + 999 = 3015",
+            "group": "2016Plus999Equals3015",
+            "method": "2016Plus999Equals3015",
+            "file": "04 - 2016 + 999 = 3015.txt"
+        }
+    ]
+}
