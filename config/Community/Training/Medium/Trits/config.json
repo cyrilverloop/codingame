@@ -1,0 +1,62 @@
+{
+    "namespace": "Community\\Training\\Medium\\Trits",
+    "name": "Trits (balanced ternary computing)",
+    "group": "trits",
+    "link": "https://www.codingame.com/ide/puzzle/trits-balanced-ternary-computing",
+    "tests": [
+        {
+            "name": "Addition",
+            "group": "addition",
+            "method": "Addition",
+            "file": "01 - addition.txt"
+        },
+        {
+            "name": "Subtraction",
+            "group": "subtraction",
+            "method": "Subtraction",
+            "file": "02 - subtraction.txt"
+        },
+        {
+            "name": "Multiplication",
+            "group": "multiplication",
+            "method": "Multiplication",
+            "file": "03 - multiplication.txt"
+        },
+        {
+            "name": "Shift up",
+            "group": "shiftUp",
+            "method": "ShiftUp",
+            "file": "04 - shift up.txt"
+        },
+        {
+            "name": "Shift down",
+            "group": "shiftDown",
+            "method": "ShiftDown",
+            "file": "05 - shift down.txt"
+        },
+        {
+            "name": "Larger addition",
+            "group": "largerAddition",
+            "method": "LargerAddition",
+            "file": "06 - larger addition.txt"
+        },
+        {
+            "name": "Too much shift down",
+            "group": "tooMuchShiftDown",
+            "method": "TooMuchShiftDown",
+            "file": "07 - too much shift down.txt"
+        },
+        {
+            "name": "Larger subtraction",
+            "group": "largerSubtraction",
+            "method": "LargerSubtraction",
+            "file": "08 - larger subtraction.txt"
+        },
+        {
+            "name": "Larger shift up",
+            "group": "largerShiftUp",
+            "method": "LargerShiftUp",
+            "file": "09 - larger shift up.txt"
+        }
+    ]
+}

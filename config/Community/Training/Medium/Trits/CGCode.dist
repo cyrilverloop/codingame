@@ -1,0 +1,7 @@
+$lhs = stream_get_line($stdin, 10 + 1, "\n");
+$op = stream_get_line($stdin, 5 + 1, "\n");
+$rhs = stream_get_line($stdin, 10 + 1, "\n");
+
+// Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+echo("11T\n");
