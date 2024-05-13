@@ -1,0 +1,16 @@
+fscanf($stdin, "%d", $N);
+for ($i = 0; $i < $N; $i++)
+{
+    $request = stream_get_line($stdin, 100 + 1, "\n");
+}
+for ($i = 0; $i < $N; $i++)
+{
+    $crate = stream_get_line($stdin, 100 + 1, "\n");
+}
+for ($i = 0; $i < $N; $i++)
+{
+
+    // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+
+    echo("answer\n");
+}
