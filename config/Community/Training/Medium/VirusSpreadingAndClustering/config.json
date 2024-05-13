@@ -1,0 +1,56 @@
+{
+    "namespace": "Community\\Training\\Medium\\VirusSpreadingAndClustering",
+    "name": "Virus spreading and clustering",
+    "group": "virusSpreadingAndClustering",
+    "link": "https://www.codingame.com/ide/puzzle/virus-spreading-and-clustering",
+    "tests": [
+        {
+            "name": "5 items and 2 relationships",
+            "group": "5ItemsAnd2Relationships",
+            "method": "5ItemsAnd2Relationships",
+            "file": "01 - 5 items and 2 relationships.txt"
+        },
+        {
+            "name": "20 items and 6 relationships",
+            "group": "20ItemsAnd6Relationships",
+            "method": "20ItemsAnd6Relationships",
+            "file": "02 - 20 items and 6 relationships.txt"
+        },
+        {
+            "name": "100 items and 50 relationships",
+            "group": "100ItemsAnd50Relationships",
+            "method": "100ItemsAnd50Relationships",
+            "file": "03 - 100 items and 50 relationships.txt"
+        },
+        {
+            "name": "People has at least 1 connexion",
+            "group": "peopleHasAtLeast1Connexion",
+            "method": "PeopleHasAtLeast1Connexion",
+            "file": "04 - people has at least 1 connexion.txt"
+        },
+        {
+            "name": "People has at least 2 connexion : argh !",
+            "group": "peopleHasAtLeast2ConnexionArgh",
+            "method": "PeopleHasAtLeast2ConnexionArgh",
+            "file": "05 - people has at least 2 connexion : argh !.txt"
+        },
+        {
+            "name": "Average connexion 1 per people : argh !",
+            "group": "averageConnexion1PerPeopleArgh",
+            "method": "AverageConnexion1PerPeopleArgh",
+            "file": "06 - average connexion 1 per people : argh !.txt"
+        },
+        {
+            "name": "Average connexion 0.8 per people",
+            "group": "averageConnexion08PerPeople",
+            "method": "AverageConnexion08PerPeople",
+            "file": "07 - average connexion 0.8 per people.txt"
+        },
+        {
+            "name": "Average connexion 0.5 per people",
+            "group": "averageConnexion05PerPeople",
+            "method": "AverageConnexion05PerPeople",
+            "file": "08 - average connexion 0.5 per people.txt"
+        }
+    ]
+}
