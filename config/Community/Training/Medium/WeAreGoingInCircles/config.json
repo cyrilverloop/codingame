@@ -1,0 +1,62 @@
+{
+    "namespace": "Community\\Training\\Medium\\WeAreGoingInCircles",
+    "name": "We’re going in circles!",
+    "group": "weAreGoingInCircles",
+    "link": "https://www.codingame.com/ide/puzzle/were-going-in-circles",
+    "tests": [
+        {
+            "name": "A simple loop",
+            "group": "aSimpleLoop",
+            "method": "ASimpleLoop",
+            "file": "01 - a simple loop.txt"
+        },
+        {
+            "name": "Not a loop",
+            "group": "notALoop",
+            "method": "NotALoop",
+            "file": "02 - not a loop.txt"
+        },
+        {
+            "name": "Still not a loop",
+            "group": "stillNotALoop",
+            "method": "StillNotALoop",
+            "file": "03 - still not a loop.txt"
+        },
+        {
+            "name": "Overlapping loops",
+            "group": "overlappingLoops",
+            "method": "OverlappingLoops",
+            "file": "04 - overlapping loops.txt"
+        },
+        {
+            "name": "Mad face gt.lt",
+            "group": "madFace",
+            "method": "MadFace",
+            "file": "05 - mad face gt.lt.txt"
+        },
+        {
+            "name": "Wall of text",
+            "group": "wallOfText",
+            "method": "WallOfText",
+            "file": "06 - wall of text.txt"
+        },
+        {
+            "name": "Multiple inputs",
+            "group": "multipleInputs",
+            "method": "MultipleInputs",
+            "file": "07 - multiple inputs.txt"
+        },
+        {
+            "name": "Gobbledygook",
+            "group": "gobbledygook",
+            "method": "Gobbledygook",
+            "file": "08 - gobbledygook.txt"
+        },
+        {
+            "name": "More goobledygook",
+            "group": "moreGoobledygook",
+            "method": "MoreGoobledygook",
+            "file": "09 - more goobledygook.txt"
+        }
+    ]
+}
