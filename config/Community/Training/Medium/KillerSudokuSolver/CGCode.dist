@@ -1,9 +1,0 @@
-for ($i = 0; $i < 9; $i++)
-{
-    fscanf($stdin, "%s %s", $gridLine, $gridCages);
-}
-$cages = stream_get_line($stdin, 250 + 1, "\n");
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("solution\n");

@@ -1,9 +1,0 @@
-fscanf($stdin, "%d %d", $count, $n);
-for ($i = 0; $i < $count; $i++)
-{
-    $labeledPoint = stream_get_line($stdin, 99 + 1, "\n");
-}
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("phrase\n");

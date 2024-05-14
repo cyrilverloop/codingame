@@ -1,7 +1,0 @@
-fscanf($stdin, "%d", $result);
-fscanf($stdin, "%d %d %d %d %d %d", $a, $b, $c, $d, $e, $f);
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("POSSIBLE/IMPOSSIBLE\n");
-echo("write value\n");

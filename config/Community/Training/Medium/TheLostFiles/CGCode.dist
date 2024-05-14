@@ -1,9 +1,0 @@
-fscanf($stdin, "%d", $E);
-for ($i = 0; $i < $E; $i++)
-{
-    fscanf($stdin, "%d %d", $n1, $n2);
-}
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("0 0\n");

@@ -1,6 +1,0 @@
-fscanf($stdin, "%s %s", $parent1, $parent2);
-$ratio = stream_get_line($stdin, 50 + 1, "\n");
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("Genotypic Ratio\n");

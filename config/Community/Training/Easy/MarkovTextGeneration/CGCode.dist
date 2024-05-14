@@ -1,8 +1,0 @@
-$t = stream_get_line($stdin, 1000 + 1, "\n");
-fscanf($stdin, "%d", $d);
-fscanf($stdin, "%d", $l);
-$s = stream_get_line($stdin, 1000 + 1, "\n");
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("fish is bad and\n");

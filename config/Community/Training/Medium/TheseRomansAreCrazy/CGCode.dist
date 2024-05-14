@@ -1,2 +1,0 @@
-fscanf($stdin, "%s", $rom1);
-fscanf($stdin, "%s", $rom2);

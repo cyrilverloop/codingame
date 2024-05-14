@@ -1,9 +1,0 @@
-fscanf($stdin, "%d %d", $W, $H);
-for ($i = 0; $i < $H; $i++)
-{
-    $row = stream_get_line($stdin, 11 + 1, "\n");
-}
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("Rectangle/Triangle/Ellipse\n");

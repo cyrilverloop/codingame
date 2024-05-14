@@ -1,7 +1,0 @@
-$opBowls = stream_get_line($stdin, 100 + 1, "\n");
-$myBowls = stream_get_line($stdin, 100 + 1, "\n");
-fscanf($stdin, "%d", $num);
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("answer\n");

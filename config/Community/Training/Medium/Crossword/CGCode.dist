@@ -1,8 +1,0 @@
-$H1 = stream_get_line($stdin, 256 + 1, "\n");
-$H2 = stream_get_line($stdin, 256 + 1, "\n");
-$V1 = stream_get_line($stdin, 256 + 1, "\n");
-$V2 = stream_get_line($stdin, 256 + 1, "\n");
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("answer\n");

@@ -1,9 +1,0 @@
-fscanf($stdin, "%d", $N);
-for ($i = 0; $i < $N; $i++)
-{
-    $line = stream_get_line($stdin, 127 + 1, "\n");
-}
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("answer\n");

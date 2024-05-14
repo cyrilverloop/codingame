@@ -1,9 +1,0 @@
-fscanf($stdin, "%d", $n);
-for ($i = 0; $i < $n; $i++)
-{
-    $line = stream_get_line($stdin, 100 + 1, "\n");
-}
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("Valid, Invalid or No brackets\n");

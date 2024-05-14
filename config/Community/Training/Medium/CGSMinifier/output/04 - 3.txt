@@ -1,1 +1,0 @@
-\$a$;(\$a$='I like trains';)print\$a$;

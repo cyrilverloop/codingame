@@ -1,7 +1,0 @@
-fscanf($stdin, "%d", $R);
-fscanf($stdin, "%d", $N);
-fscanf($stdin, "%s", $startPattern);
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo(".....@.@.....\n");

@@ -1,5 +1,0 @@
-fscanf($stdin, "%f %f %f", $a, $b, $c);
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("(X1,Y1),...,(Xn,Yn)\n");

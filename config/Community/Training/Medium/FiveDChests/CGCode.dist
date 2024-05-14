@@ -1,8 +1,0 @@
-fscanf($stdin, "%d", $N);
-fscanf($stdin, "%d", $C);
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("number of gold chests\n");
-echo("number of rooms that contain at least one chest\n");
-echo("largest number of gold chests in one room\n");

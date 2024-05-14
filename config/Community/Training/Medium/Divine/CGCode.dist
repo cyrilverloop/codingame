@@ -1,8 +1,0 @@
-for ($i = 0; $i < 9; $i++)
-{
-    $l = stream_get_line($stdin, 17 + 1, "\n");
-}
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("answer\n");

@@ -1,8 +1,0 @@
-for ($i = 0; $i < 3; $i++)
-{
-    fscanf($stdin, "%d %d %d", $x, $y, $k);
-}
-
-// Write an answer using echo(). DON'T FORGET THE TRAILING \n
-
-echo("Possible\n");
