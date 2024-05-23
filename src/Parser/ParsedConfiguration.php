@@ -14,9 +14,9 @@ final class ParsedConfiguration
     // Properties :
 
     /**
-     * @var string the namespace.
+     * @var string the path.
      */
-    private string $namespace;
+    private string $path;
 
     /**
      * @var string the name.
@@ -24,9 +24,9 @@ final class ParsedConfiguration
     private string $name;
 
     /**
-     * @var string the group.
+     * @var string the alphanumeric name.
      */
-    private string $group;
+    private string $alphanumName;
 
     /**
      * @var string the link.
@@ -43,22 +43,22 @@ final class ParsedConfiguration
 
     /**
      * The constructor.
-     * @param string $namespace the namespace.
+     * @param string $path the path.
      * @param string $name the name.
-     * @param string $group the group.
+     * @param string $alphanumName the alphanumeric name.
      * @param string $link the link.
      * @param \CyrilVerloop\Codingame\Configuration\TestConfigurations $testConfigurations the test configurations.
      */
     public function __construct(
-        string $namespace,
+        string $path,
         string $name,
-        string $group,
+        string $alphanumName,
         string $link,
         TestConfigurations $testConfigurations
     ) {
-        $this->namespace = $namespace;
+        $this->path = $path;
         $this->name = $name;
-        $this->group = $group;
+        $this->alphanumName = $alphanumName;
         $this->link = $link;
         $this->testConfigurations = $testConfigurations;
     }
@@ -67,12 +67,12 @@ final class ParsedConfiguration
     // Accessors :
 
     /**
-     * Returns the namespace.
-     * @return string the namespace.
+     * Returns the path.
+     * @return string the path.
      */
-    public function getNamespace(): string
+    public function getPath(): string
     {
-        return $this->namespace;
+        return $this->path;
     }
 
     /**
@@ -85,12 +85,12 @@ final class ParsedConfiguration
     }
 
     /**
-     * Returns the group.
-     * @return string the group.
+     * Returns the alphanumeric name.
+     * @return string the alphanumeric name.
      */
-    public function getGroup(): string
+    public function getAlphanumName(): string
     {
-        return $this->group;
+        return $this->alphanumName;
     }
 
     /**

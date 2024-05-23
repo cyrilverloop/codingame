@@ -4,8 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30c073c878030c9f5ce100593fcbc7a5",
+    "content-hash": "7e75a094a9b5c03582d1ad624a90f636",
     "packages": [
+        {
+            "name": "cyril-verloop/codingame-configuration",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cyrilverloop/codingame-configuration.git",
+                "reference": "f24086bdec661dfa707954c59082938fd799035e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cyrilverloop/codingame-configuration/zipball/f24086bdec661dfa707954c59082938fd799035e",
+                "reference": "f24086bdec661dfa707954c59082938fd799035e",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cyril VERLOOP",
+                    "email": "cyril.verloop@webqard.fr"
+                }
+            ],
+            "description": "A project that contains CodinGame input, output and default code.",
+            "support": {
+                "issues": "https://github.com/cyrilverloop/codingame-configuration/issues",
+                "source": "https://github.com/cyrilverloop/codingame-configuration/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/cyrilverloop",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-05-23T18:02:19+00:00"
+        },
         {
             "name": "cyril-verloop/iterator",
             "version": "3.1.1",

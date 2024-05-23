@@ -8,8 +8,10 @@ use CyrilVerloop\Codingame\Configuration\ConfigurationConvertor;
 use CyrilVerloop\Codingame\Configuration\TestConfiguration;
 use CyrilVerloop\Codingame\Configuration\TestConfigurations;
 use CyrilVerloop\Codingame\Parser\ParsedConfiguration;
-use CyrilVerloop\Codingame\Generator\GeneratorCodeConfiguration;
-use CyrilVerloop\Codingame\Generator\GeneratorTestConfiguration;
+use CyrilVerloop\Codingame\Generator\CodeGeneratorConfiguration;
+use CyrilVerloop\Codingame\Generator\TestConfiguration as TCGenerator;
+use CyrilVerloop\Codingame\Generator\TestConfigurations as TCsGenerator;
+use CyrilVerloop\Codingame\Generator\TestGeneratorConfiguration;
 use PHPUnit\Framework\Attributes as PA;
 use PHPUnit\Framework\TestCase;
 
@@ -18,13 +20,16 @@ use PHPUnit\Framework\TestCase;
  */
 #[
     PA\CoversClass(ConfigurationConvertor::class),
-    PA\UsesClass(GeneratorCodeConfiguration::class),
-    PA\UsesClass(GeneratorTestConfiguration::class),
+    PA\UsesClass(CodeGeneratorConfiguration::class),
     PA\UsesClass(ParsedConfiguration::class),
+    PA\UsesClass(TCGenerator::class),
+    PA\UsesClass(TCsGenerator::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
-    PA\Group('cgpt_generator'),
-    PA\Group('cgpt_generator_configurationConvertor')
+    PA\UsesClass(TestGeneratorConfiguration::class),
+    PA\Group('cgpt'),
+    PA\Group('cgpt_configuration'),
+    PA\Group('cgpt_configuration_configurationConvertor')
 ]
 final class ConfigurationConvertorTest extends TestCase
 {
@@ -40,24 +45,23 @@ final class ConfigurationConvertorTest extends TestCase
         $this->expectExceptionMessage('defaultCodeFileNotReadable');
 
         $parsedTestConfiguration = new TestConfiguration(
-            'a-test-name',
-            'a-test-group',
-            'a-test-method',
-            'a-test-file'
+            'A test name',
+            'aTestAlphanumName',
+            '01 - a test file.txt'
         );
 
         $parsedTestConfigurations = new TestConfigurations();
         $parsedTestConfigurations->add($parsedTestConfiguration);
 
         $parsedConfiguration = new ParsedConfiguration(
-            'a-namespace',
-            'a-name',
-            'a-group',
-            'a-link',
+            'a/path',
+            'A name',
+            'anAlphanumName',
+            'https://a-link',
             $parsedTestConfigurations
         );
 
-        ConfigurationConvertor::getGeneratorCodeConfiguration($parsedConfiguration, '');
+        ConfigurationConvertor::getCodeGeneratorConfiguration($parsedConfiguration, '');
     }
 
     /**
@@ -67,31 +71,30 @@ final class ConfigurationConvertorTest extends TestCase
     public function testCanConvertAParsedConfigurationToACodeConfiguration(): void
     {
         $parsedTestConfiguration = new TestConfiguration(
-            'a-test-name',
-            'a-test-group',
-            'a-test-method',
-            'a-test-file'
+            'A test name',
+            'aTestAlphanumName',
+            '01 - a test file.txt'
         );
 
         $parsedTestConfigurations = new TestConfigurations();
         $parsedTestConfigurations->add($parsedTestConfiguration);
 
         $parsedConfiguration = new ParsedConfiguration(
-            'a-namespace',
-            'a-name',
-            'a-group',
-            'a-link',
+            'a/path',
+            'A name',
+            'anAlphanumName',
+            'https://a-link',
             $parsedTestConfigurations
         );
 
-        $codeConfiguration = ConfigurationConvertor::getGeneratorCodeConfiguration(
+        $codeConfiguration = ConfigurationConvertor::getCodeGeneratorConfiguration(
             $parsedConfiguration,
             __DIR__ . '/../Generator/Example/CGCode.dist'
         );
 
-        self::assertSame('a-namespace', $codeConfiguration->getNamespace());
-        self::assertSame('a-name', $codeConfiguration->getName());
-        self::assertSame('a-link', $codeConfiguration->getLink());
+        self::assertSame('A\Path', $codeConfiguration->getNamespace());
+        self::assertSame('A name', $codeConfiguration->getName());
+        self::assertSame('https://a-link', $codeConfiguration->getLink());
         self::assertStringEqualsFile(
             __DIR__ . '/../Generator/Example/CGCodeIndented.dist',
             $codeConfiguration->getDefaultCode()
@@ -106,10 +109,9 @@ final class ConfigurationConvertorTest extends TestCase
     public function testCanConvertAParsedConfigurationToATestConfiguration(): void
     {
         $parsedTestConfiguration = new TestConfiguration(
-            'a-test-name',
-            'a-test-group',
-            'a-test-method',
-            'a-test-file'
+            'A test name',
+            'aTestAlphanumName',
+            '01 - a test file.txt'
         );
 
         $parsedTestConfigurations = new TestConfigurations();
@@ -117,25 +119,25 @@ final class ConfigurationConvertorTest extends TestCase
         $parsedTestConfigurations->add($parsedTestConfiguration);
 
         $parsedConfiguration = new ParsedConfiguration(
-            'a-namespace',
-            'a-name',
-            'a-group',
-            'a-link',
+            'a/path',
+            'A name',
+            'anAlphanumName',
+            'https://a-link',
             $parsedTestConfigurations
         );
 
-        $generatorTestConfiguration = ConfigurationConvertor::getGeneratorTestConfiguration($parsedConfiguration);
+        $generatorTestConfiguration = ConfigurationConvertor::getTestGeneratorConfiguration($parsedConfiguration);
 
-        self::assertSame('a-namespace', $generatorTestConfiguration->getNamespace());
-        self::assertSame('a-name', $generatorTestConfiguration->getName());
-        self::assertSame('a-group', $generatorTestConfiguration->getGroup());
+        self::assertSame('A\Path', $generatorTestConfiguration->getNamespace());
+        self::assertSame('A name', $generatorTestConfiguration->getName());
+        self::assertSame('anAlphanumName', $generatorTestConfiguration->getGroup());
         self::assertCount(2, $generatorTestConfiguration->getTestConfigurations());
 
         foreach ($generatorTestConfiguration->getTestConfigurations() as $testConfiguration) {
-            self::assertSame('a-test-name', $testConfiguration->getName());
-            self::assertSame('a-test-group', $testConfiguration->getGroup());
-            self::assertSame('a-test-method', $testConfiguration->getMethod());
-            self::assertSame('a-test-file', $testConfiguration->getFile());
+            self::assertSame('A test name', $testConfiguration->getName());
+            self::assertSame('aTestAlphanumName', $testConfiguration->getGroup());
+            self::assertSame('ATestAlphanumName', $testConfiguration->getMethod());
+            self::assertSame('01 - a test file.txt', $testConfiguration->getFile());
         }
     }
 }

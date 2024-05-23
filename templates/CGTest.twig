@@ -9,12 +9,12 @@ use CyrilVerloop\Codingame\Tests\CGTestCase;
 use PHPUnit\Framework\Attributes as PA;
 
 /**
- * Tests for "{{ configuration.name }}".
+ * Tests for "{{ configuration.name|raw }}".
  */
 #[
     PA\CoversClass(CGCode::class),
     PA\Group('{{ configuration.group }}'),
-    PA\TestDox('{{ configuration.name }}'),
+    PA\TestDox('{{ configuration.name|raw }}'),
     PA\Medium
 ]
 final class CGTest extends CGTestCase
@@ -26,11 +26,11 @@ final class CGTest extends CGTestCase
 {% for test in configuration.testConfigurations %}
 
     /**
-     * Tests the code with "{{ test.name }}".
+     * Tests the code with "{{ test.name|raw }}".
      */
     #[
         PA\Group('{{ configuration.group }}_{{ test.group }}'),
-        PA\TestDox('{{ test.name }}')
+        PA\TestDox('{{ test.name|raw }}')
     ]
     public function test{{ test.method }}(): void
     {

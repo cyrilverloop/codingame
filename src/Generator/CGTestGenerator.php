@@ -16,34 +16,34 @@ final class CGTestGenerator extends FileGenerator
     /**
      * The template file name.
      */
-    private const TEMPLATE_FILE_NAME = 'CGTest.twig';
+    private const string TEMPLATE_FILE_NAME = 'CGTest.twig';
 
     /**
      * The php file name.
      */
-    private const PHP_FILE_NAME = 'CGTest.php';
+    private const string PHP_FILE_NAME = 'CGTest.php';
 
     /**
      * The input path.
      */
-    private const INPUT_PATH = 'input' . DIRECTORY_SEPARATOR;
+    private const string INPUT_PATH = 'input' . DIRECTORY_SEPARATOR;
 
     /**
      * The output path.
      */
-    private const OUTPUT_PATH = 'output' . DIRECTORY_SEPARATOR;
+    private const string OUTPUT_PATH = 'output' . DIRECTORY_SEPARATOR;
 
 
     // Methods :
 
     /**
      * Generates the test.
-     * @param \CyrilVerloop\Codingame\Generator\GeneratorTestConfiguration $configuration the test configuration.
+     * @param \CyrilVerloop\Codingame\Generator\TestGeneratorConfiguration $configuration the test configuration.
      * @param string $fromPath the path where the config file is.
      * @param string $toPath the path where to put the generated test.
      */
     public function generate(
-        GeneratorTestConfiguration $configuration,
+        TestGeneratorConfiguration $configuration,
         string $fromPath,
         string $toPath
     ): void {

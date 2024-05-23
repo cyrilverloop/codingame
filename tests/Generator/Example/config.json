@@ -1,19 +1,17 @@
 {
-    "namespace": "A\\Name\\Space",
+    "path": "easy/APuzzle",
     "name": "A name",
-    "group": "AGroup",
+    "alphanumName": "anAlphanumName",
     "link": "https://a-link",
     "tests": [
         {
             "name": "test name",
-            "group": "testGroup",
-            "method": "TestMethod",
+            "alphanumName": "testAlphanumName",
             "file": "01 - test file.txt"
         },
         {
             "name": "test name 2",
-            "group": "testGroup2",
-            "method": "TestMethod2",
+            "alphanumName": "testAlphanumName2",
             "file": "02 - test file 2.txt"
         }
     ]

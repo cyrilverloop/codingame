@@ -4,11 +4,10 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Generator;
 
-use CyrilVerloop\Codingame\Configuration\TestConfiguration;
-use CyrilVerloop\Codingame\Configuration\TestConfigurations;
 use CyrilVerloop\Codingame\Generator\CGTestGenerator;
-use CyrilVerloop\Codingame\Generator\FileGenerator;
-use CyrilVerloop\Codingame\Generator\GeneratorTestConfiguration;
+use CyrilVerloop\Codingame\Generator\TestConfiguration;
+use CyrilVerloop\Codingame\Generator\TestConfigurations;
+use CyrilVerloop\Codingame\Generator\TestGeneratorConfiguration;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\Attributes as PA;
 use PHPUnit\Framework\TestCase;
@@ -18,10 +17,10 @@ use PHPUnit\Framework\TestCase;
  */
 #[
     PA\CoversClass(CGTestGenerator::class),
-    PA\CoversClass(FileGenerator::class),
-    PA\UsesClass(GeneratorTestConfiguration::class),
+    PA\UsesClass(TestGeneratorConfiguration::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
+    PA\Group('cgpt'),
     PA\Group('cgpt_generator'),
     PA\Group('cgpt_generator_CGTestGenerator')
 ]
@@ -37,17 +36,15 @@ final class CGTestGeneratorTest extends TestCase
     {
         return [
             'config' => [
-                'A' => [
-                    'Name' => [
-                        'Space' => [
-                            'input' => [
-                                '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/input/01 - test file.txt'),
-                                '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/input/02 - test file 2.txt')
-                            ],
-                            'output' => [
-                                '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/output/01 - test file.txt'),
-                                '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/output/02 - test file 2.txt')
-                            ]
+                'easy' => [
+                    'APuzzle' => [
+                        'input' => [
+                            '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/input/01 - test file.txt'),
+                            '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/input/02 - test file 2.txt')
+                        ],
+                        'output' => [
+                            '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/output/01 - test file.txt'),
+                            '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/output/02 - test file 2.txt')
                         ]
                     ]
                 ]
@@ -61,13 +58,13 @@ final class CGTestGeneratorTest extends TestCase
     public function testGenerateTheTestFile(): void
     {
         $TestConfiguration = new TestConfiguration(
-            'test name',
+            'Test name',
             'testGroup',
             'TestMethod',
             '01 - test file.txt'
         );
         $TestConfiguration2 = new TestConfiguration(
-            'test name 2',
+            'Test name 2',
             'testGroup2',
             'TestMethod2',
             '02 - test file 2.txt'
@@ -77,10 +74,10 @@ final class CGTestGeneratorTest extends TestCase
         $testConfigurations->add($TestConfiguration);
         $testConfigurations->add($TestConfiguration2);
 
-        $configuration = new GeneratorTestConfiguration(
-            'A\\Name\\Space',
+        $configuration = new TestGeneratorConfiguration(
+            'Easy\APuzzle',
             'A name',
-            'AGroup',
+            'anAlphanumName',
             $testConfigurations
         );
 
@@ -89,14 +86,14 @@ final class CGTestGeneratorTest extends TestCase
         $testGenerator = new CGTestGenerator(__DIR__ . '/../../templates/');
         $testGenerator->generate(
             $configuration,
-            $fileSystem->url() . '/config/A/Name/Space/',
-            $fileSystem->url() . '/tests/A/Name/Space/'
+            $fileSystem->url() . '/config/easy/APuzzle/',
+            $fileSystem->url() . '/tests/Easy/APuzzle/'
         );
 
-        self::assertFileExists($fileSystem->url() . '/tests/A/Name/Space/CGTest.php');
+        self::assertFileExists($fileSystem->url() . '/tests/Easy/APuzzle/CGTest.php');
         self::assertFileEquals(
             __DIR__ . '/Example/CGTest.php',
-            $fileSystem->url() . '/tests/A/Name/Space/CGTest.php'
+            $fileSystem->url() . '/tests/Easy/APuzzle/CGTest.php',
         );
     }
 
@@ -105,10 +102,10 @@ final class CGTestGeneratorTest extends TestCase
      */
     public function testCopyTheInputFiles(): void
     {
-        $configuration = new GeneratorTestConfiguration(
-            'A\\Name\\Space',
+        $configuration = new TestGeneratorConfiguration(
+            'Easy\APuzzle',
             'A name',
-            'AGroup',
+            'anAlphanumName',
             new TestConfigurations()
         );
 
@@ -117,20 +114,20 @@ final class CGTestGeneratorTest extends TestCase
         $testGenerator = new CGTestGenerator(__DIR__ . '/../../templates/');
         $testGenerator->generate(
             $configuration,
-            $fileSystem->url() . '/config/A/Name/Space/',
-            $fileSystem->url() . '/tests/A/Name/Space/'
+            $fileSystem->url() . '/config/easy/APuzzle/',
+            $fileSystem->url() . '/tests/Easy/APuzzle/'
         );
 
-        self::assertFileExists($fileSystem->url() . '/tests/A/Name/Space/input/01 - test file.txt');
+        self::assertFileExists($fileSystem->url() . '/tests/Easy/APuzzle/input/01 - test file.txt');
         self::assertFileEquals(
             __DIR__ . '/Example/input/01 - test file.txt',
-            $fileSystem->url() . '/tests/A/Name/Space/input/01 - test file.txt'
+            $fileSystem->url() . '/tests/Easy/APuzzle/input/01 - test file.txt'
         );
 
-        self::assertFileExists($fileSystem->url() . '/tests/A/Name/Space/input/02 - test file 2.txt');
+        self::assertFileExists($fileSystem->url() . '/tests/Easy/APuzzle/input/02 - test file 2.txt');
         self::assertFileEquals(
             __DIR__ . '/Example/input/02 - test file 2.txt',
-            $fileSystem->url() . '/tests/A/Name/Space/input/02 - test file 2.txt'
+            $fileSystem->url() . '/tests/Easy/APuzzle/input/02 - test file 2.txt'
         );
     }
 
@@ -139,10 +136,10 @@ final class CGTestGeneratorTest extends TestCase
      */
     public function testCopyTheOutputFiles(): void
     {
-        $configuration = new GeneratorTestConfiguration(
-            'A\\Name\\Space',
+        $configuration = new TestGeneratorConfiguration(
+            'Easy\APuzzle',
             'A name',
-            'AGroup',
+            'anAlphanumName',
             new TestConfigurations()
         );
 
@@ -151,20 +148,20 @@ final class CGTestGeneratorTest extends TestCase
         $testGenerator = new CGTestGenerator(__DIR__ . '/../../templates/');
         $testGenerator->generate(
             $configuration,
-            $fileSystem->url() . '/config/A/Name/Space/',
-            $fileSystem->url() . '/tests/A/Name/Space/'
+            $fileSystem->url() . '/config/easy/APuzzle/',
+            $fileSystem->url() . '/tests/Easy/APuzzle/'
         );
 
-        self::assertFileExists($fileSystem->url() . '/tests/A/Name/Space/output/01 - test file.txt');
+        self::assertFileExists($fileSystem->url() . '/tests/Easy/APuzzle/output/01 - test file.txt');
         self::assertFileEquals(
             __DIR__ . '/Example/output/01 - test file.txt',
-            $fileSystem->url() . '/tests/A/Name/Space/output/01 - test file.txt'
+            $fileSystem->url() . '/tests/Easy/APuzzle/output/01 - test file.txt'
         );
 
-        self::assertFileExists($fileSystem->url() . '/tests/A/Name/Space/output/02 - test file 2.txt');
+        self::assertFileExists($fileSystem->url() . '/tests/Easy/APuzzle/output/02 - test file 2.txt');
         self::assertFileEquals(
             __DIR__ . '/Example/output/02 - test file 2.txt',
-            $fileSystem->url() . '/tests/A/Name/Space/output/02 - test file 2.txt'
+            $fileSystem->url() . '/tests/Easy/APuzzle/output/02 - test file 2.txt'
         );
     }
 
@@ -175,37 +172,20 @@ final class CGTestGeneratorTest extends TestCase
      */
     public function testDoNotGenerateTheCodeFileIfItAlreadyExist(): void
     {
-        $TestConfiguration = new TestConfiguration(
-            'test name',
-            'testGroup',
-            'TestMethod',
-            '01 - test file.txt'
-        );
-        $TestConfiguration2 = new TestConfiguration(
-            'test name 2',
-            'testGroup2',
-            'TestMethod2',
-            '02 - test file 2.txt'
-        );
-
         $testConfigurations = new TestConfigurations();
-        $testConfigurations->add($TestConfiguration);
-        $testConfigurations->add($TestConfiguration2);
 
-        $configuration = new GeneratorTestConfiguration(
-            'A\\Name\\Space',
+        $configuration = new TestGeneratorConfiguration(
+            'Easy\APuzzle',
             'A name',
-            'AGroup',
+            'anAlphanumName',
             $testConfigurations
         );
 
         $fileStructure = $this->getFileSystem();
         $fileStructure['tests'] = [
-            'A' => [
-                'Name' => [
-                    'Space' => [
-                        'CGTest.php' => 'modified-test'
-                    ]
+            'Easy' => [
+                'APuzzle' => [
+                    'CGTest.php' => 'modified-test'
                 ]
             ]
         ];
@@ -214,13 +194,13 @@ final class CGTestGeneratorTest extends TestCase
         $testGenerator = new CGTestGenerator(__DIR__ . '/../../templates/');
         $testGenerator->generate(
             $configuration,
-            $fileSystem->url() . '/config/A/Name/Space/',
-            $fileSystem->url() . '/tests/A/Name/Space/'
+            $fileSystem->url() . '/config/easy/APuzzle/',
+            $fileSystem->url() . '/tests/Easy/APuzzle/'
         );
 
-        self::assertFileExists($fileSystem->url() . '/tests/A/Name/Space/CGTest.php');
+        self::assertFileExists($fileSystem->url() . '/tests/Easy/APuzzle/CGTest.php');
         self::assertStringEqualsFile(
-            $fileSystem->url() . '/tests/A/Name/Space/CGTest.php',
+            $fileSystem->url() . '/tests/Easy/APuzzle/CGTest.php',
             'modified-test'
         );
     }
@@ -231,21 +211,19 @@ final class CGTestGeneratorTest extends TestCase
      */
     public function testDoNotCopyTheInputFileIfItAlreadyExist(): void
     {
-        $configuration = new GeneratorTestConfiguration(
-            'A\\Name\\Space',
+        $configuration = new TestGeneratorConfiguration(
+            'Easy\APuzzle',
             'A name',
-            'AGroup',
+            'anAlphanumName',
             new TestConfigurations()
         );
 
         $fileStructure = $this->getFileSystem();
         $fileStructure['tests'] = [
-            'A' => [
-                'Name' => [
-                    'Space' => [
-                        'input' => [
-                            '01 - test file.txt' => 'modified-input'
-                        ]
+            'Easy' => [
+                'APuzzle' => [
+                    'input' => [
+                        '01 - test file.txt' => 'modified-input'
                     ]
                 ]
             ]
@@ -255,13 +233,13 @@ final class CGTestGeneratorTest extends TestCase
         $testGenerator = new CGTestGenerator(__DIR__ . '/../../templates/');
         $testGenerator->generate(
             $configuration,
-            $fileSystem->url() . '/config/A/Name/Space/',
-            $fileSystem->url() . '/tests/A/Name/Space/'
+            $fileSystem->url() . '/config/easy/APuzzle/',
+            $fileSystem->url() . '/tests/Easy/APuzzle/'
         );
 
-        self::assertFileExists($fileSystem->url() . '/tests/A/Name/Space/input/01 - test file.txt');
+        self::assertFileExists($fileSystem->url() . '/tests/Easy/APuzzle/input/01 - test file.txt');
         self::assertStringEqualsFile(
-            $fileSystem->url() . '/tests/A/Name/Space/input/01 - test file.txt',
+            $fileSystem->url() . '/tests/Easy/APuzzle/input/01 - test file.txt',
             'modified-input'
         );
     }
@@ -272,21 +250,19 @@ final class CGTestGeneratorTest extends TestCase
      */
     public function testDoNotCopyTheOutputFileIfItAlreadyExist(): void
     {
-        $configuration = new GeneratorTestConfiguration(
-            'A\\Name\\Space',
+        $configuration = new TestGeneratorConfiguration(
+            'Easy\APuzzle',
             'A name',
-            'AGroup',
+            'anAlphanumName',
             new TestConfigurations()
         );
 
         $fileStructure = $this->getFileSystem();
         $fileStructure['tests'] = [
-            'A' => [
-                'Name' => [
-                    'Space' => [
-                        'output' => [
-                            '01 - test file.txt' => 'modified-output'
-                        ]
+            'Easy' => [
+                'APuzzle' => [
+                    'output' => [
+                        '01 - test file.txt' => 'modified-output'
                     ]
                 ]
             ]
@@ -296,13 +272,13 @@ final class CGTestGeneratorTest extends TestCase
         $testGenerator = new CGTestGenerator(__DIR__ . '/../../templates/');
         $testGenerator->generate(
             $configuration,
-            $fileSystem->url() . '/config/A/Name/Space/',
-            $fileSystem->url() . '/tests/A/Name/Space/'
+            $fileSystem->url() . '/config/easy/APuzzle/',
+            $fileSystem->url() . '/tests/Easy/APuzzle/'
         );
 
-        self::assertFileExists($fileSystem->url() . '/tests/A/Name/Space/output/01 - test file.txt');
+        self::assertFileExists($fileSystem->url() . '/tests/Easy/APuzzle/output/01 - test file.txt');
         self::assertStringEqualsFile(
-            $fileSystem->url() . '/tests/A/Name/Space/output/01 - test file.txt',
+            $fileSystem->url() . '/tests/Easy/APuzzle/output/01 - test file.txt',
             'modified-output'
         );
     }

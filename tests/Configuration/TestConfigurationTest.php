@@ -13,6 +13,7 @@ use PHPUnit\Framework\TestCase;
  */
 #[
     PA\CoversClass(TestConfiguration::class),
+    PA\Group('cgpt'),
     PA\Group('cgpt_configuration'),
     PA\Group('cgpt_configuration_testConfiguration')
 ]
@@ -25,29 +26,19 @@ final class TestConfigurationTest extends TestCase
      */
     public function testHasAName(): void
     {
-        $configuration = new TestConfiguration('name', 'group', 'method', 'file');
+        $configuration = new TestConfiguration('name', 'alphanumName', 'file');
 
         self::assertSame('name', $configuration->getName());
     }
 
     /**
-     * Tests it has a group.
+     * Tests it has an alphanum name.
      */
-    public function testHasAGroup(): void
+    public function testHasAnAlphanumName(): void
     {
-        $configuration = new TestConfiguration('name', 'group', 'method', 'file');
+        $configuration = new TestConfiguration('name', 'alphanumName', 'file');
 
-        self::assertSame('group', $configuration->getGroup());
-    }
-
-    /**
-     * Tests it has a method.
-     */
-    public function testHasAMethod(): void
-    {
-        $configuration = new TestConfiguration('name', 'group', 'method', 'file');
-
-        self::assertSame('method', $configuration->getMethod());
+        self::assertSame('alphanumName', $configuration->getAlphanumName());
     }
 
     /**
@@ -55,7 +46,7 @@ final class TestConfigurationTest extends TestCase
      */
     public function testHasAFile(): void
     {
-        $configuration = new TestConfiguration('name', 'group', 'method', 'file');
+        $configuration = new TestConfiguration('name', 'alphanumName', 'file');
 
         self::assertSame('file', $configuration->getFile());
     }

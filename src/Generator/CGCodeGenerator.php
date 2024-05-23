@@ -14,23 +14,23 @@ final class CGCodeGenerator extends FileGenerator
     /**
      * The template file name.
      */
-    private const TEMPLATE_FILE_NAME = 'CGCode.twig';
+    private const string TEMPLATE_FILE_NAME = 'CGCode.twig';
 
     /**
      * The php file name.
      */
-    private const PHP_FILE_NAME = 'CGCode.php';
+    private const string PHP_FILE_NAME = 'CGCode.php';
 
 
     // Methods :
 
     /**
      * Generates the code.
-     * @param \CyrilVerloop\Codingame\Generator\GeneratorCodeConfiguration $configuration the code configuration.
+     * @param \CyrilVerloop\Codingame\Generator\CodeGeneratorConfiguration $configuration the code configuration.
      * @param string $toPath the path where to put the generated code.
      */
     public function generate(
-        GeneratorCodeConfiguration $configuration,
+        CodeGeneratorConfiguration $configuration,
         string $toPath
     ): void {
         $codeFile = $toPath . self::PHP_FILE_NAME;

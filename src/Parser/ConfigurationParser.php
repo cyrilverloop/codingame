@@ -37,9 +37,9 @@ final class ConfigurationParser
         $testsconfigurations = $this->getTestConfigurations($jsonConfiguration->tests);
 
         $Configuration = new ParsedConfiguration(
-            $jsonConfiguration->namespace,
+            $jsonConfiguration->path,
             $jsonConfiguration->name,
-            $jsonConfiguration->group,
+            $jsonConfiguration->alphanumName,
             $jsonConfiguration->link,
             $testsconfigurations
         );
@@ -54,16 +54,16 @@ final class ConfigurationParser
      */
     private function validateConfiguration(\stdClass $configuration): void
     {
-        if (is_string($configuration->namespace) === false) {
-            throw new \UnexpectedValueException('namespaceNotAString');
+        if (is_string($configuration->path) === false) {
+            throw new \UnexpectedValueException('pathNotAString');
         }
 
         if (is_string($configuration->name) === false) {
             throw new \UnexpectedValueException('nameNotAString');
         }
 
-        if (is_string($configuration->group) === false) {
-            throw new \UnexpectedValueException('groupNotAString');
+        if (is_string($configuration->alphanumName) === false) {
+            throw new \UnexpectedValueException('alphanumNameNotAString');
         }
 
         if (is_string($configuration->link) === false) {
@@ -89,12 +89,8 @@ final class ConfigurationParser
                 throw new \UnexpectedValueException('testNameNotAString');
             }
 
-            if (is_string($testConfiguration->group) === false) {
-                throw new \UnexpectedValueException('testGroupNotAString');
-            }
-
-            if (is_string($testConfiguration->method) === false) {
-                throw new \UnexpectedValueException('testMethodNotAString');
+            if (is_string($testConfiguration->alphanumName) === false) {
+                throw new \UnexpectedValueException('testAlphanumNameNotAString');
             }
 
             if (is_string($testConfiguration->file) === false) {
@@ -115,8 +111,7 @@ final class ConfigurationParser
         foreach ($testConfigurations as $testConfiguration) {
             $Testconfiguration = new TestConfiguration(
                 $testConfiguration->name,
-                $testConfiguration->group,
-                $testConfiguration->method,
+                $testConfiguration->alphanumName,
                 $testConfiguration->file
             );
             $testsconfigurations->add($Testconfiguration);

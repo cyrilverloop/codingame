@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Generator;
 
-use CyrilVerloop\Codingame\Configuration\TestConfigurations;
-
 /**
  * The generator test configuration.
  */
-final class GeneratorTestConfiguration
+final class TestGeneratorConfiguration
 {
     // Properties :
 
@@ -29,7 +27,7 @@ final class GeneratorTestConfiguration
     private string $group;
 
     /**
-     * @var \CyrilVerloop\Codingame\Configuration\TestConfigurations the tests configurations.
+     * @var \CyrilVerloop\Codingame\Generator\TestConfigurations the tests configurations.
      */
     private TestConfigurations $testConfigurations;
 
@@ -41,7 +39,7 @@ final class GeneratorTestConfiguration
      * @param string $namespace the namespace.
      * @param string $name the name.
      * @param string $group the group.
-     * @param \CyrilVerloop\Codingame\Configuration\TestConfigurations $testConfigurations the test configurations.
+     * @param \CyrilVerloop\Codingame\Generator\TestConfigurations $testConfigurations the test configurations.
      */
     public function __construct(
         string $namespace,
@@ -87,7 +85,7 @@ final class GeneratorTestConfiguration
 
     /**
      * Returns the tests configurations.
-     * @return \CyrilVerloop\Codingame\Configuration\TestConfigurations the tests configurations.
+     * @return \CyrilVerloop\Codingame\Generator\TestConfigurations the tests configurations.
      */
     public function getTestConfigurations(): TestConfigurations
     {

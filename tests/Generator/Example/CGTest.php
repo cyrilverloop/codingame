@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Tests\A\Name\Space;
+namespace CyrilVerloop\Codingame\Tests\Easy\APuzzle;
 
-use CyrilVerloop\Codingame\A\Name\Space\CGCode;
+use CyrilVerloop\Codingame\Easy\APuzzle\CGCode;
 use CyrilVerloop\Codingame\Tests\CGTestCase;
 use PHPUnit\Framework\Attributes as PA;
 
@@ -13,7 +13,7 @@ use PHPUnit\Framework\Attributes as PA;
  */
 #[
     PA\CoversClass(CGCode::class),
-    PA\Group('AGroup'),
+    PA\Group('anAlphanumName'),
     PA\TestDox('A name'),
     PA\Medium
 ]
@@ -25,11 +25,11 @@ final class CGTest extends CGTestCase
     }
 
     /**
-     * Tests the code with "test name".
+     * Tests the code with "Test name".
      */
     #[
-        PA\Group('AGroup_testGroup'),
-        PA\TestDox('test name')
+        PA\Group('anAlphanumName_testGroup'),
+        PA\TestDox('Test name')
     ]
     public function testTestMethod(): void
     {
@@ -40,11 +40,11 @@ final class CGTest extends CGTestCase
     }
 
     /**
-     * Tests the code with "test name 2".
+     * Tests the code with "Test name 2".
      */
     #[
-        PA\Group('AGroup_testGroup2'),
-        PA\TestDox('test name 2')
+        PA\Group('anAlphanumName_testGroup2'),
+        PA\TestDox('Test name 2')
     ]
     public function testTestMethod2(): void
     {

@@ -19,12 +19,17 @@ final class FilesGenerator
     /**
      * The configuration file.
      */
-    const CONFIG_FILE = 'config.json';
+    private const string CONFIG_FILE = 'config.json';
+
+    /**
+     * The code directory.
+     */
+    private const string CODE_DIRECTORY = 'code' . DIRECTORY_SEPARATOR;
 
     /**
      * The default code file.
      */
-    const DEFAULT_CODE_FILE = 'CGCode.dist';
+    private const string DEFAULT_CODE_FILE = 'CGCode.php';
 
 
     // Properties :
@@ -73,24 +78,23 @@ final class FilesGenerator
         string $testPath
     ): void {
         /**
-         * @var string[] $pathContent
+         * @var string[] $difficulties
          */
-        $pathContent = array_diff(scandir($pathToScan), ['.', '..', 'input', 'output']);
+        $difficulties = array_diff(scandir($pathToScan), ['.', '..']);
 
-        foreach ($pathContent as $element) {
-            if (is_dir($pathToScan . $element) === true) {
-                $this->generate(
-                    $pathToScan . $element . DIRECTORY_SEPARATOR,
-                    $srcPath . $element . DIRECTORY_SEPARATOR,
-                    $testPath . $element . DIRECTORY_SEPARATOR
-                );
-            }
+        foreach ($difficulties as $difficulty) {
+            /**
+             * @var string[] $configurations
+             */
+            $configurations = array_diff(scandir($pathToScan . $difficulty), ['.', '..']);
 
-            if ($element === self::CONFIG_FILE) {
+            foreach ($configurations as $configuration) {
+                $namespacePath = ucfirst($difficulty) . DIRECTORY_SEPARATOR . $configuration . DIRECTORY_SEPARATOR;
+
                 $this->generateFilesForConfiguration(
-                    $pathToScan,
-                    $srcPath,
-                    $testPath
+                    $pathToScan . $difficulty . DIRECTORY_SEPARATOR . $configuration . DIRECTORY_SEPARATOR,
+                    $srcPath . $namespacePath,
+                    $testPath . $namespacePath
                 );
             }
         }
@@ -109,16 +113,17 @@ final class FilesGenerator
     ): void {
         $parsedConfiguration = $this->configurationParser->getConfigurationFromFile($configurationPath . self::CONFIG_FILE);
 
-        $codeConfiguration = ConfigurationConvertor::getGeneratorCodeConfiguration(
+        $codeConfiguration = ConfigurationConvertor::getCodeGeneratorConfiguration(
             $parsedConfiguration,
-            $configurationPath . self::DEFAULT_CODE_FILE
+            $configurationPath . self::CODE_DIRECTORY . self::DEFAULT_CODE_FILE
         );
+
         $this->codeGenerator->generate(
             $codeConfiguration,
             $srcPath
         );
 
-        $testConfiguration = ConfigurationConvertor::getGeneratorTestConfiguration($parsedConfiguration);
+        $testConfiguration = ConfigurationConvertor::getTestGeneratorConfiguration($parsedConfiguration);
         $this->testGenerator->generate(
             $testConfiguration,
             $configurationPath,

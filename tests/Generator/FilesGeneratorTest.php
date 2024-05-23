@@ -9,10 +9,11 @@ use CyrilVerloop\Codingame\Configuration\TestConfiguration;
 use CyrilVerloop\Codingame\Configuration\TestConfigurations;
 use CyrilVerloop\Codingame\Generator\CGCodeGenerator;
 use CyrilVerloop\Codingame\Generator\CGTestGenerator;
-use CyrilVerloop\Codingame\Generator\FileGenerator;
 use CyrilVerloop\Codingame\Generator\FilesGenerator;
-use CyrilVerloop\Codingame\Generator\GeneratorCodeConfiguration;
-use CyrilVerloop\Codingame\Generator\GeneratorTestConfiguration;
+use CyrilVerloop\Codingame\Generator\CodeGeneratorConfiguration;
+use CyrilVerloop\Codingame\Generator\TestConfiguration as TCGenerator;
+use CyrilVerloop\Codingame\Generator\TestConfigurations as TCsGenerator;
+use CyrilVerloop\Codingame\Generator\TestGeneratorConfiguration;
 use CyrilVerloop\Codingame\Parser\ConfigurationParser;
 use CyrilVerloop\Codingame\Parser\ParsedConfiguration;
 use org\bovigo\vfs\vfsStream;
@@ -26,14 +27,16 @@ use PHPUnit\Framework\TestCase;
     PA\CoversClass(FilesGenerator::class),
     PA\UsesClass(CGCodeGenerator::class),
     PA\UsesClass(CGTestGenerator::class),
+    PA\UsesClass(CodeGeneratorConfiguration::class),
     PA\UsesClass(ConfigurationConvertor::class),
     PA\UsesClass(ConfigurationParser::class),
-    PA\UsesClass(FileGenerator::class),
-    PA\UsesClass(GeneratorCodeConfiguration::class),
-    PA\UsesClass(GeneratorTestConfiguration::class),
     PA\UsesClass(ParsedConfiguration::class),
+    PA\UsesClass(TCGenerator::class),
+    PA\UsesClass(TCsGenerator::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
+    PA\UsesClass(TestGeneratorConfiguration::class),
+    PA\Group('cgpt'),
     PA\Group('cgpt_generator'),
     PA\Group('cgpt_generator_codeAndTestGenerator')
 ]
@@ -48,30 +51,42 @@ final class FilesGeneratorTest extends TestCase
     public function getFileStructure(): array
     {
         return [
-            'config' => [
-                'Example' => [
-                    'input' => [
-                        '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/input/01 - test file.txt'),
-                        '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/input/02 - test file 2.txt')
-                    ],
-                    'output' => [
-                        '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/output/01 - test file.txt'),
-                        '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/output/02 - test file 2.txt')
-                    ],
-                    'config.json' => file_get_contents(__DIR__ . '/Example/config.json'),
-                    'CGCode.dist' => file_get_contents(__DIR__ . '/Example/CGCode.dist')
-                ],
-                'Example2' => [
-                    'input' => [
-                        '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/input/01 - test file.txt'),
-                        '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/input/02 - test file 2.txt')
-                    ],
-                    'output' => [
-                        '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/output/01 - test file.txt'),
-                        '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/output/02 - test file 2.txt')
-                    ],
-                    'config.json' => file_get_contents(__DIR__ . '/Example/config.json'),
-                    'CGCode.dist' => file_get_contents(__DIR__ . '/Example/CGCode.dist')
+            'vendor' => [
+                'cyril-verloop' => [
+                    'codingame-configuration' => [
+                        'config' => [
+                            'easy' => [
+                                'APuzzle' => [
+                                    'code' => [
+                                        'CGCode.php' => file_get_contents(__DIR__ . '/Example/CGCode.dist')
+                                    ],
+                                    'input' => [
+                                        '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/input/01 - test file.txt'),
+                                        '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/input/02 - test file 2.txt')
+                                    ],
+                                    'output' => [
+                                        '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/output/01 - test file.txt'),
+                                        '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/output/02 - test file 2.txt')
+                                    ],
+                                    'config.json' => file_get_contents(__DIR__ . '/Example/config.json')
+                                ],
+                                'APuzzle2' => [
+                                    'code' => [
+                                        'CGCode.php' => file_get_contents(__DIR__ . '/Example/CGCode.dist')
+                                    ],
+                                    'input' => [
+                                        '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/input/01 - test file.txt'),
+                                        '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/input/02 - test file 2.txt')
+                                    ],
+                                    'output' => [
+                                        '01 - test file.txt' => file_get_contents(__DIR__ . '/Example/output/01 - test file.txt'),
+                                        '02 - test file 2.txt' => file_get_contents(__DIR__ . '/Example/output/02 - test file 2.txt')
+                                    ],
+                                    'config.json' => file_get_contents(__DIR__ . '/Example/config.json')
+                                ]
+                            ]
+                        ]
+                    ]
                 ]
             ]
         ];
@@ -86,31 +101,33 @@ final class FilesGeneratorTest extends TestCase
     {
         $fileStructure = $this->getFileStructure();
         $fileStructure['src'] = [
-            'Example' => [
-                'CGCode.php' => 'modified-code'
-            ],
-            'Example2' => [
-                'CGCode.php' => 'modified-code2'
+            'Easy' => [
+                'APuzzle' => [
+                    'CGCode.php' => 'modified-code'
+                ],
+                'APuzzle2' => [
+                    'CGCode.php' => 'modified-code2'
+                ]
             ]
         ];
         vfsStream::setup(structure: $fileStructure);
 
         $filesGenerator = new FilesGenerator(__DIR__ . '/../../templates/');
         $filesGenerator->generate(
-            vfsStream::url('root/config/'),
+            vfsStream::url('root/vendor/cyril-verloop/codingame-configuration/config/'),
             vfsStream::url('root/src/'),
             vfsStream::url('root/tests/')
         );
 
-        self::assertFileExists(vfsStream::url('root/src/Example/CGCode.php'));
+        self::assertFileExists(vfsStream::url('root/src/Easy/APuzzle/CGCode.php'));
         self::assertStringEqualsFile(
-            vfsStream::url('root/src/Example/CGCode.php'),
+            vfsStream::url('root/src/Easy/APuzzle/CGCode.php'),
             'modified-code'
         );
 
-        self::assertFileExists(vfsStream::url('root/src/Example2/CGCode.php'));
+        self::assertFileExists(vfsStream::url('root/src/Easy/APuzzle2/CGCode.php'));
         self::assertStringEqualsFile(
-            vfsStream::url('root/src/Example2/CGCode.php'),
+            vfsStream::url('root/src/Easy/APuzzle2/CGCode.php'),
             'modified-code2'
         );
     }
@@ -125,19 +142,19 @@ final class FilesGeneratorTest extends TestCase
 
         $filesGenerator = new FilesGenerator(__DIR__ . '/../../templates/');
         $filesGenerator->generate(
-            vfsStream::url('root/config/'),
+            vfsStream::url('root/vendor/cyril-verloop/codingame-configuration/config/'),
             vfsStream::url('root/src/'),
             vfsStream::url('root/tests/')
         );
 
         self::assertFileExists(
-            vfsStream::url('root/src/Example/CGCode.php'),
-            'The code file for Example has not been generated.'
+            vfsStream::url('root/src/Easy/APuzzle/CGCode.php'),
+            'The code file for APuzzle has not been generated.'
         );
 
         self::assertFileExists(
-            vfsStream::url('root/src/Example2/CGCode.php'),
-            'The code file for Example2 has not been generated.'
+            vfsStream::url('root/src/Easy/APuzzle2/CGCode.php'),
+            'The code file for APuzzle2 has not been generated.'
         );
     }
 
@@ -150,31 +167,33 @@ final class FilesGeneratorTest extends TestCase
     {
         $fileStructure = $this->getFileStructure();
         $fileStructure['tests'] = [
-            'Example' => [
-                'CGTest.php' => 'modified-test'
-            ],
-            'Example2' => [
-                'CGTest.php' => 'modified-test2'
+            'Easy' => [
+                'APuzzle' => [
+                    'CGTest.php' => 'modified-test'
+                ],
+                'APuzzle2' => [
+                    'CGTest.php' => 'modified-test2'
+                ]
             ]
         ];
         vfsStream::setup(structure: $fileStructure);
 
         $filesGenerator = new FilesGenerator(__DIR__ . '/../../templates/');
         $filesGenerator->generate(
-            vfsStream::url('root/config/'),
+            vfsStream::url('root/vendor/cyril-verloop/codingame-configuration/config/'),
             vfsStream::url('root/src/'),
             vfsStream::url('root/tests/')
         );
 
-        self::assertFileExists(vfsStream::url('root/tests/Example/CGTest.php'));
+        self::assertFileExists(vfsStream::url('root/tests/Easy/APuzzle/CGTest.php'));
         self::assertStringEqualsFile(
-            vfsStream::url('root/tests/Example/CGTest.php'),
+            vfsStream::url('root/tests/Easy/APuzzle/CGTest.php'),
             'modified-test'
         );
 
-        self::assertFileExists(vfsStream::url('root/tests/Example2/CGTest.php'));
+        self::assertFileExists(vfsStream::url('root/tests/Easy/APuzzle2/CGTest.php'));
         self::assertStringEqualsFile(
-            vfsStream::url('root/tests/Example2/CGTest.php'),
+            vfsStream::url('root/tests/Easy/APuzzle2/CGTest.php'),
             'modified-test2'
         );
     }
@@ -189,19 +208,19 @@ final class FilesGeneratorTest extends TestCase
 
         $filesGenerator = new FilesGenerator(__DIR__ . '/../../templates/');
         $filesGenerator->generate(
-            vfsStream::url('root/config/'),
+            vfsStream::url('root/vendor/cyril-verloop/codingame-configuration/config/'),
             vfsStream::url('root/src/'),
             vfsStream::url('root/tests/')
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example/CGTest.php'),
-            'The test file for Example has not been generated.'
+            vfsStream::url('root/tests/Easy/APuzzle/CGTest.php'),
+            'The test file for APuzzle has not been generated.'
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example2/CGTest.php'),
-            'The test file for Example2 has not been generated.'
+            vfsStream::url('root/tests/Easy/APuzzle2/CGTest.php'),
+            'The test file for APuzzle2 has not been generated.'
         );
     }
 
@@ -214,9 +233,11 @@ final class FilesGeneratorTest extends TestCase
     {
         $fileStructure = $this->getFileStructure();
         $fileStructure['tests'] = [
-            'Example' => [
-                'input' => [
-                    '01 - test file.txt' => 'modified-input1',
+            'Easy' => [
+                'APuzzle' => [
+                    'input' => [
+                        '01 - test file.txt' => 'modified-input1',
+                    ]
                 ]
             ]
         ];
@@ -224,14 +245,14 @@ final class FilesGeneratorTest extends TestCase
 
         $filesGenerator = new FilesGenerator(__DIR__ . '/../../templates/');
         $filesGenerator->generate(
-            vfsStream::url('root/config/'),
+            vfsStream::url('root/vendor/cyril-verloop/codingame-configuration/config/'),
             vfsStream::url('root/src/'),
             vfsStream::url('root/tests/')
         );
 
-        self::assertFileExists(vfsStream::url('root/tests/Example/input/01 - test file.txt'));
+        self::assertFileExists(vfsStream::url('root/tests/Easy/APuzzle/input/01 - test file.txt'));
         self::assertStringEqualsFile(
-            vfsStream::url('root/tests/Example/input/01 - test file.txt'),
+            vfsStream::url('root/tests/Easy/APuzzle/input/01 - test file.txt'),
             'modified-input1'
         );
     }
@@ -246,31 +267,32 @@ final class FilesGeneratorTest extends TestCase
 
         $filesGenerator = new FilesGenerator(__DIR__ . '/../../templates/');
         $filesGenerator->generate(
-            vfsStream::url('root/config/'),
+            vfsStream::url('root/vendor/cyril-verloop/codingame-configuration/config/'),
             vfsStream::url('root/src/'),
             vfsStream::url('root/tests/')
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example/input/01 - test file.txt'),
-            'The input file "01 - test file.txt" for Example has not been copied.'
+            vfsStream::url('root/tests/Easy/APuzzle/input/01 - test file.txt'),
+            'The input file "01 - test file.txt" for APuzzle has not been copied.'
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example/input/02 - test file 2.txt'),
-            'The input file "02 - test file 2.txt" for Example has not been copied.'
+            vfsStream::url('root/tests/Easy/APuzzle/input/02 - test file 2.txt'),
+            'The input file "02 - test file 2.txt" for APuzzle has not been copied.'
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example2/input/01 - test file.txt'),
-            'The input file "01 - test file.txt" for Example2 has not been copied.'
+            vfsStream::url('root/tests/Easy/APuzzle2/input/01 - test file.txt'),
+            'The input file "01 - test file.txt" for APuzzle2 has not been copied.'
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example2/input/02 - test file 2.txt'),
-            'The input file "02 - test file 2.txt" for Example2 has not been copied.'
+            vfsStream::url('root/tests/Easy/APuzzle2/input/02 - test file 2.txt'),
+            'The input file "02 - test file 2.txt" for APuzzle2 has not been copied.'
         );
     }
+
 
     /**
      * Tests that the output files will not be copied
@@ -280,9 +302,11 @@ final class FilesGeneratorTest extends TestCase
     {
         $fileStructure = $this->getFileStructure();
         $fileStructure['tests'] = [
-            'Example2' => [
-                'output' => [
-                    '02 - test file 2.txt' => 'modified-output2'
+            'Easy' => [
+                'APuzzle2' => [
+                    'output' => [
+                        '02 - test file 2.txt' => 'modified-output2'
+                    ]
                 ]
             ]
         ];
@@ -290,14 +314,14 @@ final class FilesGeneratorTest extends TestCase
 
         $filesGenerator = new FilesGenerator(__DIR__ . '/../../templates/');
         $filesGenerator->generate(
-            vfsStream::url('root/config/'),
+            vfsStream::url('root/vendor/cyril-verloop/codingame-configuration/config/'),
             vfsStream::url('root/src/'),
             vfsStream::url('root/tests/')
         );
 
-        self::assertFileExists(vfsStream::url('root/tests/Example2/output/02 - test file 2.txt'));
+        self::assertFileExists(vfsStream::url('root/tests/Easy/APuzzle2/output/02 - test file 2.txt'));
         self::assertStringEqualsFile(
-            vfsStream::url('root/tests/Example2/output/02 - test file 2.txt'),
+            vfsStream::url('root/tests/Easy/APuzzle2/output/02 - test file 2.txt'),
             'modified-output2'
         );
     }
@@ -312,29 +336,29 @@ final class FilesGeneratorTest extends TestCase
 
         $filesGenerator = new FilesGenerator(__DIR__ . '/../../templates/');
         $filesGenerator->generate(
-            vfsStream::url('root/config/'),
+            vfsStream::url('root/vendor/cyril-verloop/codingame-configuration/config/'),
             vfsStream::url('root/src/'),
             vfsStream::url('root/tests/')
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example/output/01 - test file.txt'),
-            'The output file "01 - test file.txt" for Example has not been copied.'
+            vfsStream::url('root/tests/Easy/APuzzle/output/01 - test file.txt'),
+            'The output file "01 - test file.txt" for APuzzle has not been copied.'
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example/output/02 - test file 2.txt'),
-            'The output file "02 - test file 2.txt" for Example has not been copied.'
+            vfsStream::url('root/tests/Easy/APuzzle/output/02 - test file 2.txt'),
+            'The output file "02 - test file 2.txt" for APuzzle has not been copied.'
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example2/output/01 - test file.txt'),
-            'The output file "01 - test file.txt" for Example2 has not been copied.'
+            vfsStream::url('root/tests/Easy/APuzzle2/output/01 - test file.txt'),
+            'The output file "01 - test file.txt" for APuzzle2 has not been copied.'
         );
 
         self::assertFileExists(
-            vfsStream::url('root/tests/Example2/output/02 - test file 2.txt'),
-            'The output file "02 - test file 2.txt" for Example2 has not been copied.'
+            vfsStream::url('root/tests/Easy/APuzzle2/output/02 - test file 2.txt'),
+            'The output file "02 - test file 2.txt" for APuzzle2 has not been copied.'
         );
     }
 }

@@ -20,6 +20,7 @@ use PHPUnit\Framework\TestCase;
     PA\UsesClass(ParsedConfiguration::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
+    PA\Group('cgpt'),
     PA\Group('cgpt_parser'),
     PA\Group('cgpt_parser_configurationParser')
 ]
@@ -68,8 +69,7 @@ final class ConfigurationParserTest extends TestCase
     {
         return [
             'name' => 'a-test-name',
-            'group' => 'a-test-group',
-            'method' => 'a-test-method',
+            'alphanumName' => 'a-test-alphanumName',
             'file' => 'a-test-file'
         ];
     }
@@ -81,9 +81,9 @@ final class ConfigurationParserTest extends TestCase
     private function getConfiguration(): array
     {
         return [
-            'namespace' => 'A\Namespace',
+            'path' => 'a/path',
             'name' => 'a-name',
-            'group' => 'a-group',
+            'alphanumName' => 'an-alphanumName',
             'link' => 'a-link',
             'tests' => [
                 json_decode(json_encode($this->getTestStructure()))
@@ -93,15 +93,15 @@ final class ConfigurationParserTest extends TestCase
 
     /**
      * Tests that a runtime exception is thrown
-     * if the namespace is not a string.
+     * if the path is not a string.
      */
-    public function testThrowsAnUnexpectedValueExceptionIfTheNamespaceIsNotAString(): void
+    public function testThrowsAnUnexpectedValueExceptionIfThePathIsNotAString(): void
     {
         $this->expectException(\UnexpectedValueException::class);
-        $this->expectExceptionMessage('namespaceNotAString');
+        $this->expectExceptionMessage('pathNotAString');
 
         $configuration = $this->getConfiguration();
-        $configuration['namespace'] = 123;
+        $configuration['path'] = 123;
         $fileStructure = [
             'config.json' => json_encode($configuration)
         ];
@@ -133,15 +133,15 @@ final class ConfigurationParserTest extends TestCase
 
     /**
      * Tests that a runtime exception is thrown
-     * if the group is not a string.
+     * if the alphanumeric name is not a string.
      */
-    public function testThrowsAnUnexpectedValueExceptionIfTheGroupIsNotAString(): void
+    public function testThrowsAnUnexpectedValueExceptionIfTheAlphanumNameIsNotAString(): void
     {
         $this->expectException(\UnexpectedValueException::class);
-        $this->expectExceptionMessage('groupNotAString');
+        $this->expectExceptionMessage('alphanumNameNotAString');
 
         $configuration = $this->getConfiguration();
-        $configuration['group'] = 123;
+        $configuration['alphanumName'] = 123;
         $fileStructure = [
             'config.json' => json_encode($configuration)
         ];
@@ -215,38 +215,16 @@ final class ConfigurationParserTest extends TestCase
 
     /**
      * Tests that a runtime exception is thrown
-     * if the test group is not a string.
-     */
-    public function testThrowsAnUnexpectedValueExceptionIfTheTestGroupIsNotAString(): void
-    {
-        $this->expectException(\UnexpectedValueException::class);
-        $this->expectExceptionMessage('testGroupNotAString');
-
-        $configuration = $this->getConfiguration();
-        $testConfiguration = $this->getTestStructure();
-        $testConfiguration['group'] = 123;
-        $configuration['tests'] = [$testConfiguration];
-        $fileStructure = [
-            'config.json' => json_encode($configuration)
-        ];
-        $fileSystem = vfsStream::setup('', null, $fileStructure);
-
-        $ConfigurationParser = new ConfigurationParser();
-        $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
-    }
-
-    /**
-     * Tests that a runtime exception is thrown
      * if the test method is not a string.
      */
     public function testThrowsAnUnexpectedValueExceptionIfTheTestMethodIsNotAString(): void
     {
         $this->expectException(\UnexpectedValueException::class);
-        $this->expectExceptionMessage('testMethodNotAString');
+        $this->expectExceptionMessage('testAlphanumNameNotAString');
 
         $configuration = $this->getConfiguration();
         $testConfiguration = $this->getTestStructure();
-        $testConfiguration['method'] = 123;
+        $testConfiguration['alphanumName'] = 123;
         $configuration['tests'] = [$testConfiguration];
         $fileStructure = [
             'config.json' => json_encode($configuration)
@@ -293,9 +271,9 @@ final class ConfigurationParserTest extends TestCase
         $ConfigurationParser = new ConfigurationParser();
         $Configuration = $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
 
-        self::assertSame('A\Namespace', $Configuration->getNamespace());
+        self::assertSame('a/path', $Configuration->getPath());
         self::assertSame('a-name', $Configuration->getName());
-        self::assertSame('a-group', $Configuration->getGroup());
+        self::assertSame('an-alphanumName', $Configuration->getAlphanumName());
         self::assertSame('a-link', $Configuration->getLink());
 
         $testConfigurations = $Configuration->getTestConfigurations();
@@ -305,8 +283,7 @@ final class ConfigurationParserTest extends TestCase
         $testConfiguration = $testConfigurations->current();
 
         self::assertSame('a-test-name', $testConfiguration->getName());
-        self::assertSame('a-test-group', $testConfiguration->getGroup());
-        self::assertSame('a-test-method', $testConfiguration->getMethod());
+        self::assertSame('a-test-alphanumName', $testConfiguration->getAlphanumName());
         self::assertSame('a-test-file', $testConfiguration->getFile());
     }
 
@@ -325,9 +302,9 @@ final class ConfigurationParserTest extends TestCase
         $ConfigurationParser = new ConfigurationParser();
         $Configuration = $ConfigurationParser->getConfigurationFromFile($fileSystem->url() . '/config.json');
 
-        self::assertSame('A\Namespace', $Configuration->getNamespace());
+        self::assertSame('a/path', $Configuration->getPath());
         self::assertSame('a-name', $Configuration->getName());
-        self::assertSame('a-group', $Configuration->getGroup());
+        self::assertSame('an-alphanumName', $Configuration->getAlphanumName());
         self::assertSame('a-link', $Configuration->getLink());
 
         $testConfigurations = $Configuration->getTestConfigurations();
@@ -338,8 +315,7 @@ final class ConfigurationParserTest extends TestCase
 
         foreach ($testConfigurations as $testConfiguration) {
             self::assertSame('a-test-name', $testConfiguration->getName());
-            self::assertSame('a-test-group', $testConfiguration->getGroup());
-            self::assertSame('a-test-method', $testConfiguration->getMethod());
+            self::assertSame('a-test-alphanumName', $testConfiguration->getAlphanumName());
             self::assertSame('a-test-file', $testConfiguration->getFile());
         }
     }

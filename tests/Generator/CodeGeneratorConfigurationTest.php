@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Generator;
 
-use CyrilVerloop\Codingame\Generator\GeneratorCodeConfiguration;
+use CyrilVerloop\Codingame\Generator\CodeGeneratorConfiguration;
 use PHPUnit\Framework\Attributes as PA;
 use PHPUnit\Framework\TestCase;
 
@@ -12,11 +12,12 @@ use PHPUnit\Framework\TestCase;
  * Tests the generator code configuration.
  */
 #[
-    PA\CoversClass(GeneratorCodeConfiguration::class),
+    PA\CoversClass(CodeGeneratorConfiguration::class),
+    PA\Group('cgpt'),
     PA\Group('cgpt_generator'),
-    PA\Group('cgpt_generator_generatorCodeConfiguration')
+    PA\Group('cgpt_generator_codeGeneratorConfiguration')
 ]
-final class GeneratorCodeConfigurationTest extends TestCase
+final class CodeGeneratorConfigurationTest extends TestCase
 {
     // Methods :
 
@@ -25,7 +26,7 @@ final class GeneratorCodeConfigurationTest extends TestCase
      */
     public function testHasANamespace(): void
     {
-        $generatorCodeConfiguration = new GeneratorCodeConfiguration(
+        $generatorCodeConfiguration = new CodeGeneratorConfiguration(
             'a-namespace',
             'a-name',
             'a-link',
@@ -40,7 +41,7 @@ final class GeneratorCodeConfigurationTest extends TestCase
      */
     public function testHasAName(): void
     {
-        $generatorCodeConfiguration = new GeneratorCodeConfiguration(
+        $generatorCodeConfiguration = new CodeGeneratorConfiguration(
             'a-namespace',
             'a-name',
             'a-link',
@@ -55,7 +56,7 @@ final class GeneratorCodeConfigurationTest extends TestCase
      */
     public function testHasALink(): void
     {
-        $generatorCodeConfiguration = new GeneratorCodeConfiguration(
+        $generatorCodeConfiguration = new CodeGeneratorConfiguration(
             'a-namespace',
             'a-name',
             'a-link',
@@ -70,7 +71,7 @@ final class GeneratorCodeConfigurationTest extends TestCase
      */
     public function testHasADefaultCode(): void
     {
-        $generatorCodeConfiguration = new GeneratorCodeConfiguration(
+        $generatorCodeConfiguration = new CodeGeneratorConfiguration(
             'a-namespace',
             'a-name',
             'a-link',

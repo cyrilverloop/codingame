@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CyrilVerloop\Codingame\Configuration;
+namespace CyrilVerloop\Codingame\Generator;
 
 /**
  * A test configuration.
@@ -17,9 +17,14 @@ final class TestConfiguration
     private string $name;
 
     /**
-     * @var string the alphanumeric name.
+     * @var string the group.
      */
-    private string $alphanumName;
+    private string $group;
+
+    /**
+     * @var string the method.
+     */
+    private string $method;
 
     /**
      * @var string the file.
@@ -32,16 +37,19 @@ final class TestConfiguration
     /**
      * The constructor.
      * @param string $name the name.
-     * @param string $alphanumName the alphanumeric name.
+     * @param string $group the group.
+     * @param string $method the method.
      * @param string $file the file.
      */
     public function __construct(
         string $name,
-        string $alphanumName,
+        string $group,
+        string $method,
         string $file
     ) {
         $this->name = $name;
-        $this->alphanumName = $alphanumName;
+        $this->group = $group;
+        $this->method = $method;
         $this->file = $file;
     }
 
@@ -58,12 +66,21 @@ final class TestConfiguration
     }
 
     /**
-     * Returns the alphanumeric name.
-     * @return string the alphanumeric name.
+     * Returns the group.
+     * @return string the group.
      */
-    public function getAlphanumName(): string
+    public function getGroup(): string
     {
-        return $this->alphanumName;
+        return $this->group;
+    }
+
+    /**
+     * Returns the method.
+     * @return string the method.
+     */
+    public function getMethod(): string
+    {
+        return $this->method;
     }
 
     /**

@@ -17,11 +17,13 @@ class CGCode implements CGCodeInterface
         fscanf($stdin, "%d", $L);
         fscanf($stdin, "%d", $H);
         $T = stream_get_line($stdin, 256 + 1, "\n");
-        for ($i = 0; $i < $H; $i++) {
+        for ($i = 0; $i < $H; $i++)
+        {
             $ROW = stream_get_line($stdin, 1024 + 1, "\n");
         }
 
         // Write an answer using echo(). DON'T FORGET THE TRAILING \n
+        // To debug: error_log(var_export($var, true)); (equivalent to var_dump)
 
         echo("answer\n");
     }

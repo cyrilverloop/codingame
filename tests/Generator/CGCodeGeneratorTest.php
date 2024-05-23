@@ -5,8 +5,7 @@ declare(strict_types=1);
 namespace CyrilVerloop\Codingame\Tests\Generator;
 
 use CyrilVerloop\Codingame\Generator\CGCodeGenerator;
-use CyrilVerloop\Codingame\Generator\FileGenerator;
-use CyrilVerloop\Codingame\Generator\GeneratorCodeConfiguration;
+use CyrilVerloop\Codingame\Generator\CodeGeneratorConfiguration;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\Attributes as PA;
 use PHPUnit\Framework\TestCase;
@@ -16,8 +15,8 @@ use PHPUnit\Framework\TestCase;
  */
 #[
     PA\CoversClass(CGCodeGenerator::class),
-    PA\CoversClass(FileGenerator::class),
-    PA\UsesClass(GeneratorCodeConfiguration::class),
+    PA\UsesClass(CodeGeneratorConfiguration::class),
+    PA\Group('cgpt'),
     PA\Group('cgpt_generator'),
     PA\Group('cgpt_generator_CGCodeGenerator')
 ]
@@ -30,7 +29,7 @@ final class CGCodeGeneratorTest extends TestCase
      */
     public function testGenerateTheCodeFile(): void
     {
-        $Configuration = new GeneratorCodeConfiguration(
+        $Configuration = new CodeGeneratorConfiguration(
             'A\\Name\\Space',
             'A name',
             'https://a-link',
@@ -59,17 +58,11 @@ final class CGCodeGeneratorTest extends TestCase
      */
     public function testDoNotGenerateTheCodeFileIfItAlreadyExist(): void
     {
-        $defaultCode = file_get_contents(__DIR__ . '/Example/CGCode.dist');
-        $indentedDefaultCode = preg_replace(
-            '/\n\n/',
-            "\n\n        ",
-            $defaultCode
-        );
-        $Configuration = new GeneratorCodeConfiguration(
+        $Configuration = new CodeGeneratorConfiguration(
             'A\\Name\\Space',
             'A name',
             'https://a-link',
-            $indentedDefaultCode
+            'some code'
         );
 
         $fileStructure = [

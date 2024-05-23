@@ -9,7 +9,7 @@ echo "\nStarting generation.\n";
 
 $filesGenerator = new FilesGenerator(__DIR__ . '/../templates/');
 $filesGenerator->generate(
-    __DIR__ . '/../config/',
+    __DIR__ . '/../vendor/cyril-verloop/codingame-configuration/config/',
     __DIR__ . '/../src/',
     __DIR__ . '/../tests/'
 );

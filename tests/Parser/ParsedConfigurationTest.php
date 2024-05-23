@@ -15,6 +15,7 @@ use PHPUnit\Framework\TestCase;
 #[
     PA\CoversClass(ParsedConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
+    PA\Group('cgpt'),
     PA\Group('cgpt_parser'),
     PA\Group('cgpt_parser_parsedConfiguration')
 ]
@@ -29,14 +30,14 @@ final class ParsedConfigurationTest extends TestCase
     {
         $testconfigurations = new TestConfigurations();
         $configuration = new ParsedConfiguration(
-            'namespace',
+            'path',
             'name',
-            'group',
+            'alphanumName',
             'link',
             $testconfigurations
         );
 
-        self::assertSame('namespace', $configuration->getNamespace());
+        self::assertSame('path', $configuration->getpath());
     }
 
     /**
@@ -46,9 +47,9 @@ final class ParsedConfigurationTest extends TestCase
     {
         $testconfigurations = new TestConfigurations();
         $configuration = new ParsedConfiguration(
-            'namespace',
+            'path',
             'name',
-            'group',
+            'alphanumName',
             'link',
             $testconfigurations
         );
@@ -57,20 +58,20 @@ final class ParsedConfigurationTest extends TestCase
     }
 
     /**
-     * Tests it has a group.
+     * Tests it has an alphanumeric name.
      */
-    public function testHasAGroup(): void
+    public function testHasAnAlphanumName(): void
     {
         $testconfigurations = new TestConfigurations();
         $configuration = new ParsedConfiguration(
-            'namespace',
+            'path',
             'name',
-            'group',
+            'alphanumName',
             'link',
             $testconfigurations
         );
 
-        self::assertSame('group', $configuration->getGroup());
+        self::assertSame('alphanumName', $configuration->getAlphanumName());
     }
 
     /**
@@ -80,9 +81,9 @@ final class ParsedConfigurationTest extends TestCase
     {
         $testconfigurations = new TestConfigurations();
         $configuration = new ParsedConfiguration(
-            'namespace',
+            'path',
             'name',
-            'group',
+            'alphanumName',
             'link',
             $testconfigurations
         );
@@ -97,9 +98,9 @@ final class ParsedConfigurationTest extends TestCase
     {
         $testconfigurations = new TestConfigurations();
         $configuration = new ParsedConfiguration(
-            'namespace',
+            'path',
             'name',
-            'group',
+            'alphanumName',
             'link',
             $testconfigurations
         );

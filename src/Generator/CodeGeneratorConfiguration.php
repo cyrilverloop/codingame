@@ -7,7 +7,7 @@ namespace CyrilVerloop\Codingame\Generator;
 /**
  * The generator code configuration.
  */
-final class GeneratorCodeConfiguration
+final class CodeGeneratorConfiguration
 {
     // Properties :
 

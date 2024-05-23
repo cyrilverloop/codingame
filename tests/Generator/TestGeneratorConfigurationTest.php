@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace CyrilVerloop\Codingame\Tests\Generator;
 
-use CyrilVerloop\Codingame\Generator\GeneratorTestConfiguration;
-use CyrilVerloop\Codingame\Configuration\TestConfiguration;
-use CyrilVerloop\Codingame\Configuration\TestConfigurations;
+use CyrilVerloop\Codingame\Generator\TestGeneratorConfiguration;
+use CyrilVerloop\Codingame\Generator\TestConfiguration;
+use CyrilVerloop\Codingame\Generator\TestConfigurations;
 use PHPUnit\Framework\Attributes as PA;
 use PHPUnit\Framework\TestCase;
 
@@ -14,21 +14,22 @@ use PHPUnit\Framework\TestCase;
  * Tests the generator test configuration.
  */
 #[
-    PA\CoversClass(GeneratorTestConfiguration::class),
+    PA\CoversClass(TestGeneratorConfiguration::class),
     PA\UsesClass(TestConfiguration::class),
     PA\UsesClass(TestConfigurations::class),
+    PA\Group('cgpt'),
     PA\Group('cgpt_generator'),
-    PA\Group('cgpt_generator_generatorTestConfiguration')
+    PA\Group('cgpt_generator_testGeneratorConfiguration')
 ]
-final class GeneratorTestConfigurationTest extends TestCase
+final class TestGeneratorConfigurationTest extends TestCase
 {
     // Methods :
 
     /**
      * Returns the configuration for the test generator.
-     * @return GeneratorTestConfiguration the configuration for the test generator.
+     * @return TestGeneratorConfiguration the configuration for the test generator.
      */
-    public function getGeneratorTestConfiguration(): GeneratorTestConfiguration
+    public function getTestGeneratorConfiguration(): TestGeneratorConfiguration
     {
         $testConfiguration = new TestConfiguration(
             'a-test-name',
@@ -41,7 +42,7 @@ final class GeneratorTestConfigurationTest extends TestCase
         $testConfigurations->add($testConfiguration);
         $testConfigurations->add($testConfiguration);
 
-        return new GeneratorTestConfiguration(
+        return new TestGeneratorConfiguration(
             'a-namespace',
             'a-name',
             'a-group',
@@ -54,7 +55,7 @@ final class GeneratorTestConfigurationTest extends TestCase
      */
     public function testHasANamespace(): void
     {
-        $generatorTestConfiguration = $this->getGeneratorTestConfiguration();
+        $generatorTestConfiguration = $this->getTestGeneratorConfiguration();
 
         self::assertSame('a-namespace', $generatorTestConfiguration->getNamespace());
     }
@@ -64,7 +65,7 @@ final class GeneratorTestConfigurationTest extends TestCase
      */
     public function testHasAName(): void
     {
-        $generatorTestConfiguration = $this->getGeneratorTestConfiguration();
+        $generatorTestConfiguration = $this->getTestGeneratorConfiguration();
 
         self::assertSame('a-name', $generatorTestConfiguration->getName());
     }
@@ -74,7 +75,7 @@ final class GeneratorTestConfigurationTest extends TestCase
      */
     public function testHasAGroup(): void
     {
-        $generatorTestConfiguration = $this->getGeneratorTestConfiguration();
+        $generatorTestConfiguration = $this->getTestGeneratorConfiguration();
 
         self::assertSame('a-group', $generatorTestConfiguration->getGroup());
     }
@@ -84,7 +85,7 @@ final class GeneratorTestConfigurationTest extends TestCase
      */
     public function testHasTestConfigurations(): void
     {
-        $generatorTestConfiguration = $this->getGeneratorTestConfiguration();
+        $generatorTestConfiguration = $this->getTestGeneratorConfiguration();
 
         self::assertCount(2, $generatorTestConfiguration->getTestConfigurations());
 
