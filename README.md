@@ -30,11 +30,11 @@ Copy some configuration files for Docker and PHPUnit :
 user@host projects$ cp ./ci/phpunit.dist.xml ./ci/phpunit.xml
 user@host projects$ cp ./.env.dist ./.env
 user@host projects$ cp ./.ashrc.dist ./.ashrc
-user@host projects$ cp ./docker-compose.override.yml.dist ./docker-compose.override.yml
+user@host projects$ cp ./compose.override.yaml.dist ./compose.override.yaml
 ```
 Edit the `./.env` to add your user to the container.
-The `./ci/phpunit.xml`, `./.ashrc`, `./.env` and `./docker-compose.override.yml` files are ignored by git, you can modify them to your needs.
-The `./.ashrc` and `./docker-compose.override.yml` add some aliases to your container.
+The `./ci/phpunit.xml`, `./.ashrc`, `./.env` and `./compose.override.yaml` files are ignored by git, you can modify them to your needs.
+The `./.ashrc` and `./compose.override.yaml` add some aliases to your container.
 
 Install the dependencies :
 ```shellsession
