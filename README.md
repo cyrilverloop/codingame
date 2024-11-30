@@ -4,9 +4,9 @@ A project to test your [CodinGame](https://www.codingame.com/) PHP code. It is n
 It only contains PHPUnit tests to let you code in your favorite IDE, outside of the CodinGame web site.
 
 [![License](https://img.shields.io/github/license/cyrilverloop/codingame-php-tests)](https://github.com/cyrilverloop/codingame-php-tests/blob/trunk/LICENSE)
-[![PHP version](https://img.shields.io/badge/php-%3D8.3-%23777BB4?logo=php&style=flat)](https://www.php.net/)
+[![PHP version](https://img.shields.io/badge/php-%3D8.4-%23777BB4?logo=php&style=flat)](https://www.php.net/)
 
-**This project now uses PHP 8.3+.
+**This project now uses PHP 8.4.
 Unfortunaly, CodinGame is still on PHP 7.3
 which is not [supported](https://www.php.net/supported-versions.php) anymore.
 If you want to run your code on PHP 7.3,

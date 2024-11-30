@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e75a094a9b5c03582d1ad624a90f636",
+    "content-hash": "5b77686c27b0c7d9b45eb42b05100bbb",
     "packages": [
         {
             "name": "cyril-verloop/codingame-configuration",
@@ -918,7 +918,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "8.3.*"
+        "php": "8.4.*"
     },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
