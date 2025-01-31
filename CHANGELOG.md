@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
-- cyril-verloop/codingame-configuration 1.10.0 => 1.11.0.
+- cyril-verloop/codingame-configuration 1.10.0 => 1.11.1.
 
 ## [6.1.0] - 2024-12-31
 ### Changed
